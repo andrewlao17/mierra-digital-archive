@@ -171,6 +171,13 @@
         .replace(/ŋ/g, "ng")
         .replace(/ǥ/g, "g")
         .replace(/ə/g, "e")
+        .replace(/ɛ/g, "e")
+        .replace(/ɔ/g, "o")
+        .replace(/ɲ/g, "ny")
+        .replace(/ɪ/g, "i")
+        .replace(/ʷ/g, "w")
+        .replace(/ⁿ/g, "n")
+        .replace(/ʔ/g, "")
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
     }
