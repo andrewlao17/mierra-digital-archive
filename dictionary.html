@@ -178,6 +178,7 @@
         .replace(/ʷ/g, "w")
         .replace(/ⁿ/g, "n")
         .replace(/ʔ/g, "")
+        .replace(/['’]/g, "")
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
     }
