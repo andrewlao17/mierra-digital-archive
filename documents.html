@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documents | Mierra Digital Archive</title>
+  <meta name="description" content="Transcribed and annotated historical documents from Asia-Pacific nations, encoded in TEI-XML.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-head h1 {
+      font-size: clamp(3rem, 9vw, 7rem);
+    }
+
+    .library,
+    .reader {
+      padding: clamp(2rem, 5vw, 4rem) var(--edge);
+      background: var(--foam);
+      color: var(--ink);
+    }
+
+    .tools {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) repeat(4, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .tools label {
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+
+    .tools input,
+    .tools select {
+      width: 100%;
+      padding: 0.8rem;
+      border: 2px solid var(--ocean);
+      border-radius: 0;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+    }
+
+    .tools input:focus-visible,
+    .tools select:focus-visible,
+    .reader button:focus-visible,
+    .reader a:focus-visible,
+    .doc-link:focus-visible {
+      outline: 3px solid var(--coral);
+      outline-offset: 2px;
+    }
+
+    #count {
+      margin: 1.5rem 0 1rem;
+    }
+
+    #documents {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+      gap: 0.75rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .doc-link {
+      display: block;
+      height: 100%;
+      padding: 1.25rem;
+      background: #fff;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .doc-link:hover {
+      background: var(--ink);
+      color: var(--foam);
+    }
+
+    .doc-title {
+      margin: 0 0 0.5rem;
+      color: inherit;
+      font-size: 1.35rem;
+      font-weight: 200;
+      line-height: 1.25;
+    }
+
+    .doc-meta,
+    .doc-summary {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .doc-summary {
+      margin-top: 0.5rem;
+    }
+
+    .empty {
+      max-width: 42em;
+      padding: 1.5rem;
+      background: #fff;
+    }
+
+    .empty code {
+      font-size: 0.95em;
+    }
+
+    /* Reader ------------------------------------------------------- */
+
+    .reader[hidden],
+    .library[hidden] {
+      display: none;
+    }
+
+    .back {
+      color: var(--ocean);
+    }
+
+    #doc-heading:focus {
+      outline: none;
+    }
+
+    .reader h2 {
+      margin: 1rem 0 0.5rem;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 200;
+      line-height: 1.1;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: max-content minmax(0, 1fr);
+      gap: 0.25rem 1.5rem;
+      max-width: 52rem;
+      margin: 1.5rem 0;
+    }
+
+    .facts dt {
+      font-weight: 400;
+      opacity: 0.75;
+    }
+
+    .facts dd {
+      margin: 0;
+    }
+
+    .reader-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      align-items: center;
+      margin: 1.5rem 0;
+      padding: 1rem 0;
+      border-top: 2px solid var(--ocean);
+      border-bottom: 2px solid var(--ocean);
+    }
+
+    .reader-tools fieldset {
+      display: flex;
+      gap: 0.25rem;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    .reader-tools legend {
+      float: left;
+      margin-right: 0.75rem;
+    }
+
+    .reader button {
+      padding: 0.45rem 0.9rem;
+      border: 2px solid var(--ocean);
+      background: #fff;
+      color: var(--ocean);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .reader button[aria-pressed="true"] {
+      background: var(--ocean);
+      color: var(--foam);
+    }
+
+    .reader-tools label {
+      display: flex;
+      gap: 0.4rem;
+      align-items: center;
+    }
+
+    .key {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 1rem;
+      margin: 0 0 1rem;
+      padding: 0;
+      list-style: none;
+      font-size: 0.9rem;
+    }
+
+    .transcription {
+      max-width: 48rem;
+      padding: clamp(1.25rem, 4vw, 2.5rem);
+      background: #fff;
+      font-size: 1.1rem;
+      line-height: 1.9;
+    }
+
+    .transcription h3 {
+      margin: 0 0 1rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+    }
+
+    .page-break {
+      display: block;
+      margin: 1.5rem 0 0.75rem;
+      padding-top: 0.5rem;
+      border-top: 1px dashed var(--ocean);
+      color: var(--ocean);
+      font-size: 0.85rem;
+    }
+
+    .page-break:first-child {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    .line-no {
+      display: inline-block;
+      width: 2.5rem;
+      margin-left: -0.25rem;
+      color: #5b6b7d;
+      font-size: 0.75rem;
+      font-variant-numeric: tabular-nums;
+      user-select: none;
+    }
+
+    .hide-lines .line-no {
+      display: none;
+    }
+
+    .hide-lines .line-break {
+      display: none;
+    }
+
+    .tei-add {
+      vertical-align: 0.35em;
+      font-size: 0.85em;
+    }
+
+    .tei-del {
+      text-decoration: line-through;
+    }
+
+    .tei-unclear {
+      border-bottom: 1px dotted currentColor;
+    }
+
+    .tei-supplied::before { content: "["; }
+    .tei-supplied::after { content: "]"; }
+
+    .tei-gap {
+      color: #5b6b7d;
+    }
+
+    .tei-note-ref {
+      padding: 0 0.15rem;
+      color: var(--ocean);
+      font-size: 0.75em;
+      vertical-align: super;
+      text-decoration: none;
+    }
+
+    .tei-hand {
+      color: #5b6b7d;
+      font-size: 0.8em;
+    }
+
+    .tei-foreign {
+      font-style: italic;
+    }
+
+    .marked .tei-person { background: #e3e9fb; box-shadow: inset 0 -2px 0 var(--ocean); }
+    .marked .tei-place { background: #d6f4f0; box-shadow: inset 0 -2px 0 #0b7d72; }
+    .marked .tei-org { background: #ffe4df; box-shadow: inset 0 -2px 0 #b8402e; }
+    .marked .tei-date { box-shadow: inset 0 -2px 0 #5b6b7d; }
+
+    .key .swatch {
+      display: inline-block;
+      width: 0.9rem;
+      height: 0.9rem;
+      margin-right: 0.35rem;
+      vertical-align: -0.1rem;
+    }
+
+    .notes {
+      max-width: 48rem;
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+    }
+
+    .notes li {
+      margin-bottom: 0.4rem;
+    }
+
+    .about {
+      padding: clamp(2rem, 5vw, 4rem) var(--edge);
+      background: var(--ocean);
+    }
+
+    .about h2 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 200;
+    }
+
+    .about p {
+      max-width: 42em;
+    }
+
+    .about a {
+      color: inherit;
+    }
+
+    @media (max-width: 900px) {
+      .tools {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .tools > div:first-child {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .tools {
+        grid-template-columns: 1fr;
+      }
+
+      .facts {
+        grid-template-columns: 1fr;
+      }
+
+      .facts dd {
+        margin-bottom: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="page-head">
+    <nav aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="dictionary.html">Dictionaries</a>
+      <a href="documents.html" aria-current="page">Documents</a>
+      <a href="analysis.html">Text analysis</a>
+    </nav>
+    <div class="hero-text">
+      <h1>Documents</h1>
+      <p id="intro">Transcribed and annotated historical documents from Asia-Pacific nations, encoded in TEI-XML.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="library" id="library" aria-label="Document library">
+      <form class="tools" onsubmit="return false">
+        <div>
+          <label for="search">Search titles, places and summaries</label>
+          <input id="search" type="search" autocomplete="off">
+        </div>
+        <div>
+          <label for="nation">Nation</label>
+          <select id="nation"></select>
+        </div>
+        <div>
+          <label for="language">Language</label>
+          <select id="language"></select>
+        </div>
+        <div>
+          <label for="type">Type</label>
+          <select id="type"></select>
+        </div>
+        <div>
+          <label for="century">Century</label>
+          <select id="century"></select>
+        </div>
+      </form>
+
+      <p id="count" aria-live="polite"></p>
+      <ul id="documents"></ul>
+    </section>
+
+    <section class="reader" id="reader" aria-labelledby="doc-heading" hidden>
+      <a class="back" href="documents.html">&larr; All documents</a>
+      <h2 id="doc-heading" tabindex="-1"></h2>
+      <p id="doc-summary"></p>
+      <dl class="facts" id="doc-facts"></dl>
+
+      <div class="reader-tools">
+        <fieldset>
+          <legend>View</legend>
+          <button type="button" id="view-reading" aria-pressed="true">Reading</button>
+          <button type="button" id="view-diplomatic" aria-pressed="false">Diplomatic</button>
+        </fieldset>
+        <label><input type="checkbox" id="show-names" checked> Highlight names and dates</label>
+        <label><input type="checkbox" id="show-lines" checked> Line breaks and numbers</label>
+        <a id="doc-xml" href="#">Download TEI-XML</a>
+      </div>
+
+      <ul class="key" id="key" aria-label="Highlight key">
+        <li><span class="swatch" style="background:#e3e9fb;box-shadow:inset 0 -2px 0 var(--ocean)"></span>Person</li>
+        <li><span class="swatch" style="background:#d6f4f0;box-shadow:inset 0 -2px 0 #0b7d72"></span>Place</li>
+        <li><span class="swatch" style="background:#ffe4df;box-shadow:inset 0 -2px 0 #b8402e"></span>Organisation</li>
+        <li><span class="swatch" style="box-shadow:inset 0 -2px 0 #5b6b7d"></span>Date</li>
+      </ul>
+
+      <div class="transcription marked" id="transcription" lang="en"></div>
+      <ol class="notes" id="notes" aria-label="Notes"></ol>
+    </section>
+  </main>
+
+  <section class="about" aria-labelledby="about-heading">
+    <h2 id="about-heading">How these transcriptions work</h2>
+    <p>
+      Each document is encoded in <a href="https://tei-c.org/">TEI-XML</a>. The <strong>Reading</strong>
+      view expands abbreviations and applies corrections. The <strong>Diplomatic</strong> view shows the
+      text as written, including deletions and original spellings. Every document links to the archive
+      that holds the original.
+    </p>
+    <p>
+      Are you a community member, or do you hold rights in one of these records? You can
+      <a href="https://github.com/andrewlao17/mierra-digital-archive/issues/new">request a correction or removal</a>.
+    </p>
+  </section>
+
+  <script src="language-names.js"></script>
+  <script src="documents-data.js"></script>
+  <script>
+    const DOCS = Array.isArray(window.ARCHIVE_DOCUMENTS) ? window.ARCHIVE_DOCUMENTS : [];
+    const LANG_NAMES = window.LANGUAGE_NAMES || {};
+    const TEI_NS = "http://www.tei-c.org/ns/1.0";
+
+    const $ = (id) => document.getElementById(id);
+    const library = $("library");
+    const reader = $("reader");
+
+    function languageName(code) {
+      return LANG_NAMES[code] || code;
+    }
+
+    function typeName(type) {
+      return type ? type.charAt(0).toUpperCase() + type.slice(1).replace(/[-_]/g, " ") : "Document";
+    }
+
+    function centuryName(c) {
+      if (!c) return "Undated";
+      const suffix = c % 100 >= 11 && c % 100 <= 13 ? "th" : { 1: "st", 2: "nd", 3: "rd" }[c % 10] || "th";
+      return c + suffix + " century";
+    }
+
+    function simplify(text) {
+      return (text || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    }
+
+    function el(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined && text !== null) node.textContent = text;
+      return node;
+    }
+
+    function plural(n, word) {
+      return n.toLocaleString() + " " + word + (n === 1 ? "" : "s");
+    }
+
+    /* ------------------------------------------------------------------
+       Library
+    ------------------------------------------------------------------- */
+
+    function fillSelect(select, allLabel, values) {
+      select.replaceChildren();
+      const all = el("option", null, allLabel);
+      all.value = "all";
+      select.appendChild(all);
+      values.forEach(([value, label]) => {
+        const option = el("option", null, label);
+        option.value = value;
+        select.appendChild(option);
+      });
+    }
+
+    function countBy(list, keyFn) {
+      const counts = new Map();
+      list.forEach((item) => [].concat(keyFn(item)).forEach((key) => counts.set(key, (counts.get(key) || 0) + 1)));
+      return counts;
+    }
+
+    function setupFilters() {
+      const nations = [...countBy(DOCS, (d) => d.nation).keys()].sort();
+      const languages = [...countBy(DOCS, (d) => d.languages.all).keys()]
+        .sort((a, b) => languageName(a).localeCompare(languageName(b)));
+      const types = [...countBy(DOCS, (d) => d.type).keys()].sort();
+      const centuries = [...countBy(DOCS, (d) => d.century || 0).keys()].sort((a, b) => (a || 9999) - (b || 9999));
+
+      fillSelect($("nation"), "All nations", nations.map((n) => [n, n]));
+      fillSelect($("language"), "All languages", languages.map((l) => [l, languageName(l)]));
+      fillSelect($("type"), "All types", types.map((t) => [t, typeName(t)]));
+      fillSelect($("century"), "All centuries", centuries.map((c) => [String(c), centuryName(c)]));
+
+      const params = new URLSearchParams(location.search);
+      ["nation", "language", "type", "century"].forEach((name) => {
+        const value = params.get(name);
+        if (value && [...$(name).options].some((o) => o.value === value)) $(name).value = value;
+      });
+      if (params.get("q")) $("search").value = params.get("q");
+    }
+
+    function docCard(doc) {
+      const item = document.createElement("li");
+      const link = el("a", "doc-link");
+      link.href = "documents.html?doc=" + encodeURIComponent(doc.id);
+
+      link.appendChild(el("h2", "doc-title", doc.title));
+
+      const where = [doc.place, doc.nation].filter(Boolean).join(", ");
+      const when = doc.date.label || (doc.date.year ? String(doc.date.year) : "Undated");
+      link.appendChild(el("p", "doc-meta", [typeName(doc.type), where, when].filter(Boolean).join(" · ")));
+
+      const langs = doc.languages.all.map(languageName).join(", ");
+      link.appendChild(el("p", "doc-meta", langs + " · " + plural(doc.stats.pages, "page") + " · " + plural(doc.stats.words, "word")));
+
+      if (doc.summary) link.appendChild(el("p", "doc-summary", doc.summary));
+
+      item.appendChild(link);
+      return item;
+    }
+
+    function showLibrary() {
+      const query = simplify($("search").value.trim());
+      const nation = $("nation").value;
+      const language = $("language").value;
+      const type = $("type").value;
+      const century = $("century").value;
+
+      const matches = DOCS.filter((d) =>
+        (nation === "all" || d.nation === nation) &&
+        (language === "all" || d.languages.all.includes(language)) &&
+        (type === "all" || d.type === type) &&
+        (century === "all" || String(d.century || 0) === century) &&
+        simplify([d.title, d.place, d.nation, d.repository, d.summary, d.shelfmark].join(" ")).includes(query)
+      );
+
+      const list = $("documents");
+      list.replaceChildren(...matches.map(docCard));
+
+      if (!DOCS.length) {
+        $("count").replaceChildren();
+        const box = el("div", "empty");
+        box.appendChild(el("p", null, "No documents have been published yet."));
+        const how = el("p");
+        how.append("To add one, save a TEI-XML file in the ");
+        how.appendChild(el("code", null, "tei/"));
+        how.append(" folder (start from ");
+        how.appendChild(el("code", null, "tei/_template.xml"));
+        how.append(") and run ");
+        how.appendChild(el("code", null, "python3 tools/build_documents.py"));
+        how.append(".");
+        box.appendChild(how);
+        list.replaceWith(box);
+        return;
+      }
+
+      $("count").textContent = matches.length
+        ? "Showing " + matches.length + " of " + plural(DOCS.length, "document") + "."
+        : "No documents match. Try a shorter search or clear a filter.";
+    }
+
+    /* ------------------------------------------------------------------
+       Reader: TEI-XML to HTML, built with DOM methods only
+    ------------------------------------------------------------------- */
+
+    let noteCount = 0;
+
+    function teiChildren(node) {
+      return [...node.childNodes];
+    }
+
+    function pick(choice, names) {
+      for (const name of names) {
+        const found = [...choice.children].find((c) => c.localName === name);
+        if (found) return found;
+      }
+      return null;
+    }
+
+    function render(node, out, ctx) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        out.appendChild(document.createTextNode(node.nodeValue.replace(/\s+/g, " ")));
+        return;
+      }
+      if (node.nodeType !== Node.ELEMENT_NODE || node.namespaceURI !== TEI_NS) return;
+
+      const name = node.localName;
+      const lang = node.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang");
+      const inline = (className, tag = "span") => {
+        const span = el(tag, className);
+        if (lang) span.lang = lang;
+        teiChildren(node).forEach((c) => render(c, span, ctx));
+        out.appendChild(span);
+        return span;
+      };
+
+      switch (name) {
+        case "teiHeader":
+        case "facsimile":
+        case "figDesc":
+          return;
+
+        case "head": {
+          const h = el("h3");
+          teiChildren(node).forEach((c) => render(c, h, ctx));
+          out.appendChild(h);
+          return;
+        }
+
+        case "p":
+        case "ab":
+        case "opener":
+        case "closer":
+        case "salute":
+        case "signed":
+        case "dateline":
+        case "postscript":
+        case "l": {
+          const p = el(name === "l" ? "div" : "p");
+          if (lang) p.lang = lang;
+          teiChildren(node).forEach((c) => render(c, p, ctx));
+          out.appendChild(p);
+          return;
+        }
+
+        case "list": {
+          const ul = el("ul");
+          teiChildren(node).forEach((c) => render(c, ul, ctx));
+          out.appendChild(ul);
+          return;
+        }
+
+        case "item": {
+          const li = el("li");
+          teiChildren(node).forEach((c) => render(c, li, ctx));
+          out.appendChild(li);
+          return;
+        }
+
+        case "pb": {
+          const n = node.getAttribute("n");
+          out.appendChild(el("span", "page-break", n ? "Page " + n : "New page"));
+          return;
+        }
+
+        case "cb": {
+          const n = node.getAttribute("n");
+          out.appendChild(el("span", "page-break", n ? "Column " + n : "New column"));
+          return;
+        }
+
+        case "lb": {
+          if (node.getAttribute("break") !== "no") out.appendChild(document.createTextNode(" "));
+          if (out.textContent.trim()) out.appendChild(el("br", "line-break"));
+          const n = node.getAttribute("n");
+          const num = el("span", "line-no", n || "");
+          num.setAttribute("aria-hidden", "true");
+          out.appendChild(num);
+          return;
+        }
+
+        case "choice": {
+          const reading = ctx.view === "reading";
+          const shown = reading
+            ? pick(node, ["expan", "corr", "reg"]) || node.firstElementChild
+            : pick(node, ["abbr", "sic", "orig"]) || node.firstElementChild;
+          const other = reading ? pick(node, ["abbr", "sic", "orig"]) : pick(node, ["expan", "corr", "reg"]);
+          const span = el("span", "tei-choice");
+          if (shown) teiChildren(shown).forEach((c) => render(c, span, ctx));
+          if (other) span.title = (reading ? "Written: " : "Reads: ") + other.textContent.trim();
+          out.appendChild(span);
+          return;
+        }
+
+        case "abbr":
+        case "sic":
+        case "orig":
+          if (ctx.view === "reading" && node.parentNode.localName !== "choice") inline("");
+          else if (ctx.view === "diplomatic") inline("");
+          return;
+
+        case "expan":
+        case "corr":
+        case "reg":
+          if (ctx.view === "reading") inline("");
+          return;
+
+        case "ex":
+          if (ctx.view === "reading") inline("");
+          return;
+
+        case "am":
+          if (ctx.view === "diplomatic") inline("");
+          return;
+
+        case "del":
+          if (ctx.view === "diplomatic") {
+            const s = inline("tei-del", "del");
+            s.title = "Deleted by the writer";
+          }
+          return;
+
+        case "add": {
+          const span = inline("tei-add", "ins");
+          const place = node.getAttribute("place");
+          span.title = "Added" + (place ? " (" + place + ")" : "");
+          return;
+        }
+
+        case "unclear": {
+          const span = inline("tei-unclear");
+          const reason = node.getAttribute("reason");
+          span.title = "Unclear reading" + (reason ? ": " + reason : "");
+          return;
+        }
+
+        case "supplied": {
+          const span = inline("tei-supplied");
+          const reason = node.getAttribute("reason");
+          span.title = "Supplied by the editor" + (reason ? " (" + reason + ")" : "");
+          return;
+        }
+
+        case "damage": {
+          const span = inline("tei-unclear");
+          span.title = "Damaged" + (node.getAttribute("agent") ? " (" + node.getAttribute("agent") + ")" : "");
+          return;
+        }
+
+        case "gap":
+        case "space": {
+          const qty = node.getAttribute("quantity");
+          const unit = node.getAttribute("unit");
+          const reason = node.getAttribute("reason");
+          const span = el("span", "tei-gap", name === "gap" ? "[…]" : " ");
+          span.title = (name === "gap" ? "Text missing" : "Blank space") +
+            (qty ? ": " + qty + " " + (unit || "") : "") + (reason ? " (" + reason + ")" : "");
+          out.appendChild(span);
+          return;
+        }
+
+        case "handShift": {
+          const hand = (node.getAttribute("new") || "").replace(/^#/, "");
+          const span = el("span", "tei-hand", "[hand: " + (hand || "new") + "]");
+          out.appendChild(span);
+          return;
+        }
+
+        case "note": {
+          noteCount += 1;
+          const id = "note-" + noteCount;
+          const ref = el("a", "tei-note-ref", String(noteCount));
+          ref.href = "#" + id;
+          ref.id = "ref-" + id;
+          ref.setAttribute("aria-label", "Note " + noteCount);
+          out.appendChild(ref);
+
+          const item = el("li");
+          item.id = id;
+          const place = node.getAttribute("place");
+          if (place) item.appendChild(el("strong", null, "(" + place + ") "));
+          teiChildren(node).forEach((c) => render(c, item, ctx));
+          const back = el("a", null, " ↩");
+          back.href = "#ref-" + id;
+          back.setAttribute("aria-label", "Back to text");
+          item.appendChild(back);
+          ctx.notes.appendChild(item);
+          return;
+        }
+
+        case "persName":
+        case "name":
+          inline("tei-person").title = node.getAttribute("ref") ? "Person: " + node.getAttribute("ref") : "Person";
+          return;
+        case "placeName":
+        case "geogName":
+          inline("tei-place").title = "Place";
+          return;
+        case "orgName":
+          inline("tei-org").title = "Organisation";
+          return;
+        case "date": {
+          const span = inline("tei-date");
+          const when = node.getAttribute("when");
+          span.title = when ? "Date: " + when : "Date";
+          return;
+        }
+
+        case "foreign":
+          inline("tei-foreign").title = lang ? languageName(lang.split("-")[0]) : "Other language";
+          return;
+
+        case "hi": {
+          const rend = node.getAttribute("rend") || "";
+          const tag = /italic/.test(rend) ? "em" : /bold/.test(rend) ? "strong" : /super/.test(rend) ? "sup" : "span";
+          const span = inline("", tag);
+          if (/underline/.test(rend)) span.style.textDecoration = "underline";
+          return;
+        }
+
+        case "fw":
+          return;
+
+        default:
+          teiChildren(node).forEach((c) => render(c, out, ctx));
+      }
+    }
+
+    let currentTei = null;
+
+    function drawTranscription() {
+      if (!currentTei) return;
+      const view = $("view-reading").getAttribute("aria-pressed") === "true" ? "reading" : "diplomatic";
+      const box = $("transcription");
+      const notes = $("notes");
+      noteCount = 0;
+      box.replaceChildren();
+      notes.replaceChildren();
+      const text = currentTei.getElementsByTagNameNS(TEI_NS, "text")[0];
+      render(text, box, { view, notes });
+      notes.hidden = !notes.children.length;
+    }
+
+    function addFact(list, label, value, href) {
+      if (!value) return;
+      list.appendChild(el("dt", null, label));
+      const dd = el("dd");
+      if (href) {
+        const a = el("a", null, value);
+        a.href = href;
+        a.style.color = "var(--ocean)";
+        dd.appendChild(a);
+      } else {
+        dd.textContent = value;
+      }
+      list.appendChild(dd);
+    }
+
+    async function showDocument(doc) {
+      library.hidden = true;
+      reader.hidden = false;
+      document.title = doc.title + " | Mierra Digital Archive";
+      $("doc-heading").textContent = doc.title;
+      $("doc-summary").textContent = doc.summary || "";
+
+      const facts = $("doc-facts");
+      facts.replaceChildren();
+      addFact(facts, "Nation", doc.nation);
+      addFact(facts, "Place", doc.place);
+      addFact(facts, "Date", doc.date.label || (doc.date.year ? String(doc.date.year) : ""));
+      addFact(facts, "Type", typeName(doc.type));
+      addFact(facts, "Languages", doc.languages.all.map(languageName).join(", "));
+      addFact(facts, "Held by", [doc.repository, doc.shelfmark].filter(Boolean).join(", "));
+      addFact(facts, "Physical form", [doc.support.material, doc.support.form].filter(Boolean).join(", "));
+      addFact(facts, "Layout",
+        [doc.layout.columns ? plural(doc.layout.columns, "column") : "",
+         doc.layout.writtenLines ? "about " + doc.layout.writtenLines + " lines per page" : "",
+         plural(doc.stats.pages, "page")].filter(Boolean).join(" · "));
+      addFact(facts, "Hands", doc.hands.count ? doc.hands.count + (doc.hands.scripts.length ? " (" + doc.hands.scripts.join(", ") + ")" : "") : "");
+      addFact(facts, "Transcribed by", doc.contributors.join("; "));
+      addFact(facts, "Source", doc.citation);
+      addFact(facts, "Original", doc.sourceUrl ? "View the source record" : "", doc.sourceUrl);
+      addFact(facts, "Licence", doc.license.name, doc.license.url);
+
+      const file = "tei/" + encodeURIComponent(doc.file);
+      $("doc-xml").href = file;
+      $("doc-xml").setAttribute("download", doc.file);
+      $("transcription").lang = doc.languages.main;
+      $("transcription").textContent = "Loading the transcription…";
+      $("doc-heading").focus();
+
+      try {
+        const response = await fetch(file);
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        const xml = new DOMParser().parseFromString(await response.text(), "application/xml");
+        if (xml.getElementsByTagName("parsererror").length) throw new Error("the XML could not be read");
+        currentTei = xml;
+        drawTranscription();
+      } catch (error) {
+        currentTei = null;
+        $("transcription").textContent = location.protocol === "file:"
+          ? "Transcriptions load only when the site is served over the web (for example on GitHub Pages), not from a file on your computer."
+          : "The transcription could not be loaded (" + error.message + ").";
+      }
+    }
+
+    function setView(view) {
+      $("view-reading").setAttribute("aria-pressed", String(view === "reading"));
+      $("view-diplomatic").setAttribute("aria-pressed", String(view === "diplomatic"));
+      drawTranscription();
+    }
+
+    $("view-reading").addEventListener("click", () => setView("reading"));
+    $("view-diplomatic").addEventListener("click", () => setView("diplomatic"));
+    $("show-names").addEventListener("change", (e) => {
+      $("transcription").classList.toggle("marked", e.target.checked);
+      $("key").hidden = !e.target.checked;
+    });
+    $("show-lines").addEventListener("change", (e) => {
+      $("transcription").classList.toggle("hide-lines", !e.target.checked);
+    });
+
+    /* ------------------------------------------------------------------
+       Start
+    ------------------------------------------------------------------- */
+
+    const nations = new Set(DOCS.map((d) => d.nation));
+    if (DOCS.length) {
+      $("intro").textContent = "Read " + plural(DOCS.length, "transcribed and annotated historical document") +
+        " from " + plural(nations.size, "Asia-Pacific nation") + ", encoded in TEI-XML.";
+    }
+
+    const wanted = new URLSearchParams(location.search).get("doc");
+    const doc = wanted && DOCS.find((d) => d.id === wanted);
+
+    if (doc) {
+      showDocument(doc);
+    } else {
+      setupFilters();
+      ["search", "nation", "language", "type", "century"].forEach((id) =>
+        $(id).addEventListener(id === "search" ? "input" : "change", showLibrary)
+      );
+      showLibrary();
+    }
+  </script>
+</body>
+</html>

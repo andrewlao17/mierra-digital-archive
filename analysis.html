@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text analysis | Mierra Digital Archive</title>
+  <meta name="description" content="Manuscript layouts and linguistic trends across the archive's TEI-XML documents.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --bar: var(--ocean);
+      --bar-hover: var(--ink);
+      --track: #e3ebf0;
+      --muted: #4f5f70;
+    }
+
+    .page-head h1 {
+      font-size: clamp(3rem, 9vw, 7rem);
+    }
+
+    .analysis {
+      padding: clamp(2rem, 5vw, 4rem) var(--edge);
+      background: var(--foam);
+      color: var(--ink);
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: end;
+      margin-bottom: 2rem;
+    }
+
+    .filters label {
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+
+    .filters select {
+      min-width: 13rem;
+      padding: 0.7rem;
+      border: 2px solid var(--ocean);
+      border-radius: 0;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+    }
+
+    .filters select:focus-visible,
+    .bar:focus-visible,
+    .col:focus-visible {
+      outline: 3px solid var(--coral);
+      outline-offset: 2px;
+    }
+
+    #scope {
+      margin: 0 0 0 auto;
+      color: var(--muted);
+    }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      gap: 0.75rem;
+      margin: 0 0 3rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .tile {
+      padding: 1.25rem;
+      background: #fff;
+    }
+
+    .tile-value {
+      display: block;
+      color: var(--ocean);
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      font-weight: 200;
+      line-height: 1.1;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tile-label {
+      color: var(--muted);
+    }
+
+    .analysis h2 {
+      margin: 3rem 0 0.5rem;
+      font-size: clamp(1.9rem, 4.5vw, 3rem);
+      font-weight: 200;
+      line-height: 1.1;
+    }
+
+    .section-intro {
+      max-width: 44em;
+      margin: 0 0 1.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr));
+      gap: 0.75rem;
+    }
+
+    .panel {
+      min-width: 0;
+      padding: 1.5rem;
+      background: #fff;
+    }
+
+    .panel.wide {
+      grid-column: 1 / -1;
+    }
+
+    .panel h3 {
+      margin: 0 0 0.25rem;
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1.3;
+    }
+
+    .panel .note {
+      margin: 0 0 1.25rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    /* Horizontal bars ---------------------------------------------- */
+
+    .bars {
+      display: grid;
+      gap: 0.5rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .bar {
+      display: grid;
+      grid-template-columns: minmax(6rem, 34%) minmax(0, 1fr) max-content;
+      gap: 0.75rem;
+      align-items: center;
+      font-size: 0.95rem;
+      cursor: default;
+    }
+
+    .bar-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .bar-track {
+      height: 0.9rem;
+      background: var(--track);
+      border-radius: 0 4px 4px 0;
+    }
+
+    .bar-fill {
+      display: block;
+      height: 100%;
+      min-width: 2px;
+      background: var(--bar);
+      border-radius: 0 4px 4px 0;
+    }
+
+    .bar:hover .bar-fill,
+    .bar:focus-visible .bar-fill {
+      background: var(--bar-hover);
+    }
+
+    .bar-value {
+      min-width: 3.5rem;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Column chart (time) ------------------------------------------ */
+
+    .cols {
+      display: flex;
+      gap: 2px;
+      align-items: flex-end;
+      height: 12rem;
+      padding: 0;
+      margin: 0;
+      border-bottom: 1px solid #9aa8b6;
+      list-style: none;
+    }
+
+    .col {
+      position: relative;
+      display: flex;
+      flex: 1 1 0;
+      align-items: flex-end;
+      height: 100%;
+      cursor: default;
+    }
+
+    .col-fill {
+      width: 100%;
+      min-height: 2px;
+      background: var(--bar);
+      border-radius: 4px 4px 0 0;
+    }
+
+    .col:hover .col-fill,
+    .col:focus-visible .col-fill {
+      background: var(--bar-hover);
+    }
+
+    .col-axis {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.4rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Tooltip, tables, empty states -------------------------------- */
+
+    #tooltip {
+      position: fixed;
+      z-index: 10;
+      max-width: 18rem;
+      padding: 0.5rem 0.75rem;
+      background: var(--ink);
+      color: var(--foam);
+      font-size: 0.9rem;
+      line-height: 1.4;
+      pointer-events: none;
+    }
+
+    #tooltip[hidden] {
+      display: none;
+    }
+
+    details.table-view {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+
+    details.table-view summary {
+      color: var(--ocean);
+      cursor: pointer;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 0.5rem;
+      border-collapse: collapse;
+      font-variant-numeric: tabular-nums;
+    }
+
+    th,
+    td {
+      padding: 0.35rem 0.5rem;
+      border-bottom: 1px solid var(--track);
+      text-align: left;
+    }
+
+    td.num,
+    th.num {
+      text-align: right;
+    }
+
+    .empty-chart {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .empty-all {
+      max-width: 42em;
+      padding: 1.5rem;
+      background: #fff;
+    }
+
+    .words-select {
+      margin-bottom: 1rem;
+    }
+
+    .words-select select {
+      min-width: 0;
+      padding: 0.45rem;
+    }
+
+    .method {
+      padding: clamp(2rem, 5vw, 4rem) var(--edge);
+      background: var(--ocean);
+    }
+
+    .method h2 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 200;
+    }
+
+    .method p,
+    .method li {
+      max-width: 44em;
+    }
+
+    .method a {
+      color: inherit;
+    }
+
+    @media (max-width: 520px) {
+      .bar {
+        grid-template-columns: minmax(0, 1fr) max-content;
+      }
+
+      .bar-label {
+        grid-column: 1 / -1;
+      }
+
+      #scope {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="page-head">
+    <nav aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="dictionary.html">Dictionaries</a>
+      <a href="documents.html">Documents</a>
+      <a href="analysis.html" aria-current="page">Text analysis</a>
+    </nav>
+    <div class="hero-text">
+      <h1>Text analysis</h1>
+      <p>Manuscript layouts and linguistic trends, measured from the TEI-XML encoding of every document in the archive.</p>
+    </div>
+  </header>
+
+  <main class="analysis">
+    <form class="filters" onsubmit="return false" aria-label="Filter the analysis">
+      <div>
+        <label for="f-nation">Nation</label>
+        <select id="f-nation"></select>
+      </div>
+      <div>
+        <label for="f-century">Century</label>
+        <select id="f-century"></select>
+      </div>
+      <div>
+        <label for="f-type">Document type</label>
+        <select id="f-type"></select>
+      </div>
+      <p id="scope" aria-live="polite"></p>
+    </form>
+
+    <div id="content">
+      <ul class="tiles" id="tiles" aria-label="Corpus totals"></ul>
+
+      <section aria-labelledby="h-corpus">
+        <h2 id="h-corpus">The corpus</h2>
+        <p class="section-intro">Where and when the documents in the archive were written.</p>
+        <div class="grid">
+          <div class="panel wide" id="c-time"></div>
+          <div class="panel" id="c-nation"></div>
+          <div class="panel" id="c-type"></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="h-layout">
+        <h2 id="h-layout">Manuscript layout</h2>
+        <p class="section-intro">
+          How the pages are built: how densely they are written, in how many columns, on what material,
+          and by how many hands. These come from <code>&lt;layout&gt;</code>, <code>&lt;supportDesc&gt;</code>,
+          <code>&lt;handNote&gt;</code> and the <code>&lt;pb/&gt;</code>, <code>&lt;lb/&gt;</code> and
+          <code>&lt;cb/&gt;</code> breaks in each transcription.
+        </p>
+        <div class="grid">
+          <div class="panel" id="c-lines"></div>
+          <div class="panel" id="c-columns"></div>
+          <div class="panel" id="c-material"></div>
+          <div class="panel" id="c-hands"></div>
+          <div class="panel wide" id="c-marks"></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="h-language">
+        <h2 id="h-language">Linguistic trends</h2>
+        <p class="section-intro">
+          Which languages the documents are written in, how often writers switch between them, and how
+          spelling and abbreviation practice changes. Words are credited to the language marked with
+          <code>xml:lang</code> where they appear.
+        </p>
+        <div class="grid">
+          <div class="panel" id="c-langwords"></div>
+          <div class="panel" id="c-multi"></div>
+          <div class="panel" id="c-abbr"></div>
+          <div class="panel" id="c-reg"></div>
+          <div class="panel wide" id="c-words"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <section class="method" aria-labelledby="method-heading">
+    <h2 id="method-heading">How these figures are made</h2>
+    <ul>
+      <li>Every figure is computed from the TEI-XML files by <code>tools/build_documents.py</code>; nothing is entered by hand.</li>
+      <li>Words are counted from the normalised reading: expansions, corrections and regularisations count; abbreviations, original spellings, deleted text, notes and running heads do not. Chinese and Japanese characters count one word each.</li>
+      <li>Lines per page is the number of <code>&lt;lb/&gt;</code> elements divided by the number of <code>&lt;pb/&gt;</code> elements, so it measures what was transcribed, not the full physical page.</li>
+      <li>Rates per 1,000 words make long and short documents comparable. Periods with very few documents can swing widely, so check the document count beside each figure.</li>
+    </ul>
+    <p>Read the documents themselves on the <a href="documents.html">Documents</a> page.</p>
+  </section>
+
+  <div id="tooltip" role="status" hidden></div>
+
+  <script src="language-names.js"></script>
+  <script src="documents-data.js"></script>
+  <script>
+    const ALL = Array.isArray(window.ARCHIVE_DOCUMENTS) ? window.ARCHIVE_DOCUMENTS : [];
+    const LANG_NAMES = window.LANGUAGE_NAMES || {};
+    const $ = (id) => document.getElementById(id);
+    const tooltip = $("tooltip");
+
+    const fmt = (n, digits = 0) =>
+      n === null || n === undefined || Number.isNaN(n)
+        ? "–"
+        : n.toLocaleString(undefined, { minimumFractionDigits: digits, maximumFractionDigits: digits });
+
+    const languageName = (code) => LANG_NAMES[code] || code;
+    const typeName = (t) => (t ? t.charAt(0).toUpperCase() + t.slice(1).replace(/[-_]/g, " ") : "Document");
+    const titleCase = (t) => (t ? t.charAt(0).toUpperCase() + t.slice(1) : "Not recorded");
+
+    function centuryName(c) {
+      if (!c) return "Undated";
+      const suffix = c % 100 >= 11 && c % 100 <= 13 ? "th" : { 1: "st", 2: "nd", 3: "rd" }[c % 10] || "th";
+      return c + suffix + " c.";
+    }
+
+    function el(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined && text !== null) node.textContent = text;
+      return node;
+    }
+
+    function sum(list, fn) {
+      return list.reduce((total, item) => total + (fn(item) || 0), 0);
+    }
+
+    function groupBy(list, keyFn) {
+      const groups = new Map();
+      list.forEach((item) => {
+        [].concat(keyFn(item)).forEach((key) => {
+          if (!groups.has(key)) groups.set(key, []);
+          groups.get(key).push(item);
+        });
+      });
+      return groups;
+    }
+
+    /* Tooltip: on hover and on keyboard focus ------------------------- */
+
+    function attachTip(node, text) {
+      node.tabIndex = 0;
+      node.setAttribute("aria-label", text);
+      const show = (x, y) => {
+        tooltip.textContent = text;
+        tooltip.hidden = false;
+        const box = tooltip.getBoundingClientRect();
+        const left = Math.min(x + 14, window.innerWidth - box.width - 8);
+        const top = y - box.height - 12 < 8 ? y + 18 : y - box.height - 12;
+        tooltip.style.left = Math.max(8, left) + "px";
+        tooltip.style.top = top + "px";
+      };
+      node.addEventListener("mousemove", (e) => show(e.clientX, e.clientY));
+      node.addEventListener("mouseleave", () => (tooltip.hidden = true));
+      node.addEventListener("focus", () => {
+        const r = node.getBoundingClientRect();
+        show(r.left + r.width / 2, r.top);
+      });
+      node.addEventListener("blur", () => (tooltip.hidden = true));
+    }
+
+    /* Chart builders -------------------------------------------------- */
+
+    function panelHead(panel, title, note) {
+      panel.replaceChildren(el("h3", null, title));
+      if (note) panel.appendChild(el("p", "note", note));
+    }
+
+    function tableView(panel, headers, rows) {
+      if (!rows.length) return;
+      const details = el("details", "table-view");
+      details.appendChild(el("summary", null, "Show as table"));
+      const wrap = el("div", "table-wrap");
+      const table = el("table");
+      const thead = el("thead");
+      const hr = el("tr");
+      headers.forEach((h, i) => {
+        const th = el("th", i ? "num" : "", h);
+        th.scope = "col";
+        hr.appendChild(th);
+      });
+      thead.appendChild(hr);
+      table.appendChild(thead);
+      const tbody = el("tbody");
+      rows.forEach((row) => {
+        const tr = el("tr");
+        row.forEach((cell, i) => tr.appendChild(el(i ? "td" : "th", i ? "num" : "", cell)));
+        tr.firstChild.scope = "row";
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+      wrap.appendChild(table);
+      details.appendChild(wrap);
+      panel.appendChild(details);
+    }
+
+    // rows: [{ label, value, display, tip, extra: [table cells] }]
+    function barChart(panel, title, note, rows, opts = {}) {
+      panelHead(panel, title, note);
+      const shown = rows.filter((r) => r.value !== null && r.value !== undefined && !Number.isNaN(r.value));
+      if (!shown.length) {
+        panel.appendChild(el("p", "empty-chart", opts.empty || "Not enough encoded data yet."));
+        return;
+      }
+      const max = opts.max || Math.max(...shown.map((r) => r.value)) || 1;
+      const list = el("ul", "bars");
+      shown.forEach((r) => {
+        const item = el("li", "bar");
+        item.appendChild(el("span", "bar-label", r.label));
+        const track = el("span", "bar-track");
+        const fill = el("span", "bar-fill");
+        fill.style.width = Math.max(0, (r.value / max) * 100) + "%";
+        track.appendChild(fill);
+        item.appendChild(track);
+        item.appendChild(el("span", "bar-value", r.display));
+        attachTip(item, r.tip || r.label + ": " + r.display);
+        list.appendChild(item);
+      });
+      panel.appendChild(list);
+      tableView(panel, opts.headers || ["", "Value"], shown.map((r) => [r.label, ...(r.extra || [r.display])]));
+    }
+
+    function columnChart(panel, title, note, points, opts = {}) {
+      panelHead(panel, title, note);
+      if (!points.length) {
+        panel.appendChild(el("p", "empty-chart", "Not enough dated documents yet."));
+        return;
+      }
+      const max = Math.max(...points.map((p) => p.value)) || 1;
+      const list = el("ul", "cols");
+      points.forEach((p) => {
+        const item = el("li", "col");
+        const fill = el("span", "col-fill");
+        fill.style.height = (p.value / max) * 100 + "%";
+        if (!p.value) fill.style.minHeight = "0";
+        item.appendChild(fill);
+        attachTip(item, p.tip);
+        list.appendChild(item);
+      });
+      panel.appendChild(list);
+      const axis = el("div", "col-axis");
+      axis.setAttribute("aria-hidden", "true");
+      axis.appendChild(el("span", null, points[0].label));
+      if (points.length > 2) axis.appendChild(el("span", null, points[Math.floor(points.length / 2)].label));
+      if (points.length > 1) axis.appendChild(el("span", null, points[points.length - 1].label));
+      panel.appendChild(axis);
+      tableView(panel, opts.headers, points.filter((p) => p.value).map((p) => p.row));
+    }
+
+    /* Filters --------------------------------------------------------- */
+
+    function fill(select, allLabel, entries) {
+      select.replaceChildren();
+      const all = el("option", null, allLabel);
+      all.value = "all";
+      select.appendChild(all);
+      entries.forEach(([value, label]) => {
+        const o = el("option", null, label);
+        o.value = value;
+        select.appendChild(o);
+      });
+    }
+
+    fill($("f-nation"), "All nations", [...new Set(ALL.map((d) => d.nation))].sort().map((n) => [n, n]));
+    fill($("f-century"), "All centuries",
+      [...new Set(ALL.map((d) => d.century || 0))].sort((a, b) => (a || 9999) - (b || 9999))
+        .map((c) => [String(c), c ? centuryName(c).replace(" c.", " century") : "Undated"]));
+    fill($("f-type"), "All types", [...new Set(ALL.map((d) => d.type))].sort().map((t) => [t, typeName(t)]));
+
+    function filtered() {
+      const nation = $("f-nation").value;
+      const century = $("f-century").value;
+      const type = $("f-type").value;
+      return ALL.filter((d) =>
+        (nation === "all" || d.nation === nation) &&
+        (century === "all" || String(d.century || 0) === century) &&
+        (type === "all" || d.type === type)
+      );
+    }
+
+    /* Sections -------------------------------------------------------- */
+
+    function drawTiles(docs) {
+      const langs = new Set(docs.flatMap((d) => d.languages.all));
+      const tiles = [
+        [docs.length, "document"],
+        [new Set(docs.map((d) => d.nation)).size, "nation"],
+        [langs.size, "language"],
+        [sum(docs, (d) => d.stats.pages), "page"],
+        [sum(docs, (d) => d.stats.lines), "line"],
+        [sum(docs, (d) => d.stats.words), "word"],
+      ];
+      $("tiles").replaceChildren(...tiles.map(([value, label]) => {
+        const li = el("li", "tile");
+        li.appendChild(el("span", "tile-value", fmt(value)));
+        li.appendChild(el("span", "tile-label", value === 1 ? label : label + "s"));
+        return li;
+      }));
+    }
+
+    function drawCorpus(docs) {
+      const dated = docs.filter((d) => d.decade);
+      const points = [];
+      if (dated.length) {
+        const decades = dated.map((d) => d.decade);
+        const lo = Math.min(...decades);
+        const hi = Math.max(...decades);
+        const counts = groupBy(dated, (d) => d.decade);
+        for (let dec = lo; dec <= hi; dec += 10) {
+          const n = (counts.get(dec) || []).length;
+          points.push({
+            label: dec + "s",
+            value: n,
+            tip: dec + "s: " + n + (n === 1 ? " document" : " documents"),
+            row: [dec + "s", fmt(n)],
+          });
+        }
+      }
+      const undated = docs.length - dated.length;
+      columnChart($("c-time"), "Documents by decade",
+        undated ? undated + " undated " + (undated === 1 ? "document is" : "documents are") + " not shown." : "",
+        points, { headers: ["Decade", "Documents"] });
+
+      const byNation = [...groupBy(docs, (d) => d.nation)].sort((a, b) => b[1].length - a[1].length);
+      barChart($("c-nation"), "Documents by nation", "", byNation.map(([n, list]) => ({
+        label: n,
+        value: list.length,
+        display: fmt(list.length),
+        tip: n + ": " + list.length + " documents, " + fmt(sum(list, (d) => d.stats.pages)) + " pages",
+        extra: [fmt(list.length), fmt(sum(list, (d) => d.stats.pages))],
+      })), { headers: ["Nation", "Documents", "Pages"] });
+
+      const byType = [...groupBy(docs, (d) => d.type)].sort((a, b) => b[1].length - a[1].length);
+      barChart($("c-type"), "Documents by type", "From the class on each msItem.", byType.map(([t, list]) => ({
+        label: typeName(t),
+        value: list.length,
+        display: fmt(list.length),
+      })), { headers: ["Type", "Documents"] });
+    }
+
+    function drawLayout(docs) {
+      const byCentury = [...groupBy(docs.filter((d) => d.stats.pages && d.stats.lines), (d) => d.century || 0)]
+        .sort((a, b) => (a[0] || 9999) - (b[0] || 9999));
+      barChart($("c-lines"), "Transcribed lines per page",
+        "Average across documents, by century. Higher means more densely written pages.",
+        byCentury.map(([c, list]) => {
+          const avg = sum(list, (d) => d.stats.lines / d.stats.pages) / list.length;
+          return {
+            label: centuryName(c),
+            value: avg,
+            display: fmt(avg, 1),
+            tip: centuryName(c) + ": " + fmt(avg, 1) + " lines per page (" + list.length + " documents)",
+            extra: [fmt(avg, 1), fmt(list.length)],
+          };
+        }), { headers: ["Century", "Lines per page", "Documents"] });
+
+      const colKey = (d) => d.layout.columns || (d.stats.columnBreaks ? 2 : 0);
+      const byCols = [...groupBy(docs, colKey)].sort((a, b) => (a[0] || 99) - (b[0] || 99));
+      barChart($("c-columns"), "Column layout", "From layout/@columns, or column breaks in the text.",
+        byCols.map(([cols, list]) => ({
+          label: cols ? (cols === 1 ? "Single column" : cols + " columns") : "Not recorded",
+          value: list.length,
+          display: fmt(list.length),
+          tip: (cols ? cols + " column(s)" : "Not recorded") + ": " + list.length + " documents (" +
+            fmt((list.length / docs.length) * 100) + "%)",
+          extra: [fmt(list.length), fmt((list.length / docs.length) * 100) + "%"],
+        })), { headers: ["Layout", "Documents", "Share"] });
+
+      const byMaterial = [...groupBy(docs, (d) => d.support.material || "")].sort((a, b) => b[1].length - a[1].length);
+      barChart($("c-material"), "Writing support", "From supportDesc/@material.",
+        byMaterial.map(([m, list]) => ({ label: titleCase(m), value: list.length, display: fmt(list.length) })),
+        { headers: ["Material", "Documents"] });
+
+      const byHands = [...groupBy(docs, (d) => Math.min(d.hands.count, 4))].sort((a, b) => a[0] - b[0]);
+      barChart($("c-hands"), "Hands per document",
+        "How many scribes or writers are identified in each document.",
+        byHands.map(([h, list]) => ({
+          label: h === 0 ? "Not recorded" : h === 4 ? "4 or more" : h === 1 ? "1 hand" : h + " hands",
+          value: list.length,
+          display: fmt(list.length),
+        })), { headers: ["Hands", "Documents"] });
+
+      const words = sum(docs, (d) => d.stats.words);
+      const marks = [
+        ["Additions", "additions"],
+        ["Deletions", "deletions"],
+        ["Unclear readings", "unclear"],
+        ["Damage", "damage"],
+        ["Gaps", "gaps"],
+        ["Marginal notes", "marginalNotes"],
+        ["Hand changes", "handShifts"],
+        ["Stamps and seals", "stamps"],
+      ];
+      barChart($("c-marks"), "Changes and damage on the page, per 1,000 words",
+        words ? "Across " + fmt(words) + " words. Shows how heavily the documents were reworked, annotated or damaged." : "",
+        words ? marks.map(([label, key]) => {
+          const n = sum(docs, (d) => d.features[key]);
+          const rate = (n / words) * 1000;
+          return {
+            label,
+            value: rate,
+            display: fmt(rate, 1),
+            tip: label + ": " + fmt(n) + " in total, " + fmt(rate, 1) + " per 1,000 words",
+            extra: [fmt(n), fmt(rate, 1)],
+          };
+        }) : [], { headers: ["Feature", "Count", "Per 1,000 words"] });
+    }
+
+    function drawLanguage(docs) {
+      const totals = new Map();
+      docs.forEach((d) => Object.entries(d.langWords).forEach(([l, n]) => totals.set(l, (totals.get(l) || 0) + n)));
+      const allWords = [...totals.values()].reduce((a, b) => a + b, 0);
+      const sorted = [...totals].sort((a, b) => b[1] - a[1]);
+      barChart($("c-langwords"), "Words by language", "Share of all transcribed words.",
+        sorted.map(([l, n]) => ({
+          label: languageName(l),
+          value: n,
+          display: fmt((n / allWords) * 100, 1) + "%",
+          tip: languageName(l) + ": " + fmt(n) + " words (" + fmt((n / allWords) * 100, 1) + "%)",
+          extra: [fmt(n), fmt((n / allWords) * 100, 1) + "%"],
+        })), { headers: ["Language", "Words", "Share"] });
+
+      const byCentury = [...groupBy(docs, (d) => d.century || 0)].sort((a, b) => (a[0] || 9999) - (b[0] || 9999));
+      barChart($("c-multi"), "Multilingual documents",
+        "Share of documents, by century, that use more than one language.",
+        byCentury.map(([c, list]) => {
+          const multi = list.filter((d) => d.languages.all.length > 1).length;
+          const pct = (multi / list.length) * 100;
+          return {
+            label: centuryName(c),
+            value: pct,
+            display: fmt(pct) + "%",
+            tip: centuryName(c) + ": " + multi + " of " + list.length + " documents use more than one language",
+            extra: [fmt(multi), fmt(list.length), fmt(pct) + "%"],
+          };
+        }), { max: 100, headers: ["Century", "Multilingual", "Documents", "Share"] });
+
+      const rateBy = (key) => byCentury
+        .map(([c, list]) => {
+          const w = sum(list, (d) => d.stats.words);
+          const n = sum(list, (d) => d.features[key]);
+          return w ? {
+            label: centuryName(c),
+            value: (n / w) * 1000,
+            display: fmt((n / w) * 1000, 1),
+            tip: centuryName(c) + ": " + fmt(n) + " in " + fmt(w) + " words (" + list.length + " documents)",
+            extra: [fmt(n), fmt(w), fmt((n / w) * 1000, 1)],
+          } : null;
+        })
+        .filter(Boolean);
+
+      barChart($("c-abbr"), "Abbreviations per 1,000 words",
+        "Abbreviations expanded by the editors (choice/abbr), by century.",
+        rateBy("abbreviations"), { headers: ["Century", "Abbreviations", "Words", "Per 1,000 words"] });
+
+      const regRows = byCentury.map(([c, list]) => {
+        const w = sum(list, (d) => d.stats.words);
+        const n = sum(list, (d) => d.features.regularizations + d.features.corrections);
+        return w ? {
+          label: centuryName(c),
+          value: (n / w) * 1000,
+          display: fmt((n / w) * 1000, 1),
+          tip: centuryName(c) + ": " + fmt(n) + " non-standard spellings in " + fmt(w) + " words",
+          extra: [fmt(n), fmt(w), fmt((n / w) * 1000, 1)],
+        } : null;
+      }).filter(Boolean);
+      barChart($("c-reg"), "Non-standard spellings per 1,000 words",
+        "Original spellings that the editors corrected or regularised (sic/corr, orig/reg), by century.",
+        regRows, { headers: ["Century", "Spellings", "Words", "Per 1,000 words"] });
+
+      drawWords(docs, sorted.map(([l]) => l));
+    }
+
+    let wordLang = null;
+
+    function drawWords(docs, langs) {
+      const panel = $("c-words");
+      panelHead(panel, "Most frequent words", "Top words in the selected language, across the filtered documents.");
+      if (!langs.length) {
+        panel.appendChild(el("p", "empty-chart", "Not enough encoded data yet."));
+        return;
+      }
+      if (!langs.includes(wordLang)) wordLang = langs[0];
+
+      const wrap = el("div", "words-select filters");
+      const label = el("label", null, "Language ");
+      label.htmlFor = "f-wordlang";
+      const select = el("select");
+      select.id = "f-wordlang";
+      langs.forEach((l) => {
+        const o = el("option", null, languageName(l));
+        o.value = l;
+        select.appendChild(o);
+      });
+      select.value = wordLang;
+      select.addEventListener("change", () => {
+        wordLang = select.value;
+        drawWords(docs, langs);
+        $("f-wordlang").focus();
+      });
+      wrap.append(label, select);
+      panel.appendChild(wrap);
+
+      const counts = new Map();
+      docs.forEach((d) => (d.topWords[wordLang] || []).forEach(([w, n]) => counts.set(w, (counts.get(w) || 0) + n)));
+      const top = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 15);
+
+      const holder = el("div");
+      holder.lang = wordLang;
+      panel.appendChild(holder);
+      barChart(holder, "", "", top.map(([w, n]) => ({
+        label: w,
+        value: n,
+        display: fmt(n),
+        tip: "“" + w + "”: " + fmt(n) + " occurrences",
+      })), { headers: ["Word", "Occurrences"] });
+      holder.querySelector("h3").remove();
+    }
+
+    function draw() {
+      const docs = filtered();
+      $("scope").textContent = docs.length === ALL.length
+        ? "Showing all " + ALL.length + " documents."
+        : "Showing " + docs.length + " of " + ALL.length + " documents.";
+
+      if (!ALL.length) {
+        $("scope").textContent = "";
+        const box = el("div", "empty-all");
+        box.appendChild(el("p", null, "No documents have been encoded yet, so there is nothing to analyse."));
+        box.appendChild(el("p", null,
+          "Add TEI-XML transcriptions to the tei/ folder and run python3 tools/build_documents.py. " +
+          "These charts will fill in automatically."));
+        $("content").replaceChildren(box);
+        document.querySelector(".filters").hidden = true;
+        return;
+      }
+
+      drawTiles(docs);
+      drawCorpus(docs);
+      drawLayout(docs);
+      drawLanguage(docs);
+    }
+
+    ["f-nation", "f-century", "f-type"].forEach((id) => $(id).addEventListener("change", draw));
+    window.addEventListener("scroll", () => (tooltip.hidden = true), { passive: true });
+    draw();
+  </script>
+</body>
+</html>

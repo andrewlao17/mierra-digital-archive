@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TEMPLATE for one transcribed document. Copy it to tei/<short-id>.xml, replace
+  everything marked REPLACE, then run:  python3 tools/build_documents.py
+
+  Files whose names start with "_" are ignored by the build script, so this
+  template is never published.
+
+  What the site reads:
+    country            -> the Nation filter and the per-nation analysis
+    settlement         -> place shown on the document card
+    msItem/@class      -> document type (letter, petition, deed, register, ...)
+    textLang           -> main language and other languages (ISO 639 codes)
+    origDate           -> date (use @when, or @notBefore / @notAfter for a range)
+    layout, support    -> manuscript-layout analysis
+    handNote           -> number of hands and scripts
+    pb, lb, cb         -> page, line and column structure
+    licence, ref       -> rights and the link back to the original source
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="REPLACE-short-id" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>REPLACE: short descriptive title</title>
+        <respStmt>
+          <resp>Transcription and annotation</resp>
+          <name>REPLACE: your name</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="XX">REPLACE: nation, spelled the same way in every file</country>
+            <settlement>REPLACE: town or city</settlement>
+            <repository>REPLACE: archive or library holding the original</repository>
+            <idno>REPLACE: shelfmark</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>REPLACE: one or two sentences about what the document is.</summary>
+            <msItem class="letter">
+              <textLang mainLang="xx" otherLangs="yy">REPLACE: Language A with some Language B</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="sheet">
+              <supportDesc material="paper">
+                <support>REPLACE: describe the paper, palm leaf, bark cloth, ...</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="20"/>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote xml:id="h1" script="REPLACE: script, e.g. Latin, Hanzi, Jawi">REPLACE: main hand</handNote>
+            </handDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1900">REPLACE: date as written on the document</origDate>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          REPLACE: full citation of the original.
+          <ref target="https://example.org/REPLACE">Link to the source record or page images</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <facsimile>
+    <surface xml:id="s1" n="1">
+      <graphic url="REPLACE-image-1.jpg"/>
+    </surface>
+  </facsimile>
+
+  <text>
+    <body>
+      <div type="letter">
+        <pb n="1" facs="#s1"/>
+        <p>
+          <lb n="1"/>REPLACE: first line of the transcription.
+          <lb n="2"/>Encode people as <persName>REPLACE</persName>, places as
+          <placeName>REPLACE</placeName>, organisations as <orgName>REPLACE</orgName>.
+          <lb n="3"/>Abbreviations: <choice><abbr>Sr.</abbr><expan>Señor</expan></choice>.
+          Corrections: <choice><sic>teh</sic><corr>the</corr></choice>.
+          <lb n="4"/>Writer's changes: <add place="above">added</add> <del rend="strikethrough">deleted</del>
+          <unclear reason="faded">unclear</unclear> <supplied reason="lost">supplied</supplied>
+          <gap reason="torn" quantity="1" unit="line"/>
+          <lb n="5"/>Other language: <foreign xml:lang="yy">REPLACE</foreign>.
+          A note in the margin.<note place="margin">REPLACE: marginal note</note>
+          <handShift new="#h2"/>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
