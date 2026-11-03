@@ -1,3 +1,35 @@
+// Mierra Digital Archive: dictionary data
+// This file creates the list of languages, then adds each language to it.
+// It must load BEFORE the inline script in dictionary.html.
+
+window.ARCHIVE_LANGUAGES = window.ARCHIVE_LANGUAGES || [];
+
+/* ------------------------------------------------------------------
+   URA
+   Paste your Ura block here, in this form:
+
+   ARCHIVE_LANGUAGES.push({
+     id: "ura",
+     name: "Ura",
+     iso: "uur",
+     place: "...",
+     shortCite: "...",
+     source: "...",
+     sourceUrl: "https://...",
+     license: "CC BY-SA 4.0",
+     licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+     changes: "...",
+     entries: [
+       ["word", "meaning", 12],
+       ["word2", "meaning2", 14]
+     ]
+   });
+------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------
+   LONIU
+------------------------------------------------------------------- */
 ARCHIVE_LANGUAGES.push({
   id: "loniu",
   name: "Loniu",
