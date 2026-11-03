@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dictionaries | Mierra Digital Archive</title>
+  <meta name="description" content="Search dictionaries of rare Asia-Pacific languages compiled from published research.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .page-head {
+      background: var(--ocean);
+    }
+
+    .page-head h1 {
+      font-size: clamp(3rem, 9vw, 7rem);
+    }
+
+    .dictionary {
+      padding: clamp(2rem, 5vw, 4rem) var(--edge);
+      background: var(--foam);
+      color: var(--ink);
+    }
+
+    .tools {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+      gap: 1rem;
+      max-width: 60rem;
+    }
+
+    .tools label {
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+
+    .tools input,
+    .tools select {
+      width: 100%;
+      padding: 0.8rem;
+      border: 2px solid var(--ocean);
+      border-radius: 0;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+    }
+
+    .tools input:focus-visible,
+    .tools select:focus-visible {
+      outline: 3px solid var(--coral);
+      outline-offset: 2px;
+    }
+
+    #count {
+      margin: 1.5rem 0 1rem;
+    }
+
+    #results {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+      gap: 0.75rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .entry {
+      padding: 1.25rem;
+      background: #fff;
+    }
+
+    .entry-word {
+      margin: 0;
+      color: var(--ocean);
+      font-size: 1.75rem;
+      font-weight: 200;
+      line-height: 1.2;
+    }
+
+    .entry-meaning {
+      margin: 0.25rem 0 0.75rem;
+    }
+
+    .entry-source {
+      margin: 0;
+      font-size: 0.875rem;
+    }
+
+    .about {
+      padding: clamp(2rem, 5vw, 4rem) var(--edge);
+      background: var(--ocean);
+    }
+
+    .about h2 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 200;
+    }
+
+    .about p {
+      max-width: 42em;
+    }
+
+    .about a {
+      color: inherit;
+    }
+
+    @media (max-width: 700px) {
+      .tools {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="page-head">
+    <nav aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="dictionary.html" aria-current="page">Dictionaries</a>
+      <a href="documents.html">Documents</a>
+      <a href="analysis.html">Text analysis</a>
+    </nav>
+    <div class="hero-text">
+      <h1>Dictionaries</h1>
+      <p>Search words from rare Asia-Pacific languages, with a source for every entry.</p>
+    </div>
+  </header>
+
+  <main class="dictionary">
+    <form class="tools" onsubmit="return false">
+      <div>
+        <label for="search">Search a word or meaning</label>
+        <input id="search" type="search" autocomplete="off">
+      </div>
+      <div>
+        <label for="language">Language</label>
+        <select id="language"></select>
+      </div>
+    </form>
+
+    <p id="count" aria-live="polite"></p>
+    <ul id="results"></ul>
+  </main>
+
+  <section class="about" aria-labelledby="sources-heading">
+    <h2 id="sources-heading">Sources and corrections</h2>
+    <div id="sources"></div>
+    <p>
+      The compiled dictionaries on this page are released under
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+    </p>
+    <p>
+      Are you a speaker or community member? You can
+      <a href="https://github.com/andrewlao17/mierra-digital-archive/issues/new">request a correction or removal</a>.
+    </p>
+  </section>
+
+  <script src="dictionary-data.js"></script>
+  <script>
+    const searchBox = document.getElementById("search");
+    const languageBox = document.getElementById("language");
+    const count = document.getElementById("count");
+    const results = document.getElementById("results");
+    const sources = document.getElementById("sources");
+
+    function simplify(text) {
+      return text
+        .toLowerCase()
+        .replace(/ŋ/g, "ng")
+        .replace(/ǥ/g, "g")
+        .replace(/ə/g, "e")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function addText(parent, tag, className, text) {
+      const element = document.createElement(tag);
+      element.className = className;
+      element.textContent = text;
+      parent.appendChild(element);
+      return element;
+    }
+
+    function recorderNames(language, code) {
+      if (!language.recorders) return "";
+      const letters = code ? code.split("") : [""];
+      return letters.map((letter) => language.recorders[letter]).join(" and ");
+    }
+
+    function allEntries() {
+      return ARCHIVE_LANGUAGES.flatMap((language) =>
+        language.entries.map(([word, meaning, page, recorder]) => ({
+          language,
+          word,
+          meaning,
+          page,
+          recorder
+        }))
+      );
+    }
+
+    const entries = allEntries();
+
+    function showEntries() {
+      const query = simplify(searchBox.value.trim());
+      const languageId = languageBox.value;
+
+      const matches = entries.filter((entry) => {
+        const rightLanguage = languageId === "all" || entry.language.id === languageId;
+        const text = simplify(entry.word + " " + entry.meaning);
+        return rightLanguage && text.includes(query);
+      });
+
+      results.replaceChildren();
+
+      matches.forEach((entry) => {
+        const item = document.createElement("li");
+        item.className = "entry";
+
+        const word = addText(item, "p", "entry-word", entry.word);
+        word.lang = entry.language.iso;
+        addText(item, "p", "entry-meaning", entry.meaning);
+
+        const names = recorderNames(entry.language, entry.recorder);
+        const recorded = names ? "Recorded by " + names + ". " : "";
+        addText(
+          item,
+          "p",
+          "entry-source",
+          entry.language.name + ". " + recorded + entry.language.shortCite + ", p. " + entry.page + "."
+        );
+
+        results.appendChild(item);
+      });
+
+      count.textContent = matches.length
+        ? "Showing " + matches.length + " of " + entries.length + " entries."
+        : "No entries match that search. Try a shorter word or choose All languages.";
+    }
+
+    function addLanguageChoice(value, label) {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = label;
+      languageBox.appendChild(option);
+    }
+
+    function showSources() {
+      ARCHIVE_LANGUAGES.forEach((language) => {
+        const paragraph = document.createElement("p");
+        paragraph.append(language.name + " (" + language.place + "): " + language.source + " ");
+
+        const sourceLink = document.createElement("a");
+        sourceLink.href = language.sourceUrl;
+        sourceLink.textContent = "Read the source";
+        paragraph.append(sourceLink, ". Licensed under ");
+
+        const licenseLink = document.createElement("a");
+        licenseLink.href = language.licenseUrl;
+        licenseLink.textContent = language.license;
+        paragraph.append(licenseLink, ". " + language.changes);
+
+        sources.appendChild(paragraph);
+      });
+    }
+
+    addLanguageChoice("all", "All languages");
+    ARCHIVE_LANGUAGES.forEach((language) => addLanguageChoice(language.id, language.name));
+
+    searchBox.addEventListener("input", showEntries);
+    languageBox.addEventListener("change", showEntries);
+
+    showSources();
+    showEntries();
+  </script>
+</body>
+</html>
