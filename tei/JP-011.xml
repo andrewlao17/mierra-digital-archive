@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-011" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxii: The Man who was changed into a Fox</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Penri</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Piratori</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 25-26</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A liar and extortioner is turned into a fox, and the goddess of an oak-tree restores him to human shape so that he will not die beside her.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="14"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-19">19 July 1886</origDate>
+              <p>Told by Penri of Piratori; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 25-26.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-011</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p025" n="25"><graphic url="facsimiles/aino-folk-tales-1888/p025.jpg"/></surface>
+    <surface xml:id="p026" n="26"><graphic url="facsimiles/aino-folk-tales-1888/p026.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxii">
+        <pb n="25" facs="#p025"/>
+        <p></p>
+        <head>xxii.—<hi rend="italic">The Man who was changed into a Fox.</hi></head>
+        <p><lb n="1"/>A certain man’s conduct was as follows: he went to every place,<lb n="2"/>making it his business to do nothing but tell lies and extort things<lb n="3"/>from people. Then, after a time, when wanting to extort again, he<lb n="4"/>went on to another place. While walking along he used to think of<lb n="5"/>what lies he could tell. Afterwards he heard a voice. It was not<lb n="6"/>human language. He walked saying—“Pau! pau!”<note place="foot" n="*">An onomatopœia for the bark of the fox.</note> When he<lb n="7"/>looked at his own body, it was a fox’s. Then he thought that, whether<lb n="8"/>he might return to his own village, or go to another place, the dogs<lb n="9"/>would kill him. So, with tears, he went away from the road into the<lb n="10"/>mountains. There he found a large, leafy oak-tree. He lay down<lb n="11"/>crying beneath it.</p>
+        <p><lb n="12"/>Then he fell asleep. He dreamt that there was a large house<choice><sic></sic><corr>.</corr></choice> He<lb n="13"/>was outside of that house. A divine woman came out of it, and spoke<lb n="14"/>thus: “Oh! what a bad man! what a villain! You have become a<lb n="15"/>bad god, a devil, as a divine punishment for your misdeeds. Being<lb n="16"/>thus made into a devil, why do you come and stand near my house?<lb n="17"/>I should like to leave you alone. But as I am this tree, which is<lb n="18"/>made the chief of trees by heaven, and as it would defile me to have<lb n="19"/>you die beside my house, I will turn you into a man again and send<lb n="20"/>you home. Do not misbehave yourself henceforth!” Thus spoke the<lb n="21"/>divine woman.</p>
+        <p><lb n="22"/>Such was his dream. Meanwhile the branches at the top of the<lb n="23"/>tree broke, and came crashing down, and he was greatly frightened.<lb n="24"/>But when he started up, he was a man again. Then he worshipped<lb n="25"/>the tree. Then he returned home. Then afterwards he did not<pb n="26" facs="#p026"/><lb n="1"/>misbehave. So also must you not misbehave, you men who live now!<lb n="2"/>—(Translated literally. Told by <persName>Penri</persName>, <date when="1886-07-19">19th July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

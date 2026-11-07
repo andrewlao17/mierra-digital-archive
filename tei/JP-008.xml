@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-008" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xvii: The Man who lost his Wife</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 21-22</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Guided by the god of the oak-tree, a man rides a golden horse through heaven so that the demon holding his wife is distracted, and the horse he brings back is the ancestor of Ainu horses.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="20"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-21">21 July 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; written down from memory by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 21-22.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-008</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p021" n="21"><graphic url="facsimiles/aino-folk-tales-1888/p021.jpg"/></surface>
+    <surface xml:id="p022" n="22"><graphic url="facsimiles/aino-folk-tales-1888/p022.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xvii">
+        <pb n="21" facs="#p021"/>
+        <p></p>
+        <head>xvii.—<hi rend="italic">The Man who lost his Wife.</hi></head>
+        <p><lb n="1"/>A man had lost his wife, and was searching for her everywhere,<lb n="2"/>over hill and dale, forest and sea-shore. At last he came to a wide<lb n="3"/>plain, on which stood an oak-tree. Going up to it he found it to be<lb n="4"/>not so much an oak-tree as a house, in which dwelt a kind-looking<lb n="5"/>old man. Said the old man: “I am the god of the oak-tree. I<lb n="6"/>know of your loss, and have seen your faithful search. Rest here<lb n="7"/>awhile, and refresh yourself by eating and smoking. After that, if<lb n="8"/>you hope to find your wife again, you must obey my orders, which are<lb n="9"/>as follows: Take this golden horse, get on his back, fly up on him to<lb n="10"/>the sky, and, when you get there, ride about the streets, constantly<lb n="11"/>singing.”</p>
+        <p><lb n="12"/>So the man mounted the horse, which was of pure gold. The<lb n="13"/>saddle and all the trappings were of gold also. As soon as he was in<lb n="14"/>the saddle, the horse flew up to the sky. There the man found a<lb n="15"/>world like ours, but more beautiful. There was an immense city in<lb n="16"/>it; and up and down the streets of that city, day after day, he rode,<lb n="17"/>singing all the while. Every one in the sky stared at him, and all<lb n="18"/>the people put their hands to their noses, saying: “How that creature<lb n="19"/>from the lower world stinks!” At last the stench became so into-<lb n="20" break="no"/>lerable to them that the chief god of the sky came and told him that<lb n="21"/>he should be made to find his wife if only he would go away. There-<lb n="22" break="no"/>upon the man flew back to earth on his golden horse. Alighting at<lb n="23"/>the foot of the oak-tree, he said to the oak-god: “Here am I. I<lb n="24"/>did as you bade me. But I did not find my wife.” “Wait a<lb n="25"/>moment,” said the oak-god; “you do not know what a tumult has<lb n="26"/>been caused by your visit to the sky, neither have I yet told you that<lb n="27"/>it was a demon who stole your wife. This demon, looking up from<lb n="28"/>hell below, was so much astonished to see and hear you riding up<lb n="29"/>and down the streets of heaven singing, that his gaze is still fixed<lb n="30"/>in that direction. I will profit hereby to go round quietly, while<lb n="31"/>his attention is absorbed, and let your wife out of the box in which he<lb n="32"/>keeps her shut up.”</p>
+        <p><lb n="33"/>The oak-god did as he had promised. He brought back the<lb n="34"/>woman, and handed over both her and the gold horse to the man,<pb n="22" facs="#p022"/><lb n="1"/>saying: “Do not use this horse to make any more journeys to the<lb n="2"/>sky. Stay on earth, and breed from it.” The couple obeyed his<lb n="3"/>commands, and became very rich. The gold horse gave birth to two<lb n="4"/>horses, and these two bred likewise, till at last horses filled all the<lb n="5"/>land of the Ainos.—(Written down from memory. Told by <persName>Ishan-<lb n="6" break="no"/>ashte</persName>, <date when="1886-07-21">21st July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

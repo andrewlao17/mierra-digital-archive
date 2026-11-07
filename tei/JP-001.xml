@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-001" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale i: The Rat and the Owl</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, p. 7</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A rat tricks an owl with a gimlet and then makes peace with the gift of a cap, which explains the owl's crest of feathers and the enmity between the two.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="18"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-11-25">25 November 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; written down from memory by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. p. 7.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-001</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p007" n="7"><graphic url="facsimiles/aino-folk-tales-1888/p007.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="i">
+        <pb n="7" facs="#p007"/>
+        <p></p>
+        <head>i.—<hi rend="italic">The Rat and the Owl.</hi><note place="foot" n="*">The Aino name here used (<hi rend="italic"><foreign xml:lang="ain">ahunrashambe</foreign></hi>) denotes a horned species.</note></head>
+        <p><lb n="1"/>An owl had put by for next day the remains of something dainty<lb n="2"/>which he had to eat. But a rat stole it, whereupon the owl was very<lb n="3"/>angry, and went off to the rat’s house, and threatened to kill him.<lb n="4"/>But the rat apologised, saying: “I will give you this gimlet and tell<lb n="5"/>you how you can obtain from it pleasure far greater than the pleasure<lb n="6"/>of eating the food which I was so rude as to eat up. Look here!<lb n="7"/>you must stick the gimlet with the sharp point upwards in the ground<lb n="8"/>at the foot of this tree; then go to the top of the tree yourself, and<lb n="9"/>slide down the trunk.”</p>
+        <p><lb n="10"/>Then the rat went away, and the owl did as the rat had instructed<lb n="11"/>him. But, sliding down on to the sharp gimlet, his anus was trans-<lb n="12" break="no"/>fixed, and he suffered great pain, and, in his grief and rage, went off<lb n="13"/>to kill the rat. But again the rat met him with apologies, and, as a<lb n="14"/>peace-offering, gave him a cap for his head.</p>
+        <p><lb n="15"/>These events account for the thick cap of erect feathers which the<lb n="16"/>owl wears to this day, and also for the enmity between the owl and<lb n="17"/>the rat.—(Written down from memory. Told by <persName>Ishanashte</persName>, <date when="1886-11-25">25th<lb n="18"/>November, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

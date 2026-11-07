@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-012" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxiii: The Rat Boy</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Penri</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Piratori</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 26-27</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A childless couple adopt a boy found in the mountains who is really a rat, and once the rat is killed a god grants them a child; never take in a foundling without knowing its origin.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="25"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-20">20 July 1886</origDate>
+              <p>Told by Penri of Piratori; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 26-27.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-012</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p026" n="26"><graphic url="facsimiles/aino-folk-tales-1888/p026.jpg"/></surface>
+    <surface xml:id="p027" n="27"><graphic url="facsimiles/aino-folk-tales-1888/p027.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxiii">
+        <pb n="26" facs="#p026"/>
+        <p></p>
+        <head>xxiii.—<hi rend="italic">The Rat Boy.</hi></head>
+        <p><lb n="1"/>In a certain village there lived a very rich couple; but they were<lb n="2"/>childless. They were very anxious for a child. But one day, as the<lb n="3"/>wife went to the mountains to fetch wood, she found a little boy crying<lb n="4"/>beside a tree. Rejoiced at this, she took him down with her to the<lb n="5"/>village. Thenceforth they kept the boy with them. It was a place<lb n="6"/>where there was plenty of deer and also of fish; it was a place pro-<lb n="7" break="no"/>vided with all the things which people like to eat. But though they<lb n="8"/>hunted the deer, they could not catch them; though they angled for<lb n="9"/>the fish, they could not catch them. They were very hungry. Hearing<lb n="10"/>that great quantities both of fish and of deer were killed in the village<lb n="11"/>next to theirs, towards the mountains, the wife went off to buy food<lb n="12"/>there, taking the child with her. She went to the village next to<lb n="13"/>theirs, towards the mountains. She went to the house of the chief.</p>
+        <p><lb n="14"/>The woman looked and saw fish hanging on poles, and flesh hanging<lb n="15"/>on poles. With tears she longed for some. She went in, she went<lb n="16"/>in to the chief’s house. Then she stayed there. She was feasted on<lb n="17"/>the best bits of the fish and on the best bits of the flesh. After that,<lb n="18"/>as she lay down with her little boy, he rose quietly in the middle of<lb n="19"/>the night. Then there was the sound of a rat nibbling at the fish and<lb n="20"/>flesh on the poles. The woman thought it very strange. So at dawn<lb n="21"/>the boy came quietly back, lay down by the woman’s side, and slept<lb n="22"/>there till the day was bright. The people of the house rose, and the<lb n="23"/>chief went out and mumbled thus to himself: “Never were there such<lb n="24"/>rats as this. There have been rats nibbling my good fish and my<lb n="25"/>good flesh.”</p>
+        <p><lb n="26"/>So the woman bought a quantity of fish and flesh and went off with<lb n="27"/>it. She wanted the little boy to walk in front of her; but he disliked<lb n="28"/>to do so. He would only walk after her. Then there was the sound<lb n="29"/>of a rat nibbling at her load. When she looked back, the little boy<lb n="30"/>was grinning. So they went on; they went home. Then she put<lb n="31"/>both the fish and the flesh into the store-house. Then she whispered<pb n="27" facs="#p027"/><lb n="1"/>to her husband. Then her husband went into the next room, and<lb n="2"/>made a trap. Then the trap was set in the store-house. Then they<lb n="3"/>went to bed. The little boy lay between the woman and her husband;<lb n="4"/>but after awhile he quietly rose and went out. He stayed away, with-<lb n="5" break="no"/>out coming back. Daylight came. On the man of the house going<lb n="6"/>into the store-house, there was a large rat in the trap. So he brought<lb n="7"/>it down, beat it to death, and swept it on to the dust-heap. That<lb n="8"/>night he had a dream. A person of divine aspect spoke to him thus;<lb n="9"/>“You were childless, and wanting to have a child. The most wicked<lb n="10"/>of the rats, seeing this, took the shape of a little boy, and dwelt in<lb n="11"/>your house. For this reason, your village has been polluted. But<lb n="12"/>as you have now killed the rat, all will now be right. I am sorry for<lb n="13"/>you, so you shall have a child.” Thus did he dream that the god<lb n="14"/>spoke to him. As it was true, they got a child, though they had<lb n="15"/>been childless.</p>
+        <p><lb n="16"/>For this reason, whether it be on the shore or in the mountains or<lb n="17"/>anywhere else that one finds either a child or a puppy, one should not<lb n="18"/>let it dwell in one’s house without knowing its origin.—(Translated<lb n="19"/>literally. Told by <persName>Penri</persName>, <date when="1886-07-20">20th July 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

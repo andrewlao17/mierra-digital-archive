@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-003" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale iii: Why Dogs cannot speak</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, p. 8</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A dog who caused his master's death and then lied to the widow is struck dumb when she throws dust into his mouth.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="12"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-11-29">29 November 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; written down from memory by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. p. 8.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-003</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p008" n="8"><graphic url="facsimiles/aino-folk-tales-1888/p008.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="iii">
+        <pb n="8" facs="#p008"/>
+        <p></p>
+        <head>iii.—<hi rend="italic">Why Dogs cannot speak.</hi></head>
+        <p><lb n="1"/>Formerly dogs could speak. Now they cannot. The reason is that<lb n="2"/>a dog, belonging to a certain man a long time ago, inveigled his<lb n="3"/>master into the forest under the pretext of showing him game, and<lb n="4"/>there caused him to be devoured by a bear. Then the dog went home<lb n="5"/>to his master’s widow, and lied to her, saying: “My master has been<lb n="6"/>killed by a bear. But when he was dying he commanded me to tell<lb n="7"/>you to marry me in his stead.” The widow knew that the dog was<lb n="8"/>lying. But he kept on urging her to marry him. So at last, in her<lb n="9"/>grief and rage, she threw a handful of dust into his open mouth.<lb n="10"/>This made him unable to speak any more, and therefore no dogs can<lb n="11"/>speak even to this very day.—(Written down from memory. Told by<lb n="12"/><persName>Ishanashte</persName>, <date when="1886-11-29">29th November, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

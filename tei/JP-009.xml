@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-009" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xviii: The First Appearance of the Horse in Aino-land</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Penri</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Piratori</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, p. 22</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A woman exposes a husband who is not her husband; beaten by the neighbours, he turns into a horse, the first horse the Ainu ever saw.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="17"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-12">12 July 1886</origDate>
+              <p>Told by Penri of Piratori; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. p. 22.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-009</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p022" n="22"><graphic url="facsimiles/aino-folk-tales-1888/p022.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xviii">
+        <pb n="22" facs="#p022"/>
+        <p></p>
+        <head>xviii.—<hi rend="italic">The First Appearance of the Horse in Aino-land.</hi><note type="editorial" resp="#mierra">The printed heading has a footnote mark (¹), but no matching footnote appears on the page.</note></head>
+        <p><lb n="1"/>A very beautiful woman had a husband. He was a very skilful<lb n="2"/>fellow. Once he went to the mountains, and disappeared. But at<lb n="3"/>night he returned, bearing a deer on his back. After feasting on the<lb n="4"/>deer, they went to bed. But in the middle of the night, the woman<lb n="5"/>wept and screamed, saying: “This man is not my husband. Though<lb n="6"/>with shame, I will declare the fact as it is. His penis is so big, so<lb n="7"/>big, so big, that it will not get into my vagina; and if it did get in,<lb n="8"/>I should die.”</p>
+        <p><lb n="9"/>Alarmed by her cries, the neighbours ran out, and came into her<lb n="10"/>house; and one strong fellow took a stick, and beat the husband,<lb n="11"/>saying: “You must be some sort of devil,” whereupon the husband<lb n="12"/>turned into a horse, and ran away neighing. Afterwards he was<lb n="13"/>beaten to death.</p>
+        <p><lb n="14"/>The truth was that the husband had been killed and supplanted by<lb n="15"/>the horse. That was the first the Ainos saw of horses. In ancient<lb n="16"/>days every sort of creature could thus assume human shape. So it is<lb n="17"/>said.—(Translated literally. Told by <persName>Penri</persName>, <date when="1886-07-12">12th July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

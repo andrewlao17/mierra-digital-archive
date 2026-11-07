@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-005" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale x: The Man who Married the Bear-Goddess</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 12-14</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>After famine empties their village, an orphaned boy trades his father's treasures for food at a whale-feast and wins the bear-goddess away from her jealous dragon-husband.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="23"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-11-09">9 November 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 12-14.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-005</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p012" n="12"><graphic url="facsimiles/aino-folk-tales-1888/p012.jpg"/></surface>
+    <surface xml:id="p013" n="13"><graphic url="facsimiles/aino-folk-tales-1888/p013.jpg"/></surface>
+    <surface xml:id="p014" n="14"><graphic url="facsimiles/aino-folk-tales-1888/p014.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="x">
+        <pb n="12" facs="#p012"/>
+        <p></p>
+        <head>x.—<hi rend="italic">The Man who Married the Bear-Goddess.</hi></head>
+        <p><lb n="1"/>There was a very populous village. It was a village having both<lb n="2"/>plenty of fish and plenty of venison. It was a place lacking no kind<lb n="3"/>of food. Nevertheless, once upon a time, a famine set in. There was<lb n="4"/>no food, no venison, no fish, nothing to eat at all; there was a<lb n="5"/>famine. So in that populous village all the people died.</p>
+        <p><lb n="6"/>Now the village chief was a man who had two children, a boy and<lb n="7"/>a girl. After a time, only those two children remained alive. Now<lb n="8"/>the girl was the older of the two, and the boy was the younger. The<lb n="9"/>girl spoke thus: “As for me, it does not matter even if I do die,<lb n="10"/>since I am a girl. But you, being a boy, can, if you like, take up<lb n="11"/>our father’s inheritance. So you should take these things with you,<pb n="13" facs="#p013"/><lb n="1"/>use them to buy food with, eat it, and live.” So spoke the girl, and<lb n="2"/>took out a bag made of cloth, and gave it to him.</p>
+        <p><lb n="3"/>Then the boy went out on to the sand, and walked along the sea-<lb n="4" break="no"/>shore. When he had walked on the sand for a long time, he saw a<lb n="5"/>pretty little house a short way inland. Near it was lying the carcase<lb n="6"/>of a large whale. The boy went to the house, and after a time<lb n="7"/>entered it. On looking around, he saw a man of divine appearance.<lb n="8"/>The man’s wife, too, looked like a goddess, and was dressed altogether<lb n="9"/>in black raiment. The man was dressed altogether in speckled<lb n="10"/>raiment. The boy went in, and stood by the door. The man said to<lb n="11"/>him: “Welcome to you, whencesoever you may have come.” After-<lb n="12" break="no"/>wards a lot of the whale’s flesh was boiled, and the boy was feasted on<lb n="13"/>it. But the woman never looked towards him. Then the boy went<lb n="14"/>out and fetched his parcel, which he had left outside. He brought in<lb n="15"/>the bag made of cloth which had been given to him by his sister, and<lb n="16"/>opened its mouth. On taking out and looking at the things inside<lb n="17"/>it, they were found to be very precious treasures. “I will give you<lb n="18"/>these treasures in payment for the food,” said the boy, and gave them<lb n="19"/>to that divine-looking man-of-the-house. The god, having looked at<lb n="20"/>them, said: “They are very beautiful treasures.” He said again:<lb n="21"/>“You need not have paid me for the food. But I will take these<lb n="22"/>treasures of yours, carry them to my [other] house, and bring you my<lb n="23"/>own treasures in exchange for them. As for this whale’s flesh, you<lb n="24"/>can eat as much of it as you like, without payment.” Having said<lb n="25"/>this, he went off with the lad’s treasures.</p>
+        <p><lb n="26"/>Then the lad and the woman remained together. After a time<lb n="27"/>the woman turned to the lad, and said: “You lad! listen to me<lb n="28"/>when I speak. I am the bear-goddess. This husband of mine is the<lb n="29"/>dragon-god. There is no one so jealous as he is. Therefore did I<lb n="30"/>not look towards you, because I knew that he would be jealous if I<lb n="31"/>looked towards you. Those treasures of yours are treasures which<lb n="32"/>even the gods do not possess. It is because he is delighted to get<lb n="33"/>them that he has taken them with him to counterfeit them and bring<lb n="34"/>you mock treasures. So when he shall have brought those treasures<lb n="35"/>and shall display them, you must speak thus: ‘We need not<lb n="36"/>exchange treasures. I wish to buy the woman!’ If you speak thus,<pb n="14" facs="#p014"/><lb n="1"/>he will go angrily away, because he is such a jealous man. Then<lb n="2"/>afterwards we can marry each other, which will be very pleasant.<lb n="3"/>That is how you must speak.” That was what the woman said.</p>
+        <p><lb n="4"/>Then, after a certain time, the man of divine appearance came back<lb n="5"/>grinning. He came bringing two sets of treasures, the treasures<lb n="6"/>which were treasures and his own other treasures. The god spoke<lb n="7"/>thus: “You, lad! As I have brought the treasures which are your<lb n="8"/>treasures, it will be well to exchange them for my treasures.” The<lb n="9"/>boy spoke thus: “Though I should like to have treasures also, I<lb n="10"/>want your wife even more than I want the treasures; so please give<lb n="11"/>me your wife instead of the treasures.” Thus spoke the lad.</p>
+        <p><lb n="12"/>He had no sooner uttered the words than he was stunned by a clap<lb n="13"/>of thunder above the house. On looking around him, the house was<lb n="14"/>gone, and only he and the goddess were left together. He came<lb n="15"/>to his senses. The treasures were there also. Then the woman<lb n="16"/>spoke thus: “What has happened is that my dragon-husband has<lb n="17"/>gone away in a rage, and has therefore made this noise, because you<lb n="18"/>and I wish to be together. Now we can live together.” Thus spoke<lb n="19"/>the goddess. Afterwards they lived together. This is why the bear<lb n="20"/>is a creature half like a human being.—(Translated literally. Told by<lb n="21"/><persName>Ishanashte</persName>, <date when="1886-11-09">9th November, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -60,6 +60,34 @@ BLOCK = {
 
 TOP_WORDS_PER_LANGUAGE = 25
 
+# Common function words, left out of the "most frequent words" lists so that
+# the lists show what the documents are about. Word counts still include them.
+STOPWORDS = {
+    "en": """a about after again all also am an and any are as at be because been before being but by can
+        could did do does done down for from had has have he her here him himself his how i if in into is it
+        its itself just me more most my no nor not now of off on once one only or other our out over own said
+        same she should so some such than that the their them then there these they this those through thus
+        to too under until up upon very was we were what when where which while who whom why will with would
+        you your shall thee thou thy ye unto""",
+    "nl": """aan al alle als bij dan dat de den der des deze die dit doch door dus een eens en er ge geen haar
+        had heb hebben heeft hem het hier hij hoe hun ik in is ja je kan kon maar me meer men met mij mijn na
+        naar niet niets nog nu of om omdat ons ook op over te tegen toch toen tot u uit uw van veel voor want
+        waren was wat we wel werd wie wij wordt zal ze zei zich zij zijn zo zou""",
+    "fr": """a au aux avec ce ces dans de des du elle en et eux il ils je la le les leur lui ma mais me même
+        mes moi mon ne nos notre nous on ou par pas pour qu que qui sa se ses son sur ta te tes toi ton tu un
+        une vos votre vous est sont été était avait cette cet y""",
+    "de": """aber als am an auch auf aus bei bin bis da dann das dass dem den der des die dies doch du durch
+        ein eine einem einen einer es für hat hatte ich ihr im in ist ja kann mit nach nicht noch nur ob oder
+        sein sich sie sind so über um und uns von vor war wie wir wird zu zum zur""",
+    "pt": """a ao aos as com da das de do dos e ela ele em entre era essa esse esta este eu foi há isso já
+        lhe mais mas me muito na nas não no nos o os ou para pela pelo por que se sem seu sua são também um uma""",
+    "es": """a al como con de del el ella en era es esta este fue ha la las le lo los más mi no nos o para
+        pero por que se sin su sus también un una y ya""",
+    "id": "ada adalah akan dan dari dengan di ia ini itu ke kepada oleh pada sudah telah tiada untuk yang",
+    "ms": "ada adalah akan dan dari dengan di ia ini itu ke kepada oleh pada sudah telah tiada untuk yang",
+}
+STOPWORDS = {lang: set(words.split()) for lang, words in STOPWORDS.items()}
+
 
 def local(el):
     return el.tag.split("}")[-1] if isinstance(el.tag, str) else ""
@@ -124,10 +152,11 @@ def analyse_text(text_el, main_lang):
             words_by_lang[lang] += 1
             freq.setdefault(lang, Counter())[token] += 1
             total += 1
-    top = {
-        lang: [[w, c] for w, c in counter.most_common(TOP_WORDS_PER_LANGUAGE)]
-        for lang, counter in freq.items()
-    }
+    top = {}
+    for lang, counter in freq.items():
+        skip = STOPWORDS.get(lang, set())
+        content = [(w, c) for w, c in counter.most_common() if w not in skip and len(w) > 1]
+        top[lang] = [[w, c] for w, c in content[:TOP_WORDS_PER_LANGUAGE]]
     return total, dict(words_by_lang), top
 
 

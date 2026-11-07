@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-016" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxxiv: The Worship of the Salmon, the Divine Fish</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 39-40</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>An Ainu fisherman lost at sea spends what seems one night but is a whole year with the people of the salmon chief, and is told to honour the salmon with rice-beer and the divine symbols.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="22"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-17">17 July 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 39-40.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-016</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p039" n="39"><graphic url="facsimiles/aino-folk-tales-1888/p039.jpg"/></surface>
+    <surface xml:id="p040" n="40"><graphic url="facsimiles/aino-folk-tales-1888/p040.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxxiv">
+        <pb n="39" facs="#p039"/>
+        <p></p>
+        <head>xxxiv.—<hi rend="italic">The Worship of the Salmon, the Divine Fish.</hi></head>
+        <p><lb n="1"/>A certain Aino went out in a boat to catch fish in the sea. While<lb n="2"/>he was there, a great wind arose, so that he drifted about for six<lb n="3"/>nights. Just as he was like to die, land came in sight. Being borne<lb n="4"/>on to the beach by the waves, he quietly stepped ashore, where he<lb n="5"/>found a pleasant rivulet. Having walked up the bank of this rivulet<lb n="6"/>for some distance, he saw a populous place. Near the place were<lb n="7"/>crowds of people, both men and women. Going on to it, and entering<lb n="8"/>the house of the chief, he found an old man of very divine aspect.<lb n="9"/>That old man said to him: “Stay with us a night, and we will send<lb n="10"/>you home to your country to-morrow. Do you consent?”</p>
+        <p><lb n="11"/>So the Aino spent the night with the old chief. When next day<lb n="12"/>came, the old chief spoke thus: “Some of my people, both men and<lb n="13"/>women, are going to your country for purposes of trade. So, if you<lb n="14"/>will be led by them, you will be able to go home. When they take<lb n="15"/>you with them in the boat, you must lie down, and not look about<lb n="16"/>you, but completely hide your head. If you do that, you may return.<pb n="40" facs="#p040"/><lb n="1"/>If you look, my people will be angry. Mind you do not look.”<lb n="2"/>Thus spoke the old chief.</p>
+        <p><lb n="3"/>Well, there was a whole fleet of boats, inside of which crowds of<lb n="4"/>people, both men and women, took passage. There were as many as<lb n="5"/>five score boats, which all started off together. The Aino lay down<lb n="6"/>inside one of them and hid his head, while the others made the boats<lb n="7"/>go to the music of a pretty song. He liked this much. After<lb n="8"/>awhile, they reached the land. When they had done so, the Aino,<lb n="9"/>peeping a little, saw that there was a river, and that they were<lb n="10"/>drawing water with dippers from the mouth of the river, and sipping<lb n="11"/>it. They said to each other: “How good this water is!” Half the<lb n="12"/>fleet went up the river. But the boat in which the Aino was went on<lb n="13"/>its voyage, and at last reached his native place, whereupon the sailors<lb n="14"/>threw the Aino into the water. He thought he had been dreaming.<lb n="15"/>Afterwards he came to himself. The boat and its sailors had disap-<lb n="16" break="no"/>peared—whither he could not tell. But he went to his house, and,<lb n="17"/>falling asleep, dreamt a dream. He dreamt that the same old chief<lb n="18"/>appeared to him and said: “I am no human being. I am the chief<lb n="19"/>of the salmon, the divine fish. As you seemed in danger of dying in<lb n="20"/>the waves, I drew you to me and saved your life. You thought you<lb n="21"/>only stayed with me one night. But in truth that night was a whole<lb n="22"/>year. When it was ended, I sent you back to your native place. So<lb n="23"/>I shall be truly grateful if henceforth you will offer rice-beer to me,<lb n="24"/>set up the divine symbols in my honour, and worship me with the<lb n="25"/>words ‘I make a libation to the chief of the salmon, the divine fish.’<lb n="26"/>If you do not worship me, you will become a poor man. Remember<lb n="27"/>this well!” Such were the words which the divine old man spoke to<lb n="28"/>him in his dream.—(Translated literally. Told by <persName>Ishanashte</persName>, <date when="1886-07-17">17th<lb n="29"/>July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

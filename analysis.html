@@ -432,6 +432,7 @@
       <li>Every figure is computed from the TEI-XML files by <code>tools/build_documents.py</code>; nothing is entered by hand.</li>
       <li>Words are counted from the normalised reading: expansions, corrections and regularisations count; abbreviations, original spellings, deleted text, notes and running heads do not. Chinese and Japanese characters count one word each.</li>
       <li>Lines per page is the number of <code>&lt;lb/&gt;</code> elements divided by the number of <code>&lt;pb/&gt;</code> elements, so it measures what was transcribed, not the full physical page.</li>
+      <li>The most-frequent-word lists leave out common function words (for example "the", "and", "de", "yang") so that they show what the documents are about; all other counts include every word.</li>
       <li>Rates per 1,000 words make long and short documents comparable. Periods with very few documents can swing widely, so check the document count beside each figure.</li>
     </ul>
     <p>Read the documents themselves on the <a href="documents.html">Documents</a> page.</p>
@@ -888,7 +889,8 @@
 
     function drawWords(docs, langs) {
       const panel = $("c-words");
-      panelHead(panel, "Most frequent words", "Top words in the selected language, across the filtered documents.");
+      panelHead(panel, "Most frequent words",
+        "Top words in the selected language, across the filtered documents, leaving out common function words such as “the” and “and”.");
       if (!langs.length) {
         panel.appendChild(el("p", "empty-chart", "Not enough encoded data yet."));
         return;

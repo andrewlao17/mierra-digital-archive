@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-010" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxi: The Kind Giver and the Grudging Giver</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 23-25</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A fisherman who feeds a raven good fish is given puppies that excrete gold and silver; a greedy imitator who feeds the raven a muddy fish gets only dung.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="21"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-20">20 July 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 23-25.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-010</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p023" n="23"><graphic url="facsimiles/aino-folk-tales-1888/p023.jpg"/></surface>
+    <surface xml:id="p024" n="24"><graphic url="facsimiles/aino-folk-tales-1888/p024.jpg"/></surface>
+    <surface xml:id="p025" n="25"><graphic url="facsimiles/aino-folk-tales-1888/p025.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxi">
+        <pb n="23" facs="#p023"/>
+        <p></p>
+        <head>xxi.—<hi rend="italic">The Kind Giver and the Grudging Giver.</hi></head>
+        <p><lb n="1"/>A certain man had laid his net across the river; having laid his<lb n="2"/>net, he killed a quantity of fish. Meanwhile there came a raven, and<lb n="3"/>perched beside him. It seemed to be greatly hungering after the fish.<lb n="4"/>It was much to be pitied. So the fisherman washed one of the fish,<lb n="5"/>and threw it to the raven. The raven ate the fish with great joy.<lb n="6"/>Afterwards the raven came again. Though it was a raven, it spoke<lb n="7"/>thus, just like a human being: “I am very grateful for having been<lb n="8"/>fed on fish by you. If you will come with me to my old father, he<lb n="9"/>too will thank you. So you had better come.”</p>
+        <p><lb n="10"/>The man went with the raven. Being a raven, it flew through the<lb n="11"/>air. The man followed it on foot. After they had gone a long way,<lb n="12"/>they came to a large house. When they got there, the raven went<lb n="13"/>into the house. The man went in also. When he looked, it appeared<lb n="14"/>like a human being in form, though it was a raven. There were also<lb n="15"/>a divine old man and a divine old woman besides the divine girl.<lb n="16"/>This girl was she who had led the man hither. The divine old man<lb n="17"/>spoke thus: “I am very grateful to you. As I am very grateful to<lb n="18"/>you for feeding my daughter with good fish, I have had you brought<lb n="19"/>here in order to reward you.” Thus spoke the divine old man.</p>
+        <p><lb n="20"/>Then there were a gold puppy and a silver puppy. Both these<lb n="21"/>puppies were given to the man. The divine old man spoke thus:<pb n="24" facs="#p024"/><lb n="1"/>“Though I should give you treasures, it would be useless. But <supplied reason="cropped in scan">if</supplied> I<lb n="2"/>give you these puppies, you will be greatly benefited. As for <supplied reason="cropped in scan">the</supplied><lb n="3"/>excrements of these two puppies, the gold puppy excretes gold <supplied reason="cropped in scan">and</supplied><lb n="4"/>the silver puppy excretes silver. This being so, you will be grea<supplied reason="cropped in scan">tly</supplied><lb n="5"/>enriched if you sell these excrements to the officials. Understa<supplied reason="cropped in scan">nd</supplied><lb n="6"/>this!” Then the man, with respectful salutations, went awa<supplied reason="cropped in scan">y</supplied>,<lb n="7"/>carrying with him the two puppies, and came to his own house.<lb n="8"/>Then he gave the puppies a little food at a time. When the gold<lb n="9"/>puppy excreted, it excreted gold for him. When the silver puppy<lb n="10"/>excreted, it excreted silver for him. The man greatly enriched<lb n="11"/>himself by selling the metal.</p>
+        <p><lb n="12"/>Thereupon another man, for the sake of imitation, set his net in the<lb n="13"/>river. He killed a quantity of fish. Then the raven came. The<lb n="14"/>man smeared a fish with mud, and then threw it to the raven. The<lb n="15"/>raven flew away with it. The man went after it, and at last, after<lb n="16"/>going a long way, reached a large house. He went in there. The<lb n="17"/>divine old man was very angry. He spoke thus: “You man are a<lb n="18"/>man with a very bad heart. When you gave my daughter a fish, you<lb n="19"/>gave it smeared all over with mud. I am very angry. Still, though<lb n="20"/>I am angry, I will give you some puppies, as you have come to my<lb n="21"/>house. If you treat them properly, you will be benefited.” Thus<lb n="22"/>spoke the divine old man, and gave a gold puppy and a silver puppy<lb n="23"/>to the man. With a bow, the man went home with them.</p>
+        <p><lb n="24"/>The man thought thus: “If I feed the puppies plentifully, they will<lb n="25"/>excrete plenty of metal. It would be foolish to have them excreting<lb n="26"/>only a little at a time. So I will do that, and become very rich.”<lb n="27"/>Thinking thus, he fed the puppies plentifully on anything, even on<lb n="28"/>dirty things. Then they excreted no metal for him. They only<lb n="29"/>excreted dirty dung. The man’s house was full of nothing but dirty<lb n="30"/>dung. As for the former man, who had received puppies from the<lb n="31"/>divine old man, he fed his on nothing but good food, a little at a<lb n="32"/>time. Gradually they excreted metal for him. He was greatly<lb n="33"/>enriched.</p>
+        <p><lb n="34"/>Thus in ancient times, with regard to men who wished to grow<lb n="35"/>rich, they could grow rich if their hearts were as good as possible.<lb n="36"/>As for bad-hearted men, the gods became angry at all their various<pb n="25" facs="#p025"/><lb n="1"/>misdeeds. It was for this reason that, on account of their anger, even<lb n="2"/>a gold puppy excreted nothing but dung. As for the house of that<lb n="3"/>bad-hearted man, it grew so full of dung as to be too dirty for other<lb n="4"/>people to enter. This being so, oh! men, do not be bad-hearted.<lb n="5"/>That is the story which I have heard.—(Translated literally. Told<lb n="6"/>by <persName>Ishanashte</persName>, <date when="1886-07-20">20th July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

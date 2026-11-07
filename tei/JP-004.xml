@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-004" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale v: The Origin of the Hare</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Penri</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Piratori</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, p. 9</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Okikurumi, the Ainu culture hero, scolds six quarrelling people who turn out to be hares made from snowballs thrown by the children of the sky.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="16"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-10">10 July 1886</origDate>
+              <p>Told by Penri of Piratori; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. p. 9.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-004</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p009" n="9"><graphic url="facsimiles/aino-folk-tales-1888/p009.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="v">
+        <pb n="9" facs="#p009"/>
+        <p></p>
+        <head>v.—<hi rend="italic">The Origin of the Hare.</hi></head>
+        <p><lb n="1"/>Suddenly there was a large house on the top of a mountain, wherein<lb n="2"/>were six people beautifully arrayed, but constantly quarrelling.<lb n="3"/>Whence they came was unknown. Thereupon <persName>Okikurumi</persName> came and<lb n="4"/>said: “Oh! you bad hares! you wicked hares! who does not know<lb n="5"/>your origin? The children in the sky were pelting each other with<lb n="6"/>snowballs, and the snowballs fell into the world of men. As it would<lb n="7"/>be a pity to waste anything that falls from the sky, the snowballs<lb n="8"/>were turned into hares, and those hares are you. You, who dwell in<lb n="9"/>this world, which belongs to me, should not quarrel. What is it that<lb n="10"/>you are making such a noise about?”</p>
+        <p><lb n="11"/>With these words, <persName>Okikurumi</persName> seized a fire-brand, and beat each of<lb n="12"/>the six with it in turn. Thereupon all the hares ran away. This is<lb n="13"/>the origin of the hare[-god]; and for this reason the body of the hare<lb n="14"/>is white because made of snow, while its ears—which are the place<lb n="15"/>where it was charred by the fire-brand,—are black.—(Translated<lb n="16"/>literally. Told by <persName>Penri</persName>, <date when="1886-07-10">10th July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

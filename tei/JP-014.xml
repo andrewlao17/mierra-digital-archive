@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-014" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxxi: Panaumbe, Penaumbe, and the Lord of Matomai</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>unnamed Ainu narrator</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Hokkaido (Yezo)</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 35-36</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A bawdy trickster tale in which Panaumbe grows rich at the expense of the Japanese lord of Matsumae and his imitator Penaumbe is punished by the lord's swordsmen; it shows how Ainu storytellers pictured the Japanese authority that controlled their trade.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="17"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-06">June 1886</origDate>
+              <p>Narrator not named; communicated to Chamberlain by John Batchelor; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 35-36.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-014</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p035" n="35"><graphic url="facsimiles/aino-folk-tales-1888/p035.jpg"/></surface>
+    <surface xml:id="p036" n="36"><graphic url="facsimiles/aino-folk-tales-1888/p036.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxxi">
+        <pb n="35" facs="#p035"/>
+        <p></p>
+        <head>xxxi.—<hi rend="italic">Panaumbe, Penaumbe, and the Lord of Matomai.</hi><note place="foot" n="*">The Aino pronunciation of <hi rend="italic">Matsumae</hi>. Matsumae is a town in the south of Yezo. The lord or <hi rend="italic">Daimyo</hi> resident there was formerly the chief Japanese authority in the country.</note></head>
+        <p><lb n="1"/><persName>Panaumbe</persName> wanted very much to become rich. For this reason, he<lb n="2"/>stretched his penis across to the town of <placeName>Matomai</placeName>. Then the lord of<lb n="3"/><placeName>Matomai</placeName> spoke thus: “This is a pole sent by the gods; so it will be<pb n="36" facs="#p036"/><lb n="1"/>well to dry all the clothes upon it.” So all the clothes and beautiful<lb n="2"/>garments were dried. After a time <persName>Panaumbe</persName> drew back his penis,<lb n="3"/>and all those clothes and beautiful garments came sticking to it.<lb n="4"/>His house was greatly benefited. He became a very rich man.</p>
+        <p><lb n="5"/>Afterwards <persName>Penaumbe</persName> came down and said: “My dear <persName>Panaumbe</persName>,<lb n="6"/>what have you done to become so rich?” <persName>Panaumbe</persName> said: “Come<lb n="7"/>and <choice><sic>cat</sic><corr>eat</corr></choice>, and I will tell you.” Afterwards <persName>Penaumbe</persName> said: “This<lb n="8"/>is the thing I intended to do. Abominable <persName>Panaumbe</persName>! bad <persName>Panaumbe</persName>!<lb n="9"/>you have forestalled me.” With these words, he pissed on the<lb n="10"/>threshold, and went out. Then he went down to the sea-shore, and<lb n="11"/>stretched his penis across the sea to <placeName>Matomai</placeName>. The lord of <placeName>Matomai</placeName><lb n="12"/>said: “This is a pole sent by the gods. It will be well to dry all the<lb n="13"/>clothes and beautiful garments upon it.” For this reason, all the<lb n="14"/>clothes and beautiful garments were brought down, and put upon the<lb n="15"/>divine pole. <persName>Penaumbe</persName> wanted to become rich quickly by drawing<lb n="16"/>back his penis. So he drew it back quickly. The divine pole moved,<lb n="17"/>and the lord of <placeName>Matomai</placeName> spoke thus: “It happened thus before.<lb n="18"/>There was a pole sent by the gods. For this reason the clothes and<lb n="19"/>beautiful garments were dried upon it. Then a thief stole the divine<lb n="20"/>pole away. We all became poor. Now again our clothes and<lb n="21"/>beautiful garments have been placed upon a pole. Now there seems<lb n="22"/>to be a thief again. Quickly cut the divine pole.” For that reason<lb n="23"/>the servants of the lord all drew their swords. They cut the divine<lb n="24"/>pole, and all the clothes and beautiful garments were taken.<lb n="25"/><persName>Penaumbe</persName> was left with only half a penis. He drew it in. Then he<lb n="26"/>had nothing. Then he became very poor. If <persName>Penaumbe</persName> had listened<lb n="27"/>to <persName>Panaumbe</persName>’s advice, he might have had food to eat, he might have<lb n="28"/>become rich. But he did not like to listen to advice. For this<lb n="29"/>reason he became poor.—(Translated literally. Original communi-<lb n="30" break="no"/>cated by Mr. <persName>John Batchelor</persName>, <date when="1886-06">June, 1886</date>; also printed in “Aino<lb n="31"/>Memoir,” p. 133, but with the indecent expressions softened down.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

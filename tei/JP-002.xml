@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-002" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale ii: The Loves of the Thunder-Gods</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 7-8</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Two thunder-gods in love with the same Ainu woman joke that they will become a flea and a louse, and their father takes them at their word.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="7"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-11-27">27 November 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; written down from memory by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 7-8.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-002</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p007" n="7"><graphic url="facsimiles/aino-folk-tales-1888/p007.jpg"/></surface>
+    <surface xml:id="p008" n="8"><graphic url="facsimiles/aino-folk-tales-1888/p008.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="ii">
+        <pb n="7" facs="#p007"/>
+        <p></p>
+        <head>ii.—<hi rend="italic">The Loves of the Thunder-Gods.</hi></head>
+        <p><lb n="1"/>Two young thunder-gods, sons of the chief thunder-god, fell<lb n="2"/>violently in love with the same Aino woman. Said one of them to<pb n="8" facs="#p008"/><lb n="1"/>the other, in a joking way: “I will become a flea, so as to be able to<lb n="2"/>hop into her bosom.” Said the other: “I will become a louse, so as<lb n="3"/>to be able to stay always in her bosom.”</p>
+        <p><lb n="4"/>“Are those your wishes?” cried their father, the chief thunder-god.<lb n="5"/>“You shall be taken at your word”; and forthwith the one of them<lb n="6"/>who had said he would become a flea was turned into a flea, while he<lb n="7"/>who said he would become a louse was turned into a louse. Hence all<lb n="8"/>the fleas and lice that exist at the present day.</p>
+        <p><lb n="9"/>This accounts for the fact that, whenever there is a thunder-storm,<lb n="10"/>fleas jump out of all sorts of places where there were none to be seen<lb n="11"/>before.—(Written down from memory. Told by <persName>Ishanashte</persName>, <date when="1886-11-27">27th<lb n="12"/>November, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

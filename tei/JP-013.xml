@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-013" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxvii: Okikurumi, Samayunguru, and the Shark</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 30-31</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>The culture hero Okikurumi curses a harpooned shark that drags his boat until his henchman dies, and the curse comes true at the mouth of the Saru river.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="18"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-11-24">24 November 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; written down from memory by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 30-31.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-013</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p030" n="30"><graphic url="facsimiles/aino-folk-tales-1888/p030.jpg"/></surface>
+    <surface xml:id="p031" n="31"><graphic url="facsimiles/aino-folk-tales-1888/p031.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxvii">
+        <pb n="30" facs="#p030"/>
+        <p></p>
+        <head>xxvii.—<hi rend="italic">Okikurumi, Samayunguru, and the Shark.</hi></head>
+        <p><lb n="1"/><persName>Okikurumi</persName> and his henchman <persName>Samayunguru</persName> went out one day to<lb n="2"/>sea, and speared a large shark, which ran away, up and down the sea,<lb n="3"/>with the line and the boat. The two men grew very tired of pulling<lb n="4"/>at him, and could not prevent the boat from being pulled about in all<lb n="5"/>directions. Their hands were bloody and blistered both on the backs<lb n="6"/>and on the palms, till at last <persName>Samayunguru</persName> sank dead in the bottom<lb n="7"/>of the boat. At last <persName>Okikurumi</persName> could hold on no longer, and he<lb n="8"/>cursed the shark, saying: “You bad shark! I will cut the rope.<lb n="9"/>But the tip of the harpoons, made half of iron and half of bone, shall<lb n="10"/>remain sticking in your flesh; and you shall feel in your body the<lb n="11"/>reverberation of the iron and the scraping of the bone; and on your<lb n="12"/>skin shall grow the <hi rend="italic"><foreign xml:lang="ain">rasupa</foreign></hi>-tree and the <hi rend="italic"><foreign xml:lang="ain">shiuri</foreign></hi>-tree of which the spear-<lb n="13" break="no"/>handle is made, and the <hi rend="italic"><foreign xml:lang="ain">hai</foreign></hi>-grass by which the tip of the harpoon is<lb n="14"/>tied to the body of it, and the <hi rend="italic"><foreign xml:lang="ain">nipesh</foreign></hi>-tree of which the rope tying the<lb n="15"/>harpoon itself is made, so that, though you are such a mighty fish,<lb n="16"/>you shall not be able to swim in the water; and you shall die, and <choice><sic>a</sic><corr>at</corr></choice><pb n="31" facs="#p031"/><lb n="1"/>last be washed ashore at the river-mouth of <placeName>Saru</placeName>; and even the<lb n="2"/><choice><sic>carrier</sic><corr>carrion</corr></choice>-crows and the dogs and foxes will not eat you, but will only<lb n="3"/>void their fœces upon you, and you shall at last rot away to earth.”</p>
+        <p><lb n="4"/>The shark laughed, thinking this was merely a human being telling<lb n="5"/>a falsehood. <persName>Okikurumi</persName> cut the rope, and, after a long time, managed<lb n="6"/>to reach the land. Then he revived <persName>Samayunguru</persName>, who had been<lb n="7"/>dead. And afterwards the shark died and was washed ashore at the<lb n="8"/>river-mouth of <placeName>Saru</placeName>; and the tip of the harpoon made half of iron<lb n="9"/>and half of bone had stuck in its flesh; and it had felt in its body the<lb n="10"/>reverberation of the hammering of the iron and the scraping of the<lb n="11"/>bone; and in its skin were growing the <hi rend="italic"><foreign xml:lang="ain">rasupa</foreign></hi>-tree and the <hi rend="italic"><foreign xml:lang="ain">shiuri</foreign></hi>-<lb n="12" break="no"/>tree of which the spear-handle used by <persName>Okikurumi</persName> was made, and the<lb n="13"/><hi rend="italic"><foreign xml:lang="ain">hai</foreign></hi>-grass by which the tip of the harpoon was tied to the body of it,<lb n="14"/>and the <hi rend="italic"><foreign xml:lang="ain">nipesh</foreign></hi>-tree of which the rope tying the harpoon itself was<lb n="15"/>made; and even the carrion-crows and the dogs and foxes would not<lb n="16"/>eat the bad shark, but only voided their fœces upon him; and at last<lb n="17"/>he rotted away to earth.</p>
+        <p><lb n="18"/>Therefore take warning, oh! sharks of the present day, lest you die<lb n="19"/>as this shark died!—(Written down from memory. Told by <persName>Ishan-<lb n="20" break="no"/>ashte</persName>, <date when="1886-11-24">24th November, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

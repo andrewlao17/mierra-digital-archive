@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-015" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxxiii: The Island of Women</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Penri</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Piratori</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 37-39</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>An Ainu chief of Iwanai and his two sons are blown to a land of women, stay a year, and return home with a scabbard as proof of their journey.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="21"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-17">17 July 1886</origDate>
+              <p>Told by Penri of Piratori; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 37-39.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-015</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p037" n="37"><graphic url="facsimiles/aino-folk-tales-1888/p037.jpg"/></surface>
+    <surface xml:id="p038" n="38"><graphic url="facsimiles/aino-folk-tales-1888/p038.jpg"/></surface>
+    <surface xml:id="p039" n="39"><graphic url="facsimiles/aino-folk-tales-1888/p039.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxxiii">
+        <pb n="37" facs="#p037"/>
+        <p></p>
+        <head>xxxiii.—<hi rend="italic">The Island of Women.</hi></head>
+        <p><lb n="1"/>In ancient days, an Aino chieftain of <placeName>Iwanai</placeName> went to sea in order to<lb n="2"/>catch sea-lions, taking with him his two sons. They speared a sea-<lb n="3" break="no"/>lion, which, however, swam off with the spear sticking in its body.<lb n="4"/>Meanwhile a gale began to blow down from the mountains. The men<lb n="5"/>cut the rope which was fast to the spear. Then their boat floated on.<lb n="6"/>After some time, they reached a beautiful land. When they had<lb n="7"/>reached it, a number of women in fine garments came down from the<lb n="8"/>mountains to the shore. They came bearing a beautiful woman in a<lb n="9"/>litter. Then all the women who had come to the shore returned to<lb n="10"/>the mountains. Only the one in the litter came close to the boat, and<lb n="11"/>spoke thus: “This land is woman-land. It is a land where no men<pb n="38" facs="#p038"/><lb n="1"/>live. It being now spring, and there being something peculiar to this<lb n="2"/>country of mine you shall be taken care of in my house until the<lb n="3"/>autumn; and in the winter you shall become our husbands. The<lb n="4"/>following spring I will send you home. So now do you bear me to<lb n="5"/>my house.”</p>
+        <p><lb n="6"/>Thereupon the Aino chief and his sons bore the woman in the litter<lb n="7"/>to the mountains. They saw that the country was all like moorland.<lb n="8"/>Then the chieftainess entered the house. There was a room there<lb n="9"/>with a golden netting, like a mosquito-net. The three men were<lb n="10"/>placed inside it. The chieftainess fed them herself. In the day-time<lb n="11"/>numbers of women came in. They sat beside the golden mosquito-<lb n="12" break="no"/>net, looking at the men. At nightfall they went home. So gradually<lb n="13"/>it got to be autumn. Then the chieftainess spoke as follows, “As<lb n="14"/>the fall of the leaf has now come, and as there are two vice-chief-<lb n="15" break="no"/>tainesses besides me, I will send your two sons to them. You your-<lb n="16" break="no"/>self shall be husband to me.” Then two beautiful women came in,<lb n="17"/>and led off the two sons by the hand, while the chieftainess kept the<lb n="18"/>chief for herself.</p>
+        <p><lb n="19"/>So the men dwelt there. When spring came, the chieftain’s wife<lb n="20"/>spoke thus to him: “We women of this country differ from yours.<lb n="21"/>At the same time as the grass begins to sprout, teeth sprout in our<lb n="22"/>vaginas. So our husbands cannot stay with us. The east wind is<lb n="23"/>our husband. When the east wind blows, we all turn our buttocks<lb n="24"/>towards it, and thus conceive children. Sometimes we bear male<lb n="25"/>children. But these male children are killed and done away with<lb n="26"/>when they become fit to lie with women. For that reason, this is a<lb n="27"/>land which has women only. It is called woman-land. So when,<lb n="28"/>brought by some bad god, you came to this land of mine, there were<lb n="29"/>teeth in my vagina because it was summer, for which reason I did not<lb n="30"/>marry you. But I married you when the teeth fell out. Now, as the<lb n="31"/>teeth are again sprouting in my vagina because spring has come, it is<lb n="32"/>now impossible for us to sleep together. I will send you home to-<lb n="33" break="no"/>morrow. So do you tell your sons to come here to-day in order to<lb n="34"/>be ready.”</p>
+        <p><lb n="35"/>The sons came. The chieftainess stayed in the house. Then, with<lb n="36"/>tears streaming down her face, she spoke thus: “Though it is<pb n="39" facs="#p039"/><lb n="1"/>dangerous, to-night is our last night. Let us sleep together!” Then<lb n="2"/>the man, being much frightened, took a beautiful scabbard in a bag in<lb n="3"/>his bosom, and lay with the woman with this scabbard. The mark of<lb n="4"/>the teeth remained on the scabbard. The next day dawned. Then the<lb n="5"/>man went to his boat, taking his sons with him. The chieftainess wept<lb n="6"/>and spoke thus: “As a fair wind is blowing away from my country,<lb n="7"/>you, if you set sail and sail straight ahead, will be able to reach your<lb n="8"/>home at <placeName>Iwanai</placeName>.” So then the men entered their boat, and went out<lb n="9"/>to sea. A fair wind was blowing down from the mountains, and they<lb n="10"/>went along under sail. After a time they saw land; they saw the<lb n="11"/>mountains about <placeName>Iwanai</placeName>. Going on for a time, they came to the<lb n="12"/>shore of <placeName>Iwanai</placeName>. Their wives were wearing widows’ caps. So their<lb n="13"/>husbands embraced them. So the story of woman-land was listened<lb n="14"/>to carefully. All the Ainos saw the beautiful scabbard which the<lb n="15"/>chief had used with that woman.—(Translated literally. Told by<lb n="16"/><persName>Penri</persName>, <date when="1886-07-17">17th July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

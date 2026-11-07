@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-006" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xii: The Stolen Charm</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 16-17</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A puppy, a fox-cub and a rat rescue their master's silver charm from an ogre, which is why the Ainu think well of the rat and why foxes and dogs are on friendly terms.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="27"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-11-21">21 November 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; written down from memory by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 16-17.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-006</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p016" n="16"><graphic url="facsimiles/aino-folk-tales-1888/p016.jpg"/></surface>
+    <surface xml:id="p017" n="17"><graphic url="facsimiles/aino-folk-tales-1888/p017.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xii">
+        <pb n="16" facs="#p016"/>
+        <p></p>
+        <head>xii.—<hi rend="italic">The Stolen Charm.</hi></head>
+        <p><lb n="1"/>A very rich man kept a puppy and a fox-cub. Besides these he<lb n="2"/>possessed a tiny silver model of a ship,—a charm given to him by<lb n="3"/>some god, what god I know not. One day this charm was stolen, and<lb n="4"/>could nowhere be found. The rich man was so violently grieved at<lb n="5"/>this, that he lay down and refused all food, and was like to die.<lb n="6"/>Meanwhile the puppy and the fox-cub played about in his room.<lb n="7"/>But when they saw, after some time, that the man was really going to<lb n="8"/>die, the fox-cub said to the puppy: “If our master dies, we shall die<lb n="9"/>of hunger too; so we had better search for the charm.” So they<lb n="10"/>consulted as to the best way to search for it; and at last the fox-cub<lb n="11"/>was struck by the idea that the ogre who lived at the top of the large<lb n="12"/>mountain that stands at the end of the world might have stolen the<lb n="13"/>charm and put it into his box. The fox-cub seemed to see that this<lb n="14"/>had really happened. So the two little animals determined to go and<lb n="15"/>rescue the charm from the ogre. But they knew that they could not<lb n="16"/>accomplish this alone, and resolved to add the rat[-god] to their<lb n="17"/>number. So they invited the rat, and the three went off, dancing<lb n="18"/>merrily.</p>
+        <p><lb n="19"/>Now the ogre was always looking steadily in the direction of the<lb n="20"/>sick rich man, hoping that he would die. So he did not notice the<lb n="21"/>approach of the fox-cub, the dog, and the rat. So when they reached<lb n="22"/>the ogre’s house, the rat, with the help of the fox-cub, scooped out a<lb n="23"/>passage under and into the house, by which all three made their way<lb n="24"/>in. They then decided that it must be left to the rat to get hold of<lb n="25"/>the charm by nibbling a hole in the box in which it was kept. Mean-<lb n="26" break="no"/>while the fox-cub assumed the shape of a little boy, and the puppy<lb n="27"/>that of a little girl,—two beautiful little creatures who danced and<lb n="28"/>went through all sorts of antics, much to the amusement of the ogre.<lb n="29"/>The ogre was, however, suspicious as to how they had come into the<pb n="17" facs="#p017"/><lb n="1"/><supplied reason="cropped in scan">h</supplied>ouse, and whence they had come, for the doors were not open. So<lb n="2"/><supplied reason="cropped in scan">h</supplied>e determined just to divert himself awhile by watching their frolics,<lb n="3"/><supplied reason="cropped in scan">a</supplied>nd then to kill them. Meanwhile the rat had nibbled a hole in the<lb n="4"/><supplied reason="cropped in scan">b</supplied>ox. Then getting into it, he rescued the charm, and went out again<lb n="5"/><supplied reason="cropped in scan">t</supplied>hrough the passage in the ground. The little boy and girl disap-<lb n="6" break="no"/>peared too; how, the ogre could not tell. He made to pursue them<lb n="7"/>through the door, when he saw them fleeing. But on second thoughts<lb n="8"/>he came to the conclusion that, having once been taken in by a fox,<lb n="9"/>there was no use in further endeavours. So he did not follow the<lb n="10"/>three animals as they fled away.</p>
+        <p><lb n="11"/>They returned to the village; the puppy and the fox-cub to their<lb n="12"/>master’s house, the rat to its own place. The puppy and the fox-cub<lb n="13"/>took home with them the charm, and placed it by their master’s<lb n="14"/>pillow, playing about near him, and pulling his clothes a little with<lb n="15"/>their teeth. At length he lifted his head and saw the charm. Then<lb n="16"/>he worshipped it with great joy and gratitude. Afterwards the fox-<lb n="17" break="no"/>cub and the puppy caused him to see in a dream how the charm had<lb n="18"/>been recovered through the rat’s assistance. So he worshipped the<lb n="19"/>rat also.</p>
+        <p><lb n="20"/>For this reason the Ainos do not think so very badly of the rat<lb n="21"/>after all. The fox, too, though often pursued by dogs, will sometimes<lb n="22"/>make friends with them; and even when a dog is pursuing a fox, it<lb n="23"/>will not bite the latter if it turns its face towards the pursuer.—<lb n="24"/>(Written down from memory. Told by <persName>Ishanashte</persName>, <date when="1886-11-21">21st November,<lb n="25"/>1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-018" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxxvi: An Inquisitive Man's Experience of Hades</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 42-43</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>An Ainu man enters the underworld through a cavern at Sarubutsu and finds a world of Ainu and Japanese villages where no one can see him, not even his own young parents.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="18"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-22">22 July 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; written down from memory by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 42-43.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-018</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p042" n="42"><graphic url="facsimiles/aino-folk-tales-1888/p042.jpg"/></surface>
+    <surface xml:id="p043" n="43"><graphic url="facsimiles/aino-folk-tales-1888/p043.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxxvi">
+        <pb n="42" facs="#p042"/>
+        <p></p>
+        <head>xxxvi.—<hi rend="italic">An Inquisitive Man’s Experience of Hades.</hi></head>
+        <p><lb n="1"/>Three generations before my time there lived an Aino who wished<lb n="2"/>to find out whether the stories told about the existence of an under-<lb n="3" break="no"/>world were true. So one day he penetrated into an immense cavern<lb n="4"/>(since washed away by the waves) at the river-mouth of <placeName>Sarubutsu</placeName>.<lb n="5"/>All was dark in front, all was dark behind. But at last there was a<lb n="6"/>glimmer of light a-head. The man went on, and soon emerged into<lb n="7"/>Hades. There were trees, and villages, and rivers, and the sea, and<lb n="8"/>large junks loading fish and seaweed. Some of the people were<lb n="9"/>Ainos, some were Japanese, just as in the every-day world. Among<lb n="10"/>the number were some whom he had known when they were alive.<lb n="11"/>But, though <hi rend="italic">he</hi> saw <hi rend="italic">them</hi>, <hi rend="italic">they</hi>,—strange to say,—did not seem to see<lb n="12"/><hi rend="italic">him</hi>. Indeed he was invisible to all, excepting to the dogs; for dogs<lb n="13"/>see everything, even spirits, and the dogs of Hades barked at him<lb n="14"/>fiercely. Hereupon the people of the place, judging that some evil<lb n="15"/>spirit had come among them, threw him dirty food, such as evil<pb n="43" facs="#p043"/><lb n="1"/>spirits eat, in order, as they thought, to appease him. Of course he<lb n="2"/>was disgusted, and flung the filthy fish-bones and soiled rice away<choice><sic></sic><corr>.</corr></choice><lb n="3"/>But every time that he did so the stuff immediately returned to the<lb n="4"/>pocket in his bosom, so that he was greatly distressed.</p>
+        <p><lb n="5"/>At last, entering a fine-looking house near the beach, he found his<lb n="6"/>father and mother,—not old, as they were when they died, but in the<lb n="7"/>heyday of youth and strength. He called to his mother, but she ran<lb n="8"/>away trembling. He clasped his father by the hand, and said:<lb n="9"/>“Father! don’t you know me? can’t you see me? I am your son.”<lb n="10"/>But his father fell yelling to the ground. So he stood aloof again,<lb n="11"/>and watched how his parents and the other people in the house set<lb n="12"/>up the divine symbols, and prayed in order to make the evil spirit<lb n="13"/>depart.</p>
+        <p><lb n="14"/>In his despair at being unrecognized he did depart, with the<lb n="15"/>unclean offerings that had been made to him still sticking to his<lb n="16"/>person, notwithstanding his endeavours to get rid of them. It was<lb n="17"/>only when, after passing back through the cavern, he had emerged<lb n="18"/>once more into the world of men, that they left him free from their<lb n="19"/>pollution. He returned home, and never wished to visit Hades again.<lb n="20"/>It is a foul place.—(Written down from memory. Told by <persName>Ishan-<lb n="21" break="no"/>ashte</persName>, <date when="1886-07-22">22nd July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

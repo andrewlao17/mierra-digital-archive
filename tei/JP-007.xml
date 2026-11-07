@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-007" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xvi: How it was settled who should rule the World</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, p. 20</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>The good and bad gods agree that whoever first sees the sunrise will rule the world, and the fox wins it for the good gods by looking west.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="16"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-10">10 July 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; translated literally by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. p. 20.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-007</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p020" n="20"><graphic url="facsimiles/aino-folk-tales-1888/p020.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xvi">
+        <pb n="20" facs="#p020"/>
+        <p></p>
+        <head>xvi.—<hi rend="italic">How it was settled who should rule the World.</hi></head>
+        <p><lb n="1"/>When the Creator had finished creating this world of men, the<lb n="2"/>good and the bad gods were all mixed together promiscuously, and<lb n="3"/>began disputing for the possession of the world. They disputed,<lb n="4"/>—the bad gods wanting to be at the head of the government of this<lb n="5"/>world, and the good gods likewise wanting to be at the head. So the<lb n="6"/>following arrangement was agreed to: Whoever, at the time of sun-<lb n="7" break="no"/>rise, should be the first to see the luminary, should rule the world.<lb n="8"/>If the bad gods should be the first to see it rise, then they should<lb n="9"/>rule; and if the good gods should be the first, then they should rule.<lb n="10"/>Thereupon both the bad Gods and the brilliant gods looked towards<lb n="11"/>the place where the luminary was to rise. But the fox[-god] alone<lb n="12"/>stood looking towards the west. After a little time, the fox cried<lb n="13"/>out: “I see the sunrise.” On the gods, both bad and good, turning<lb n="14"/>round and gazing, they saw in truth the refulgence of the luminary in<lb n="15"/>the west. This is the cause for which the brilliant gods rule the<lb n="16"/>world.—(Translated literally. Told by <persName>Ishanashte</persName>, <date when="1886-07-10">10th July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

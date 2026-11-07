@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="JP-017" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale xxxv: The Hunter in Hades</title>
+        <respStmt>
+          <resp>Narration</resp>
+          <name>Ishanashte</name>
+        </respStmt>
+        <respStmt>
+          <resp>Recording and English translation (1886-1888)</resp>
+          <name>Basil Hall Chamberlain</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription from the page images and TEI encoding (draft, awaiting a second reader)</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1888 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="JP">Japan</country>
+            <settlement>Shumunkot</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>ainofolktales00cham, pp. 40-42</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A young hunter follows a bear into the underworld, is turned into a serpent by eating its fruit, regains human shape with the help of the goddess of the pine-tree, and is finally called back to Hades.</summary>
+            <msItem class="tale">
+              <textLang mainLang="en" otherLangs="ain">English translation of an Ainu oral tale, with Ainu words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, privately printed for the Folk-Lore Society, London, 1888.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="19"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1886-07-22">22 July 1886</origDate>
+              <p>Told by Ishanashte of Shumunkot; written down from memory by Chamberlain.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chamberlain, Basil Hall. <title>Aino Folk-Tales</title>. With an introduction by Edward B. Tylor.
+          Publications of the Folk-Lore Society 22. London: privately printed for the Folk-Lore Society, 1888. pp. 40-42.
+          <ref target="https://archive.org/details/ainofolktales00cham">Scan at the Internet Archive</ref>;
+          <ref target="https://www.gutenberg.org/ebooks/29287">text at Project Gutenberg</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Transcribed line by line from the page images and checked word by word against the scan's OCR.
+          Spacing before punctuation is normalised; spelling, punctuation and Chamberlain's square brackets are kept as printed.
+          Printer's errors are kept with a correction (sic/corr). Letters lost at the cropped edge of the scan are supplied.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">JP-017</term>
+          <term type="era">Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">1869-1899</term>
+          <term type="perspective">community-recorded</term>
+          <term type="community">Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p040" n="40"><graphic url="facsimiles/aino-folk-tales-1888/p040.jpg"/></surface>
+    <surface xml:id="p041" n="41"><graphic url="facsimiles/aino-folk-tales-1888/p041.jpg"/></surface>
+    <surface xml:id="p042" n="42"><graphic url="facsimiles/aino-folk-tales-1888/p042.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="tale" n="xxxv">
+        <pb n="40" facs="#p040"/>
+        <p></p>
+        <head>xxxv.—<hi rend="italic">The Hunter in Hades.</hi></head>
+        <p><lb n="1"/>A handsome and brave young man, who was skilful in the chase,<lb n="2"/>one day pursued a large bear into the recesses of the mountains. On<lb n="3"/>and on ran the bear, and still the young fellow pursued it up heights<lb n="4"/>and crags more and more dangerous, but without ever being able to<pb n="41" facs="#p041"/><lb n="1"/>get near enough to shoot it with his poisoned arrows. At last, on a<lb n="2"/>bleak mountain-summit, the bear disappeared down a hole in the<lb n="3"/>ground. The young man followed it in, and found himself in an<lb n="4"/>immense cavern, at the far end of which was a gleam of light.<lb n="5"/>Towards this he groped his way, and, on emerging, found himself<lb n="6"/>in another world. Everything there was as in the world of men, but<lb n="7"/>more beautiful. There were trees, houses, villages, human beings.<lb n="8"/>With these, however, the young hunter had no concern. What he<lb n="9"/>wanted was his bear, which had totally disappeared. The best plan<lb n="10"/>seemed to be to seek it in the remoter mountain district of this new<lb n="11"/>world underground. So he followed up a valley; and, being tired<lb n="12"/>and hungry, picked the grapes and mulberries that were hanging to<lb n="13"/>the trees, and ate them as he trudged along.</p>
+        <p><lb n="14"/>Happening suddenly, for some reason or other, to look down upon<lb n="15"/>his own body, what was not his horror to find himself transformed<lb n="16"/>into a serpent! His very cries and groans, on making the discovery,<lb n="17"/>were turned into serpent’s hisses. What was he to do? To go back<lb n="18"/>like this to his native world, where snakes are hated, would be certain<lb n="19"/>death. No plan presented itself to his mind. But, unconsciously,<lb n="20"/>he wandered, or rather crept and glided, back to the entrance of the<lb n="21"/>cavern that led home to the world of men; and there, at the foot of a<lb n="22"/>pine-tree of extraordinary size and height, he fell asleep.</p>
+        <p><lb n="23"/>To him then, in a dream, appeared the goddess of the pine-tree,<lb n="24"/>and said: “I am sorry to see you in this state. Why did you eat<lb n="25"/>of the poisonous fruits of Hades? The only thing you can do to<lb n="26"/>recover your proper shape is to climb to the top of this pine-tree, and<lb n="27"/>fling yourself down. Then you may, perhaps, become a human being<lb n="28"/>again.”</p>
+        <p><lb n="29"/>On waking from this dream, the young man,—or rather snake, as<lb n="30"/>he still found himself to be,—was filled half with hope and half with<lb n="31"/>fear. But he resolved to follow the goddess’ advice. So, gliding up<lb n="32"/>the tall pine-tree, he reached its topmost branch, and, after hesitating<lb n="33"/>a few moments, flung himself down. Crash he went. On coming to<lb n="34"/>his senses, he found himself standing at the foot of the tree; and<lb n="35"/>close by was the body of an immense serpent, ripped open so as to<lb n="36"/>allow of his having crawled out of it. After offering up thanks to<pb n="42" facs="#p042"/><lb n="1"/>the pine-tree, and setting up the divine symbols in its honour, he<lb n="2"/>hastened to retrace his steps through the long, tunnel-like cavern,<lb n="3"/>through which he had originally entered Hades. After walking for<lb n="4"/>a certain time, he emerged into the world of men, to find himself on<lb n="5"/>the mountain-top, whither he had pursued the bear which he had<lb n="6"/>never seen again.</p>
+        <p><lb n="7"/>On reaching his home, he went to bed, and dreamt a second time.<lb n="8"/>It was the same goddess of the pine-tree, that appeared before him<lb n="9"/>and said: “I have come to tell you that you cannot stay long in the<lb n="10"/>world of men after once eating the grapes and mulberries of Hades.<lb n="11"/>There is a goddess in Hades who wishes to marry you. She it was<lb n="12"/>who, assuming the form of a bear, lured you into the cavern, and<lb n="13"/>thence to the under-world. You must make up your mind to come<lb n="14"/>away.”</p>
+        <p><lb n="15"/>And so it fell out. The young man awoke; but a grave sickness<lb n="16"/>overpowered him. A few days later he went a second time to Hades,<lb n="17"/>and returned no more to the land of the living.—(Written down from<lb n="18"/>memory. Told by <persName>Ishanashte</persName>, <date when="1886-07-22">22nd July, 1886</date>.)</p>
+      </div>
+    </body>
+  </text>
+</TEI>
