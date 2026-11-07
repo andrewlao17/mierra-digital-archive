@@ -23,8 +23,20 @@
 
     .tools {
       display: grid;
-      grid-template-columns: minmax(0, 2fr) repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 1rem;
+    }
+
+    .tools > div:first-child {
+      grid-column: span 2;
+    }
+
+    .voice {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.1rem 0.5rem;
+      border: 1px solid currentColor;
+      font-size: 0.85rem;
     }
 
     .tools label {
@@ -330,15 +342,15 @@
       .tools {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
-
-      .tools > div:first-child {
-        grid-column: 1 / -1;
-      }
     }
 
     @media (max-width: 520px) {
       .tools {
         grid-template-columns: 1fr;
+      }
+
+      .tools > div:first-child {
+        grid-column: auto;
       }
 
       .facts {
@@ -387,6 +399,14 @@
         <div>
           <label for="century">Century</label>
           <select id="century"></select>
+        </div>
+        <div>
+          <label for="era">Era or event</label>
+          <select id="era"></select>
+        </div>
+        <div>
+          <label for="perspective">Whose voice</label>
+          <select id="perspective"></select>
         </div>
       </form>
 
@@ -462,6 +482,26 @@
       return c + suffix + " century";
     }
 
+    // Whose voice a document carries, from textClass/term[@type="perspective"].
+    const PERSPECTIVES = {
+      "community": "Community member",
+      "community-recorded": "Community member, recorded by an outsider",
+      "co-national": "Fellow national, outside the community",
+      "witness": "Eyewitness",
+      "settler": "Settler",
+      "official": "Colonial official",
+      "legislator": "Legislator",
+      "missionary": "Missionary",
+      "traveller": "Traveller",
+      "explorer": "Explorer",
+      "press": "Newspaper",
+      "unassigned": "Not yet labelled"
+    };
+
+    function perspectiveName(p) {
+      return PERSPECTIVES[p] || p;
+    }
+
     function simplify(text) {
       return (text || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
     }
@@ -510,9 +550,18 @@
       fillSelect($("language"), "All languages", languages.map((l) => [l, languageName(l)]));
       fillSelect($("type"), "All types", types.map((t) => [t, typeName(t)]));
       fillSelect($("century"), "All centuries", centuries.map((c) => [String(c), centuryName(c)]));
+      fillSelect($("era"), "All eras and events",
+        [...countBy(DOCS, (d) => d.nation + "\u0001" + d.era).keys()].sort().map((key) => {
+          const [nation, era] = key.split("\u0001");
+          return [era, nation + ": " + era];
+        }));
+      fillSelect($("perspective"), "All voices",
+        Object.keys(PERSPECTIVES).filter((p) => DOCS.some((d) => d.perspective === p))
+          .concat([...new Set(DOCS.map((d) => d.perspective))].filter((p) => !(p in PERSPECTIVES)))
+          .map((p) => [p, perspectiveName(p)]));
 
       const params = new URLSearchParams(location.search);
-      ["nation", "language", "type", "century"].forEach((name) => {
+      ["nation", "language", "type", "century", "era", "perspective"].forEach((name) => {
         const value = params.get(name);
         if (value && [...$(name).options].some((o) => o.value === value)) $(name).value = value;
       });
@@ -532,8 +581,10 @@
 
       const langs = doc.languages.all.map(languageName).join(", ");
       link.appendChild(el("p", "doc-meta", langs + " · " + plural(doc.stats.pages, "page") + " · " + plural(doc.stats.words, "word")));
+      link.appendChild(el("p", "doc-meta", doc.era + (doc.eraYears ? " (" + doc.eraYears + ")" : "")));
 
       if (doc.summary) link.appendChild(el("p", "doc-summary", doc.summary));
+      link.appendChild(el("span", "voice", perspectiveName(doc.perspective)));
 
       item.appendChild(link);
       return item;
@@ -545,13 +596,18 @@
       const language = $("language").value;
       const type = $("type").value;
       const century = $("century").value;
+      const era = $("era").value;
+      const perspective = $("perspective").value;
 
       const matches = DOCS.filter((d) =>
         (nation === "all" || d.nation === nation) &&
         (language === "all" || d.languages.all.includes(language)) &&
         (type === "all" || d.type === type) &&
         (century === "all" || String(d.century || 0) === century) &&
-        simplify([d.title, d.place, d.nation, d.repository, d.summary, d.shelfmark].join(" ")).includes(query)
+        (era === "all" || d.era === era) &&
+        (perspective === "all" || d.perspective === perspective) &&
+        simplify([d.title, d.place, d.nation, d.repository, d.summary, d.shelfmark, d.community, d.era,
+          d.catalogId].join(" ")).includes(query)
       );
 
       const list = $("documents");
@@ -868,6 +924,9 @@
       addFact(facts, "Nation", doc.nation);
       addFact(facts, "Place", doc.place);
       addFact(facts, "Date", doc.date.label || (doc.date.year ? String(doc.date.year) : ""));
+      addFact(facts, "Era or event", doc.era + (doc.eraYears ? " (" + doc.eraYears + ")" : ""));
+      addFact(facts, "Whose voice", perspectiveName(doc.perspective));
+      addFact(facts, "Community", doc.community);
       addFact(facts, "Type", typeName(doc.type));
       addFact(facts, "Languages", doc.languages.all.map(languageName).join(", "));
       addFact(facts, "Held by", [doc.repository, doc.shelfmark].filter(Boolean).join(", "));
@@ -881,6 +940,7 @@
       addFact(facts, "Source", doc.citation);
       addFact(facts, "Original", doc.sourceUrl ? "View the source record" : "", doc.sourceUrl);
       addFact(facts, "Licence", doc.license.name, doc.license.url);
+      addFact(facts, "Catalog number", doc.catalogId);
 
       const file = "tei/" + encodeURIComponent(doc.file);
       $("doc-xml").href = file;
@@ -937,7 +997,7 @@
       showDocument(doc);
     } else {
       setupFilters();
-      ["search", "nation", "language", "type", "century"].forEach((id) =>
+      ["search", "nation", "language", "type", "century", "era", "perspective"].forEach((id) =>
         $(id).addEventListener(id === "search" ? "input" : "change", showLibrary)
       );
       showLibrary();

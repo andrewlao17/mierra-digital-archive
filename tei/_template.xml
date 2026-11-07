@@ -8,6 +8,7 @@
 
   What the site reads:
     country            -> the Nation filter and the per-nation analysis
+    textClass terms    -> era/event, perspective (whose voice) and community labels
     settlement         -> place shown on the document card
     msItem/@class      -> document type (letter, petition, deed, register, ...)
     textLang           -> main language and other languages (ISO 639 codes)
@@ -72,6 +73,18 @@
         </bibl>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <textClass>
+        <!-- Copy these values from the row for this document in catalog/catalog.csv -->
+        <keywords scheme="#mierra">
+          <term type="catalog">REPLACE: catalog id, e.g. JP-001</term>
+          <term type="era">REPLACE: era/event, e.g. Ainu dispossession in Hokkaido</term>
+          <term type="eraYears">REPLACE: e.g. 1869-1899</term>
+          <term type="perspective">REPLACE: community | community-recorded | co-national | official | missionary | traveller | explorer | press | legislator | witness | settler</term>
+          <term type="community">REPLACE: the community the document is about, e.g. Ainu</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
   </teiHeader>
 
   <facsimile>

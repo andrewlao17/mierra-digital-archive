@@ -357,6 +357,10 @@
         <label for="f-type">Document type</label>
         <select id="f-type"></select>
       </div>
+      <div>
+        <label for="f-voice">Whose voice</label>
+        <select id="f-voice"></select>
+      </div>
       <p id="scope" aria-live="polite"></p>
     </form>
 
@@ -370,6 +374,20 @@
           <div class="panel wide" id="c-time"></div>
           <div class="panel" id="c-nation"></div>
           <div class="panel" id="c-type"></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="h-voices">
+        <h2 id="h-voices">Eras and voices</h2>
+        <p class="section-intro">
+          Which historical events the documents speak to, and whose voice they carry. Most surviving
+          19th-century records about displaced communities were written by outsiders, so the archive labels
+          every document's perspective in its TEI header (<code>&lt;term type="perspective"&gt;</code>).
+        </p>
+        <div class="grid">
+          <div class="panel wide" id="c-era"></div>
+          <div class="panel" id="c-voice"></div>
+          <div class="panel" id="c-community"></div>
         </div>
       </section>
 
@@ -435,6 +453,22 @@
         : n.toLocaleString(undefined, { minimumFractionDigits: digits, maximumFractionDigits: digits });
 
     const languageName = (code) => LANG_NAMES[code] || code;
+    const PERSPECTIVES = {
+      "community": "Community member",
+      "community-recorded": "Community member, recorded by an outsider",
+      "co-national": "Fellow national, outside the community",
+      "witness": "Eyewitness",
+      "settler": "Settler",
+      "official": "Colonial official",
+      "legislator": "Legislator",
+      "missionary": "Missionary",
+      "traveller": "Traveller",
+      "explorer": "Explorer",
+      "press": "Newspaper",
+      "unassigned": "Not yet labelled"
+    };
+    const perspectiveName = (p) => PERSPECTIVES[p] || p;
+    const isCommunityVoice = (d) => d.perspective === "community" || d.perspective === "community-recorded";
     const typeName = (t) => (t ? t.charAt(0).toUpperCase() + t.slice(1).replace(/[-_]/g, " ") : "Document");
     const titleCase = (t) => (t ? t.charAt(0).toUpperCase() + t.slice(1) : "Not recorded");
 
@@ -596,16 +630,65 @@
       [...new Set(ALL.map((d) => d.century || 0))].sort((a, b) => (a || 9999) - (b || 9999))
         .map((c) => [String(c), c ? centuryName(c).replace(" c.", " century") : "Undated"]));
     fill($("f-type"), "All types", [...new Set(ALL.map((d) => d.type))].sort().map((t) => [t, typeName(t)]));
+    fill($("f-voice"), "All voices",
+      [...new Set(ALL.map((d) => d.perspective))]
+        .sort((a, b) => Object.keys(PERSPECTIVES).indexOf(a) - Object.keys(PERSPECTIVES).indexOf(b))
+        .map((p) => [p, perspectiveName(p)]));
 
     function filtered() {
       const nation = $("f-nation").value;
       const century = $("f-century").value;
       const type = $("f-type").value;
+      const voice = $("f-voice").value;
       return ALL.filter((d) =>
         (nation === "all" || d.nation === nation) &&
         (century === "all" || String(d.century || 0) === century) &&
-        (type === "all" || d.type === type)
+        (type === "all" || d.type === type) &&
+        (voice === "all" || d.perspective === voice)
       );
+    }
+
+    function drawVoices(docs) {
+      const byEra = [...groupBy(docs, (d) => d.nation + ": " + d.era)]
+        .sort((a, b) => a[0].localeCompare(b[0]));
+      barChart($("c-era"), "Documents by era or event", "Grouped by nation, from term type=\"era\".",
+        byEra.map(([label, list]) => {
+          const years = list[0].eraYears ? " (" + list[0].eraYears + ")" : "";
+          const voices = list.filter(isCommunityVoice).length;
+          return {
+            label: label,
+            value: list.length,
+            display: fmt(list.length),
+            tip: label + years + ": " + list.length + " documents, " + voices + " in community voices",
+            extra: [fmt(list.length), fmt(voices)],
+          };
+        }), { headers: ["Era or event", "Documents", "Community voices"] });
+
+      const byVoice = [...groupBy(docs, (d) => d.perspective)]
+        .sort((a, b) => Object.keys(PERSPECTIVES).indexOf(a[0]) - Object.keys(PERSPECTIVES).indexOf(b[0]));
+      barChart($("c-voice"), "Whose voice", "Each document's perspective, from term type=\"perspective\".",
+        byVoice.map(([p, list]) => ({
+          label: perspectiveName(p),
+          value: list.length,
+          display: fmt(list.length),
+          tip: perspectiveName(p) + ": " + list.length + " documents (" + fmt((list.length / docs.length) * 100) + "%)",
+          extra: [fmt(list.length), fmt((list.length / docs.length) * 100) + "%"],
+        })), { headers: ["Perspective", "Documents", "Share"] });
+
+      const byNation = [...groupBy(docs, (d) => d.nation)].sort((a, b) => a[0].localeCompare(b[0]));
+      barChart($("c-community"), "Community voices by nation",
+        "Share of each nation's documents written or narrated by members of the community.",
+        byNation.map(([n, list]) => {
+          const v = list.filter(isCommunityVoice).length;
+          const pct = (v / list.length) * 100;
+          return {
+            label: n,
+            value: pct,
+            display: fmt(pct) + "%",
+            tip: n + ": " + v + " of " + list.length + " documents in community voices",
+            extra: [fmt(v), fmt(list.length), fmt(pct) + "%"],
+          };
+        }), { max: 100, headers: ["Nation", "Community voices", "Documents", "Share"] });
     }
 
     /* Sections -------------------------------------------------------- */
@@ -867,11 +950,12 @@
 
       drawTiles(docs);
       drawCorpus(docs);
+      drawVoices(docs);
       drawLayout(docs);
       drawLanguage(docs);
     }
 
-    ["f-nation", "f-century", "f-type"].forEach((id) => $(id).addEventListener("change", draw));
+    ["f-nation", "f-century", "f-type", "f-voice"].forEach((id) => $(id).addEventListener("change", draw));
     window.addEventListener("scroll", () => (tooltip.hidden = true), { passive: true });
     draw();
   </script>

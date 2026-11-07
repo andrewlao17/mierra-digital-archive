@@ -239,6 +239,16 @@ def describe(path, warnings):
     bibl = first(header, ".//t:sourceDesc/t:bibl")
     citation = text_of(bibl)[:500]
 
+    # Archive labels (era/event, perspective, community, catalog id) -----
+    labels = {}
+    for term in header.iterfind(".//t:profileDesc/t:textClass/t:keywords/t:term", NS):
+        kind = (term.get("type") or "").strip()
+        if kind and kind not in labels:
+            labels[kind] = text_of(term)
+    for required in ("era", "perspective"):
+        if not labels.get(required):
+            warn('no <term type="%s"> in textClass (the %s filter needs it)' % (required, required))
+
     contributors = []
     for resp in header.iterfind(".//t:titleStmt/t:respStmt", NS):
         name_el = resp.find("t:name", NS)
@@ -304,6 +314,11 @@ def describe(path, warnings):
         "shelfmark": shelfmark,
         "type": doc_type,
         "summary": summary,
+        "catalogId": labels.get("catalog", ""),
+        "era": labels.get("era", "") or "Unassigned",
+        "eraYears": labels.get("eraYears", ""),
+        "perspective": labels.get("perspective", "") or "unassigned",
+        "community": labels.get("community", ""),
         "languages": {"main": main, "other": others, "all": all_langs},
         "date": {"label": date_label, "year": year, "yearEnd": year_end},
         "century": century,
