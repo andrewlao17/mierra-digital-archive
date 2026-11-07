@@ -7,10 +7,17 @@ Open it in Excel, Numbers or Google Sheets, and update `status` as each document
 ## Workflow
 
 1. Pick rows (start with `priority` 1) and download the scan from `source_url`.
-2. Transcribe into `tei/<id>.xml`, starting from `tei/_template.xml`. Copy `id`, `era`, `era_years`,
-   `perspective` and `community` from the row into the `<textClass>` terms.
-3. Run `python3 tools/build_documents.py`, check the warnings, and upload.
-4. Set `status` to `transcribed`, then `checked` (after a second reader), then `published`.
+2. Make the page images: `python3 tools/prepare_pages.py SCAN.pdf <id> FIRST-LAST`. This writes
+   `facsimiles/<id>/1.jpg, 2.jpg, ...` (about 0.3 MB each) and prints the `<facsimile>` block and `<pb/>` lines.
+3. Transcribe into `tei/<id>.xml`, starting from `tei/_template.xml`. Copy `id`, `era`, `era_years`,
+   `perspective` and `community` from the row into the `<textClass>` terms, and paste in the
+   `<facsimile>` block so the scans appear beside the text.
+4. Run `python3 tools/build_documents.py`, check the warnings (including missing images and the
+   size of `facsimiles/`), and upload `tei/`, `facsimiles/` and `documents-data.js`.
+5. Set `status` to `transcribed`, then `checked` (after a second reader), then `published`.
+
+Only the transcribed pages are stored as images, never whole books. At about 0.3 MB a page, the
+whole catalog (roughly 1,200 pages) needs about 360 MB, inside GitHub Pages' 1 GB site limit.
 
 ## Columns
 

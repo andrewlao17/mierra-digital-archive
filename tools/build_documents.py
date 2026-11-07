@@ -131,7 +131,26 @@ def analyse_text(text_el, main_lang):
     return total, dict(words_by_lang), top
 
 
-def describe(path, warnings):
+def page_images(root, site_root, warn):
+    """Return the page-image URLs in <facsimile>, warning about missing files."""
+    urls = []
+    for graphic in root.iterfind(".//t:facsimile//t:surface/t:graphic", NS):
+        url = (graphic.get("url") or "").strip()
+        if not url:
+            continue
+        urls.append(url)
+        if url.startswith(("http://", "https://")):
+            continue
+        local_path = site_root / url.lstrip("./")
+        if not local_path.is_file():
+            warn("page image not found: %s" % url)
+        elif local_path.stat().st_size > 1_500_000:
+            warn("page image is large (%.1f MB): %s; run tools/prepare_pages.py to shrink it"
+                 % (local_path.stat().st_size / 1e6, url))
+    return urls
+
+
+def describe(path, warnings, site_root):
     root = ET.parse(path).getroot()
     if local(root) != "TEI":
         raise ValueError("root element is <%s>, expected <TEI>" % local(root))
@@ -267,6 +286,7 @@ def describe(path, warnings):
     )
     words, lang_words, top_words = analyse_text(text_el, main)
     surfaces = len(list(root.iterfind(".//t:facsimile//t:surface", NS)))
+    images = page_images(root, site_root, warn)
     zones = len(list(root.iterfind(".//t:facsimile//t:zone", NS)))
     pages = counts["pb"] or surfaces or (1 if words else 0)
     if not counts["pb"]:
@@ -347,6 +367,7 @@ def describe(path, warnings):
             "columnBreaks": counts["cb"],
             "surfaces": surfaces,
             "zones": zones,
+            "images": len(images),
         },
         "langWords": lang_words,
         "features": features,
@@ -363,13 +384,15 @@ def main():
     tei_dir = Path(args.tei_dir)
     if not tei_dir.is_dir():
         sys.exit("TEI folder not found: %s" % tei_dir)
+    # Page-image URLs in the TEI are relative to the site root, the folder above tei/.
+    site_root = tei_dir.resolve().parent
 
     records, warnings, errors = [], [], []
     for path in sorted(tei_dir.glob("*.xml")):
         if path.name.startswith("_"):
             continue
         try:
-            records.append(describe(path, warnings))
+            records.append(describe(path, warnings, site_root))
         except (ET.ParseError, ValueError) as exc:
             errors.append("%s: %s" % (path.name, exc))
 
@@ -393,10 +416,15 @@ def main():
     print("Wrote %d documents to %s" % (len(records), args.out))
     print("  %d nations: %s" % (len(nations), ", ".join(nations) or "none"))
     print("  %d languages: %s" % (len(languages), ", ".join(languages) or "none"))
-    print("  %d words, %d pages" % (
+    print("  %d words, %d pages, %d page images" % (
         sum(r["stats"]["words"] for r in records),
         sum(r["stats"]["pages"] for r in records),
+        sum(r["stats"]["images"] for r in records),
     ))
+    facs_dir = site_root / "facsimiles"
+    if facs_dir.is_dir():
+        size = sum(f.stat().st_size for f in facs_dir.rglob("*") if f.is_file())
+        print("  facsimiles/ folder: %.1f MB (GitHub Pages sites are limited to 1 GB)" % (size / 1e6))
     if warnings:
         print("\n%d warning(s):" % len(warnings))
         for w in warnings:

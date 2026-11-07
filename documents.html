@@ -338,9 +338,107 @@
       color: inherit;
     }
 
+    /* Page images beside the transcription ---------------------------- */
+
+    .reader-body {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 48rem);
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    .reader-body.no-images {
+      grid-template-columns: minmax(0, 48rem);
+    }
+
+    .facsimile {
+      position: sticky;
+      top: 1rem;
+      margin: 0;
+      padding: 1rem;
+      background: #fff;
+    }
+
+    .facsimile[hidden] {
+      display: none;
+    }
+
+    .facsimile img {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: calc(100vh - 9rem);
+      object-fit: contain;
+      background: #f2f4f6;
+    }
+
+    .facsimile-nav {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 0.75rem;
+      font-size: 0.95rem;
+    }
+
+    .facsimile-nav button:disabled {
+      opacity: 0.4;
+      cursor: default;
+    }
+
+    .facsimile-full {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: var(--ocean);
+      font-size: 0.9rem;
+    }
+
+    button.page-break {
+      width: 100%;
+      padding: 0.5rem 0 0;
+      border: 0;
+      border-top: 1px dashed var(--ocean);
+      background: none;
+      font: inherit;
+      font-size: 0.85rem;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    button.page-break:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    button.page-break::after {
+      content: "  · show scan";
+      opacity: 0.7;
+    }
+
+    button.page-break[aria-current="true"] {
+      font-weight: 400;
+    }
+
+    button.page-break[aria-current="true"]::after {
+      content: "  · shown";
+    }
+
     @media (max-width: 900px) {
       .tools {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .reader-body,
+      .reader-body.no-images {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .facsimile {
+        position: static;
+      }
+
+      .facsimile img {
+        max-height: 70vh;
       }
     }
 
@@ -428,6 +526,7 @@
         </fieldset>
         <label><input type="checkbox" id="show-names" checked> Highlight names and dates</label>
         <label><input type="checkbox" id="show-lines" checked> Line breaks and numbers</label>
+        <label id="show-images-label" hidden><input type="checkbox" id="show-images" checked> Page images</label>
         <a id="doc-xml" href="#">Download TEI-XML</a>
       </div>
 
@@ -438,8 +537,21 @@
         <li><span class="swatch" style="box-shadow:inset 0 -2px 0 #5b6b7d"></span>Date</li>
       </ul>
 
-      <div class="transcription marked" id="transcription" lang="en"></div>
-      <ol class="notes" id="notes" aria-label="Notes"></ol>
+      <div class="reader-body no-images" id="reader-body">
+        <figure class="facsimile" id="facsimile" hidden>
+          <img id="facs-img" alt="" decoding="async">
+          <figcaption class="facsimile-nav">
+            <button type="button" id="facs-prev">&larr; Previous</button>
+            <span id="facs-label" aria-live="polite"></span>
+            <button type="button" id="facs-next">Next &rarr;</button>
+          </figcaption>
+          <a class="facsimile-full" id="facs-full" href="#" target="_blank" rel="noopener">Open full size</a>
+        </figure>
+        <div>
+          <div class="transcription marked" id="transcription" lang="en"></div>
+          <ol class="notes" id="notes" aria-label="Notes"></ol>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -715,7 +827,18 @@
 
         case "pb": {
           const n = node.getAttribute("n");
-          out.appendChild(el("span", "page-break", n ? "Page " + n : "New page"));
+          const label = n ? "Page " + n : "New page";
+          const target = (node.getAttribute("facs") || "").replace(/^#/, "");
+          const index = pages.findIndex((p) => p.id && p.id === target);
+          if (index < 0) {
+            out.appendChild(el("span", "page-break", label));
+            return;
+          }
+          const marker = el("button", "page-break", label);
+          marker.type = "button";
+          marker.dataset.page = String(index);
+          marker.addEventListener("click", () => showPage(index, true));
+          out.appendChild(marker);
           return;
         }
 
@@ -883,6 +1006,66 @@
     }
 
     let currentTei = null;
+    let currentDoc = null;
+
+    /* Page images: TEI <facsimile><surface xml:id n><graphic url/></surface>,
+       linked from <pb facs="#id"/>. URLs are relative to the site root
+       (e.g. facsimiles/JP-001/1.jpg) or https. */
+    let pages = [];
+    let pageIndex = 0;
+
+    function safeImageUrl(url) {
+      const u = (url || "").trim();
+      if (!u) return "";
+      if (/^https:\/\//i.test(u)) return u;
+      if (u.startsWith("//") || /^[a-z][a-z0-9+.-]*:/i.test(u)) return "";
+      return u.replace(/^\.?\//, "");
+    }
+
+    function collectPages(xml) {
+      return [...xml.getElementsByTagNameNS(TEI_NS, "surface")]
+        .map((surface, i) => {
+          const graphic = surface.getElementsByTagNameNS(TEI_NS, "graphic")[0];
+          return {
+            id: surface.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id") || "",
+            n: surface.getAttribute("n") || String(i + 1),
+            url: safeImageUrl(graphic && graphic.getAttribute("url")),
+          };
+        })
+        .filter((p) => p.url);
+    }
+
+    function showPage(index, fromMarker) {
+      if (!pages.length) return;
+      pageIndex = Math.max(0, Math.min(pages.length - 1, index));
+      const page = pages[pageIndex];
+      const img = $("facs-img");
+      img.src = page.url;
+      img.alt = "Scan of page " + page.n + (currentDoc ? " of " + currentDoc.title : "");
+      $("facs-label").textContent = "Page " + page.n + " (" + (pageIndex + 1) + " of " + pages.length + ")";
+      $("facs-full").href = page.url;
+      $("facs-prev").disabled = pageIndex === 0;
+      $("facs-next").disabled = pageIndex === pages.length - 1;
+      document.querySelectorAll("button.page-break").forEach((b) =>
+        b.setAttribute("aria-current", String(b.dataset.page === String(pageIndex))));
+      if (fromMarker && window.matchMedia("(max-width: 900px)").matches) {
+        $("facsimile").scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+
+    function setImagesVisible(visible) {
+      const has = pages.length > 0;
+      $("facsimile").hidden = !(has && visible);
+      $("reader-body").classList.toggle("no-images", !(has && visible));
+      $("show-images-label").hidden = !has;
+    }
+
+    $("facs-prev").addEventListener("click", () => showPage(pageIndex - 1));
+    $("facs-next").addEventListener("click", () => showPage(pageIndex + 1));
+    $("facs-img").addEventListener("error", () => {
+      $("facs-label").textContent = "This page image could not be loaded.";
+    });
+    $("show-images").addEventListener("change", (e) => setImagesVisible(e.target.checked));
 
     function drawTranscription() {
       if (!currentTei) return;
@@ -895,6 +1078,7 @@
       const text = currentTei.getElementsByTagNameNS(TEI_NS, "text")[0];
       render(text, box, { view, notes });
       notes.hidden = !notes.children.length;
+      if (pages.length) showPage(pageIndex);
     }
 
     function addFact(list, label, value, href) {
@@ -913,6 +1097,7 @@
     }
 
     async function showDocument(doc) {
+      currentDoc = doc;
       library.hidden = true;
       reader.hidden = false;
       document.title = doc.title + " | Mierra Digital Archive";
@@ -955,9 +1140,14 @@
         const xml = new DOMParser().parseFromString(await response.text(), "application/xml");
         if (xml.getElementsByTagName("parsererror").length) throw new Error("the XML could not be read");
         currentTei = xml;
+        pages = collectPages(xml);
+        pageIndex = 0;
+        setImagesVisible($("show-images").checked);
         drawTranscription();
       } catch (error) {
         currentTei = null;
+        pages = [];
+        setImagesVisible(false);
         $("transcription").textContent = location.protocol === "file:"
           ? "Transcriptions load only when the site is served over the web (for example on GitHub Pages), not from a file on your computer."
           : "The transcription could not be loaded (" + error.message + ").";

@@ -16,6 +16,7 @@
     layout, support    -> manuscript-layout analysis
     handNote           -> number of hands and scripts
     pb, lb, cb         -> page, line and column structure
+    facsimile/graphic  -> page images shown beside the transcription (facsimiles/<id>/)
     licence, ref       -> rights and the link back to the original source
 -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="REPLACE-short-id" xml:lang="en">
@@ -87,9 +88,13 @@
     </profileDesc>
   </teiHeader>
 
+  <!-- Page images: make them with
+         python3 tools/prepare_pages.py SCAN.pdf REPLACE-short-id FIRST-LAST
+       which writes facsimiles/REPLACE-short-id/1.jpg, 2.jpg, ... and prints this block.
+       Each <pb facs="#s1"/> in the text shows its surface's image beside the transcription. -->
   <facsimile>
     <surface xml:id="s1" n="1">
-      <graphic url="REPLACE-image-1.jpg"/>
+      <graphic url="facsimiles/REPLACE-short-id/1.jpg"/>
     </surface>
   </facsimile>
 
