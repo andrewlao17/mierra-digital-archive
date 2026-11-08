@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MY-004" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter XVI: Raffles and the King of Siam</title>
+        <author xml:id="abdullah">Abdullah bin Abdul Kadir, Munshi (1796-1854)</author>
+        <respStmt xml:id="thomson">
+          <resp>English translation and commentary (1874)</resp>
+          <name>John Turnbull Thomson</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1874 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="MY">Malaysia</country>
+            <settlement>Malacca and Singapore</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>translationsfrom00abdu, pp. 165-170</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Raffles has Abdullah write a reply in gold letters to a letter from the King of Siam, and explains the meaning of its torn corner with a parable.</summary>
+            <msItem class="memoir">
+              <textLang mainLang="en" otherLangs="ms">English translation of a Malay memoir, with Malay words and passages</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: Henry S. King, 1874.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="30"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1849">1849 (Malay original, Hikayat Abdullah); English translation 1874</origDate>
+              <p>Written in Malay by Abdullah bin Abdul Kadir and first printed in 1849; translated, with comments, by J. T. Thomson.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Thomson, J. T., trans. <title>Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments</title>.
+          London: Henry S. King &amp; Co., 1874. Chapter XVI, pp. 165-170.
+          <ref target="https://archive.org/details/translationsfrom00abdu">Scan at the Internet Archive</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Abdullah's text (inside Thomson's quotation marks) is encoded as div type="translation"; Thomson's own
+          comments as div type="commentary". Word counts and frequent-word lists on the site use Abdullah's text only.
+          Line breaks, page breaks and footnotes follow the printed page; running heads and printer's signatures are omitted.
+          Italics are not recorded. The first words of each chapter, printed in small capitals, are marked as such.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">MY-004</term>
+          <term type="era">Siamese invasion of Kedah and its refugees</term>
+          <term type="eraYears">1821-1842</term>
+          <term type="perspective">community</term>
+          <term type="community">Malays</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p165" n="165"><graphic url="facsimiles/hikayat-abdullah-1874/p165.jpg"/></surface>
+    <surface xml:id="p166" n="166"><graphic url="facsimiles/hikayat-abdullah-1874/p166.jpg"/></surface>
+    <surface xml:id="p167" n="167"><graphic url="facsimiles/hikayat-abdullah-1874/p167.jpg"/></surface>
+    <surface xml:id="p168" n="168"><graphic url="facsimiles/hikayat-abdullah-1874/p168.jpg"/></surface>
+    <surface xml:id="p169" n="169"><graphic url="facsimiles/hikayat-abdullah-1874/p169.jpg"/></surface>
+    <surface xml:id="p170" n="170"><graphic url="facsimiles/hikayat-abdullah-1874/p170.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="XVI">
+        <head>XVI. Raffles and the King of Siam</head>
+        <div type="translation" resp="#abdullah">
+        <pb n="165" facs="#p165"/>
+        <p><lb n="1"/><hi rend="smallcaps">“Again,</hi> on a certain day came a letter written in Malay<lb n="2"/>from the Raja of Siam, addressed to Mr. Raffles, the<lb n="3"/>purport of which was that the Raja of Siam desired<lb n="4"/>friendship with the English Company (East India); but<lb n="5"/>he, at the same time, was frightfully pompous and self-<lb n="6" break="no"/>adulating. The letter appeared also to have only three<lb n="7"/>corners, the fourth being torn off. After I had read it,<lb n="8"/>Mr. Raffles inquired why the letter had only three<lb n="9"/>corners. I told him that I had never seen the like before,<lb n="10"/>yet it seemed to be done purposely, as the paper had not<lb n="11"/>the appearance of having been torn originally in its<lb n="12"/>manufacture. Mr. Raffles replied, ‘You are right in<lb n="13"/>your suggestion; but what is the meaning of the corner<lb n="14"/>being torn?’ To this I said 1 did not know. Then<lb n="15"/>Mr. Raffles told me that there was a hidden design of<lb n="16"/>much importance in it, which I had not yet learned, and<lb n="17"/>which he would show me, viz., it was from the inflated<lb n="18"/>self-assumption, combined with ignorance, of the Raja of<lb n="19"/>Siam; for to his limited understanding his country was<lb n="20"/>the whole world, and that the corner torn off the letter<lb n="21"/>represented all countries beyond his. When I heard<lb n="22"/>this I was astonished with perfect surprise at his penetra-<lb n="23" break="no"/>tion of such devices; so 1 thought to myself, ‘This truly<lb n="24"/>is a man of high intellect, for from him I have learnt<pb n="166" facs="#p166"/><lb n="1"/>two wrinkles of high import: first, when I knew him in<lb n="2"/>Malacca, he detected the forgery of Tuanku Penglima<lb n="3"/>Besar, in the letter said to be from the Susanan at<lb n="4"/>Benharam; and secondly, in ferreting out the secret of<lb n="5"/>the Raja of Siam.’ All this I remembered, and have<lb n="6"/>written it in my autobiography, so that it may have the<lb n="7"/>approval of those who read it, and as an example of<lb n="8"/>how superior intellects attain thei greatness, mighti-<lb n="9" break="no"/>ness, love of the people, and high name; these not<lb n="10"/>being got from good looks, or from high race, but from<lb n="11"/>good ability and knowledge,—for in these times Mr. Raffles<lb n="12"/>was yet young, busy, engaged with duty and office work,<lb n="13"/>as others were. But it was owing to his wit, sagacity,<lb n="14"/>and foresight,—thus he, in his intercourse with the<lb n="15"/>Governor-General of Bengal, proved that Java could be<lb n="16"/>conquered, which gained him the trust, so that the work<lb n="17"/>was given over to him. His sagacity and intelligence<lb n="18"/>were his forte. This is the mark by which a man is<lb n="19"/>truly great.</p>
+        <p><lb n="20"/>After this he told me that he wished me to reply<lb n="21"/>to the letter of the Raja of Siam, saying to me, ‘I<lb n="22"/>will give you the idea, which you can put on paper<lb n="23"/>in a proper style.’ I replied, ‘Very good.’ So he said,<lb n="24"/>‘Sit down here,’ and with a smile he continued, that<lb n="25"/>he wished to humble him, as he had displayed his<lb n="26"/>mightiness. ‘You will understand me by a parallel<lb n="27"/>story, thus: There was a child, and when it was born by<lb n="28"/>its mother if saw a cock; and when it saw the cock,<lb n="29"/>both its eyes became blind. After this, it was nursed by<lb n="30"/>its father till it had grown up sufficiently to listen to<lb n="31"/>general news, when it was told that the sovereignty of<lb n="32"/>England was very extensive. On hearing this, the blind<lb n="33"/>one asked if it was as big as a cock. To which the<lb n="34"/>people replied, Oh! the subjects are immensely numer-<lb n="35" break="no"/>ous. On this the blind one asked, Are they as numerous<pb n="167" facs="#p167"/><lb n="1"/>as the feathers on the cock, these English subjects ? ;<lb n="2"/>The people now told him that the English were very<lb n="3"/>clever in warfare. The blind one then asked them if<lb n="4"/>they were as clever as the cock in fighting. To which<lb n="5"/>the people replied, They have wonderful science. On<lb n="6"/>which the blind one asked, Have they the science of<lb n="7"/>the cock? Then the people told him that if he ever<lb n="8"/>heard the sound of their cannon, that he would die from<lb n="9"/>fright. The blind one then asked if the sound was<lb n="10"/>the same as the cock-crow, and so on. ‘Thus, to all the<lb n="11"/>sayings and reports of people he always compared the<lb n="12"/>cock; for he only saw this, and so put it in comparison<lb n="13"/>to all other things. And so the existence of the Raja<lb n="14"/>of Siam is in such like, because he has not scen other<lb n="15"/>countries, nor governments, nor great warlike expedi-<lb n="16" break="no"/>tions touching on his shores. Thus to him his country<lb n="17"/>and the whole world are one and the same, just as the<lb n="18"/>blind one sees the cock and nothing else ; but if he could<lb n="19"/>see the size of England and other great nations, the<lb n="20"/>power of their governments, wealth, and warlike material,<lb n="21"/>only then would it come home to him that his country<lb n="22"/>was merely a spot in the round world.’ .</p>
+        <p><lb n="23"/>So when he had done telling the story he told me to<lb n="24"/>compose a letter in such terms, as the ship would sail<lb n="25"/>on the morrow evening, and to put in nothing else<lb n="26"/>besides, but good wishes as between the two parties, viz.<lb n="27"/>the English Company and himself. In addition he sent<lb n="28"/>presents of broadcloth and five rolls of satin, flowered<lb n="29"/>with gold. And when I had heard his order J was much<lb n="30"/>concerned, and my heart failed me like a vessel over-<lb n="31" break="no"/>loaded. Such was the state of my mind when I had to<lb n="32"/>set to the task; and, furthermore, IT had to write the<lb n="33"/>same in gold lettering. But by the help of God and the<lb n="34"/>prosperity of my tutor'’s teaching, I had the letter<lb n="35"/>finished by twelve at midnight, the margins and contents<pb n="168" facs="#p168"/><lb n="1"/>being all of gold; and to look at the letter, it actually<lb n="2"/>glittered—to my experience I have never seen such<lb n="3"/>another, it was so truly beautiful. So next morning I<lb n="4"/>took it up to the hill, as Mr. Raffles was walking up and<lb n="5"/>down the room; and when he saw me coming, he opened<lb n="6"/>the venetian blind, crying out to me, ‘What! have you<lb n="7"/>been playing yourself? Go back and write that letter,<lb n="8"/>as the vessel sails to-night.’ On this I told him that it<lb n="9"/>was finished, and that I had brought it. Hereupon he<lb n="10"/>was surprised, and told me to bring it up quickly; and<lb n="11"/>le came forward to the stair-door to meet me, waiting<lb n="12"/>for me to ascend. And when I had got up he took hold<lb n="13"/>of the letter, saying, ‘It is very beautiful, just like<lb n="14"/>watered gold,’ and he added, ‘Is this the letter for the<lb n="15"/>Raja of Siam?’ to which I replied, ‘Yes, sir.’ He then<lb n="16"/>said, ‘Try and read it.’ Which I did; and when he<lb n="17"/>listened to its contents, he laughed and smiled till it was<lb n="18"/>finished. He then said, ‘It is exactly as I wanted ; now<lb n="19"/>fold it according to custom, and enclose it in yellow<lb n="20"/>cloth;’ and after it had been enclosed in yellow cloth,<lb n="21"/>he put his signature and gave it to the messengers.”</p>
+        </div>
+        <div type="commentary" resp="#thomson">
+        <p><lb n="22"/>It will be observed that the communication of the<lb n="23"/>Siamese Raja was in the language and letters of the<lb n="24"/>Malays, accounted by him as an inferior and subdued<lb n="25"/>people, and I think Raffles was wrong in corresponding<lb n="26"/>in such a language. The correspondence should have<lb n="27"/>been either in English or Siamese. The idea of the<lb n="28"/>signification of the wanting corner appears to be fanciful,<lb n="29"/>but the same fact was related to me by my old friend<lb n="30"/>Kokchai, a Chinese of Penang, and holding the office of<lb n="31"/>Siamese Consul. The mode of reply cannot be con-<lb n="32" break="no"/>sidered otherwise than childish, and unbecoming an<pb n="169" facs="#p169"/><lb n="1"/>English Governor, but it is too circumstantially related<lb n="2"/>to be untrue. Thus another bureau secret is candidly<lb n="3"/>developed. The style of answer is, however, consonant<lb n="4"/>with oriental manners, and reminds me of an old incident<lb n="5"/>related in the Sijara Malaya to this effect. Radin Inu<lb n="6"/>Marawangsa, Raja of Majapahit, hearing of the exten-<lb n="7" break="no"/>sive country of Singapore, sent an ambassador to Raja<lb n="8"/>Vicrama Vira with a shaving of wood seven fathoms<lb n="9"/>long, as fine as paper—its texture being nowhere cut or<lb n="10"/>torn, and the whole rolled up in the form of a ring. The<lb n="11"/>royal letter drew the attention of the King of Singapore<lb n="12"/>to this shaving formed with a hatchet, and he inquired<lb n="13"/>if his kingdom produced such clever artificers. Vicrama<lb n="14"/>Vira, on hearing the letter read, sent for Pewang Bentau,<lb n="15"/>who, in the presence of the Majapahit ambassador, hewed<lb n="16"/>the hair of the head of a.boy forty days old. The<lb n="17"/>hatchet with which the feat was performed was sent to<lb n="18"/>Majapahit with the. ambassador, who quickly took his<lb n="19"/>leave and departed. The Raja of Majapahit interpreted<lb n="20"/>the message of the Singapore king as a threat that he<lb n="21"/>would shave his head if he dared to come to Singapore,<lb n="22"/>and so equipped a powerful fleet, which having arrived<lb n="23"/>was beaten back.* The letter of Sir Stamford, it may be<note place="foot">Braddell’s Extracts.</note><lb n="24"/>remarked, did not bring about this contingency. How-<lb n="25" break="no"/>ever, Burmah at this time had encroached within two<lb n="26"/>hundred miles of Calcutta, and it was the policy to keep<lb n="27"/>friends with Siam. His policy gave existence to the<lb n="28"/>embassy of Colonel Burney, who concluded a treaty with<lb n="29"/>Siam in 1826.</p>
+        <p><lb n="30"/>Great events have taken place since these days, much<lb n="31"/>darkness of ignorance having been dispelled. In 1855,<lb n="32"/>the reigning prince of Siam was one of the moss in-<lb n="33" break="no"/>telligent of Asiatic monarchs, being both learned and<lb n="34"/>scientific. Abdulla’s vanity was pardonable under the<pb n="170" facs="#p170"/><lb n="1"/>circumstances, he having been made the instrument<lb n="2"/>of correspondence between his powerful silver-footed<lb n="3"/>majesty and the representative of the merchant princes<lb n="4"/>of England.</p>
+        <p><lb n="5"/>My late friend Mr. Hunter, of Bangkok, shortly after<lb n="6"/>this date opened trade with Siam, and was the means of<lb n="7"/>nourishing a large intercourse, and thus creating a better<lb n="8"/>understanding, though he himself latterly incurred the<lb n="9"/>displeasure of the Siamese authorities. He it was who<lb n="10"/>discovered the world-known Siamese twins, whom to<lb n="11"/>his astonishment he saw when swimming in the Menan,<lb n="12"/>in sight of their mother, and with whom he soon made<lb n="13"/>arrangements, in which the interests of the subjects<lb n="14"/>themselves were well guarded, for their exhibition in<lb n="15"/>Europe and America. He used to recount to me many<lb n="16"/>amusing traits and habits of the child twins as he<lb n="17"/>observed them when they were first taken charge of.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

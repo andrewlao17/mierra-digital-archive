@@ -2,6 +2,2162 @@
 // Do not edit by hand; edit the TEI files and run the script again.
 window.ARCHIVE_DOCUMENTS = [
  {
+  "id": "MY-001",
+  "file": "MY-001.xml",
+  "title": "Chapter III: Description of Malacca Fort, and its Demolition",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 14-26",
+  "type": "memoir",
+  "summary": "Abdullah describes the old Portuguese fort of Malacca and its demolition by the British in 1807, and the distress of the townspeople who watched it destroyed.",
+  "catalogId": "MY-001",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 32
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter III, pp. 14-26. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 13,
+   "lines": 415,
+   "words": 3055,
+   "columnBreaks": 0,
+   "surfaces": 13,
+   "zones": 0,
+   "images": 13
+  },
+  "langWords": {
+   "en": 3055
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 2,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "fort",
+     27
+    ],
+    [
+     "people",
+     26
+    ],
+    [
+     "malacca",
+     16
+    ],
+    [
+     "stones",
+     12
+    ],
+    [
+     "fathoms",
+     12
+    ],
+    [
+     "went",
+     10
+    ],
+    [
+     "side",
+     10
+    ],
+    [
+     "great",
+     9
+    ],
+    [
+     "called",
+     9
+    ],
+    [
+     "english",
+     8
+    ],
+    [
+     "many",
+     8
+    ],
+    [
+     "round",
+     8
+    ],
+    [
+     "gate",
+     8
+    ],
+    [
+     "time",
+     7
+    ],
+    [
+     "another",
+     7
+    ],
+    [
+     "fathom",
+     7
+    ],
+    [
+     "ten",
+     7
+    ],
+    [
+     "hill",
+     7
+    ],
+    [
+     "made",
+     7
+    ],
+    [
+     "whose",
+     7
+    ],
+    [
+     "place",
+     7
+    ],
+    [
+     "eight",
+     6
+    ],
+    [
+     "towards",
+     6
+    ],
+    [
+     "river",
+     6
+    ],
+    [
+     "near",
+     6
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-002",
+  "file": "MY-002.xml",
+  "title": "Chapter IX: The Dutch Repossess Malacca",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 96-113",
+  "type": "memoir",
+  "summary": "The return of Malacca to the Dutch after the Napoleonic wars, and Abdullah's voyage with Farquhar among the islands, where he meets the Orang Laut, the sea people.",
+  "catalogId": "MY-002",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 33
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter IX, pp. 96-113. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 18,
+   "lines": 589,
+   "words": 4687,
+   "columnBreaks": 0,
+   "surfaces": 18,
+   "zones": 0,
+   "images": 18
+  },
+  "langWords": {
+   "en": 4687
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 2,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "colonel",
+     25
+    ],
+    [
+     "farquhar",
+     24
+    ],
+    [
+     "english",
+     23
+    ],
+    [
+     "malacca",
+     20
+    ],
+    [
+     "dutch",
+     17
+    ],
+    [
+     "long",
+     15
+    ],
+    [
+     "tuanku",
+     15
+    ],
+    [
+     "place",
+     13
+    ],
+    [
+     "men",
+     13
+    ],
+    [
+     "two",
+     11
+    ],
+    [
+     "time",
+     10
+    ],
+    [
+     "small",
+     10
+    ],
+    [
+     "tomungong",
+     10
+    ],
+    [
+     "found",
+     9
+    ],
+    [
+     "raffles",
+     9
+    ],
+    [
+     "sea",
+     9
+    ],
+    [
+     "sailed",
+     8
+    ],
+    [
+     "flag",
+     8
+    ],
+    [
+     "name",
+     8
+    ],
+    [
+     "singapore",
+     8
+    ],
+    [
+     "orang",
+     8
+    ],
+    [
+     "know",
+     7
+    ],
+    [
+     "made",
+     7
+    ],
+    [
+     "having",
+     7
+    ],
+    [
+     "good",
+     7
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-003",
+  "file": "MY-003.xml",
+  "title": "Chapter XV: The Slave Trade",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 147-164",
+  "type": "memoir",
+  "summary": "Abdullah's eyewitness account of the slave trade in Singapore: Bugis traders landing captives, and the women and children sold in the market.",
+  "catalogId": "MY-003",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 34
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XV, pp. 147-164. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 18,
+   "lines": 609,
+   "words": 803,
+   "columnBreaks": 0,
+   "surfaces": 18,
+   "zones": 0,
+   "images": 18
+  },
+  "langWords": {
+   "en": 803
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 5,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "slaves",
+     7
+    ],
+    [
+     "slave",
+     4
+    ],
+    [
+     "others",
+     4
+    ],
+    [
+     "like",
+     4
+    ],
+    [
+     "girls",
+     4
+    ],
+    [
+     "see",
+     4
+    ],
+    [
+     "male",
+     3
+    ],
+    [
+     "female",
+     3
+    ],
+    [
+     "singapore",
+     3
+    ],
+    [
+     "went",
+     3
+    ],
+    [
+     "young",
+     3
+    ],
+    [
+     "time",
+     3
+    ],
+    [
+     "sold",
+     3
+    ],
+    [
+     "brought",
+     3
+    ],
+    [
+     "numerous",
+     3
+    ],
+    [
+     "trade",
+     2
+    ],
+    [
+     "day",
+     2
+    ],
+    [
+     "bugis",
+     2
+    ],
+    [
+     "taken",
+     2
+    ],
+    [
+     "sick",
+     2
+    ],
+    [
+     "driven",
+     2
+    ],
+    [
+     "people",
+     2
+    ],
+    [
+     "forward",
+     2
+    ],
+    [
+     "asked",
+     2
+    ],
+    [
+     "told",
+     2
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-004",
+  "file": "MY-004.xml",
+  "title": "Chapter XVI: Raffles and the King of Siam",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 165-170",
+  "type": "memoir",
+  "summary": "Raffles has Abdullah write a reply in gold letters to a letter from the King of Siam, and explains the meaning of its torn corner with a parable.",
+  "catalogId": "MY-004",
+  "era": "Siamese invasion of Kedah and its refugees",
+  "eraYears": "1821-1842",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 30
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XVI, pp. 165-170. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 6,
+   "lines": 177,
+   "words": 1183,
+   "columnBreaks": 0,
+   "surfaces": 6,
+   "zones": 0,
+   "images": 6
+  },
+  "langWords": {
+   "en": 1183
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 1,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "letter",
+     12
+    ],
+    [
+     "told",
+     9
+    ],
+    [
+     "siam",
+     8
+    ],
+    [
+     "cock",
+     8
+    ],
+    [
+     "blind",
+     8
+    ],
+    [
+     "raffles",
+     7
+    ],
+    [
+     "raja",
+     7
+    ],
+    [
+     "people",
+     6
+    ],
+    [
+     "replied",
+     5
+    ],
+    [
+     "asked",
+     5
+    ],
+    [
+     "english",
+     4
+    ],
+    [
+     "torn",
+     4
+    ],
+    [
+     "like",
+     4
+    ],
+    [
+     "high",
+     4
+    ],
+    [
+     "good",
+     4
+    ],
+    [
+     "put",
+     4
+    ],
+    [
+     "saw",
+     4
+    ],
+    [
+     "gold",
+     4
+    ],
+    [
+     "read",
+     3
+    ],
+    [
+     "yet",
+     3
+    ],
+    [
+     "country",
+     3
+    ],
+    [
+     "world",
+     3
+    ],
+    [
+     "heard",
+     3
+    ],
+    [
+     "truly",
+     3
+    ],
+    [
+     "great",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-005",
+  "file": "MY-005.xml",
+  "title": "Chapter XXII: Treaty of Singapore",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 200-205",
+  "type": "memoir",
+  "summary": "Abdullah's account of the 1824 treaty by which the Sultan and Temenggong of Johor ceded Singapore to the East India Company.",
+  "catalogId": "MY-005",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 32
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XXII, pp. 200-205. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 6,
+   "lines": 195,
+   "words": 1615,
+   "columnBreaks": 0,
+   "surfaces": 6,
+   "zones": 0,
+   "images": 6
+  },
+  "langWords": {
+   "en": 1615
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "sultan",
+     47
+    ],
+    [
+     "tomungong",
+     17
+    ],
+    [
+     "crawfurd",
+     14
+    ],
+    [
+     "dollars",
+     14
+    ],
+    [
+     "company",
+     12
+    ],
+    [
+     "spanish",
+     10
+    ],
+    [
+     "singapore",
+     9
+    ],
+    [
+     "us",
+     7
+    ],
+    [
+     "shah",
+     6
+    ],
+    [
+     "give",
+     6
+    ],
+    [
+     "kapada",
+     6
+    ],
+    [
+     "kumpani",
+     6
+    ],
+    [
+     "hussain",
+     5
+    ],
+    [
+     "get",
+     5
+    ],
+    [
+     "money",
+     5
+    ],
+    [
+     "dan",
+     5
+    ],
+    [
+     "ringit",
+     5
+    ],
+    [
+     "till",
+     4
+    ],
+    [
+     "came",
+     4
+    ],
+    [
+     "arrived",
+     4
+    ],
+    [
+     "without",
+     4
+    ],
+    [
+     "government",
+     4
+    ],
+    [
+     "monthly",
+     4
+    ],
+    [
+     "assented",
+     4
+    ],
+    [
+     "morrow",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-006",
+  "file": "MY-006.xml",
+  "title": "Chapter XXIII: Flight of the Harem",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 206-209",
+  "type": "memoir",
+  "summary": "The women of the Sultan's household flee at daybreak to the British, and the dispute that follows over whether they may be returned.",
+  "catalogId": "MY-006",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 30
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XXIII, pp. 206-209. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 4,
+   "lines": 119,
+   "words": 872,
+   "columnBreaks": 0,
+   "surfaces": 4,
+   "zones": 0,
+   "images": 4
+  },
+  "langWords": {
+   "en": 872
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "sultan",
+     10
+    ],
+    [
+     "crawfurd",
+     9
+    ],
+    [
+     "others",
+     6
+    ],
+    [
+     "let",
+     5
+    ],
+    [
+     "further",
+     4
+    ],
+    [
+     "bengal",
+     4
+    ],
+    [
+     "came",
+     3
+    ],
+    [
+     "police-office",
+     3
+    ],
+    [
+     "complaints",
+     3
+    ],
+    [
+     "men",
+     3
+    ],
+    [
+     "see",
+     3
+    ],
+    [
+     "slaves",
+     3
+    ],
+    [
+     "replied",
+     3
+    ],
+    [
+     "order",
+     3
+    ],
+    [
+     "court",
+     3
+    ],
+    [
+     "heard",
+     3
+    ],
+    [
+     "streets",
+     3
+    ],
+    [
+     "put",
+     3
+    ],
+    [
+     "force",
+     3
+    ],
+    [
+     "time",
+     3
+    ],
+    [
+     "month",
+     2
+    ],
+    [
+     "young",
+     2
+    ],
+    [
+     "opened",
+     2
+    ],
+    [
+     "marks",
+     2
+    ],
+    [
+     "having",
+     2
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-007",
+  "file": "MY-007.xml",
+  "title": "Chapter XXIV: Christian Chapel versus Chinese Joss House",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 210-215",
+  "type": "memoir",
+  "summary": "The building of an English chapel in Singapore beside a Chinese temple, and Abdullah's work for the first missionaries.",
+  "catalogId": "MY-007",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 33
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XXIV, pp. 210-215. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 6,
+   "lines": 198,
+   "words": 1500,
+   "columnBreaks": 0,
+   "surfaces": 6,
+   "zones": 0,
+   "images": 6
+  },
+  "langWords": {
+   "en": 1500
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "chinese",
+     17
+    ],
+    [
+     "malay",
+     12
+    ],
+    [
+     "came",
+     12
+    ],
+    [
+     "english",
+     10
+    ],
+    [
+     "chapel",
+     9
+    ],
+    [
+     "place",
+     9
+    ],
+    [
+     "humphries",
+     9
+    ],
+    [
+     "house",
+     7
+    ],
+    [
+     "singapore",
+     7
+    ],
+    [
+     "malacca",
+     7
+    ],
+    [
+     "college",
+     7
+    ],
+    [
+     "became",
+     7
+    ],
+    [
+     "taught",
+     6
+    ],
+    [
+     "time",
+     6
+    ],
+    [
+     "study",
+     5
+    ],
+    [
+     "come",
+     5
+    ],
+    [
+     "work",
+     5
+    ],
+    [
+     "church",
+     5
+    ],
+    [
+     "joss",
+     4
+    ],
+    [
+     "three",
+     4
+    ],
+    [
+     "merchants",
+     4
+    ],
+    [
+     "great",
+     4
+    ],
+    [
+     "went",
+     4
+    ],
+    [
+     "set",
+     4
+    ],
+    [
+     "worship",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-008",
+  "file": "MY-008.xml",
+  "title": "Chapter XXVIII: The Great Fire",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 228-231",
+  "type": "memoir",
+  "summary": "A great fire in Singapore's Malay and Chinese quarters, and how the townspeople and the British authorities responded.",
+  "catalogId": "MY-008",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 33
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XXVIII, pp. 228-231. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 4,
+   "lines": 132,
+   "words": 1123,
+   "columnBreaks": 0,
+   "surfaces": 4,
+   "zones": 0,
+   "images": 4
+  },
+  "langWords": {
+   "en": 1123
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "fire",
+     11
+    ],
+    [
+     "like",
+     8
+    ],
+    [
+     "felt",
+     6
+    ],
+    [
+     "poem",
+     6
+    ],
+    [
+     "house",
+     5
+    ],
+    [
+     "paper",
+     5
+    ],
+    [
+     "people",
+     5
+    ],
+    [
+     "saw",
+     5
+    ],
+    [
+     "many",
+     5
+    ],
+    [
+     "great",
+     4
+    ],
+    [
+     "malacca",
+     4
+    ],
+    [
+     "time",
+     4
+    ],
+    [
+     "chinese",
+     4
+    ],
+    [
+     "clothes",
+     4
+    ],
+    [
+     "houses",
+     4
+    ],
+    [
+     "took",
+     4
+    ],
+    [
+     "others",
+     4
+    ],
+    [
+     "letters",
+     3
+    ],
+    [
+     "fever",
+     3
+    ],
+    [
+     "year",
+     3
+    ],
+    [
+     "ran",
+     3
+    ],
+    [
+     "sickness",
+     3
+    ],
+    [
+     "goods",
+     3
+    ],
+    [
+     "life",
+     3
+    ],
+    [
+     "middle",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-009",
+  "file": "MY-009.xml",
+  "title": "Chapter XXXII: The Naning War",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 258-266",
+  "type": "memoir",
+  "summary": "Abdullah's account of the Naning War of 1831-32, the British campaign against the Penghulu of Naning near Malacca.",
+  "catalogId": "MY-009",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 32
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XXXII, pp. 258-266. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 9,
+   "lines": 288,
+   "words": 1781,
+   "columnBreaks": 0,
+   "surfaces": 9,
+   "zones": 0,
+   "images": 9
+  },
+  "langWords": {
+   "en": 1781
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 4,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "pengulu",
+     29
+    ],
+    [
+     "tribe",
+     26
+    ],
+    [
+     "malacca",
+     22
+    ],
+    [
+     "nanning",
+     21
+    ],
+    [
+     "people",
+     9
+    ],
+    [
+     "time",
+     9
+    ],
+    [
+     "side",
+     8
+    ],
+    [
+     "year",
+     7
+    ],
+    [
+     "governor",
+     7
+    ],
+    [
+     "died",
+     7
+    ],
+    [
+     "succeeded",
+     7
+    ],
+    [
+     "female",
+     7
+    ],
+    [
+     "samalangang",
+     7
+    ],
+    [
+     "charge",
+     6
+    ],
+    [
+     "nephew",
+     6
+    ],
+    [
+     "name",
+     6
+    ],
+    [
+     "war",
+     5
+    ],
+    [
+     "engaged",
+     5
+    ],
+    [
+     "others",
+     5
+    ],
+    [
+     "called",
+     5
+    ],
+    [
+     "dato",
+     5
+    ],
+    [
+     "joamagit",
+     5
+    ],
+    [
+     "dul",
+     5
+    ],
+    [
+     "english",
+     4
+    ],
+    [
+     "town",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-010",
+  "file": "MY-010.xml",
+  "title": "Chapter XXXIII: Native Princes",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 267-277",
+  "type": "memoir",
+  "summary": "Abdullah's reflections on Malay rulers, their treatment of their subjects, and the subjects' wish to live under British rule.",
+  "catalogId": "MY-010",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 32
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XXXIII, pp. 267-277. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 11,
+   "lines": 348,
+   "words": 2571,
+   "columnBreaks": 0,
+   "surfaces": 11,
+   "zones": 0,
+   "images": 11
+  },
+  "langWords": {
+   "en": 2571
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "god",
+     20
+    ],
+    [
+     "rajas",
+     15
+    ],
+    [
+     "slaves",
+     13
+    ],
+    [
+     "sons",
+     11
+    ],
+    [
+     "raja",
+     9
+    ],
+    [
+     "padang",
+     9
+    ],
+    [
+     "see",
+     8
+    ],
+    [
+     "go",
+     8
+    ],
+    [
+     "many",
+     8
+    ],
+    [
+     "malay",
+     7
+    ],
+    [
+     "people",
+     7
+    ],
+    [
+     "death",
+     7
+    ],
+    [
+     "injustice",
+     7
+    ],
+    [
+     "like",
+     6
+    ],
+    [
+     "house",
+     6
+    ],
+    [
+     "even",
+     6
+    ],
+    [
+     "dollars",
+     5
+    ],
+    [
+     "come",
+     5
+    ],
+    [
+     "children",
+     5
+    ],
+    [
+     "destroyed",
+     5
+    ],
+    [
+     "places",
+     5
+    ],
+    [
+     "princes",
+     4
+    ],
+    [
+     "well",
+     4
+    ],
+    [
+     "laws",
+     4
+    ],
+    [
+     "fear",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "MY-011",
+  "file": "MY-011.xml",
+  "title": "Chapter XXXVII: American Missionaries.—Voyage to Tringanu.—Loss of his Wife.—Bible Translations, etc.",
+  "nation": "Malaysia",
+  "nationCode": "MY",
+  "place": "Malacca and Singapore",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "translationsfrom00abdu, pp. 296-321",
+  "type": "memoir",
+  "summary": "Abdullah works with American missionaries, travels to Pahang, Terengganu and Kelantan, loses his wife in 1843, and translates the Bible, followed by Thomson's long commentary.",
+  "catalogId": "MY-011",
+  "era": "Straits Settlements, slavery and bonded labour",
+  "eraYears": "1819-1899",
+  "perspective": "community",
+  "community": "Malays",
+  "languages": {
+   "main": "en",
+   "other": [
+    "ms"
+   ],
+   "all": [
+    "en",
+    "ms"
+   ]
+  },
+  "date": {
+   "label": "1849 (Malay original, Hikayat Abdullah); English translation 1874",
+   "year": 1849,
+   "yearEnd": 1849
+  },
+  "century": 19,
+  "decade": 1840,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Henry S. King, 1874."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 33
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/translationsfrom00abdu",
+  "citation": "Thomson, J. T., trans. Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments. London: Henry S. King & Co., 1874. Chapter XXXVII, pp. 296-321. Scan at the Internet Archive.",
+  "contributors": [
+   "John Turnbull Thomson (English translation and commentary (1874))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 26,
+   "lines": 858,
+   "words": 3973,
+   "columnBreaks": 0,
+   "surfaces": 26,
+   "zones": 0,
+   "images": 26
+  },
+  "langWords": {
+   "en": 3973
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 16,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 4,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "malay",
+     21
+    ],
+    [
+     "time",
+     16
+    ],
+    [
+     "north",
+     16
+    ],
+    [
+     "like",
+     13
+    ],
+    [
+     "plate",
+     13
+    ],
+    [
+     "english",
+     11
+    ],
+    [
+     "people",
+     11
+    ],
+    [
+     "went",
+     11
+    ],
+    [
+     "house",
+     11
+    ],
+    [
+     "great",
+     11
+    ],
+    [
+     "malacca",
+     10
+    ],
+    [
+     "singapore",
+     10
+    ],
+    [
+     "told",
+     10
+    ],
+    [
+     "america",
+     9
+    ],
+    [
+     "saw",
+     9
+    ],
+    [
+     "came",
+     9
+    ],
+    [
+     "well",
+     9
+    ],
+    [
+     "little",
+     9
+    ],
+    [
+     "god",
+     9
+    ],
+    [
+     "wife",
+     8
+    ],
+    [
+     "many",
+     8
+    ],
+    [
+     "till",
+     8
+    ],
+    [
+     "yet",
+     8
+    ],
+    [
+     "arrived",
+     7
+    ],
+    [
+     "see",
+     7
+    ]
+   ]
+  }
+ },
+ {
   "id": "JP-001",
   "file": "JP-001.xml",
   "title": "Tale i: The Rat and the Owl",

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MY-007" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter XXIV: Christian Chapel versus Chinese Joss House</title>
+        <author xml:id="abdullah">Abdullah bin Abdul Kadir, Munshi (1796-1854)</author>
+        <respStmt xml:id="thomson">
+          <resp>English translation and commentary (1874)</resp>
+          <name>John Turnbull Thomson</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1874 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="MY">Malaysia</country>
+            <settlement>Malacca and Singapore</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>translationsfrom00abdu, pp. 210-215</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>The building of an English chapel in Singapore beside a Chinese temple, and Abdullah's work for the first missionaries.</summary>
+            <msItem class="memoir">
+              <textLang mainLang="en" otherLangs="ms">English translation of a Malay memoir, with Malay words and passages</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: Henry S. King, 1874.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="33"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1849">1849 (Malay original, Hikayat Abdullah); English translation 1874</origDate>
+              <p>Written in Malay by Abdullah bin Abdul Kadir and first printed in 1849; translated, with comments, by J. T. Thomson.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Thomson, J. T., trans. <title>Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments</title>.
+          London: Henry S. King &amp; Co., 1874. Chapter XXIV, pp. 210-215.
+          <ref target="https://archive.org/details/translationsfrom00abdu">Scan at the Internet Archive</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Abdullah's text (inside Thomson's quotation marks) is encoded as div type="translation"; Thomson's own
+          comments as div type="commentary". Word counts and frequent-word lists on the site use Abdullah's text only.
+          Line breaks, page breaks and footnotes follow the printed page; running heads and printer's signatures are omitted.
+          Italics are not recorded. The first words of each chapter, printed in small capitals, are marked as such.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">MY-007</term>
+          <term type="era">Straits Settlements, slavery and bonded labour</term>
+          <term type="eraYears">1819-1899</term>
+          <term type="perspective">community</term>
+          <term type="community">Malays</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p210" n="210"><graphic url="facsimiles/hikayat-abdullah-1874/p210.jpg"/></surface>
+    <surface xml:id="p211" n="211"><graphic url="facsimiles/hikayat-abdullah-1874/p211.jpg"/></surface>
+    <surface xml:id="p212" n="212"><graphic url="facsimiles/hikayat-abdullah-1874/p212.jpg"/></surface>
+    <surface xml:id="p213" n="213"><graphic url="facsimiles/hikayat-abdullah-1874/p213.jpg"/></surface>
+    <surface xml:id="p214" n="214"><graphic url="facsimiles/hikayat-abdullah-1874/p214.jpg"/></surface>
+    <surface xml:id="p215" n="215"><graphic url="facsimiles/hikayat-abdullah-1874/p215.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="XXIV">
+        <head>XXIV. Christian Chapel versus Chinese Joss House</head>
+        <div type="translation" resp="#abdullah">
+        <pb n="210" facs="#p210"/>
+        <p><lb n="1"/><hi rend="smallcaps">“I</hi> <hi rend="smallcaps">will</hi> now return to my own affairs.. I was en-<lb n="2" break="no"/>gaged for three years in teaching Malay to the young<lb n="3"/>English merchants and to new-comers,—but I have not<lb n="4"/>space to tell all their names, they were so numerous ;<lb n="5"/>yet I may mention a few of them, such as Messrs.<lb n="6"/>Boustead, Benjamin Butler, Sykes, Read, Paton, Terang-<lb n="7" break="no"/>tin (2), Ker, White, Magdano (?), Purvis, the two<lb n="8"/>Mestrings (?), Rogers, Martin, Carnie, Davison, Ham-<lb n="9" break="no"/>sen (?); indeed, these and hundreds of gentlemen that<lb n="10"/>I have taught, but whom I have forgot. Further, there<lb n="11"/>were of English women and their unmarried daughters<lb n="12"/>ten or twelve that I taught in Singapore. But in regard<lb n="13"/>to the gentlemen, they being merchants, all that they<lb n="14"/>required was to be able to speak enough for trading<lb n="15"/>purposes, or. to read letters; so they did not study<lb n="16"/>polite literature, nor the more difficult works, nor the<lb n="17"/>idiom of the language. So before they had washed or<lb n="18"/>bathed in the principles of the Malay languages, they<lb n="19"/>lost all as time flowed, till they could not tell how many<lb n="20"/>crooked alifs there were.</p>
+        <p><lb n="21"/>Such were my circumstances when a letter came to<lb n="22"/>me from Malacca, to wit, from the Rev. Messrs. Hum-<lb n="23" break="no"/>phries, Kyd, and Coolie (?), asking me to come to that<lb n="24"/>place, as there was not a moonshee there who could<pb n="211" facs="#p211"/><lb n="1"/>teach English and Malay, and as there were Malay<lb n="2"/>writings and books which they wished to study. ~ So<lb n="3"/>I answered them that I could not go to them, as I<lb n="4"/>had a great deal of work in hand in Singapore at this<lb n="5"/>time, but if they would wait a little I would come. Two<lb n="6"/>or three months after this, another letter came from<lb n="7"/>these gentlemen, begging of me to come, asking if I had<lb n="8"/>lost my good feelings for them, as I had been taught in<lb n="9"/>the college. Now there was no work in the college, yet I<lb n="10"/>would not come. Afterwards, however, because of my<lb n="11"/>good remembrances of Mr. Milne, I left my business in<lb n="12"/>Singapore and came to them at Malacca. So the gentle-<lb n="13" break="no"/>men got out all the Malay books that were piled up in<lb n="14"/>their presses from the time of Mr. Milne, and all the books<lb n="15"/>collected in former times, which they told me to arrange.<lb n="16"/>There were others that had been translated into English<lb n="17"/>by Mr. Kite (?). After this Mr. Humphries desired to<lb n="18"/>study Malay, so I taught him for about a twelvemonth ;<lb n="19"/>he could then read a little, but he gave it up to study<lb n="20"/>Chinese. ‘Then Mr. Kite studied Malay a little;<lb n="21"/>whilst Mr. Coolie did not study it at all, but Chinese only.<lb n="22"/>I was then put at the head of the printing department,<lb n="23"/>to attend to all the business there, for none of them<lb n="24"/>understood this. On account of these engagements I<lb n="25"/>could not leave Malacca, notwithstanding I had<lb n="26"/>numbers of letters from the merchants of Singapore,<lb n="27"/>earnestly calling me away. I told Mr. Humphries of<lb n="28"/>this; but he would not let ine go, telling me that he could<lb n="29"/>not get such another trustworthy person for the college<lb n="30"/>duties, and that if I went the work must come to a stand.<lb n="31"/>So he offered to make up my Singapore earnings. So<lb n="32"/>I remained translating English into Malay, teaching<lb n="33"/>them Malay, and attending to the printing.</p>
+        <p><lb n="34"/>Now regarding the English chapel, i.e. the church<lb n="35"/>at Malacca, the founder of it was Mr. Humphries, and<pb n="212" facs="#p212"/><lb n="1"/>the spot where it is built was originally called Kubun<lb n="2"/>Katik. This was near to my own house, and it was<lb n="3"/>held in my father’s time by a Malay called Inchi Tahir,<lb n="4"/>who sold it to Tambi Mahomed Syed, then to Mahomed<lb n="5"/>Syed, then to Sheik Ally, an Arab who was khatib in<lb n="6"/>the Kling Mosque. Then, when Sheik Ally desired to<lb n="7"/>sell the place, I informed Mr. Humphries, letting him<lb n="8"/>know at the same time that a Chinaman had set his<lb n="9"/>heart on it, with the view of adding it to his Joss house.<lb n="10"/>So Mr. Humphries bought it at once for 400 Spanish<lb n="11"/>dollars. The place faced the Chinese Joss house, and<lb n="12"/>for this reason all the Chinese wished to have it. The<lb n="13"/>width of it was about twenty fathoms, the length ex-<lb n="14" break="no"/>: ceeding this.</p>
+        <p><lb n="15"/>About two days after the purchase, Mr. Humphries<lb n="16"/>prepared to erect the chapel; and when the Chinese<lb n="17"/>heard this, their captain, with a number of them, came<lb n="18"/>to him to ask for the land, offering to give him a great<lb n="19"/>advance on the purchase-money, even to double. But<lb n="20"/>Mr. Humphries would not agree. Then on the morrow<lb n="21"/>the Chinese came again, offering to change plots in<lb n="22"/>another quarter, adding money to this; but he would<lb n="23"/>not give in. They were much grieved at this, as the<lb n="24"/>ground was exactly opposite their place of worship. This<lb n="25"/>became a great cause of trouble to them, for it was their<lb n="26"/>custom to have music and firing of crackers in any<lb n="27"/>quantity, with paper-burning and great uproar. So that<lb n="28"/>if this became an English church, to a certainty the<lb n="29"/>noises would be interfered with.</p>
+        <p><lb n="30"/>Now, it is the custom of the Chinese to place their<lb n="31"/>places of worship (literally idol houses) in the best<lb n="32"/>places, having their frontages towards China, so that if<lb n="33"/>houses are placed in their front, they of necessity act<lb n="34"/>as a screen. The Chinese faith is, that by Mr. Hum-<lb n="35" break="no"/>phries’ chapel being in front of their place of worship,<pb n="213" facs="#p213"/><lb n="1"/>theirs became destroyed. On this account, all those<lb n="2"/>Chinese that were natives of China became persuaded<lb n="3"/>that they could no longer prosper in Malacca. Yet all<lb n="4"/>the country-born Chinese have become rich; 80 this<lb n="5"/>proves the persuasion to be wrong, and I have heard<lb n="6"/>themselves say s0.</p>
+        <p><lb n="7"/>So the place was cleared of the trees, and a house<lb n="8"/>erected of the same style as Mr. Milne’s college. And when<lb n="9"/>they were about to set up the door, they called together all<lb n="10"/>the principal people of Malacca, who put money under<lb n="11"/>the sill. This done, Mr. Humphries named the house, the<lb n="12"/>Malacca Chapel. After this, all the principal people, as<lb n="13"/>well as the Governor, with the ladies (literally women),<lb n="14"/>came there to worship on the evenings of Mondays. This<lb n="15"/>became an established custom; and on Sundays, at eight<lb n="16"/>in the morning, all the Chinese, children that were being<lb n="17"/>taught at the college, together with the Chinese converts<lb n="18"/>(literally who had become English), assembled and re-<lb n="19" break="no"/>mained there till nine, and again from ten to twelve. Then<lb n="20"/>at one they went to the large church which stands in<lb n="21"/>the fort. After this, from three to four, all the country-<lb n="22" break="no"/>born Dutch, male and female, went to the chapel ; also<lb n="23"/>on the Monday nights, at seven, all the English and<lb n="24"/>Dutch came to it. Also, when repairs were being made<lb n="25"/>to the large church, all went to the chapel instead.<lb n="26"/>Now, until this chapel had been built, no European’s<lb n="27"/>carriage had ever entered this quarter of the town: now<lb n="28"/>there were twenties choking the street. This stopped the<lb n="29"/>way, which annoyed the Chinese, as they were offended<lb n="30"/>because (at the time of chapel prayers) they were not<lb n="31"/>allowed to make the usual noises in their Joss house<lb n="32"/>opposite, as policemen were stationed to prevent people<lb n="33"/>going that way, nor to speak loud, whether during the<lb n="34"/>day or the night.</p>
+        <p><lb n="35"/>After a while Mr. Humphries returned to Europe,<pb n="214" facs="#p214"/><lb n="1"/>leaving Messrs. Kite and Coolie. The Malay work<lb n="2"/>and printing in the college now lessened, as they gave<lb n="3"/>their attention to the Chinese language only. Other-<lb n="4" break="no"/>wise they taught the Chinese children English and<lb n="5"/>Chinese. So I asked leave to return to the Straits, and<lb n="6"/>true enough they let me go, but not willingly, for they<lb n="7"/>wished me to remain for good in the College; but I told<lb n="8"/>them that if they would write to me, should I be much<lb n="9"/>required, that I would return. So I set sail and returned<lb n="10"/>to Singapore; and when I arrived, the merchants again<lb n="11"/>came to me to learn Malay. So I set to work. I now<lb n="12"/>learned that Mr. Crawfurd had returned to Europe, and<lb n="13"/>that Mr. Prince (?) held his place; but he also soon left,<lb n="14"/>and was replaced by Mr. Murchison. Again there came<lb n="15"/>Mr. Presgrave, who had a limping gait; after him came<lb n="16"/>Mr. Bonham, who became chief of the three settle-<lb n="17" break="no"/>ments. Myr. Wingrove then became head of the police;<lb n="18"/>and after Mr. Wingrove had sailed, he was succeeded<lb n="19"/>by Mr. Church. After him came Captain Ferrier. He<lb n="20"/>again was succeeded by Major Low, who now holds office<lb n="21"/>as police magistrate. The latter came from Pulo<lb n="22"/>Penang, the former taking his place as magistrate at<lb n="23"/>Sabrang Prye (Province Wellesley). After this, by the<lb n="24"/>grace of God, Singapore was highly prosperous, multi-<lb n="25" break="no"/>tudes coming and going without stoppage. The streets<lb n="26"/>and lanes had all been made and kept in repair; the<lb n="27"/>forests had been cleared by the Company’s slaves<lb n="28"/>(meaning here convicts).”’</p>
+        </div>
+        <div type="commentary" resp="#thomson">
+        <p><lb n="29"/>Abdulla gives the names of several of the pioneer<lb n="30"/>merchants of Singapore, men highly esteemed for their ‘<lb n="31"/>probity and enterprise, and one or two of whom have<lb n="32"/>since become well known in the extensive trade .of<lb n="33"/>England and China.<pb n="215" facs="#p215"/></p>
+        <p><lb n="1"/>His allusion to the letter alif indicates, however, how<lb n="2"/>little Abdulla thought of their Malay acquirements, alif<lb n="3"/>being the only straight letter in the Malay alphabet.</p>
+        <p><lb n="4"/>That the new missionaries should be so entirely<lb n="5"/>dependent on him, shows at what a low ebb education<lb n="6"/>had been in the renowned city of Malacca. The in-<lb n="7" break="no"/>trusion of the missionaries as regards the Chinese temple<lb n="8"/>appears to me to have been not only injudicious, but,<lb n="9"/>from Abdulla’s account, also to have been unnecessary.<lb n="10"/>They, no doubt, would call it chivalrous to thus beard<lb n="11"/>the lion in this den, but there was no credit in this<lb n="12"/>apparent magnanimity, as they had the police and<lb n="13"/>authorities at their back to cow the Chinese, and beat -<lb n="14"/>them down. The loud noise of the Chinese in their<lb n="15"/>worship was a matter of complaint, and it is curious<lb n="16"/>to note that the constant complaint of Christian ministers<lb n="17"/>against their own people, was that they were too silent.<lb n="18"/>It is a fact that all the time I was in India T never heard<lb n="19"/>a psalm sung. When there was a barrel-organ, it would<lb n="20"/>do duty; and where not, the clerk and people sat silent.<lb n="21"/>I speak of a quarter of a century ago; I am not aware<lb n="22"/>what is the case now.</p>
+        <p><lb n="23"/>I am reminded of the case of Missionary Sumner at<lb n="24"/>Macao. He met his fellow-Christians carrying the host ;<lb n="25"/>but, contrary to the custom of his fellow-Christians,<lb n="26"/>though belonging to the opposite sect, he would neither<lb n="27"/>turn into a cross street nor take off his hat, so he was<lb n="28"/>knocked down and carried off to jail, where he was kept<lb n="29"/>starving by way of penance. Captain, now Admiral,<lb n="30"/>Keppel then came to his rescue, shooting the jailor dead<lb n="31"/>in the mélée. Keppel did quite right, even though the<lb n="32"/>accident occurred; but a little Christian forbearance on<lb n="33"/>the part of Sumner would have been more laudable. :<lb n="34"/>Thus, though my fellow Protestants in the far East<lb n="35"/>would not sing psalms, they were always a church ©<lb n="36"/>militant in the true sense of the term.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

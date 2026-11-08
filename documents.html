@@ -296,6 +296,41 @@
       font-style: italic;
     }
 
+    .tei-div-translation,
+    .tei-div-commentary {
+      margin: 1.25rem 0;
+    }
+
+    .tei-div-commentary {
+      padding: 0.25rem 0 0.25rem 1rem;
+      border-left: 3px solid #9aa8b6;
+      color: #33475b;
+    }
+
+    .voice-label {
+      margin: 0 0 0.5rem;
+      color: #4f5f70;
+      font-size: 0.8rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .tei-table {
+      margin: 1rem 0;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+
+    .tei-table th,
+    .tei-table td {
+      padding: 0.2rem 0.75rem;
+      text-align: left;
+    }
+
+    .tei-smallcaps {
+      font-variant: small-caps;
+    }
+
     .marked .tei-person { background: #e3e9fb; box-shadow: inset 0 -2px 0 var(--ocean); }
     .marked .tei-place { background: #d6f4f0; box-shadow: inset 0 -2px 0 #0b7d72; }
     .marked .tei-org { background: #ffe4df; box-shadow: inset 0 -2px 0 #b8402e; }
@@ -811,6 +846,47 @@
           return;
         }
 
+        case "div": {
+          const type = node.getAttribute("type") || "";
+          const section = el("section", "tei-div" + (type ? " tei-div-" + type : ""));
+          if (lang) section.lang = lang;
+          const labels = {
+            translation: "The author’s text",
+            commentary: "Editor’s or translator’s comment",
+          };
+          if (labels[type]) {
+            const who = (node.getAttribute("resp") || "").replace(/^#/, "");
+            const person = who && currentTei && [...currentTei.getElementsByTagNameNS(TEI_NS, "*")]
+              .find((e) => e.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id") === who);
+            const name = person ? (person.getElementsByTagNameNS(TEI_NS, "name")[0] || person).textContent.trim() : "";
+            section.appendChild(el("p", "voice-label", labels[type] + (name ? ": " + name.replace(/\s*\(.*\)$/, "") : "")));
+          }
+          teiChildren(node).forEach((c) => render(c, section, ctx));
+          out.appendChild(section);
+          return;
+        }
+
+        case "table": {
+          const table = el("table", "tei-table");
+          teiChildren(node).forEach((c) => render(c, table, ctx));
+          out.appendChild(table);
+          return;
+        }
+
+        case "row": {
+          const tr = el("tr");
+          teiChildren(node).forEach((c) => render(c, tr, ctx));
+          out.appendChild(tr);
+          return;
+        }
+
+        case "cell": {
+          const td = el(node.parentNode.getAttribute("role") === "label" ? "th" : "td");
+          teiChildren(node).forEach((c) => render(c, td, ctx));
+          out.appendChild(td);
+          return;
+        }
+
         case "list": {
           const ul = el("ul");
           teiChildren(node).forEach((c) => render(c, ul, ctx));
@@ -992,7 +1068,7 @@
         case "hi": {
           const rend = node.getAttribute("rend") || "";
           const tag = /italic/.test(rend) ? "em" : /bold/.test(rend) ? "strong" : /super/.test(rend) ? "sup" : "span";
-          const span = inline("", tag);
+          const span = inline(/smallcaps/.test(rend) ? "tei-smallcaps" : "", tag);
           if (/underline/.test(rend)) span.style.textDecoration = "underline";
           return;
         }

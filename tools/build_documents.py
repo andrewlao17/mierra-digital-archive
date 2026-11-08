@@ -22,7 +22,8 @@ analysis.html load. Only the Python standard library is needed.
 Counting rules (also shown on the analysis page):
   * Words are counted from the normalised reading: expansions, corrections and
     regularisations are counted; abbreviations, original misspellings, deleted
-    text, notes and running heads are not.
+    text, notes, running heads and an editor's commentary
+    (div type="commentary") are not.
   * Chinese and Japanese text has no spaces, so each Han or kana character
     counts as one word.
   * Each word is credited to the nearest xml:lang in force, so multilingual
@@ -68,7 +69,7 @@ STOPWORDS = {
         its itself just me more most my no nor not now of off on once one only or other our out over own said
         same she should so some such than that the their them then there these they this those through thus
         to too under until up upon very was we were what when where which while who whom why will with would
-        you your shall thee thou thy ye unto""",
+        you your shall thee thou thy ye unto mr mrs""",
     "nl": """aan al alle als bij dan dat de den der des deze die dit doch door dus een eens en er ge geen haar
         had heb hebben heeft hem het hier hij hoe hun ik in is ja je kan kon maar me meer men met mij mijn na
         naar niet niets nog nu of om omdat ons ook op over te tegen toch toen tot u uit uw van veel voor want
@@ -120,6 +121,9 @@ def segments(el, lang):
     lang = el.get(XML_LANG) or lang
     tag = local(el)
     if tag in SKIP_TEXT:
+        return
+    # An editor's or translator's commentary is not part of the document's own voice.
+    if tag == "div" and el.get("type") == "commentary":
         return
     block = tag in BLOCK
     if block:

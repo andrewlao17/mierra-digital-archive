@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MY-006" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter XXIII: Flight of the Harem</title>
+        <author xml:id="abdullah">Abdullah bin Abdul Kadir, Munshi (1796-1854)</author>
+        <respStmt xml:id="thomson">
+          <resp>English translation and commentary (1874)</resp>
+          <name>John Turnbull Thomson</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1874 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="MY">Malaysia</country>
+            <settlement>Malacca and Singapore</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>translationsfrom00abdu, pp. 206-209</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>The women of the Sultan's household flee at daybreak to the British, and the dispute that follows over whether they may be returned.</summary>
+            <msItem class="memoir">
+              <textLang mainLang="en" otherLangs="ms">English translation of a Malay memoir, with Malay words and passages</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: Henry S. King, 1874.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="30"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1849">1849 (Malay original, Hikayat Abdullah); English translation 1874</origDate>
+              <p>Written in Malay by Abdullah bin Abdul Kadir and first printed in 1849; translated, with comments, by J. T. Thomson.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Thomson, J. T., trans. <title>Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments</title>.
+          London: Henry S. King &amp; Co., 1874. Chapter XXIII, pp. 206-209.
+          <ref target="https://archive.org/details/translationsfrom00abdu">Scan at the Internet Archive</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Abdullah's text (inside Thomson's quotation marks) is encoded as div type="translation"; Thomson's own
+          comments as div type="commentary". Word counts and frequent-word lists on the site use Abdullah's text only.
+          Line breaks, page breaks and footnotes follow the printed page; running heads and printer's signatures are omitted.
+          Italics are not recorded. The first words of each chapter, printed in small capitals, are marked as such.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">MY-006</term>
+          <term type="era">Straits Settlements, slavery and bonded labour</term>
+          <term type="eraYears">1819-1899</term>
+          <term type="perspective">community</term>
+          <term type="community">Malays</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p206" n="206"><graphic url="facsimiles/hikayat-abdullah-1874/p206.jpg"/></surface>
+    <surface xml:id="p207" n="207"><graphic url="facsimiles/hikayat-abdullah-1874/p207.jpg"/></surface>
+    <surface xml:id="p208" n="208"><graphic url="facsimiles/hikayat-abdullah-1874/p208.jpg"/></surface>
+    <surface xml:id="p209" n="209"><graphic url="facsimiles/hikayat-abdullah-1874/p209.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="XXIII">
+        <head>XXIII. Flight of the Harem</head>
+        <div type="translation" resp="#abdullah">
+        <pb n="206" facs="#p206"/>
+        <p><lb n="1"/><hi rend="smallcaps">“About</hi> a month after this, at day-break, there came<lb n="2"/>twenty-seven women, who were both young and beauti-<lb n="3" break="no"/>ful, to the police-office, to lay their complaints. One<lb n="4"/>opened the clothes on her back to show the marks of the<lb n="5"/>rattan cane; others had marks of having been hung up;<lb n="6"/>others of burnings with pitch; others complained of<lb n="7"/>being punished by fasting and nakedness. Some further<lb n="8"/>said that they had been burnt with pitch in such a part.<lb n="9"/>Others complained that several of their friends had been<lb n="10"/>ordered to be killed, from jealousy, the prince wanting to<lb n="11"/>make concubines of them. These and such others were<lb n="12"/>the complaints of the young girls at the police-office.<lb n="13"/>Mr. Crawfurd ordered them to go where they liked, as<lb n="14"/>now no one could touch them or interfere with them.<lb n="15"/>So each went on their way: some went with the police-<lb n="16" break="no"/>men, some to the Klings, others to the Chinese, and a<lb n="17"/>few of them to the houses of the Europeans, just where-<lb n="18" break="no"/>ever they could get food and clothing.</p>
+        <p><lb n="19"/>Then, at two in the afternoon, the Sultan made his<lb n="20"/>appearance at the police-office to see Mr. Crawfurd ; and<lb n="21"/>when he arrived, Mr. Crawfurd received him and took<lb n="22"/>him to a seat. The Sultan now asked why he had let<lb n="23"/>loose all his female slaves ; adding, ‘For they have all run<lb n="24"/>away from my house. They were mine, for I had an<pb n="207" facs="#p207"/><lb n="1"/>agreement with Mr. Raffles that the Company should<lb n="2"/>have no authority over them.’ ‘To this Mr. Crawfurd<lb n="3"/>replied, that he knew nothing of Mr. Raffles’ engage-<lb n="4" break="no"/>ments with the Sultan, but that he had an order from<lb n="5"/>the chief authority in Bengal that on English ground<lb n="6"/>there should be no slaves, but free men only; further,<lb n="7"/>should any one buy or sell such, he should be severely<lb n="8"/>punished. Likewise it was not right to punish mankind<lb n="9"/>by burning them with fire, or by beating them without<lb n="10"/>mercy. Again, he added, ‘I have learnt that men have<lb n="11"/>been murdered in your court; but if I find the mur-<lb n="12" break="no"/>derers, I will have them killed also.’ ‘To this the<lb n="13"/>Sultan replied, that it was not fair to let his slaves<lb n="14"/>go. ‘To this Mr. Crawfurd replied, that if he was dis-<lb n="15" break="no"/>satisfied, the Sultan could write to the authorities in<lb n="16"/>Bengal, or he could sail himself to Bengal to make<lb n="17"/>inquiries. It was not his pleasure, but the Company’s.<lb n="18"/>When the Sultan heard this he was silent, and going to<lb n="19"/>his carriage, he returned without even saying good-bye.<lb n="20"/>About a month after this an order came from Bengal<lb n="21"/>to have all the streets put right, by having those<lb n="22"/>straightened which were crooked. So all were per-<lb n="23" break="no"/>fected till they came to Campong Glam, but to<lb n="24"/>straighten one of the streets here would take it into the<lb n="25"/>heart of the Sultan’s court. So Mr. Crawfurd let the<lb n="26"/>Sultan know that the Company wished the street to be<lb n="27"/>carried so. But when the Sultan heard of it he was<lb n="28"/>dreadfully enraged, and would not let it be done. And<lb n="29"/>when Mr. Crawfurd saw this, he opened up the wall by<lb n="30"/>force. So the convicts set to to knock down the wall.<lb n="31"/>Thus the court was then made as we see it; half on this<lb n="32"/>side of the street, half on the other. And when the<lb n="33"/>Sultan perceived that force was used, he restrained him-<lb n="34" break="no"/>self and said nothing, seeing that he no longer had<lb n="35"/>any power in Singapore. As the Malay proverb says,<pb n="208" facs="#p208"/><lb n="1"/>‘Man is afraid of a tiger because of its teeth; so if it<lb n="2"/>be toothless, why should one be afraid of it?’ So<lb n="3"/>Europeans now thought lightly of the Sultan.</p>
+        <p><lb n="4"/>At that time Mr. Crawfurd put the streets in order,<lb n="5"/>widening and levelling them; and at the corner of each<lb n="6"/>he had a board put up with the name printed in<lb n="7"/>English. At this time convicts were first imported to<lb n="8"/>Singapore. These were employed to finish what had been<lb n="9"/>commenced by former Governors; they also cleared the<lb n="10"/>hills of scrub. The roads, as we see them at present, were<lb n="11"/>all laid out by Mr. Crawfurd; but since then they have<lb n="12"/>been widened. He also appropriated to himself a deal<lb n="13"/>of Jand near the Bazaar, on which are twenties of<lb n="14"/>shops, and which to this time are let for him by his<lb n="15"/>agent.</p>
+        <p><lb n="16"/>On looking at Mr. Crawfurd’s disposition, he was<lb n="17"/>impatient, and of a quick temper; but in what he was<lb n="18"/>engaged he did slowly and not immediately. Further, it<lb n="19"/>could be perceived that he was a man of good parts,<lb n="20"/>clever and profound. Yet it was equally true that he<lb n="21"/>was much bent down by a love for the goods of this<lb n="22"/>world. His hand was not an open one, though he had<lb n="23"/>no small opinion of himself. Further, his impatience<lb n="24"/>prevented him from listening to long complaints, and he<lb n="25"/>did not care about investigating the circumstances of<lb n="26"/>the case. As sure as there was a plaint, he would cut it<lb n="27"/>short in the middle. On this account I have heard that<lb n="28"/>most people murmured and were dissatisfied, feeling<lb n="29"/>that they could not accept his decision with good-will,<lb n="30"/>but by force only.”</p>
+        </div>
+        <div type="commentary" resp="#thomson">
+        <pb n="209" facs="#p209"/>
+        <p><lb n="1"/>Here is a case of Solomon having got into the hands<lb n="2"/>of the Philistines, the leader of the Philistines being<lb n="3"/>John Crawfurd, Esq., F.R.S. At the same time, it is<lb n="4"/>to be perceived that the flight and distribution of the<lb n="5"/>concubines was not calculated to improve the morals<lb n="6"/>of the settlement, European, Chinese, and Kling.</p>
+        <p><lb n="7"/>The East India Company being originally founded<lb n="8"/>- by Radicals, principally composed of London shop-<lb n="9" break="no"/>keepers, we here sce the effects in the desecration of the<lb n="10"/>monarchical precincts. The concubines were dispersed<lb n="11"/>; amongst the people, and the wall also of the temple is<lb n="12"/>broken down. There was always a floating idea amongst<lb n="13"/>the natives that the Company’s government would not<lb n="14"/>stand long. We have seen it out.</p>
+        <p><lb n="15"/>While knocking down the Sultan’s walls, Crawfurd,<lb n="16"/>by way of compensation, seems to have built up a row<lb n="17"/>of shops for himself in the most valuable part of the<lb n="18"/>town, which brought in a large revenue. As a matter<lb n="19"/>of course, a native would surmise that in his position it<lb n="20"/>was beneath him to pay for the land. It is a mistake<lb n="21"/>to think that they are not very critical.</p>
+        <p><lb n="22"/>I have read over the character given by Abdulla in<lb n="23"/>the last paragraph to a gentleman who used to meet<lb n="24"/>Mr. Crawfurd at the Anthropologial Society, of which<lb n="25"/>he was president, and he imagines it to be very correct.</p>
+        <p><lb n="26"/>The manuscript then proceeds to give a long disqui-<lb n="27" break="no"/>sition on his English pupils, which I have left untrans-<lb n="28" break="no"/>lated. The difficulties in attaining a critical knowledge<lb n="29"/>of the languages seems to have discouraged all who<lb n="30"/>attempted to do so. This Abdulla laments.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

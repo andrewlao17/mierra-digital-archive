@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MY-005" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter XXII: Treaty of Singapore</title>
+        <author xml:id="abdullah">Abdullah bin Abdul Kadir, Munshi (1796-1854)</author>
+        <respStmt xml:id="thomson">
+          <resp>English translation and commentary (1874)</resp>
+          <name>John Turnbull Thomson</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1874 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="MY">Malaysia</country>
+            <settlement>Malacca and Singapore</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>translationsfrom00abdu, pp. 200-205</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Abdullah's account of the 1824 treaty by which the Sultan and Temenggong of Johor ceded Singapore to the East India Company.</summary>
+            <msItem class="memoir">
+              <textLang mainLang="en" otherLangs="ms">English translation of a Malay memoir, with Malay words and passages</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: Henry S. King, 1874.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="32"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1849">1849 (Malay original, Hikayat Abdullah); English translation 1874</origDate>
+              <p>Written in Malay by Abdullah bin Abdul Kadir and first printed in 1849; translated, with comments, by J. T. Thomson.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Thomson, J. T., trans. <title>Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments</title>.
+          London: Henry S. King &amp; Co., 1874. Chapter XXII, pp. 200-205.
+          <ref target="https://archive.org/details/translationsfrom00abdu">Scan at the Internet Archive</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Abdullah's text (inside Thomson's quotation marks) is encoded as div type="translation"; Thomson's own
+          comments as div type="commentary". Word counts and frequent-word lists on the site use Abdullah's text only.
+          Line breaks, page breaks and footnotes follow the printed page; running heads and printer's signatures are omitted.
+          Italics are not recorded. The first words of each chapter, printed in small capitals, are marked as such.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">MY-005</term>
+          <term type="era">Straits Settlements, slavery and bonded labour</term>
+          <term type="eraYears">1819-1899</term>
+          <term type="perspective">community</term>
+          <term type="community">Malays</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p200" n="200"><graphic url="facsimiles/hikayat-abdullah-1874/p200.jpg"/></surface>
+    <surface xml:id="p201" n="201"><graphic url="facsimiles/hikayat-abdullah-1874/p201.jpg"/></surface>
+    <surface xml:id="p202" n="202"><graphic url="facsimiles/hikayat-abdullah-1874/p202.jpg"/></surface>
+    <surface xml:id="p203" n="203"><graphic url="facsimiles/hikayat-abdullah-1874/p203.jpg"/></surface>
+    <surface xml:id="p204" n="204"><graphic url="facsimiles/hikayat-abdullah-1874/p204.jpg"/></surface>
+    <surface xml:id="p205" n="205"><graphic url="facsimiles/hikayat-abdullah-1874/p205.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="XXII">
+        <head>XXII. Treaty of Singapore</head>
+        <div type="translation" resp="#abdullah">
+        <pb n="200" facs="#p200"/>
+        <p><lb n="1"/><hi rend="smallcaps">“I</hi> <hi rend="smallcaps">will</hi> now relate the affairs which passed between<lb n="2"/>Sultan Hussain Shah and Mr. Crawfurd. And first in<lb n="3"/>regard to the expenses allotted by Mr. Raffles, which<lb n="4"/>had been fixed at 1000 dollars a month to the above, and<lb n="5"/>700 dollars to the Tomungong. ‘These allowances they<lb n="6"/>had received from the beginning till now, as encourage-<lb n="7" break="no"/>ment to allegiance. And as the month’s end came, so did<lb n="8"/>the Sultan’s followers come to get the money. But now<lb n="9"/>Mr. Crawfurd told them that the East India Company<lb n="10"/>had not enough of money, so they must wait for a month<lb n="11"/>or two, till it came from Bengal. So they retired and<lb n="12"/>reported to their Sultan. He was silent. But at the<lb n="13"/>end of another month they went again to get the money,<lb n="14"/>but Mr. Crawfurd told the same story. They retired<lb n="15"/>again to tell the Sultan. The Sultan wondered at this,<lb n="16"/>for in his opinion it was not correct that the East<lb n="17"/>India Company was hard up, but that there was some<lb n="18"/>pretence only; so he waited. But he also was in<lb n="19"/>difficulties, having mortgaged his property to meet ex-<lb n="20" break="no"/>penses, and even then he was straitened. This went<lb n="21"/>on for three months, till they could bear Mr. Crawfurd’s<lb n="22"/>refusal no longer. So the Sultan and Tomungong went<lb n="23"/>to see him; and when they met he paid due respect to<lb n="24"/>them, shaking them by the hands and asking them to<lb n="25"/>be seated.<pb n="201" facs="#p201"/></p>
+        <p><lb n="1"/>I now must ask pardon of such gentlemen as read my<lb n="2"/>story, for it is necessary that they should know the<lb n="3"/>disposition and appearance of Sultan Hussain ; for new<lb n="4"/>comers have not scen him. For this reason I must<lb n="5"/>describe him. When he first arrived in Singapore from<lb n="6"/>Rhio, he was not stout, but thin; but when he had<lb n="7"/>become Sultan at Singapore, his body enlarged with his<lb n="8"/>days, and his size became beyond all comparison—he was<lb n="9"/>as broad as he was long: a shapeless mass. His head was<lb n="10"/>small, and sunk into his shoulders from fat, just as if he<lb n="11"/>had no neck; his face was square, his eyes squinted ; his<lb n="12"/>nose was moderate, his mouth wide, his breast propor-<lb n="13" break="no"/>tionate; he was pot-bellied in folds, his thighs met, his<lb n="14"/>legs were thin, without contour ; his feet were wide, his<lb n="15"/>voice husky, with an awful sound ; and it was his custom<lb n="16"/>to fall asleep wherever he sat down. And when he was<lb n="17"/>speaking, strangers were startled at the clashing sounds.<lb n="18"/>His complexion was light yellow—but I need not dilate<lb n="19"/>on this, as many know it, and have seen his appearance ;<lb n="20"/>but as far as my experience has gone, I have never seen<lb n="21"/>so unwieldy a man—he could not even carry his own<lb n="22"/>body. And, to my apprehension, in such enormity there<lb n="23"/>can be no pleasure or ease to the body, but nothing but<lb n="24"/>trouble.</p>
+        <p><lb n="25"/>I will now return to show how things were settled<lb n="26"/>between the Sultan and Mr. Crawfurd. When they,<lb n="27"/>ic. the Sultan and the Tomungong, had arrived, Mr.<lb n="28"/>Crawfurd received them with respect, seating them.<lb n="29"/>And after sitting awhile, the Sultan said that he was<lb n="30"/>very much straitened for his daily expenses, by Mr.<lb n="31"/>Crawfurd’s not giving them their allowances for three<lb n="32"/>months. ‘To this Mr. Crawfurd replied, ‘O Sultan and<lb n="33"/>Tomungong, you ought to know well that I can do<lb n="34"/>nothing without orders from the authorities in Bengal ;<lb n="35"/>and they desire that all the government of Singapore<pb n="202" facs="#p202"/><lb n="1"/>should be under the East India Company, and not divided<lb n="2"/>from it. There is a great difficulty in you, the Sultan,<lb n="3"/>haying half, and the Company the other half. This is<lb n="4"/>the desire of the above authorities. If you will agree to<lb n="5"/>it, they will give you an allowance of 1300 Spanish<lb n="6"/>dollars, and to the Tomungong 700 dollars monthly.<lb n="7"/>The Company will further give you now 30,000, and the<lb n="8"/>Tomungong 15,000 Spanish dollars; and if you wish to<lb n="9"/>leave the place for another country, you will get as a<lb n="10"/>present 30,000 Spanish dollars. The agreement stands<lb n="11"/>and the allowances continue as long as you live, but for<lb n="12"/>that time only, for they are not to be continued to your<lb n="13"/>children.’</p>
+        <p><lb n="14"/>When the Sultan and Tomungong heard this, they<lb n="15"/>looked at each other for a moment without saying<lb n="16"/>anything; thereafter the Sultan said, ‘Very good, we<lb n="17"/>will think of it, and to-morrow give you an answer.’<lb n="18"/>To this My. Crawfurd assented, and followed the Sultan<lb n="19"/>to his carriage, who returned to Campong Glam, the<lb n="20"/>Tomungong going to Tullo Blanga. They thought to<lb n="21"/>have completed the business that night ; however, on the<lb n="22"/>morrow an order came from the Sultan to Mr. Crawfurd,<lb n="23"/>accepting the offer of yesterday. Mr. Crawfurd was<lb n="24"/>delighted at this, as he had now got what he wanted,<lb n="25"/>and would thus obtain the approval of his superiors for<lb n="26"/>this service. He then had an agreement drawn out in a<lb n="27"/>book with folds like paper, and told his servant to take<lb n="28"/>his respects to the Sultan, asking him to come to his<lb n="29"/>office on the morrow at ten, to settle the affair. This<lb n="30"/>was carried to the Sultan by the man. On _ the<lb n="31"/>‘ morrow, therefore, at the time stated, the Sultan and<lb n="32"/>Tomungong arrived at the top of the hill on which the<lb n="33"/>Government house stands, and were received by Mr.<lb n="34"/>Crawfurd with due respect. He then took them into<lb n="35"/>the house and seated them. He asked the Sultan if he<pb n="203" facs="#p203"/><lb n="1"/>had fully made up his mind to accept the terms of the<lb n="2"/>Bengal authorities. The Sultan assented. The Tomun-<lb n="3" break="no"/>gong was then asked the same question, when he also<lb n="4"/>assented. Mr. Crawfurd then drew out two rolls of<lb n="5"/>parchment from his desk, handing one to the Sultan<lb n="6"/>and one to the Tomungong, when the Sultan asked to<lb n="7"/>have them translated into Malay, as follows :—</p>
+        <p><lb n="8"/>‘Bahwa ini surat pada meniatikan; maka adala kita<lb n="9"/>Sultan Hussain Shah, bin Sultan Mahomed Shah, Sultan<lb n="10"/>Johor dan Pahang eia-itu Sultan de negri Singapura<lb n="11"/>mengaku dedalam surat ini bahwa sisungoh-nia maka<lb n="12"/>adala dingan suka-suka hati kita tela meniarahkan negri<lb n="13"/>Singapura ini serta dingan parenta-nia sakali kapada<lb n="14"/>Kumpani Ingris ada-nia. Sahadan adala pula pejanjian<lb n="15"/>Kumpani kapada Sultan maka jekalau kera-mia Sultan<lb n="16"/>handa berpinda deri Singapura ini ka negri lain melein-<lb n="17" break="no"/>kan Kumpani bri hadia tiga pulo ribu ringit dan kapada<lb n="18"/>Tomungong lima blas ribu ringit. Dan lagi ada per-<lb n="19" break="no"/>janjian Kumpani Ingris membri belanjer kapada kita<lb n="20"/>pada sa bulan siribu tiga ratus ringit besar dan kapada<lb n="21"/>Tomungong tuju ratus ringit ada-nia. Bermula ada<lb n="22"/>pembeiaran Kumpani Ingris iang tersibut pada sa bulan-<lb n="23" break="no"/>bulan itu saleggi ada siat Sultan sahaja; maka sepen-<lb n="24" break="no"/>ingal Sultan anak chucha Sultan tiadala buleh mendapat<lb n="25"/>wang iang tersibut itu ada-nia. Dan leggi Kumpani<lb n="26"/>membri hadia kapada Sultan tiga pulo ribu ringit.’</p>
+        <p><lb n="27"/>Which is rendered as follows :—</p>
+        <p><lb n="28"/>‘This writing witnesseth that we, Sultan Hussain<lb n="29"/>Shah, son of Sultan Mahomed Shah, King of Johore and<lb n="30"/>Pahang, to wit, who is now in Singapore, acknowledge<lb n="31"/>by the writing aforesaid that we truly and of our own<lb n="32"/>pleasure make over the country of Singapore and its<lb n="33"/>government entirely to the English Company. More-<pb n="204" facs="#p204"/><lb n="1" break="no"/>over, the Company bind themselves to us, the Sultan,<lb n="2"/>that should we desire to leave Singapore for another<lb n="3"/>country, that the Company shall give us thirty thousand<lb n="4"/>Spanish dollars, and to the Tomungong fifteen thousand<lb n="5"/>Spanish dollars. Further, the Company bind them-<lb n="6" break="no"/>selves to us to give us a monthly allowance of thirteen<lb n="7"/>hundred Spanish dollars, and to the Tomungong seven<lb n="8"/>hundred Spanish dollars. Moreover, the payments of<lb n="9"/>the English Company, as above stated, shall be made<lb n="10"/>monthly, and shall be for the lifetime of us the Sultan<lb n="11"/>only, and after us our offspring will not receive the same.<lb n="12"/>The Company will further give to us, by way of present,<lb n="13"/>thirty thousand Spanish dollars.’</p>
+        <p><lb n="14"/>After this agreement had been read, Mr. Crawfurd<lb n="15"/>explained it in Malay, and the Sultan assented and sealed<lb n="16"/>it, the Tomungong doing likewise. When the treaty had<lb n="17"/>thus been signed, twelve guns were fired from the top of<lb n="18"/>the hill—a sign of pleasure. So the Sultan and Tomun-<lb n="19" break="no"/>gong returned, and as the Sultan was going, he said to<lb n="20"/>Mr. Crawfurd, ‘When will we get the money?’ To<lb n="21"/>which he replied, that he could send for it at once. So<lb n="22"/>they returned to their homes. Then on the morrow a<lb n="23"/>servant of the Sultan, named Inchi Abu Putih, came to<lb n="24"/>get the amount; and after it had been counted up, and<lb n="25"/>the debts of the Sultan to Mr. Raffles taken into con-<lb n="26" break="no"/>sideration, there remained to be given to the Sultan<lb n="27"/>20,000 dollars. This settled, the whole of the balance<lb n="28"/>was made over to Inchi Abu. The money arrived at the<lb n="29"/>Sultan’s, and then only did he begin to reflect, and see<lb n="30"/>that he had cause for repentance, in his having made over<lb n="31"/>the settlement of Singapore. Henceforth the monthly<lb n="32"/>allowance of the Sultan was 1300 Spanish dollars, and<lb n="33"/>of the Tomungong 700 Spanish dollars. This continued<lb n="34"/>the same till the death of Sultan Hussain Shah in<pb n="205" facs="#p205"/><lb n="1"/>Malacca. Praise be to God that I have been able to<lb n="2"/>Bay so!</p>
+        <p><lb n="3"/>After this affair was settled Mr. Crawfurd ordered the<lb n="4"/>gong to be beaten round the town of Singapore and<lb n="5"/>Campong Glam, proclaiming to the inhabitants that the<lb n="6"/>laws and government of the place had been given over<lb n="7"/>to the English Company, and that the Sultan and<lb n="8"/>Tomungong no longer held sway, and that without the<lb n="9"/>concurrence of the police neither could move in any<lb n="10"/>matter. And when the Sultan heard the proclamation<lb n="11"/>by gong, he now understood the real effects, which were<lb n="12"/>as if a person’s hands and feet had been tied—as the<lb n="13"/>Malays say, ‘Repent before, for afterwards repentance<lb n="14"/>comes too late.’”</p>
+        </div>
+        <div type="commentary" resp="#thomson">
+        <p><lb n="15"/>In the treaty the word meniarahkan is used, the root -<lb n="16"/>of which is srah, on the meaning of which I have com-<lb n="17" break="no"/>mented. It will be observed that force is given to it<lb n="18"/>here by the addition of the word sakali—that 1s, wholly,<lb n="19"/>entirely, altogether, once and fox all time to come. But<lb n="20"/>this would still not imply the right of the English to<lb n="21"/>give Singapore over to other nations, and I think this<lb n="22"/>is the light in which the treaty is looked upon by the<lb n="23"/>Malay chiefs themselves.</p>
+        <p><lb n="24"/>The detail of the transactions gives a good idea of<lb n="25"/>kindred dealings, such as Mundy’s taking over Labuan ;<lb n="26"/>and while, on the whole, the end has been beneficial to all<lb n="27"/>parties, it does not entirely appear to be to the satisfac-<lb n="28" break="no"/>tion of our autobiographer, whose party would have<lb n="29"/>much greater power and advancement in a Mahomedan<lb n="30"/>kingdom. ‘This is but natural, and we cannot blame<lb n="31"/>him for his political feelings. The regeneration of his<lb n="32"/>race seems to have been his leading passion. He had<lb n="33"/>the bias of a reformer, but not the energy.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

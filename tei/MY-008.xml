@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MY-008" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter XXVIII: The Great Fire</title>
+        <author xml:id="abdullah">Abdullah bin Abdul Kadir, Munshi (1796-1854)</author>
+        <respStmt xml:id="thomson">
+          <resp>English translation and commentary (1874)</resp>
+          <name>John Turnbull Thomson</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (two independent OCR readings reconciled; every disagreement checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1874 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="MY">Malaysia</country>
+            <settlement>Malacca and Singapore</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>translationsfrom00abdu, pp. 228-231</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A great fire in Singapore's Malay and Chinese quarters, and how the townspeople and the British authorities responded.</summary>
+            <msItem class="memoir">
+              <textLang mainLang="en" otherLangs="ms">English translation of a Malay memoir, with Malay words and passages</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: Henry S. King, 1874.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="33"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1849">1849 (Malay original, Hikayat Abdullah); English translation 1874</origDate>
+              <p>Written in Malay by Abdullah bin Abdul Kadir and first printed in 1849; translated, with comments, by J. T. Thomson.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Thomson, J. T., trans. <title>Translations from the Hakayit Abdulla (bin Abdulkadar), Munshi, with Comments</title>.
+          London: Henry S. King &amp; Co., 1874. Chapter XXVIII, pp. 228-231.
+          <ref target="https://archive.org/details/translationsfrom00abdu">Scan at the Internet Archive</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Abdullah's text (inside Thomson's quotation marks) is encoded as div type="translation"; Thomson's own
+          comments as div type="commentary". Word counts and frequent-word lists on the site use Abdullah's text only.
+          Line breaks, page breaks and footnotes follow the printed page; running heads and printer's signatures are omitted.
+          Italics are not recorded. The first words of each chapter, printed in small capitals, are marked as such.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">MY-008</term>
+          <term type="era">Straits Settlements, slavery and bonded labour</term>
+          <term type="eraYears">1819-1899</term>
+          <term type="perspective">community</term>
+          <term type="community">Malays</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-07" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p228" n="228"><graphic url="facsimiles/hikayat-abdullah-1874/p228.jpg"/></surface>
+    <surface xml:id="p229" n="229"><graphic url="facsimiles/hikayat-abdullah-1874/p229.jpg"/></surface>
+    <surface xml:id="p230" n="230"><graphic url="facsimiles/hikayat-abdullah-1874/p230.jpg"/></surface>
+    <surface xml:id="p231" n="231"><graphic url="facsimiles/hikayat-abdullah-1874/p231.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="XXVIII">
+        <head>XXVIII. The Great Fire</head>
+        <div type="translation" resp="#abdullah">
+        <pb n="228" facs="#p228"/>
+        <p><lb n="1"/><hi rend="smallcaps">“I</hi> <hi rend="smallcaps">now</hi> return to my own affairs, while I was in Singa-<lb n="2" break="no"/>pore, after I had heard of the death of Mr. Coolie.<lb n="3"/>The letters that I received from Malacca increased, as<lb n="4"/>there was no one at the college; so I felt that I must<lb n="5"/>go. But by God's will I was taken with remittent fever of<lb n="6"/>a virulent kind; so much so that I could not even bear<lb n="7"/>the smell of rice, neither could I raise my head. I had<lb n="8"/>had all ready, and was only waiting for a vessel to carry<lb n="9"/>me. I was at that time living in a house in the<lb n="10"/>Merchants’ Quarter, and it was about the Chinese New<lb n="11"/>Year, and on the 18th night of the month, when the<lb n="12"/>children were busily engaged in playing with paper<lb n="13"/>horses,—half of the Chinese amusing themselves, and<lb n="14"/>half making great noises with their musical instru-<lb n="15" break="no"/>ments. It was just about half-past seven, when a<lb n="16"/>number of people were seen to be running and crying<lb n="17"/>out, ‘Fire! fire!’ Being sick, I was in a disturbed sleep, so<lb n="18"/>I lifted my head from the pillow, when I saw out of the<lb n="19"/>window that there was the glare of fire, with the sparks<lb n="20"/>falling thickly. This startled me, as one who had not<lb n="21"/>collected his senses; so I ran to the window, and with<lb n="22"/>the clothes and coat fastened to my body, I bolted down<lb n="23"/>the stairs, leaving all my tools, boxes, clothes, writing-<lb n="24" break="no"/>desks, with other choice things which I had brought<pb n="229" facs="#p229"/><lb n="1"/>from the Chinese junks, with eight baskets of sweet ;<lb n="2"/>oranges, Mr. Raffles’ certificates, a great many books<lb n="3"/>and letters, also hard cash in my box, 150 dollars,—all<lb n="4"/>these I left. Again, I was at that time almost senseless,<lb n="5"/>nor could I recollect all the things; for I was so panic-<lb n="6" break="no"/>struck by the fire, which rose up like a hill with dreadful<lb n="7"/>sound, booming like a hurricane. I rushed forward and<lb n="8"/>fell below, not feeling that my sickness still increased.<lb n="9"/>But shortly I was able to run again, for I saw the fire<lb n="10"/>would be soon upon ‘me and my house. It was at this<lb n="11"/>moment that I first thought of my papers, boxes, clothes,<lb n="12"/>and such like; so Lran back to ascend the house, but now<lb n="13"/>an adjacent house was blown up with gunpowder with the<lb n="14"/>noise of thunder. This threw up all the stones, posts,<lb n="15"/>bales of piece goods and roof, the house falling down in<lb n="16"/>all directions. So I ran, drawing long breaths in a<lb n="17"/>terrible state of mind, knowing what ill luck had beset<lb n="18"/>me.</p>
+        <p><lb n="19"/>Seeing the fire striding forward,</p>
+        <p><lb n="20"/>I felt as the life had gone out of me.</p>
+        <p><lb n="21"/>The houses and their contents were consumed</p>
+        <p><lb n="22"/>As a chicken carried off by a vulture,</p>
+        <p><lb n="23"/>And all the houses are levelled.</p>
+        <p><lb n="24"/>By reason of the heat of the fire the eyes cannot be opened ;<lb n="25"/>The roarings of the element resound with a din;</p>
+        <p><lb n="26"/>The joints of the limbs become feeble ;</p>
+        <p><lb n="27"/>Our clothes burn like paper,</p>
+        <p><lb n="28"/>Our oranges go off like crackers.</p>
+        <p><lb n="29"/>Assisters came quickly,</p>
+        <p><lb n="30"/>Removing the goods with rapidity.</p>
+        <p><lb n="31"/>The dollars melt like tin,</p>
+        <p><lb n="32"/>And run in liquid to the foundations ;</p>
+        <p><lb n="33"/>Their whereabouts are not to be found,</p>
+        <p><lb n="34"/>As the molten leads are mixed with them.</p>
+        <p><lb n="35"/>And when I perceived the position I was in, I was<lb n="36"/>appalled and nearly fainting in the middle of the street,<lb n="37"/>my body was so weakened from sickness, and more<lb n="38"/>especially from fright. I then felt the pocket of my<lb n="39"/>coat, where I found a biscuit and a pencil. I ate the<pb n="230" facs="#p230"/><lb n="1"/>biscuit there and then, for I had had nothing for several<lb n="2"/>days, owing to the power of the fever. So I ran to the<lb n="3"/>middle of the crossing, where I perceived a package of<lb n="4"/>China paper, enclosing ink. SoI took the paper, and,<lb n="5"/>carrying it here and there, by God’s help the fever and<lb n="6"/>sickness left me, owing to the fright I had got, and this<lb n="7"/>without using any medicine. Then all that I saw,<lb n="8"/>heard, or was made aware of, or what I felt in the<lb n="9"/>' clamour of the fire, J wrote on the paper; and I com-<lb n="10" break="no"/>posed a poem from the beginning of the Chinese New<lb n="11"/>Year festivals until they were put an end to by the fire,<lb n="12"/>and from thence till they began to rebuild. This poem is<lb n="13"/>well known to all Singaporeans and Malakites, and which<lb n="14"/>I named ‘Singapore Burnings.’ And at that time I saw<lb n="15"/>many coveted goods and merchandise in the middle of<lb n="16"/>the streets, which people had thrown out like rubbish.<lb n="17"/>Some people stole, others were stolen from; some broke<lb n="18"/>into houses, and others had their premises broken into;<lb n="19"/>some beat, and others were beaten; some cried, others<lb n="20"/>laughed. If it were opium, it was in the gutters of the<lb n="21"/>street ; if it were spirits, it was trickling down to the<lb n="22"/>sea; 60 that the men of the sea got drunk. All this I<lb n="23"/>have related in my poem.</p>
+        <p><lb n="24"/>Moreover, I had true pleasure in composing the<lb n="25"/>poem to the last leaf, and that too was finished by<lb n="26"/>the grace of God in His providence over His slaves.<lb n="27"/>And I now offer up thousands of thanks to Him for<lb n="28"/>guarding my life in the great disaster. I now engaged<lb n="29"/>my mind in composing the poem, with the view that the<lb n="30"/>subject might be known to future generations; the<lb n="31"/>circumstances connected with which I have felt. How<lb n="32"/>many are the bitternesses and sweetnesses of the world ;<lb n="33"/>how many storms and waves on the sea of life are there<lb n="34"/>not in this world; how many wonders were seen in Singa-<lb n="35" break="no"/>pore while I was stopping there, in my desire to see the<pb n="231" facs="#p231"/><lb n="1"/>completion of the houses that had been burnt, that I<lb n="2"/>might have them in my poem.</p>
+        <p><lb n="3"/>Two months after this I returned to Malacca. This<lb n="4"/>was owing to my getting twenties of letters from my<lb n="5"/>wife; she having been put to the greatest anxiety by<lb n="6"/>people telling her that I was so sick when the fire took<lb n="7"/>place, that I could not get away from it—so they<lb n="8"/>remained in deep grief. I had been only a month in<lb n="9"/>Malacca when the English came and took it over again<lb n="10"/>from the Dutch. This was in the year of the Messiah<lb n="11"/>1823. Bencoolen was given up instead of it. It was now<lb n="12"/>only that I saw all the races in Malacca truly joyful,<lb n="13"/>they having by this time fully tasted the bitters of the<lb n="14"/>Dutch government. When the Dutch took over the<lb n="15"/>country (in 1818) the people then were delighted ; but<lb n="16"/>now, having felt the crushing tread of the Hollanders,<lb n="17"/>they began to like the government of the English.”</p>
+        </div>
+        <div type="commentary" resp="#thomson">
+        <p><lb n="18"/>_</p>
+        <p><lb n="19"/>The great fire of Singapore will be long remembered ;<lb n="20"/>put I think Abdulla has mistaken the date. Fires have<lb n="21"/>been numerous, and the only one that I saw nearly<lb n="22"/>equalling this was that of Campong Glam, in 1847, or<lb n="23"/>thereabouts, when the whole native town was destroyed.<lb n="24"/>Abdulla’s poetry on the occasion has been found to be<lb n="25"/>untranslatable into English metre. On this occasion<lb n="26"/>he has not had a lady to inspire his muse. His sang-<lb n="27" break="no"/>froid in the confusion, and under his fever, is amusing.<lb n="28"/>By his own account he was a true Times reporter. That<lb n="29"/>he should have been so long sick without his wife coming<lb n="30"/>to see him from a distance of only 120 miles is a curious<lb n="31"/>illustration of native habits. Caste prejudices, and their<lb n="32"/>power, must be enormous, more than Europeans can<lb n="33"/>estimate, for they were not unaffectionate, as will here-<lb n="34" break="no"/>after be shown.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
