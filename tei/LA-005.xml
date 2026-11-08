@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LA-005" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter XVIII: The East of Louang Prabang; End of the Journal; Death of the Traveller</title>
+        <author xml:id="mouhot">Henri Mouhot (1826-1861)</author>
+        <editor xml:id="charles">Charles Mouhot</editor>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46560; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1864 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="LA">Laos</country>
+            <repository>Wellcome Collection (digitised printed copy)</repository>
+            <idno>f5bwa5j4, vol. 2, pp. 144-161</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Notes on the Lao people east of Louang Prabang, a rhinoceros hunt, routes and distances, and the last entries of Mouhot's journal; his brother Charles adds an account of his death near Louang Prabang in November 1861.</summary>
+            <msItem class="travel">
+              <textLang mainLang="en" otherLangs="km th lo fr">English translation of a French travel journal, with Khmer, Thai and Lao names and words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: John Murray, 1864, vol. 2. Engraved plates and woodcuts.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="27"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1864">1864 (journal kept 1858-1860)</origDate>
+              <p>Henri Mouhot's journals and letters, written 1858-1860 and published after his death in Laos in 1861.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Mouhot, Henri. <title>Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860</title>.
+          Vol. 2. London: John Murray, 1864. Chapter XVIII, pp. 144-161.
+          <ref target="https://wellcomecollection.org/works/f5bwa5j4">Scan at the Wellcome Collection</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, page breaks and footnotes follow the printed page; running heads, printer's signatures,
+          the chapter's summary heading and engraved plates are omitted (see the page images). A hyphen that only
+          splits a word at the end of a line is marked pc force="weak" and dropped in the reading view.
+          Italics are not recorded. The chapter's first word, printed in capitals, is marked as small capitals.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">LA-005</term>
+          <term type="era">French exploration of the Mekong</term>
+          <term type="eraYears">1858-1868</term>
+          <term type="perspective">traveller</term>
+          <term type="community">Lao</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-08" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p144" n="144"><graphic url="facsimiles/mouhot-1864-v2/p144.jpg"/></surface>
+    <surface xml:id="p147" n="147"><graphic url="facsimiles/mouhot-1864-v2/p147.jpg"/></surface>
+    <surface xml:id="p148" n="148"><graphic url="facsimiles/mouhot-1864-v2/p148.jpg"/></surface>
+    <surface xml:id="p151" n="151"><graphic url="facsimiles/mouhot-1864-v2/p151.jpg"/></surface>
+    <surface xml:id="p152" n="152"><graphic url="facsimiles/mouhot-1864-v2/p152.jpg"/></surface>
+    <surface xml:id="p153" n="153"><graphic url="facsimiles/mouhot-1864-v2/p153.jpg"/></surface>
+    <surface xml:id="p154" n="154"><graphic url="facsimiles/mouhot-1864-v2/p154.jpg"/></surface>
+    <surface xml:id="p155" n="155"><graphic url="facsimiles/mouhot-1864-v2/p155.jpg"/></surface>
+    <surface xml:id="p156" n="156"><graphic url="facsimiles/mouhot-1864-v2/p156.jpg"/></surface>
+    <surface xml:id="p157" n="157"><graphic url="facsimiles/mouhot-1864-v2/p157.jpg"/></surface>
+    <surface xml:id="p158" n="158"><graphic url="facsimiles/mouhot-1864-v2/p158.jpg"/></surface>
+    <surface xml:id="p159" n="159"><graphic url="facsimiles/mouhot-1864-v2/p159.jpg"/></surface>
+    <surface xml:id="p160" n="160"><graphic url="facsimiles/mouhot-1864-v2/p160.jpg"/></surface>
+    <surface xml:id="p161" n="161"><graphic url="facsimiles/mouhot-1864-v2/p161.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="XVIII">
+        <head>XVIII. The East of Louang Prabang; End of the Journal; Death of the Traveller</head>
+        <pb n="144" facs="#p144"/>
+        <p><lb n="1"/><hi rend="smallcaps">The</hi> dress of the Laotians differs little from that of the<lb n="2"/>Siamese. The people wear the langouti and a little red<lb n="3"/>cotton waistcoat, or often nothing at all. Both men and<lb n="4"/>women go barefoot: their head-dresses are like the<lb n="5"/>Siamese. The women are generally better-looking than<lb n="6"/>those of the latter nation: they wear a single short<lb n="7"/>petticoat of cotton, and sometimes a piece of silk over<lb n="8"/>the breast. Their hair, which is black, they twist into a<lb n="9"/>knot at the back of the head. The houses are built of<lb n="10"/>bamboos and leaves interwoven and raised upon stakes,<lb n="11"/>and underneath is a shelter for domestic animals, such<lb n="12"/>as oxen, pigs, fowls, &amp;c.</p>
+        <p><lb n="13"/>The dwellings are, in the strictest sense, unfurnished,<lb n="14"/>having neither tables nor beds, nor, with few excep<pc force="weak">-</pc><lb n="15" break="no"/>tions, even vessels of earth or porcelain. They eat their<lb n="16"/>rice made into balls out of their hands, or from little<lb n="17"/>baskets plaited with cane, some of which are far from<lb n="18"/>unartistic.</p>
+        <p><lb n="19"/>The crossbow and sarbacane are the arms used in<lb n="20"/>hunting, as well as a kind of lance made of bamboo, and<pb n="147" facs="#p147"/><lb n="1"/>sometimes, but more rarely, the gun, with which they are<lb n="2"/>very skilful.</p>
+        <p><lb n="3"/>In the hamlet of Na-Lê, where I had the pleasure of<lb n="4"/>killing a female tiger, which with its partner was com<pc force="weak">-</pc><lb n="5" break="no"/>mitting great ravages in the neighbourhood, the chief<lb n="6"/>hunter of the village got up a rhinoceros-hunt in my<lb n="7"/>honour. I had not met with this animal in all my<lb n="8"/>wanderings through the forests. The manner in which<lb n="9"/>he is hunted by the Laotians is curious on account of<lb n="10"/>its simplicity and the skill they display. Our party<lb n="11"/>consisted of eight, including myself. I and my servants<lb n="12"/>were armed with guns, and at the end of mine was a<lb n="13"/>sharp bayonet. The Laotians had bamboos with iron<lb n="14"/>blades something between a bayonet and a poignard. The<lb n="15"/>weapon of the chief was the horn of a sword-fish, long,<lb n="16"/>sharp, strong, and supple, and not likely to break.</p>
+        <p><lb n="17"/>Thus armed, we set off into the thickest part of the<lb n="18"/>forest, with all the windings of which our leader was well<lb n="19"/>acquainted, and could tell with tolerable certainty where<lb n="20"/>we should find our expected prey. After penetrating<lb n="21"/>nearly two miles into the forest, we suddenly heard the<lb n="22"/>crackling of branches and rustling of the dry leaves.<lb n="23"/>The chief went on in advance, signing to us to keep a<lb n="24"/>little way behind, but to have our arms in readiness.<lb n="25"/>Soon our leader uttered a shrill cry as a token that the<lb n="26"/>animal was near; he then commenced striking against<lb n="27"/>each other two bamboo canes, and the men set up wild<lb n="28"/>yells to provoke the animal to quit his retreat.</p>
+        <p><lb n="29"/>A few minutes only elapsed before he rushed towards<pb n="148" facs="#p148"/><lb n="1"/>us, furious at having been disturbed. He was a rhinoceros<lb n="2"/>of the largest size, and opened a most enormous mouth.<lb n="3"/>Without any signs of fear, but, on the contrary, of great<lb n="4"/>exultation, as though sure of his prey, the intrepid hunter<lb n="5"/>advanced, lance in hand, and then stood still, waiting<lb n="6"/>for the creature’s assault. I must say I trembled for him,<lb n="7"/>and I loaded my gun with two balls; but when the<lb n="8"/>rhinoceros came within reach and opened his immense<lb n="9"/>jaws to seize his enemy, the hunter thrust the lance into<lb n="10"/>him to a depth of some feet, and calmly retired to where<lb n="11"/>we were posted.</p>
+        <p><lb n="12"/>The animal uttered fearful cries and rolled over on his<lb n="13"/>back in dreadful convulsions, while all the men shouted<lb n="14"/>with delight. In a few minutes more we drew nearer to<lb n="15"/>him; he was vomiting pools of blood. I shook the chief’s<lb n="16"/>hand in testimony of my satisfaction at his courage and<lb n="17"/>skill. He told me that to myself was reserved the honour<lb n="18"/>of finishing the animal, which I did by piercing his throat<lb n="19"/>with my bayonet, and he almost immediately yielded up<lb n="20"/>his last sigh. The hunter then drew out his lance and<lb n="21"/>presented it to me as a souvenir; and in return I gave<lb n="22"/>him a magnificent European poignard.</p>
+        <p><lb n="23"/>Oubon and Bassac lie W.N.W. from M. Pimaï. It<lb n="24"/>takes eight days in the rainy season to travel from this<lb n="25"/>last town to Oubon, two more to reach Bassac. To<lb n="26"/>return occupies at least double that period, the current<lb n="27"/>being excessively strong.</p>
+        <p><lb n="28"/>The Ménam-Moune at Pimaï is 75 metres wide in the<lb n="29"/>dry season; in the rainy season it is from 6 to 7 metres<pb n="151" facs="#p151"/><lb n="1"/>in depth. There are in this district iron, lignites, and<lb n="2"/>trunks of petrified trees lying on the ground, which even<lb n="3"/>from a very short distance look like fallen trees in a<lb n="4"/>natural state.</p>
+        <p><lb n="5"/>Mgi-Poukham, inhabited by the Soués, is six days’<lb n="6"/>journey from Korat in a south-easterly direction.</p>
+        <p><lb n="7"/>In the dry season the navigation of the river is impeded<lb n="8"/>by sandbanks: at some points the stream is tolerably<lb n="9"/>wide, but in others choked with sand.</p>
+        <p><lb n="10"/>From Korat to Pimaï, on an elephant, occupies two<lb n="11"/>days: from Korat to Thaison, two; to Sisapoune, two; to<lb n="12"/>Josoutone, two days; to Oubon, four days; to Bassac,<lb n="13"/>four.</p>
+        <p><lb n="14"/>Direction E.N.E. from Korat; Poukiéau, N. of Chaia<pc force="weak">-</pc><lb n="15" break="no"/>pume; Pouvienne, ten degrees E. of Chaiapume; Dong<pc force="weak">-</pc><lb n="16" break="no"/>kaie, N.E. by E. of Chaiapume; M. Louang Prabang, N.<lb n="17"/>of Chaiapume.</p>
+        <p><lb n="18"/>From Chaiapume to Vien-Tiane is fifteen days’ journey<lb n="19"/>on foot towards the N. and nine degrees E. M. Lôm,<lb n="20"/>N.W. of Chaiapume; Petchaboune, W.N.W. of Chaia<pc force="weak">-</pc><lb n="21" break="no"/>pume; Bassac, E.S.E.</p>
+        <p><lb n="22"/>Bane Prom, a mountain situated in a valley nine miles<lb n="23"/>across, is nearly 300 metres high. Bane Prom, a town.<lb n="24"/>Menam Prom, a river nearly 2 metres deep and 40<lb n="25"/>wide, rises in M’Lôm, and empties itself in the Menam<lb n="26"/>Chie, in the province of Koukhine. Bane-Rike, between<lb n="27"/>Poukiéau and Kone-Sane, four geographical leagues from<lb n="28"/>each place. Menam-Rike is a torrent which empties itself<lb n="29"/>into the Prom.<pb n="152" facs="#p152"/></p>
+        <p><lb n="1"/>The vegetation is monotonous—everywhere resinous<lb n="2"/>trees, chiefly of small size. There is a complete absence<lb n="3"/>of birds; insects are in great number and variety, mus<pc force="weak">-</pc><lb n="4" break="no"/>quitoes and ox-flies in myriads. I suffer dreadfully from<lb n="5"/>them, and am covered with swellings and blisters from<lb n="6"/>their bites; and they torment our beasts so much that<lb n="7"/>we sometimes fear it will drive them mad. The sensi<pc force="weak">-</pc><lb n="8" break="no"/>bility of the skin of the elephant is extraordinary, but<lb n="9"/>these creatures are very skilful in brushing off their<lb n="10"/>tormentors by means of a branch held in their trunks. I<lb n="11"/>do not know what would become of me without these<lb n="12"/>good and docile animals, and I cannot tell which to<lb n="13"/>admire most, their patience or intelligence.</p>
+        <p><lb n="14"/>From Kone-Sane to Vien-Tiane is eight good days’<lb n="15"/>journey in a north-easterly direction.</p>
+        <p><lb n="16"/>To M’Lôm, four days W.N.W.</p>
+        <p><lb n="17"/>To Petchaboune, four days W.S.W.</p>
+        <p><lb n="18"/>To Kôrat, four days E.S.E.</p>
+        <p><lb n="19"/>To Chaiapume, four days E.S.E.</p>
+        <p><lb n="20"/>To Poukiéau, four days E.S.E.</p>
+        <p><lb n="21"/>To Leuye, three days’ rapid travelling N.N.E. over<lb n="22"/>mountains.</p>
+        <p><lb n="23"/>From Kone-Sane to Koukhène, two days’ rapid journey<lb n="24"/>E.S.E.</p>
+        <p><lb n="25"/>From Koukhène to Chenobote, one day’s journey S.E.</p>
+        <p><lb n="26"/>On the road from Kone-Sane to Leuye, near the former<lb n="27"/>place, is a stream called Oué-Mouan, and a torrent, Oué<pc force="weak">-</pc><lb n="28" break="no"/>Kha.</p>
+        <p><lb n="29"/>Bane-Nayaan, a village, five geographical leagues off,<pb n="153" facs="#p153"/><lb n="1"/>two days’ journey, with high mountains to cross, difficult<lb n="2"/>of ascent for the elephants. On the first day your course<lb n="3"/>is over peaked mountains, volcanic, and like those of the<lb n="4"/>Khao Khoc. The next day you meet with calcareous and<lb n="5"/>volcanic hills; in the valleys sandstone, jungle, and fertile<lb n="6"/>ground.</p>
+        <p><lb n="7"/>Mgi-Lôm, four days’ journey west of Bane-Nayaan.<lb n="8"/>From this last place to Bane-Napitone runs the stream<lb n="9"/>Oué-Yan.</p>
+        <p><lb n="10"/>Menam-Fon-Khau, passed over twice, a geographical<lb n="11"/>league.</p>
+        <p><lb n="12"/>In the provinces of Kone-Sane and of Leuye a great<lb n="13"/>number of the inhabitants are affected with goître. Is<lb n="14"/>this caused by the water from the mountains and the<lb n="15"/>mineral substances with which it is impregnated? I<lb n="16"/>suppose so.</p>
+        <p><lb n="17"/>From Bane-Napitone to B. Proune you have to cross<lb n="18"/>high mountains. Half way up one of these is a fine view<lb n="19"/>extending over a wooded plain to the north-west in the<lb n="20"/>direction of Nong Khaï, and bounded at a distance of<lb n="21"/>twenty-five or thirty miles by a chain of mountains; whilst<lb n="22"/>in every other direction you are surrounded by hills vary<pc force="weak">-</pc><lb n="23" break="no"/>ing in height from 300 to 900 feet. The sandstone and<lb n="24"/>chalky rocks of these heights have taken most picturesque<lb n="25"/>forms.</p>
+        <p><lb n="26"/>From B. Proune to B. Thiassène runs a stream five<lb n="27"/>leagues long, in a north-westerly direction, and which is<lb n="28"/>navigable for boats. It flows on towards Leuye, and<lb n="29"/>empties itself in the Mekon at M. Sione-Kane, which is<pb n="154" facs="#p154"/><lb n="1"/>ten degrees N.N.E. of N. Thiassène. From B. Thienne to<lb n="2"/>Leuye are hills easy to climb, with vegetation similar to<lb n="3"/>those of Chantaboune and Brelum, forests of bamboo: the<lb n="4"/>rocks are calcareous, with a small mixture of sandstone.</p>
+        <p><lb n="5"/>The Menam-Rope and Menam-Ouaie are two large<lb n="6"/>rivers, deep in the rainy season, which empty themselves<lb n="7"/>into the Menam-Leuye: also several torrents.  Vil<pc force="weak">-</pc><lb n="8" break="no"/>lages: Bane-Kataname, Bane-Poune, Bane-Nahane, Bane<pc force="weak">-</pc><lb n="9" break="no"/>Pathiou.</p>
+        <p><lb n="10"/>From Bane-Thienne to Nong Khane you go in an east<pc force="weak">-</pc><lb n="11" break="no"/>erly direction. Bane-Poua is the first village in a four<lb n="12"/>days’ journey: here are forests, jungles, and a small hill.<lb n="13"/>The plain is barren and desolate in appearance.</p>
+        <p><lb n="14"/>Towns and provinces of Louang Prabang in coming<lb n="15"/>down: Thienne-Khane, Nong-Kaïe, Saïabouri, Outène,<lb n="16"/>Lakhone-Penome, Mouke-Dahane, Emarate, and Bassac.</p>
+        <p><lb n="17"/>I am literally pillaged by these petty mandarins and<lb n="18"/>chiefs of villages, and have to give away guns, sabres,<lb n="19"/>lead, powder, colours, pencils, and even my paper; and<lb n="20"/>then, after having received their presents, they will not<lb n="21"/>put themselves out of their way to do me the smallest 'ser<pc force="weak">-</pc><lb n="22" break="no"/>vice. I would not wish my most deadly foe, if I had<lb n="23"/>one, to undergo all the trouble and persecution of this<lb n="24"/>kind which I have encountered.</p>
+        <p><lb n="25"/>The Laotian priests are continually praying in their<lb n="26"/>pagodas; they make a frightful noise, chanting from<lb n="27"/>morning to night. Assuredly they ought to go direct to<lb n="28"/>Paradise.</p>
+        <p><lb n="29"/>Between Oué-Saïe and Thienne-Khane the villages<pb n="155" facs="#p155"/><lb n="1"/>are: Bane-Tate, B. Oué-Sake, B. Na-Saor, B. Poun, B.<lb n="2"/>Na-Poué, Nam-Khane, near B. Nmïen; near Kenne<lb n="3"/>Thao, between Bane Nam-Khane and Bane-Noke, is a<lb n="4"/>torrent called Nam-Kheme.</p>
+        <p><lb n="5"/>Observations taken at Kéte-Tao: Vienne-Thiane, east<pc force="weak">-</pc><lb n="6" break="no"/>ward; Mg. Nane, N.N.W.; Tchieng-Maïe, N.W.; Louang<lb n="7"/>Prabang, N. of Kenne Thao.</p>
+        <p><lb n="8"/>Mg. Dane-Saie, four days’ journey W.S.W. of Bane<pc force="weak">-</pc><lb n="9" break="no"/>Mien; Lôme, four days’ journey W.S.W. of Bane-Mien.</p>
+        <p><lb n="10"/>Villages: Bane Thène, Nha-Khâ—two roads; Na-Thon<lb n="11" break="no"/>—two roads; Nâ-Di, Nâ-Moumone, Nâ-Ho, Bane Maïe,<lb n="12"/>B. Khok.</p>
+        <p><lb n="13"/>The river Menam-Ouan runs in a north-westerly direc<pc force="weak">-</pc><lb n="14" break="no"/>tion to within a day’s journey of the Menam-Sake. A<lb n="15"/>high mountain lies between them.</p>
+        <p><lb n="16"/>In Lôme the villages are: Bane Tali, B. Yao, B.<lb n="17"/>Khame, B. Pouksiéau, B. Name-Bongdiéau, B. Nong-Boa,<lb n="18"/>B. Na-Sane-Jenne, B. Nam-Soke, B. Ine-Uun, Dong-Saïe,<lb n="19"/>Bane Vang-Bane, B. Nang-Krang, Mg. Lôme-Kao, Bane<lb n="20"/>Koué-Nioune. Between M. Lôme-Maïe and Thiene<pc force="weak">-</pc><lb n="21" break="no"/>Khame are Bane Oué-Saïe, B. Rate, B. Na-Shî, B. Oué<pc force="weak">-</pc><lb n="22" break="no"/>Pote, B. Na-Sao, B. Loke, B. Na-Niaô, Thiene-Khame.</p>
+        <p><lb n="23"/>Between Kenne Thao and Bane Mien are B. Kone<lb n="24"/>Khêne, B. Pake-Oué, B. Khène-Toune.</p>
+        <p><lb n="25"/>The Mekon is ten leagues east of Kenne Thao.</p>
+        <p><lb n="26"/>M. Phitchaïe eight days’ journey west from Bane<pc force="weak">-</pc><lb n="27" break="no"/>Nmien.</p>
+        <p><lb n="28"/>At Bane-Nmien I found the Laotians even more un<pc force="weak">-</pc><lb n="29" break="no"/>grateful and egotistical than elsewhere; they not only<pb n="156" facs="#p156"/><lb n="1"/>will give you nothing—one has no right to expect it—<lb n="2" break="no"/>but after taking presents from you, they will make you<lb n="3"/>no return whatever.</p>
+        <p><lb n="4"/>The Menam-Ouan rises at Dane-Saïe, S.S.W. from<lb n="5"/>Kenne Thao, and joins the Mekon E.N.E. from that town.</p>
+        <p><lb n="6"/>From Kenne Thao to Louang Prabang is a distance of<lb n="7"/>seven geographical or ten ordinary leagues, and a journey<lb n="8"/>of ten or eleven days, quick travelling.</p>
+        <p><lb n="9"/>Mg. Pakhaie is north of Kenne Thao. From this place<lb n="10"/>to Bane-Na-Ine is one day’s journey; to Bane-Moun<pc force="weak">-</pc><lb n="11" break="no"/>Tioum two days.</p>
+        <p><lb n="12"/>Near this latter place, where I have found a greater<lb n="13"/>number of insects than anywhere else in my travels here,<lb n="14"/>is the river Nam-Shan. It is a continual ascent to this<lb n="15"/>part.</p>
+        <p><lb n="16"/>Near Bane-Na-Ine auriferous quartz occurs. The jungle<lb n="17"/>here is thick.</p>
+        <p><lb n="18"/>Villages in the neighbourhood of Moun-Tioume, con<pc force="weak">-</pc><lb n="19" break="no"/>sisting of from fifteen to thirty huts: Bane-Hape, a league<lb n="20"/>to the north; Rape-Jâ, the same distance southwards;<lb n="21"/>Tate-Dine, one league to the north-east; Nam-Poune, half<lb n="22"/>a league south-east.</p>
+        <p><lb n="23"/>In Bane Moun-Tioume are twenty-six houses.</p>
+        <p><lb n="24"/>Route from B. Moun-Tioume to B. Kouke-Niéou:—<lb n="25" break="no"/>This last village is composed of eighty houses. There is<lb n="26"/>in it an abandoned pagoda, and it is environed by woods<lb n="27"/>and hills. A stream, called the Nam-Peniou, flows past it<lb n="28"/>and joins the Nam-Shan. There is plenty of rice on the<lb n="29"/>hills, but not in the plains.<pb n="157" facs="#p157"/></p>
+        <p><lb n="1"/>From Bane-Kouke-Niéou* there are continual hills.<note place="foot">At Kouke-Niéou I sold my horse for 13 ticals, as he could no longer climb the hills, which became more and more difficult.</note><lb n="2"/>We are tormented by immense numbers of leeches and<lb n="3"/>ox-flies. The jungle is as thick as in Dong Phya Phai.<lb n="4"/>We passed the night on the banks of a stream, the Nam<pc force="weak">-</pc><lb n="5" break="no"/>Koie, which we had several times crossed, but could get<lb n="6"/>no sleep on account of the leeches; and the following<lb n="7"/>night, by the same river, we were equally pestered.</p>
+        <p><lb n="8"/>Bane-Oué-Eu is a small hamlet in the immediate<lb n="9"/>vicinity of Kouke-Niéou-Paklaïe, a very pleasant town,<lb n="10"/>apparently prosperous. The houses are clean and elegant.</p>
+        <p><lb n="11"/>Paklaïe is two geographical leagues distant from Muang<pc force="weak">-</pc><lb n="12" break="no"/>Moune-Wa. The district is very mountainous, with rice<pc force="weak">-</pc><lb n="13" break="no"/>grounds on some of the slopes. We several times had to<lb n="14"/>cross the Laïe, which is 35 metres wide, and rushes along<lb n="15"/>like a torrent, with a great noise. There are, about here,<lb n="16"/>many precipices. It was wonderful to see the elephants<lb n="17"/>climb, descend, and hang on by their trunks to the rocks<lb n="18"/>without ever making a false step.</p>
+        <p><lb n="19"/>I have quite an admiration and regard for these noble<lb n="20"/>animals. How remarkable are their strength and intelli<pc force="weak">-</pc><lb n="21" break="no"/>gence! What should we have done without them amidst<lb n="22"/>these vast forests and rugged mountains?</p>
+        <p><lb n="23"/>Mgi-Roun, district of M. Louang, a day’s journey<lb n="24"/>W.N.W. of Mgi-Moune-Wâ; there are seventy houses<lb n="25"/>in it.</p>
+        <p><lb n="26"/>The villages near to Moune-Wâ are Bane-Bia, 2 miles<pb n="158" facs="#p158"/><lb n="1"/>westward; Bane-Name-Pi, two days’ journey; Thiéme<pc force="weak">-</pc><lb n="2" break="no"/>Khane, one day; B. Nam-Kang, one day. These villages<lb n="3"/>are all on the road from Mgi-Moune-Wâ to Phixaïe.<lb n="4"/>This place lies W.S.W. from Muang-Moune-Wâ, and five<lb n="5"/>days’ journey off, and three days’ journey from Nam<pc force="weak">-</pc><lb n="6" break="no"/>Pate. The country between Mgi-Moune-Wâ and Nam<pc force="weak">-</pc><lb n="7" break="no"/>Pate is mountainous; from the latter place to Phixaïe is<lb n="8"/>also hilly ground, and is part of the direct line from<lb n="9"/>Bangkok to Mgi-Louang.*<note place="foot">These particulars were received by me at Moune-Wâ from inhabitants of Nam-Pate.</note></p>
+        <p><lb n="10"/>From Mgi-Moune-Wâ to Bane-Nakhau is a good day’s<lb n="11"/>journey over a mountain country, through woods of resi<pc force="weak">-</pc><lb n="12" break="no"/>nous trees and high grass; but the jungle predominates.<lb n="13"/>Auriferous sand occurs in the Nam-Poune; also, though<lb n="14"/>less rich, in the Nam-Ouhan and other streams.</p>
+        <p><lb n="15"/>Bane-Phêke and B. Nalane lie between B. Nakhan and<lb n="16"/>Mgi-Nam-Poune.</p>
+        <p><lb n="17"/>Mgi-Nane is six days’ journey W.N.W. of Moune-Wâ.<lb n="18"/>The first day, to Mgi-Roun; second day, through woods<lb n="19"/>and crossing streams, to Nan-Pi (here are black-bellied<lb n="20"/>Laotians); third day, Bane-Khune; fourth day, Bane<pc force="weak">-</pc><lb n="21" break="no"/>Dhare; fifth day, B. Done; sixth day, Tuke.</p>
+        <p><lb n="22"/>3rd September.—We left Bane-Nakhau, and arrived<lb n="23"/>about midday at a rice-field, where we passed the night.<lb n="24"/>All the women here have goîtres, often enormous and<lb n="25"/>most repulsive. Even young girls of nine or ten are to be<lb n="26"/>seen with them, but rarely the men.<pb n="159" facs="#p159"/></p>
+        <p><lb n="1"/>About Tourair there are woods and thick jungles, and<lb n="2"/>the river Nam-Poune, 60 metres broad, runs near. The<lb n="3"/>hills here are of moderate height. I saw some pretty<lb n="4"/>young girls with intelligent faces; but before the females<lb n="5"/>attain the age of eighteen or twenty their features become<lb n="6"/>coarse, and they grow fat. At five-and-thirty they look<lb n="7"/>like old witches.</p>
+        <p><lb n="8"/>Two rivers unite here, the Nam-Poune from the west,<lb n="9"/>and the Nam-Jame from the north.</p>
+        <p><lb n="10"/>On my route from B. Nakhau to B. Na-Lê, I spent<lb n="11"/>the night of the 4th of September in a hut at B. Nakone.<lb n="12"/>On the 5th I reached B. Na-Lê, passing through several<lb n="13"/>hamlets, Na-Moune, Na-Koua, and Na-Dua. Bane-Na<pc force="weak">-</pc><lb n="14" break="no"/>Lé contains only seven houses.</p>
+        <p><lb n="15"/>The streams are, first, the Nam-Jame, crossed and re<pc force="weak">-</pc><lb n="16" break="no"/>crossed several times; the Nam-Quême, Nam-Itou, Nam<pc force="weak">-</pc><lb n="17" break="no"/>Pane; the Nam-Khou, near Bane-Nakone.</p>
+        <p><lb n="18"/>The road lies across high mountains, with jungles full<lb n="19"/>of monkeys uttering their plaintive cries. I was told of a<lb n="20"/>royal tiger at Na-Lê, which, in the space of four months,<lb n="21"/>had killed two men and ten buffaloes. I had the satisfac<pc force="weak">-</pc><lb n="22" break="no"/>tion of killing the tigress.</p>
+        <div type="commentary" resp="#charles"><p><lb n="23"/>5th September, 1861.—From this date M. Mouhot’s<lb n="24"/>observations cease; but until the 25th of October he<lb n="25"/>continued to keep his meteorological register.</p>
+        <p><lb n="26"/>The last dates inscribed in his journal are the fol<pc force="weak">-</pc><lb n="27" break="no"/>lowing:—</p></div>
+        <p><lb n="28"/>20th September.—Left B......p.</p>
+        <p><lb n="29"/>28th.—An order was sent to B...., from the council<pb n="160" facs="#p160"/><lb n="1"/>of Louang Prabang, commanding the authorities to pre<pc force="weak">-</pc><lb n="2" break="no"/>vent my proceeding farther.</p>
+        <p><lb n="3"/>15th October. 58 degrees Fahr.—Set off for Louang<lb n="4"/>Prabang.</p>
+        <p><lb n="5"/>16th.—....</p>
+        <p><lb n="6"/>17th.—....</p>
+        <p><lb n="7"/>18th.—Halted at H....</p>
+        <p><lb n="8"/>19th.—Attacked by fever.*<note place="foot">The handwriting of this entry is evidently much affected by his state of weakness.</note></p>
+        <p><lb n="9"/>29th.—Have pity on me, oh my God....!</p>
+        <div type="commentary" resp="#charles"><p><lb n="10"/>These words, written with a trembling and uncertain<lb n="11"/>hand, were the last found in M. Mouhot’s journal. His<lb n="12"/>faithful Phrai asked him several times if he did not wish<lb n="13"/>to write anything to his family, but his invariable answer<lb n="14"/>was, “Wait, wait; are you afraid?” The intrepid tra<pc force="weak">-</pc><lb n="15" break="no"/>veller never for one moment thought that death was near;<lb n="16"/>he had been spared so far, and he doubtless thought he<lb n="17"/>should recover, or he might have made an effort to write<lb n="18"/>again. He died November 10th, 1861, at 7 o’clock in the<lb n="19"/>evening, having been previously insensible for three days,<lb n="20"/>before which time, however, he had complained of great<lb n="21"/>pains in his head. All the words which he uttered during<lb n="22"/>the delirium of the last three days were in English, and<lb n="23"/>were incomprehensible to his servants.</p>
+        <p><lb n="24"/>He was buried in the European fashion, in the presence<lb n="25"/>of his two servants, who never left him. It is the custom<lb n="26"/>of the country to hang up the dead bodies to the trees,<lb n="27"/>and there leave them.<pb n="161" facs="#p161"/></p>
+        <p><lb n="1"/>This account of the last illness of my dear brother I<lb n="2"/>received from his friends at Bangkok, particularly Dr.<lb n="3"/>Campbell, to whom his two faithful servants hastened at<lb n="4"/>once to give all details. His collections and other pro<pc force="weak">-</pc><lb n="5" break="no"/>perty they took to M. d’Istria, the French consul. Dr.<lb n="6"/>Campbell kindly took charge of the manuscripts, and<lb n="7"/>transmitted them to his widow in London.</p>
+        <p><lb n="8"/>The family of M. Mouhot have already expressed their<lb n="9"/>gratitude to those who were useful and kind to the tra<pc force="weak">-</pc><lb n="10" break="no"/>veller. The two good servants who remained with him<lb n="11"/>to the last also merit their thanks; and, if these lines<lb n="12"/>should fall into the hands of Phrai, I wish him to know<lb n="13"/>how much gratitude and esteem we feel for him, and for<lb n="14"/>his companion Deng. We wish them every happiness in<lb n="15"/>return for their devotion to my dear brother.</p>
+        <closer><signed>C. MOUHOT.</signed></closer></div>
+      </div>
+    </body>
+  </text>
+</TEI>

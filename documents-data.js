@@ -3565,6 +3565,408 @@ window.ARCHIVE_DOCUMENTS = [
   }
  },
  {
+  "id": "KH-008",
+  "file": "KH-008.xml",
+  "title": "Chapter XIII: Ongcor Thôm (Ongcor the Great)",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "f5bwa5j4, vol. 2, pp. 1-19",
+  "type": "travel",
+  "summary": "Mouhot's description of the ruins of Ongcor Thôm (Angkor Thom): its wall and gates, the temple of Prea Sat Ling Poun, the old royal palace, ruined pagodas, bridges and the temple and town of Ta Proum.",
+  "catalogId": "KH-008",
+  "era": "Khmer society and Angkor in 19th-century accounts",
+  "eraYears": "1859-1898",
+  "perspective": "traveller",
+  "community": "Khmer",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 2. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 25
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/f5bwa5j4",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 2. London: John Murray, 1864. Chapter XIII, pp. 1-19. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46560; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 19,
+   "lines": 478,
+   "words": 4443,
+   "columnBreaks": 0,
+   "surfaces": 19,
+   "zones": 0,
+   "images": 19
+  },
+  "langWords": {
+   "en": 4443
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 1,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "metres",
+     42
+    ],
+    [
+     "each",
+     32
+    ],
+    [
+     "galleries",
+     29
+    ],
+    [
+     "towers",
+     27
+    ],
+    [
+     "side",
+     24
+    ],
+    [
+     "two",
+     23
+    ],
+    [
+     "high",
+     21
+    ],
+    [
+     "four",
+     21
+    ],
+    [
+     "wall",
+     21
+    ],
+    [
+     "tower",
+     20
+    ],
+    [
+     "long",
+     20
+    ],
+    [
+     "gallery",
+     20
+    ],
+    [
+     "stone",
+     18
+    ],
+    [
+     "great",
+     15
+    ],
+    [
+     "ruins",
+     15
+    ],
+    [
+     "building",
+     14
+    ],
+    [
+     "ongcor",
+     12
+    ],
+    [
+     "staircases",
+     12
+    ],
+    [
+     "square",
+     12
+    ],
+    [
+     "three",
+     12
+    ],
+    [
+     "large",
+     11
+    ],
+    [
+     "blocks",
+     11
+    ],
+    [
+     "doors",
+     11
+    ],
+    [
+     "sandstone",
+     11
+    ],
+    [
+     "roof",
+     11
+    ]
+   ]
+  }
+ },
+ {
+  "id": "KH-009",
+  "file": "KH-009.xml",
+  "title": "Chapter XIV: Remarks on Cambodia and its Ruins",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "f5bwa5j4, vol. 2, pp. 20-37",
+  "type": "travel",
+  "summary": "Mouhot's remarks on Cambodia and its ruins: the origins of the people who built them, the inhabitants of Cambodia, the 'savage' upland peoples to the east and their dialects, the religion of the Thiâmes (Cham), and the 'kings of fire and water'.",
+  "catalogId": "KH-009",
+  "era": "French protectorate in Cambodia",
+  "eraYears": "1863-1900",
+  "perspective": "traveller",
+  "community": "Khmer",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 2. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 28
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/f5bwa5j4",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 2. London: John Murray, 1864. Chapter XIV, pp. 20-37. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46560; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 18,
+   "lines": 495,
+   "words": 4518,
+   "columnBreaks": 0,
+   "surfaces": 18,
+   "zones": 0,
+   "images": 18
+  },
+  "langWords": {
+   "en": 4518
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 2,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "cambodia",
+     20
+    ],
+    [
+     "great",
+     17
+    ],
+    [
+     "among",
+     16
+    ],
+    [
+     "china",
+     13
+    ],
+    [
+     "even",
+     13
+    ],
+    [
+     "country",
+     12
+    ],
+    [
+     "cochin",
+     12
+    ],
+    [
+     "tribes",
+     12
+    ],
+    [
+     "people",
+     11
+    ],
+    [
+     "many",
+     11
+    ],
+    [
+     "language",
+     11
+    ],
+    [
+     "others",
+     10
+    ],
+    [
+     "must",
+     9
+    ],
+    [
+     "present",
+     8
+    ],
+    [
+     "every",
+     8
+    ],
+    [
+     "far",
+     8
+    ],
+    [
+     "savages",
+     8
+    ],
+    [
+     "river",
+     7
+    ],
+    [
+     "certain",
+     7
+    ],
+    [
+     "little",
+     7
+    ],
+    [
+     "years",
+     7
+    ],
+    [
+     "cambodians",
+     7
+    ],
+    [
+     "bannavs",
+     7
+    ],
+    [
+     "giaraïe",
+     7
+    ],
+    [
+     "words",
+     7
+    ]
+   ]
+  }
+ },
+ {
   "id": "LA-001",
   "file": "LA-001.xml",
   "title": "Chapter II: Geography and History of the Kingdom of Siam",
@@ -3761,6 +4163,810 @@ window.ARCHIVE_DOCUMENTS = [
     [
      "north",
      12
+    ]
+   ]
+  }
+ },
+ {
+  "id": "LA-002",
+  "file": "LA-002.xml",
+  "title": "Chapter XV: Khao Samroum; Province of Pechaburi or Phetxaburi",
+  "nation": "Laos",
+  "nationCode": "LA",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "f5bwa5j4, vol. 2, pp. 38-58",
+  "type": "travel",
+  "summary": "From Battambong back to Bangkok by sea, news from Europe, a visit to one of the king's brothers, and four months in the mountains of Pechaburi, where Mouhot meets settlements of Lao people.",
+  "catalogId": "LA-002",
+  "era": "Fall of Vientiane and Lao deportations to Siam",
+  "eraYears": "1827-1860",
+  "perspective": "traveller",
+  "community": "Lao",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 2. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 26
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/f5bwa5j4",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 2. London: John Murray, 1864. Chapter XV, pp. 38-58. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46560; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 13,
+   "lines": 338,
+   "words": 3174,
+   "columnBreaks": 0,
+   "surfaces": 13,
+   "zones": 0,
+   "images": 13
+  },
+  "langWords": {
+   "en": 3174
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 1
+  },
+  "topWords": {
+   "en": [
+    [
+     "bangkok",
+     12
+    ],
+    [
+     "water",
+     10
+    ],
+    [
+     "little",
+     10
+    ],
+    [
+     "two",
+     8
+    ],
+    [
+     "waggons",
+     8
+    ],
+    [
+     "long",
+     7
+    ],
+    [
+     "us",
+     7
+    ],
+    [
+     "days",
+     7
+    ],
+    [
+     "country",
+     7
+    ],
+    [
+     "few",
+     7
+    ],
+    [
+     "three",
+     6
+    ],
+    [
+     "set",
+     6
+    ],
+    [
+     "never",
+     6
+    ],
+    [
+     "journey",
+     5
+    ],
+    [
+     "along",
+     5
+    ],
+    [
+     "reached",
+     5
+    ],
+    [
+     "part",
+     5
+    ],
+    [
+     "among",
+     5
+    ],
+    [
+     "muang-kabine",
+     5
+    ],
+    [
+     "day",
+     5
+    ],
+    [
+     "great",
+     5
+    ],
+    [
+     "laotians",
+     5
+    ],
+    [
+     "siamese",
+     5
+    ],
+    [
+     "king",
+     5
+    ],
+    [
+     "pechaburi",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "LA-003",
+  "file": "LA-003.xml",
+  "title": "Chapter XVI: Return to Bangkok; Preparations for a New Expedition to the North-East of Laos; Phrabat; Pakpriau; Saohaïe",
+  "nation": "Laos",
+  "nationCode": "LA",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "f5bwa5j4, vol. 2, pp. 61-102",
+  "type": "travel",
+  "summary": "In Bangkok Mouhot prepares a new expedition to the north-east of Laos; court festivals and royal cremations in Bangkok, then the journey by Phrabat and Pakpriau to Saohaïe.",
+  "catalogId": "LA-003",
+  "era": "French exploration of the Mekong",
+  "eraYears": "1858-1868",
+  "perspective": "traveller",
+  "community": "Lao",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 2. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 24
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/f5bwa5j4",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 2. London: John Murray, 1864. Chapter XVI, pp. 61-102. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46560; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 30,
+   "lines": 721,
+   "words": 6904,
+   "columnBreaks": 0,
+   "surfaces": 30,
+   "zones": 0,
+   "images": 30
+  },
+  "langWords": {
+   "en": 6904
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 3,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 5
+  },
+  "topWords": {
+   "en": [
+    [
+     "two",
+     22
+    ],
+    [
+     "time",
+     15
+    ],
+    [
+     "boat",
+     14
+    ],
+    [
+     "river",
+     13
+    ],
+    [
+     "few",
+     13
+    ],
+    [
+     "khao-khoc",
+     13
+    ],
+    [
+     "bangkok",
+     12
+    ],
+    [
+     "much",
+     12
+    ],
+    [
+     "great",
+     12
+    ],
+    [
+     "good",
+     11
+    ],
+    [
+     "little",
+     11
+    ],
+    [
+     "day",
+     10
+    ],
+    [
+     "many",
+     10
+    ],
+    [
+     "season",
+     10
+    ],
+    [
+     "place",
+     10
+    ],
+    [
+     "long",
+     10
+    ],
+    [
+     "during",
+     10
+    ],
+    [
+     "last",
+     9
+    ],
+    [
+     "every",
+     9
+    ],
+    [
+     "men",
+     9
+    ],
+    [
+     "siamese",
+     9
+    ],
+    [
+     "left",
+     9
+    ],
+    [
+     "even",
+     9
+    ],
+    [
+     "three",
+     8
+    ],
+    [
+     "poor",
+     8
+    ]
+   ]
+  }
+ },
+ {
+  "id": "LA-004",
+  "file": "LA-004.xml",
+  "title": "Chapter XVII: Town of Chaiapume; Korat; Penom-Wat; Louang Prabang, Capital of West Laos",
+  "nation": "Laos",
+  "nationCode": "LA",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "f5bwa5j4, vol. 2, pp. 105-143",
+  "type": "travel",
+  "summary": "Through the forest to Korat and its province, the temple of Penom-Wat, Chaiapume, and on through Lao country to Louang Prabang, capital of western Laos.",
+  "catalogId": "LA-004",
+  "era": "French exploration of the Mekong",
+  "eraYears": "1858-1868",
+  "perspective": "traveller",
+  "community": "Lao",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 2. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 28
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/f5bwa5j4",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 2. London: John Murray, 1864. Chapter XVII, pp. 105-143. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46560; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 29,
+   "lines": 801,
+   "words": 7241,
+   "columnBreaks": 0,
+   "surfaces": 29,
+   "zones": 0,
+   "images": 29
+  },
+  "langWords": {
+   "en": 7241
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "korat",
+     26
+    ],
+    [
+     "elephants",
+     19
+    ],
+    [
+     "two",
+     19
+    ],
+    [
+     "town",
+     18
+    ],
+    [
+     "journey",
+     17
+    ],
+    [
+     "little",
+     17
+    ],
+    [
+     "siamese",
+     16
+    ],
+    [
+     "mountains",
+     16
+    ],
+    [
+     "laos",
+     15
+    ],
+    [
+     "long",
+     15
+    ],
+    [
+     "metres",
+     15
+    ],
+    [
+     "much",
+     14
+    ],
+    [
+     "every",
+     13
+    ],
+    [
+     "found",
+     13
+    ],
+    [
+     "several",
+     13
+    ],
+    [
+     "like",
+     13
+    ],
+    [
+     "chinese",
+     12
+    ],
+    [
+     "oxen",
+     11
+    ],
+    [
+     "many",
+     11
+    ],
+    [
+     "laotians",
+     11
+    ],
+    [
+     "days",
+     11
+    ],
+    [
+     "hundred",
+     11
+    ],
+    [
+     "country",
+     11
+    ],
+    [
+     "bangkok",
+     10
+    ],
+    [
+     "time",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "id": "LA-005",
+  "file": "LA-005.xml",
+  "title": "Chapter XVIII: The East of Louang Prabang; End of the Journal; Death of the Traveller",
+  "nation": "Laos",
+  "nationCode": "LA",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "f5bwa5j4, vol. 2, pp. 144-161",
+  "type": "travel",
+  "summary": "Notes on the Lao people east of Louang Prabang, a rhinoceros hunt, routes and distances, and the last entries of Mouhot's journal; his brother Charles adds an account of his death near Louang Prabang in November 1861.",
+  "catalogId": "LA-005",
+  "era": "French exploration of the Mekong",
+  "eraYears": "1858-1868",
+  "perspective": "traveller",
+  "community": "Lao",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 2. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 27
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/f5bwa5j4",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 2. London: John Murray, 1864. Chapter XVIII, pp. 144-161. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46560; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 14,
+   "lines": 375,
+   "words": 2795,
+   "columnBreaks": 0,
+   "surfaces": 14,
+   "zones": 0,
+   "images": 14
+  },
+  "langWords": {
+   "en": 2795
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 3,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "days",
+     26
+    ],
+    [
+     "journey",
+     20
+    ],
+    [
+     "two",
+     18
+    ],
+    [
+     "bane",
+     15
+    ],
+    [
+     "four",
+     13
+    ],
+    [
+     "day",
+     10
+    ],
+    [
+     "between",
+     9
+    ],
+    [
+     "near",
+     9
+    ],
+    [
+     "louang",
+     8
+    ],
+    [
+     "mountains",
+     8
+    ],
+    [
+     "prabang",
+     7
+    ],
+    [
+     "direction",
+     7
+    ],
+    [
+     "ten",
+     7
+    ],
+    [
+     "place",
+     7
+    ],
+    [
+     "hills",
+     7
+    ],
+    [
+     "villages",
+     7
+    ],
+    [
+     "kenne",
+     7
+    ],
+    [
+     "thao",
+     7
+    ],
+    [
+     "houses",
+     6
+    ],
+    [
+     "metres",
+     6
+    ],
+    [
+     "river",
+     6
+    ],
+    [
+     "stream",
+     6
+    ],
+    [
+     "chaiapume",
+     6
+    ],
+    [
+     "high",
+     6
+    ],
+    [
+     "leagues",
+     6
     ]
    ]
   }
