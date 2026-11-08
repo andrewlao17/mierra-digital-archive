@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KH-006" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter XI: Return to Pinhalu and Udong; the Great Lake Touli-Sap</title>
+        <author xml:id="mouhot">Henri Mouhot (1826-1861)</author>
+        <editor>Charles Mouhot</editor>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1864 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="KH">Cambodia</country>
+            <repository>Wellcome Collection (digitised printed copy)</repository>
+            <idno>jumf4qt7, vol. 1, pp. 265-277</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Mouhot returns to Pinhalu and Udong and describes the great lake Touli-Sap (Tonlé Sap) and Cambodia's population, slaves and taxes.</summary>
+            <msItem class="travel">
+              <textLang mainLang="en" otherLangs="km th lo fr">English translation of a French travel journal, with Khmer, Thai and Lao names and words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="26"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1864">1864 (journal kept 1858-1860)</origDate>
+              <p>Henri Mouhot's journals and letters, written 1858-1860 and published after his death in Laos in 1861.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Mouhot, Henri. <title>Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860</title>.
+          Vol. 1. London: John Murray, 1864. Chapter XI, pp. 265-277.
+          <ref target="https://wellcomecollection.org/works/jumf4qt7">Scan at the Wellcome Collection</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, page breaks and footnotes follow the printed page; running heads, printer's signatures,
+          the chapter's summary heading and engraved plates are omitted (see the page images). A hyphen that only
+          splits a word at the end of a line is marked pc force="weak" and dropped in the reading view.
+          Italics are not recorded. The chapter's first word, printed in capitals, is marked as small capitals.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">KH-006</term>
+          <term type="era">Khmer society and Angkor in 19th-century accounts</term>
+          <term type="eraYears">1859-1898</term>
+          <term type="perspective">traveller</term>
+          <term type="community">Khmer</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-08" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p265" n="265"><graphic url="facsimiles/mouhot-1864-v1/p265.jpg"/></surface>
+    <surface xml:id="p266" n="266"><graphic url="facsimiles/mouhot-1864-v1/p266.jpg"/></surface>
+    <surface xml:id="p269" n="269"><graphic url="facsimiles/mouhot-1864-v1/p269.jpg"/></surface>
+    <surface xml:id="p270" n="270"><graphic url="facsimiles/mouhot-1864-v1/p270.jpg"/></surface>
+    <surface xml:id="p271" n="271"><graphic url="facsimiles/mouhot-1864-v1/p271.jpg"/></surface>
+    <surface xml:id="p272" n="272"><graphic url="facsimiles/mouhot-1864-v1/p272.jpg"/></surface>
+    <surface xml:id="p275" n="275"><graphic url="facsimiles/mouhot-1864-v1/p275.jpg"/></surface>
+    <surface xml:id="p276" n="276"><graphic url="facsimiles/mouhot-1864-v1/p276.jpg"/></surface>
+    <surface xml:id="p277" n="277"><graphic url="facsimiles/mouhot-1864-v1/p277.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="XI">
+        <head>XI. Return to Pinhalu and Udong; the Great Lake Touli-Sap</head>
+        <pb n="265" facs="#p265"/>
+        <p><lb n="1"/><hi rend="smallcaps">On</hi> the 29th I took leave of my amiable fellow-country<pc force="weak">-</pc><lb n="2" break="no"/>man and friend, M. Arnoux, to, I may venture to affirm,<lb n="3"/>our mutual regret, and set off, accompanied by Father<lb n="4"/>Guilloux, who had some business at Pinhalú. They both<lb n="5"/>wished me to remain with them until Cochin China was<lb n="6"/>open, and I could travel through the country in safety:<lb n="7"/>I should have liked to do so, could I have foreseen an<lb n="8"/>approaching termination of the war; but in the then state<lb n="9"/>of affairs that was impossible.</p>
+        <p><lb n="10"/>As far as Pump-Ka-Daye, the first village we came to<lb n="11"/>after leaving Brelum, I had the society and aid of the mis<pc force="weak">-</pc><lb n="12" break="no"/>sionaries, and of the old chief of the Stiêns, who furnished<lb n="13"/>me with three waggons for my baggage, while Phrai and<lb n="14"/>M. Guilloux’s Annamite attendants took charge of my<lb n="15"/>boxes of insects, which, if placed among my other goods,<lb n="16"/>would have been injured by the jolting.</p>
+        <p><lb n="17"/>The rains had ceased for the last three weeks, and I<lb n="18"/>was agreeably surprised at the improvement in the state<pb n="266" facs="#p266"/><lb n="1"/>of the country since August. The paths were dry, and<lb n="2"/>we had no longer to flounder through dirty marshes, nor<lb n="3"/>suffer from the wet nights which we formerly found so<lb n="4"/>unpleasant. When we reached the station where we<lb n="5"/>were to pass the first night, our servants lighted a fire to<lb n="6"/>cook their rice, as well as scare away the wild beasts;<lb n="7"/>but, notwithstanding this, we remarked that our oxen,<lb n="8"/>dogs, and monkey showed signs of great fear, and, almost<lb n="9"/>immediately afterwards, we heard a roaring like that of a<lb n="10"/>lion. We seized our guns, which were loaded, and waited<lb n="11"/>in readiness.</p>
+        <p><lb n="12"/>Fresh roarings, proceeding from a very short distance<lb n="13"/>off, completed the terror of our animals; and we ourselves<lb n="14"/>could not help feeling uneasy. I proposed to go and<lb n="15"/>meet the enemy, which was agreed to, and we accordingly<lb n="16"/>plunged into that part of the forest whence the sound<lb n="17"/>came. Although familiar with these terrible creatures, we<lb n="18"/>felt far from comfortable; but before long we came upon<lb n="19"/>recent tracks which were quite unmistakeable, and soon,<lb n="20"/>in a small clearing in the forest, perceived nine elephants,<lb n="21"/>the leader being a male of enormous size, standing right<lb n="22"/>in front of us.</p>
+        <p><lb n="23"/>On our approach he set up a roar more frightful than<lb n="24"/>ever, and the whole herd advanced slowly towards us.<lb n="25"/>We remained in a stooping position, half hidden behind<lb n="26"/>the trees, which were too tall for us to climb. I was in<lb n="27"/>the act of taking aim at the forehead of the leader, the<lb n="28"/>only vulnerable part, but an Annamite who stood beside<lb n="29"/>me, and who was an old hunter, knocked up my rifle,<pb n="269" facs="#p269"/><lb n="1"/>and begged me not to fire; “for,” said he, “if you kill<lb n="2"/>or wound one of the elephants we are lost; and even if we<lb n="3"/>should succeed in escaping, the oxen, the waggons, and all<lb n="4"/>their contents would be overwhelmed by the fury of these<lb n="5"/>animals. If there were but two or three, we might hope<lb n="6"/>to kill them; but nine, of whom five are very large, are<lb n="7"/>too many; and it will be more prudent to retreat.” At<lb n="8"/>this moment, Father Guilloux, who had not much con<pc force="weak">-</pc><lb n="9" break="no"/>fidence in his powers of locomotion, fired his gun in the air<lb n="10"/>to frighten the elephants; and this plan fortunately suc<pc force="weak">-</pc><lb n="11" break="no"/>ceeded: the herd stopped in astonishment for an instant,<lb n="12"/>then turned round, and marched into the forest.</p>
+        <p><lb n="13"/>When we reached Pemptiélan we stopped at the house<lb n="14"/>of the mandarin, whose authority extends over the neigh<pc force="weak">-</pc><lb n="15" break="no"/>bouring district, and, contrary to the usual custom, he<lb n="16"/>offered us hospitality under his own roof. Scarcely, how<pc force="weak">-</pc><lb n="17" break="no"/>ever, were we installed when he came to me and asked<lb n="18"/>for the best of my guns, and, on my declining to part<lb n="19"/>with it, he begged for something else, intimating that<lb n="20"/>we should have begun by offering a present. Thereupon<lb n="21"/>I gave him a suit of European clothes, a powder-flask and<lb n="22"/>some powder, a hunting-knife, and some other small articles.<lb n="23"/>In return he presented me with an ivory trumpet, and<lb n="24"/>placed at my service two elephants to enable me to con<pc force="weak">-</pc><lb n="25" break="no"/>tinue my route more comfortably: he likewise sent off<lb n="26"/>our people with a letter to the chiefs of the Srokkhner.</p>
+        <p><lb n="27"/>We resumed our journey on the following day, the<lb n="28"/>Abbé on one elephant, reading his breviary, and I upon<lb n="29"/>another, both of us greatly enjoying the beauty of the<pb n="270" facs="#p270"/><lb n="1"/>landscape. Thus we traversed the beautiful plains, which,<lb n="2"/>when I formerly travelled this road, were inhabited by<lb n="3"/>the poor Thiâmes; but now, in place of rich harvest, I<lb n="4"/>was astonished to find nothing but large trees: the villages<lb n="5"/>were abandoned, and the houses and enclosures in ruins.<lb n="6"/>It appeared that the mandarin of Pemptiélan, executing<lb n="7"/>or exceeding the orders of his master the king of Cam<pc force="weak">-</pc><lb n="8" break="no"/>bodia, had kept these unfortunate people in such a state<lb n="9"/>of slavery and oppression that they had even been<lb n="10"/>deprived of their fishing and agricultural implements,<lb n="11"/>and, being left without money or resources, experienced<lb n="12"/>such frightful poverty that many of them died of hunger.</p>
+        <p><lb n="13"/>The poor wretches, to the number of several thousands,<lb n="14"/>and under the conduct of a chief on whose head a price<lb n="15"/>had been set, and who had secretly returned from Annam,<lb n="16"/>rose in revolt. Those from Penom-Peuh went to Udong<lb n="17"/>to protect their brethren in that place in their flight; and<lb n="18"/>when all were united in one body, they descended the<lb n="19"/>river, and passed into Cochin China. Orders were issued<lb n="20"/>by the king to arrest their departure, but no one re<pc force="weak">-</pc><lb n="21" break="no"/>mained to execute them; for the whole Cambodian popu<pc force="weak">-</pc><lb n="22" break="no"/>lation, with the mandarins at their head, had fled into<lb n="23"/>the forests at the first news of the rising.</p>
+        <p><lb n="24"/>Besides the interest inspired by the misfortunes of<lb n="25"/>these poor people, their conduct, when all fled before<lb n="26"/>them, and left Udong, Pinhalú, and Penom-Peuh defence<pc force="weak">-</pc><lb n="27" break="no"/>less, was so noble as greatly to increase this feeling.<lb n="28"/>“We have no enmity against the people,” said they, “if<lb n="29"/>they will but let us pass and respect our property; but we<pb n="271" facs="#p271"/><lb n="1"/>will put to death whoever opposes our flight.” And, in<lb n="2"/>fact, they never touched one of the large boats which<lb n="3"/>were moored near the market, and unguarded, but took<lb n="4"/>to the river in their narrow and miserable pirogues.</p>
+        <p><lb n="5"/>In passing opposite the island of Ko-Sutin we stopped<lb n="6"/>to see Father Cordier. The good missionary was in a sad<lb n="7"/>state: his malady had got worse; and his debility was<lb n="8"/>such that he could scarcely drag himself from his bed to<lb n="9"/>a chair. He had no food but rice and dried fish; and the<lb n="10"/>only persons to care for him, and wait upon him, were<lb n="11"/>two children of ten years old. We begged him to ac<pc force="weak">-</pc><lb n="12" break="no"/>company us to Pinhalú, but he declined, on account of<lb n="13"/>his weakness. “All I regret,” said he, “is, that I shall<lb n="14"/>see my poor parents no more; but for that, I should await<lb n="15"/>death calmly, and almost with joy.” All our solicitations<lb n="16"/>that he would go with us were unavailing; and we were<lb n="17"/>forced to pursue our journey, very sad at leaving him in<lb n="18"/>so painful a position, and at our inability to give him any<lb n="19"/>relief.</p>
+        <p><lb n="20"/>On the 21st December we at last reached Pinhalú.</p>
+        <p><lb n="21"/>Penom-Peuh is about 103° 3′ 50″ long. of Paris, and<lb n="22"/>11° 37′ 30″ north lat. It is the great market of Cam<pc force="weak">-</pc><lb n="23" break="no"/>bodia, and only two or three leagues from the southern<lb n="24"/>frontier of Cochin China: it is situated at the confluence<lb n="25"/>of the Mekon with its tributary: from this point the river<lb n="26"/>flows first north-east, and then north-west, as far as China<lb n="27"/>and the mountains of Thibet. The arm, which has no<lb n="28"/>name, but which, to distinguish it, it might be well to call<lb n="29"/>Mé-Sap, from the name of the lake Touli-Sap, flows from<pb n="272" facs="#p272"/><lb n="1"/>its source south-east to the point of junction. About<lb n="2"/>12° 25′ north lat. commences the great lake, which<lb n="3"/>stretches as far as 13° 53′. In shape it might be com<pc force="weak">-</pc><lb n="4" break="no"/>pared to a violin. The whole space between it and the<lb n="5"/>Mekon is a vast plain; while on the opposite side are the<lb n="6"/>great chains of Poursat and its ramifications.</p>
+        <p><lb n="7"/>The entrance to the great lake of Cambodia is grand<lb n="8"/>and beautiful. The river becomes wider and wider, until<lb n="9"/>at last it is four or five miles in breadth; and then you<lb n="10"/>enter the immense sheet of water called Touli-Sap, as<lb n="11"/>large and full of motion as a sea. It is more than 120<lb n="12"/>miles long, and must be at least 400 in circumference.</p>
+        <p><lb n="13"/>The shore is low, and thickly covered with trees, which<lb n="14"/>are half submerged; and in the distance is visible an<lb n="15"/>extensive range of mountains whose highest peaks seem<lb n="16"/>lost in the clouds. The waves glitter in the broad sun<pc force="weak">-</pc><lb n="17" break="no"/>shine with a brilliancy which the eye can scarcely support,<lb n="18"/>and, in many parts of the lake, nothing is visible all<lb n="19"/>around but water. In the centre is planted a tall mast,<lb n="20"/>indicating the boundary between the kingdoms of Siam<lb n="21"/>and Cambodia. Before crossing the lake it may, perhaps,<lb n="22"/>be as well to say what remains to be told respecting the<lb n="23"/>latter country.</p>
+        <p><lb n="24"/>The present state of Cambodia is deplorable, and its<lb n="25"/>future menacing.* Formerly, however, it was a powerful<note place="foot">This prediction is already in part fulfilled by an insurrection in favour of the young prince, the king’s brother, shortly after the departure of M. Mouhot. See the letter of M. Silvestre, 4th Jan. 1862.</note><pb n="275" facs="#p275"/><lb n="1"/>and populous country, as is testified by the splendid ruins<lb n="2"/>which are to be met with in the provinces of Battam<pc force="weak">-</pc><lb n="3" break="no"/>bong and Ongcor, and which I intend visiting; but at<lb n="4"/>present the population is excessively reduced by the in<pc force="weak">-</pc><lb n="5" break="no"/>cessant wars carried on against neighbouring states. I do<lb n="6"/>not think that the country now contains above a million<lb n="7"/>of inhabitants, and, according to the last census, the<lb n="8"/>number of free men fit to carry arms is returned at 30,000,<lb n="9"/>the slaves, as in Siam, not being liable to serve in the<lb n="10"/>army any more than to pay taxes. Besides a number of<lb n="11"/>Chinese, relatively great, there are many Malays, who<lb n="12"/>have been settled in the country for centuries, and a<lb n="13"/>floating population of Annamites, amounting to two or<lb n="14"/>three thousand. As the calculations taken include only<lb n="15"/>the males fit for active service, no exact figures can be<lb n="16"/>furnished by the authorities.</p>
+        <p><lb n="17"/>European conquest, abolition of slavery, wise and pro<pc force="weak">-</pc><lb n="18" break="no"/>tecting laws, and experience, fidelity, and scrupulous<lb n="19"/>rectitude in those who administer them, would alone effect<lb n="20"/>the regeneration of this state. It lies near to Cochin<lb n="21"/>China, the subjection of which France is now aiming at,<lb n="22"/>and in which she will doubtless succeed: under her sway<lb n="23"/>it will become a land of plenty. I wish her to possess<lb n="24"/>this land, which would add a magnificent jewel to her<lb n="25"/>crown; but it is also my earnest desire that she may<lb n="26"/>make a judicious choice of governors, and that the name of<lb n="27"/>France, my dear and beautiful country, may be loved,<lb n="28"/>respected, and honoured in the extreme East, as it should<lb n="29"/>be everywhere.<pb n="276" facs="#p276"/></p>
+        <p><lb n="1"/>The chief productions of Cambodia are tobacco, pepper,<lb n="2"/>ginger, sugar, gamboge, coffee, silk, and cotton. The<lb n="3"/>latter important article of commerce thrives here admir<pc force="weak">-</pc><lb n="4" break="no"/>ably; and as, according to report, America is menaced<lb n="5"/>with civil war, it is a question whether we can henceforth<lb n="6"/>calculate on that country for the supply it has hitherto<lb n="7"/>furnished. If that supply were even partially to fail, and<lb n="8"/>thousands of workmen to be in consequence thrown out<lb n="9"/>of employment, what a vast field might be opened on<lb n="10"/>the banks of the Mekon and of Touli-Sap for European<lb n="11"/>activity, industry, and capital!</p>
+        <p><lb n="12"/>England, that great nation for colonies, could soon make<lb n="13"/>of Lower Cochin China and Cambodia a vast cotton plan<pc force="weak">-</pc><lb n="14" break="no"/>tation; and there is no doubt that, if she set about it in<lb n="15"/>earnest, with her Australian, East and West Indian, and<lb n="16"/>New Zealand possessions, she might soon secure to herself<lb n="17"/>the monopoly, which America now has, of this precious<lb n="18"/>article: we should in that case be compelled to buy from<lb n="19"/>her. Why should we not be our own purveyors? The<lb n="20"/>island of Ko-Sutin alone, in which the lands belonging to<lb n="21"/>the crown are let to the cotton-planters in lots for one<lb n="22"/>pound per lot, may be adduced in order to give an idea<lb n="23"/>of the profits realized by the cultivation of this plant.<lb n="24"/>Each lot affords an income of more than 1200 francs.</p>
+        <p><lb n="25"/>The forests situated on the higher grounds abound with<lb n="26"/>justly-celebrated timber, as also trees yielding resins and<lb n="27"/>gums much esteemed in commerce, likewise the eagle<pc force="weak">-</pc><lb n="28" break="no"/>wood and several species of dye-woods.</p>
+        <p><lb n="29"/>The mountains contain gold, argentiferous lead, zinc,<pb n="277" facs="#p277"/><lb n="1"/>copper, and iron, the last two in some abundance. One<lb n="2"/>is astonished to find these fertile lands furnish so little for<lb n="3"/>exportation; but the sovereigns and mandarins enrich<lb n="4"/>themselves by spoliation and extortion, and every abuse<lb n="5"/>which can ruin a country and retard its progress. If<lb n="6"/>these dominions were ruled wisely and carefully, with<lb n="7"/>probity, and with a regard to the interests of the working<lb n="8"/>classes, the whole aspect of affairs would be changed.</p>
+        <p><lb n="9"/>The taxes now weigh solely on the cultivator and pro<pc force="weak">-</pc><lb n="10" break="no"/>ducer: the more he raises, the more he has to pay: dis<pc force="weak">-</pc><lb n="11" break="no"/>posed, therefore, to indolence by the influence of the<lb n="12"/>climate, he has little inducement to combat this vice.<lb n="13"/>The beautiful cardamom of Poursat, much sought after by<lb n="14"/>the Chinese, who pay very highly for it, is entirely mono<pc force="weak">-</pc><lb n="15" break="no"/>polized by the king and his ministers; and it is nearly<lb n="16"/>the same with every valuable product.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

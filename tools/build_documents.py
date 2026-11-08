@@ -122,6 +122,12 @@ def segments(el, lang):
     tag = local(el)
     if tag in SKIP_TEXT:
         return
+    # A hyphen that only splits a word at a line end is not part of the word.
+    if tag == "pc" and el.get("force") == "weak":
+        return
+    # Captions of engravings are the publisher's, not the author's text.
+    if tag == "figure":
+        return
     # An editor's or translator's commentary is not part of the document's own voice.
     if tag == "div" and el.get("type") == "commentary":
         return

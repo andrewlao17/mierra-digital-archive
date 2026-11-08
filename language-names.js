@@ -41,6 +41,7 @@ window.LANGUAGE_NAMES = {
   los: "Loniu",
   lzh: "Classical Chinese",
   mad: "Madurese",
+  meu: "Motu",
   mh: "Marshallese",
   mi: "Māori",
   min: "Minangkabau",

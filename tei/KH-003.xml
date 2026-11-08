@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KH-003" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter VIII: Departure from Udong; Train of Elephants; Pinhalu; the Missionaries; the Thiames</title>
+        <author xml:id="mouhot">Henri Mouhot (1826-1861)</author>
+        <editor>Charles Mouhot</editor>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1864 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="KH">Cambodia</country>
+            <repository>Wellcome Collection (digitised printed copy)</repository>
+            <idno>jumf4qt7, vol. 1, pp. 213-225</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>From Udong to Pinhalu with a train of elephants; the French missionaries and the Christian village of Pinhalu, and the Thiames (Cham) people settled in Cambodia.</summary>
+            <msItem class="travel">
+              <textLang mainLang="en" otherLangs="km th lo fr">English translation of a French travel journal, with Khmer, Thai and Lao names and words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="26"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1864">1864 (journal kept 1858-1860)</origDate>
+              <p>Henri Mouhot's journals and letters, written 1858-1860 and published after his death in Laos in 1861.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Mouhot, Henri. <title>Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860</title>.
+          Vol. 1. London: John Murray, 1864. Chapter VIII, pp. 213-225.
+          <ref target="https://wellcomecollection.org/works/jumf4qt7">Scan at the Wellcome Collection</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, page breaks and footnotes follow the printed page; running heads, printer's signatures,
+          the chapter's summary heading and engraved plates are omitted (see the page images). A hyphen that only
+          splits a word at the end of a line is marked pc force="weak" and dropped in the reading view.
+          Italics are not recorded. The chapter's first word, printed in capitals, is marked as small capitals.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">KH-003</term>
+          <term type="era">Khmer society and Angkor in 19th-century accounts</term>
+          <term type="eraYears">1859-1898</term>
+          <term type="perspective">traveller</term>
+          <term type="community">Khmer</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-08" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p213" n="213"><graphic url="facsimiles/mouhot-1864-v1/p213.jpg"/></surface>
+    <surface xml:id="p214" n="214"><graphic url="facsimiles/mouhot-1864-v1/p214.jpg"/></surface>
+    <surface xml:id="p215" n="215"><graphic url="facsimiles/mouhot-1864-v1/p215.jpg"/></surface>
+    <surface xml:id="p216" n="216"><graphic url="facsimiles/mouhot-1864-v1/p216.jpg"/></surface>
+    <surface xml:id="p217" n="217"><graphic url="facsimiles/mouhot-1864-v1/p217.jpg"/></surface>
+    <surface xml:id="p218" n="218"><graphic url="facsimiles/mouhot-1864-v1/p218.jpg"/></surface>
+    <surface xml:id="p221" n="221"><graphic url="facsimiles/mouhot-1864-v1/p221.jpg"/></surface>
+    <surface xml:id="p222" n="222"><graphic url="facsimiles/mouhot-1864-v1/p222.jpg"/></surface>
+    <surface xml:id="p223" n="223"><graphic url="facsimiles/mouhot-1864-v1/p223.jpg"/></surface>
+    <surface xml:id="p224" n="224"><graphic url="facsimiles/mouhot-1864-v1/p224.jpg"/></surface>
+    <surface xml:id="p225" n="225"><graphic url="facsimiles/mouhot-1864-v1/p225.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="VIII">
+        <head>VIII. Departure from Udong; Train of Elephants; Pinhalu; the Missionaries; the Thiames</head>
+        <pb n="213" facs="#p213"/>
+        <p><lb n="1"/><hi rend="smallcaps">On</hi> the 2nd July, having taken our usual morning repast<lb n="2"/>of rice, we were ready to set off, and were only waiting<lb n="3"/>for the waggons and elephants promised me by the king.<lb n="4"/>They were not long in arriving, and we passed through<lb n="5"/>the city amidst an immense crowd of people who had<lb n="6"/>come from all quarters to witness our departure. We<lb n="7"/>were mounted on our elephants, and escorted by several<lb n="8"/>of the royal pages as far as the road to Pinhalú; all the<lb n="9"/>population prostrating themselves as before the king,<lb n="10"/>doubtless because he had paid me such marked attention.</p>
+        <p><lb n="11"/>We proceeded, at the rate of about three miles an hour,<lb n="12"/>on a good road, which was in some places raised more<lb n="13"/>than ten feet above the level of the wooded but marshy<lb n="14"/>plain which extends to the great arm of the Mekon.</p>
+        <p><lb n="15"/>Now and then we crossed handsome bridges built of<lb n="16"/>stone or wood, which certainly give a more favourable<lb n="17"/>idea of the state of engineering in Cambodia than in<lb n="18"/>Siam; for, even at Bangkok, the streams and canals are<pb n="214" facs="#p214"/><lb n="1"/>spanned by thin, narrow planks, or by trunks of trees<lb n="2"/>thrown across by the inhabitants, and not by the<lb n="3"/>authorities.</p>
+        <p><lb n="4"/>About two kilometres from Udong is a sort of rampart<lb n="5"/>formed of earth, in the form of a horseshoe. It environs<lb n="6"/>a portion of the town, and was intended to defend the<lb n="7"/>place in case of an invasion by the Annamites, an event<lb n="8"/>which is yearly looked for at the time of the floods.</p>
+        <p><lb n="9"/>We met many pedestrians laden, probably, with<lb n="10"/>provisions for the market. The road is bordered with<lb n="11"/>miserable bamboo huts, like poultry-houses, raised on<lb n="12"/>piles, which serve for dwellings for the unlucky Thiâmes,<lb n="13"/>who were transported here by the king, a twelvemonth<lb n="14"/>since, from the plains to the east of the Mekon, as a<lb n="15"/>punishment for an attempted revolt which they were<lb n="16"/>accused of.</p>
+        <p><lb n="17"/>We arrived early the same day at Pinhalú, a village<lb n="18"/>of some size, situated on the right bank of the stream,<lb n="19"/>many of the inhabitants of which are the descendants of<lb n="20"/>Portuguese and Annamite refugees. It is the residence<lb n="21"/>of a French bishop, Monsignor Miche, Vicar-apostolic of<lb n="22"/>the mission to Cambodia and Laos. He was absent, but<lb n="23"/>I found three good and benevolent missionaries, who<lb n="24"/>begged me to wait for his return, and received me in<lb n="25"/>that cordial and affectionate manner which is so pleasant<lb n="26"/>to meet with in a strange land, and especially from<lb n="27"/>fellow-countrymen. M. Fontaine, the eldest of the three,<lb n="28"/>though still in the prime of life, had been a missionary for<lb n="29"/>nearly twenty years. He was formerly attached to the<pb n="215" facs="#p215"/><lb n="1"/>mission at Cochin China, and I had seen him on my visit<lb n="2"/>to Bangkok, where he remained some time before going<lb n="3"/>to Cambodia. He was then feeble and suffering, but I<lb n="4"/>was glad now to find him stronger and full of animation.<lb n="5"/>I felt a true respect for this worthy man; may there be<lb n="6"/>many labourers in the same vocation resembling him!<figure><head>SIAMESE OF THE LOWER CLASS.</head><figDesc>Drawn by M. Bocourt, from a Photograph.</figDesc></figure></p>
+        <p><lb n="7"/>The second priest, M. Arnoux, was not only a fellow<pc force="weak">-</pc><lb n="8" break="no"/>countryman, but our birthplaces were only distant from<lb n="9"/>each other a few leagues. He was born in the depart<pc force="weak">-</pc><pb n="216" facs="#p216"/><lb n="1" break="no"/>ment of Russey, and I in that of Montbéliard (Doubs), so<lb n="2"/>that I had two reasons for being drawn towards him.<lb n="3"/>He belongs to the Cochin China mission, and had come<lb n="4"/>from among the savage Stiêns to renew his stock of<lb n="5"/>provisions; but, having been attacked by dysentery,<lb n="6"/>owing to the fatigue of the journey, he had been unable<lb n="7"/>to return. These two valiant soldiers of the Church, with<lb n="8"/>good and pure hearts, iron wills, and the energy and<lb n="9"/>courage of heroes, or, rather, of martyrs, had formerly<lb n="10"/>lived together, at a distant station, among the savage<lb n="11"/>Benous, and had suffered there terribly from fevers,<lb n="12"/>dysentery, scurvy, and other diseases. Among the fifty<lb n="13"/>Annamites who were with them in that refuge of Chris<pc force="weak">-</pc><lb n="14" break="no"/>tianity, there frequently was not a single one able to<lb n="15"/>cook their rice, all being in the hospital. On hearing<lb n="16"/>these brave and worthy sons of our dear country describe<lb n="17"/>their past and present misery, I was sometimes as much<lb n="18"/>amused as affected, with so much liveliness was the narra<pc force="weak">-</pc><lb n="19" break="no"/>tion given; but it is the characteristic of our dauntless<lb n="20"/>nation that her sons suffer and die gaily, and with smiles<lb n="21"/>on their lips.</p>
+        <p><lb n="22"/>Four days flew by rapidly in the society of these<lb n="23"/>friends, by whom I was detained till the return of their<lb n="24"/>bishop, whose acquaintance I much desired to make. I<lb n="25"/>knew that I should find in him a man of very superior<lb n="26"/>character; but I did not expect to find in this eminent<lb n="27"/>missionary a simplicity and humility equal to his talents<lb n="28"/>and strength of mind. Monsignor Miche is short and<lb n="29"/>slight; but under his frail exterior exist extraordinary<pb n="217" facs="#p217"/><lb n="1"/>energy and endurance. The annals of the Cochin China<lb n="2"/>mission, as well as of that to Cambodia, must contain<lb n="3"/>many a page filled with the noble actions of this distin<pc force="weak">-</pc><lb n="4" break="no"/>guished pioneer of Christianity, and with the persecution<lb n="5"/>and captivity he has suffered. When a simple missionary,<lb n="6"/>he and one of his companions were imprisoned and beaten<lb n="7"/>with rods—a fearful punishment, which, at each blow, cut<lb n="8"/>open the flesh and made the blood flow. They were<lb n="9"/>then conducted to their cells, in order that the torture<lb n="10"/>might be repeated on the following day, when their<lb n="11"/>wounds were beginning to heal, for the Annamites are<lb n="12"/>skilled in the refinements of cruelty.</p>
+        <p><lb n="13"/>“The suffering is dreadful,” said his companion to<lb n="14"/>M. Miche; “I do not believe I can bear it a second<lb n="15"/>time.”</p>
+        <p><lb n="16"/>“Be easy,” he replied; “I will ask to receive your<lb n="17"/>blows for you.” He did request this, and actually did<lb n="18"/>receive them.</p>
+        <p><lb n="19"/>Here the missionary is everything to the poor Christians,<lb n="20"/>physician to the body as well as the soul; and every day<lb n="21"/>he passes hours in listening to their disputes, and acting<lb n="22"/>as peacemaker.</p>
+        <p><lb n="23"/>The rule here is, that if a man cannot pay a debt, he<lb n="24"/>and his family become the slaves of the creditor. “You<lb n="25"/>are my slave,” said a person to a young girl whom he met.</p>
+        <p><lb n="26"/>“How so? I do not know you.”</p>
+        <p><lb n="27"/>“Your father owed me money, and never paid me.”</p>
+        <p><lb n="28"/>“I never knew my father; he died before I was born.”</p>
+        <p><lb n="29"/>“Will you go to law?”<pb n="218" facs="#p218"/></p>
+        <p><lb n="1"/>“Yes.”</p>
+        <p><lb n="2"/>The man then consulted some mandarin, gave him<lb n="3"/>a present, promised him others, won his cause, and the<lb n="4"/>unfortunate girl, having no means to do the same, became<lb n="5"/>a slave. It is the story of Appius and Virginia reproduced<lb n="6"/>in the East. Corruption and barbarity are general in<lb n="7"/>Cambodia.</p>
+        <p><lb n="8"/>I now determined to visit the savage tribes living to<lb n="9"/>the east of the great river, 104° east long. from Paris,<lb n="10"/>and of whom I had heard M. Arnoux speak; he had pro<pc force="weak">-</pc><lb n="11" break="no"/>mised me a welcome from M. Guilloux, the missionary<lb n="12"/>there. I sent Niou back to Udong to ask the king for<lb n="13"/>the letter he had promised. He soon returned with it<lb n="14"/>in due form, and on the 22nd July I quitted Pinhalú in<lb n="15"/>a small boat with two rowers, which I hired as far as<lb n="16"/>Pemptiélan, situated on the Mekon river, about forty<lb n="17"/>miles to the north of Pénom-Peuh.</p>
+        <p><lb n="18"/>Ever since I had been in Cambodia my servants had<lb n="19"/>been in a state of alarm, and it reached its height when<lb n="20"/>I informed them that we were about to set out on an<lb n="21"/>expedition to the savage tribes. Cambodia is much<lb n="22"/>dreaded by the Siamese: and the mountains, and, still<lb n="23"/>more, the forests, inhabited by the Stiêns, have a repu<pc force="weak">-</pc><lb n="24" break="no"/>tation for unhealthiness, among both Cambodians and<lb n="25"/>Annamites, equal to that which, in France, is enjoyed by<lb n="26"/>Cayenne, whither condemned political offenders and male<pc force="weak">-</pc><lb n="27" break="no"/>factors from the galleys are sent to die. I doubt very<lb n="28"/>much if I could have met with any other men who would<lb n="29"/>have remained with me.<pb n="221" facs="#p221"/></p>
+        <p><lb n="1"/>On descending the great arm of the Mekon, which is<lb n="2"/>here 1200 metres wide, I was astonished at seeing the<lb n="3"/>current running from south to north instead of following<lb n="4"/>the course of the river into which it falls. The banks of<lb n="5"/>this river are peopled by the same race of Thiâmes<lb n="6"/>whom I saw on my route from Udong to Pinhalú.</p>
+        <p><lb n="7"/>During more than five months of the year, the great<lb n="8"/>lake of Cambodia, Touli-Sap, covers an immense space of<lb n="9"/>ground: after that period there is a diminution in depth<lb n="10"/>owing to the great evaporation, but its width remains<lb n="11"/>nearly unaltered. Although its waters increase in volume<lb n="12"/>during the rainy season, these are not swelled by the<lb n="13"/>streams from the mountains on its western boundary,<lb n="14"/>but by the strength of the current from the Mekon<lb n="15"/>which pours into it its overflow.</p>
+        <p><lb n="16"/>As for the Malays, or Thiâmes, as the Cambodians call<lb n="17"/>them, I made endeavours to investigate their origin, and<lb n="18"/>also the traces which I supposed to exist in Cambodia of<lb n="19"/>Israelite migrations. Monsignor Miche told me that he<lb n="20"/>had never met with any Jews in the country, but that he<lb n="21"/>had found, in one of the sacred books of the Cambodians,<lb n="22"/>the judgment of Solomon exactly recorded, and attributed<lb n="23"/>to one of their kings who had become a god, after having<lb n="24"/>been, according to their ideas of metempsychosis, an ape,<lb n="25"/>an elephant, &amp;c.</p>
+        <p><lb n="26"/>The Thiâmes are the same as the ancient Tsiampois;<lb n="27"/>but these Tsiampois, whence came they? What is the<lb n="28"/>origin of this strange people, whom the conquests of the<lb n="29"/>Annamites drove back, doubtless from the south of Cochin<pb n="222" facs="#p222"/><lb n="1"/>China to Cambodia, but who form alliances with neither<lb n="2"/>of the races whose country they share, and who pre<pc force="weak">-</pc><lb n="3" break="no"/>serve their own language, manners, and religion? On<lb n="4"/>looking over the Life of the Abbé Gagelin, one of the<lb n="5"/>martyrs in Cochin China, written with talent and elo<pc force="weak">-</pc><lb n="6" break="no"/>quence by the learned Abbé Jacquenet, I found what<lb n="7"/>I had long been in search of, and I extract the following<lb n="8"/>passage:—</p>
+        <p><lb n="9"/>“In the midst of Cochin China properly so called,<lb n="10"/>between the seas which surround it on all sides except<lb n="11"/>on the west, where it touches Cambodia, is the ancient<lb n="12"/>kingdom of Tsiampa. The inhabitants are a singular<lb n="13"/>race; they never ally themselves with the Cochin Chinese,<lb n="14"/>their character, religion, and language raising insuperable<lb n="15"/>barriers between them. On submitting to the yoke of<lb n="16"/>the conqueror, the sovereign simply changed his title<lb n="17"/>from king to mandarin, but the constitution and ancient<lb n="18"/>laws remained in full vigour in his states, and he continued<lb n="19"/>to exercise absolute authority over his subjects.* It is<note place="foot">This appears very doubtful, even to the missionaries in Cochin China.</note><lb n="20"/>difficult for strangers to observe the domestic life of these<lb n="21"/>people; but it is said that they practise circumcision,<lb n="22"/>observe the Sabbath, abstain from the flesh of pork, and<lb n="23"/>offer the sacrifice of the red calf.* It is even said that<note place="foot">M. Mouhot probably here refers to Numb. xix. 2.—Tr.</note><lb n="24"/>they possess the Pentateuch, but this I dare not affirm.<lb n="25"/>Strangely, however, all these observances, imitated no one<pb n="223" facs="#p223"/><lb n="1"/>knows whence, are only vain ceremonies to these men,<lb n="2"/>enigmas to which they have lost the clue. They have<lb n="3"/>not even retained a distinct idea of the true God; and<lb n="4"/>their worship, although mixed up with some of the rites<lb n="5"/>of the Mosaic law, is a real idolatry. One wonders whence<lb n="6"/>come this people. Are they an ancient colony of Ish<pc force="weak">-</pc><lb n="7" break="no"/>maelites or Idumeans? Are they an offshoot of Judaism<lb n="8"/>thrown on to these shores? These questions are worthy<lb n="9"/>of consideration. However it may be, their care to pre<pc force="weak">-</pc><lb n="10" break="no"/>serve their traditions pure from all alloy, and their<lb n="11"/>obstinate persistence in error, render them worthy of a<lb n="12"/>Jewish origin. The Jews, in the days of their prosperity,<lb n="13"/>did not guard their faith more religiously than do these<lb n="14"/>people theirs in their new Palestine; and, in order to<lb n="15"/>avoid intercourse with strangers, and escape the prose<pc force="weak">-</pc><lb n="16" break="no"/>lyting efforts of the missionaries, they have relinquished<lb n="17"/>to the Cochin Chinese all the advantages of the sea<pc force="weak">-</pc><lb n="18" break="no"/>shore, and retired to the mountains and the interior of<lb n="19"/>the country.</p>
+        <p><lb n="20"/>“On the eve of the Assumption I bent my steps towards<lb n="21"/>the interior, to visit the Tsiampois, and find out whether<lb n="22"/>they would still reject the good news of salvation. After<lb n="23"/>a few days’ walking I arrived, I dare not say at one of<lb n="24"/>their towns, but at one of their principal dwelling-places.<lb n="25"/>These singular people have retained none of the power<lb n="26"/>ascribed to them by ancient tradition, according to which<lb n="27"/>they have held sway over Cambodia, Cochin China, Tong<lb n="28"/>King, and even Pegu, as far as the province of Canton.<lb n="29"/>Their governor has to pay a small tribute, but remains<pb n="224" facs="#p224"/><lb n="1"/>as much ruler over his own people as before the con<pc force="weak">-</pc><lb n="2" break="no"/>quest.</p>
+        <p><lb n="3"/>“I was anxious to find out the truth about their religion,<lb n="4"/>but could only obtain scraps of tradition which a Christian<lb n="5"/>could manage to put into form. One of these traditions<lb n="6"/>teaches that the founder of their religion was a great<lb n="7"/>man, a famous warrior, who worked marvels with a rod<lb n="8"/>which is carefully preserved among them. I had the<lb n="9"/>signal honour of being allowed to see it: it is about ten<lb n="10"/>feet long, and is covered with a kind of red stuff, studded<lb n="11"/>with yellow stars, having at one end an iron blade about<lb n="12"/>an inch in length. With this rod in his hand, the founder<lb n="13"/>of their faith controlled the elements, divided the waters,<lb n="14"/>and calmed tempests; and it is pretended that this instru<pc force="weak">-</pc><lb n="15" break="no"/>ment still preserves its virtue of working miracles. They<lb n="16"/>have, they say, a precious volume left them by this great<lb n="17"/>chief. Their religious practices consist in the scrupulous<lb n="18"/>observance of a seventh day of rest, in abstaining from<lb n="19"/>certain food, especially pork, which they hold in abhor<pc force="weak">-</pc><lb n="20" break="no"/>rence, and in the rite of circumcision which the male<lb n="21"/>children undergo at the age of fifteen. When the girls<lb n="22"/>arrive at the same age, the hair over the forehead is cut.<lb n="23"/>They preserve a remembrance of certain days on which<lb n="24"/>it was not lawful to work, nor even to leave their houses<lb n="25"/>before sunset. Their prayers end with the word ‘Amin,’<lb n="26"/>much the same as the Amen of the Hebrews. They seem<lb n="27"/>to have lost the idea of a Creator of heaven and earth, but<lb n="28"/>worship the sky and the stars; there are, however, no<lb n="29"/>idols in their temples. The priests who officiate there<pb n="225" facs="#p225"/><lb n="1"/>light candles on a table, burn incense, and, at certain<lb n="2"/>times of the year, as in April and May, pass a month<lb n="3"/>without going out of doors. Clear away from this<lb n="4"/>account,” says the Abbé Jacquenet, “the mists of ages,<lb n="5"/>and it is easy to recognise the traces of an Israelitish<lb n="6"/>origin. Comparing this with other missionary accounts,<lb n="7"/>and the traces of these people found elsewhere, who will<lb n="8"/>doubt that the torch of truth, which shone formerly be<pc force="weak">-</pc><lb n="9" break="no"/>tween the great sea and Jordan, also shed its light over<lb n="10"/>the extreme East? Whether, to explain these facts, we<lb n="11"/>consider the commercial relations of the Jews with these<lb n="12"/>countries, particularly when, in the height of their power,<lb n="13"/>the combined fleets of Solomon and Hiram went to seek<lb n="14"/>the treasures of Ophir (a generic name used perhaps to<lb n="15"/>designate the two Indies), or whether we come lower<lb n="16"/>down, to the dispersion of the Ten Tribes, who, instead of<lb n="17"/>returning from captivity, set out from the banks of the<lb n="18"/>Euphrates and reached the shores of the ocean—whatever<lb n="19"/>ground of explanation we resolve upon, the shining of the<lb n="20"/>light of revelation in the far East is not the less incon<pc force="weak">-</pc><lb n="21" break="no"/>testable. Join to this light, those traditional truths carried<lb n="22"/>with them as a sacred heritage by the families who were<lb n="23"/>dispersed at Babel; and say what becomes of the extrava<pc force="weak">-</pc><lb n="24" break="no"/>gant praises lavished on Eastern wisdom by the sect of<lb n="25"/>philosophers? Passion and presumptuous ignorance joining<lb n="26"/>hands tried to oppose wisdom from on high, and have left<lb n="27"/>behind only a faint reflection of it.”</p>
+      </div>
+    </body>
+  </text>
+</TEI>

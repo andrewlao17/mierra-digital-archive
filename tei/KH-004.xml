@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KH-004" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter IX: The Great Bazaar of Cambodia, Penom-Peuh; the Mekon</title>
+        <author xml:id="mouhot">Henri Mouhot (1826-1861)</author>
+        <editor>Charles Mouhot</editor>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The 1864 source text is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="KH">Cambodia</country>
+            <repository>Wellcome Collection (digitised printed copy)</repository>
+            <idno>jumf4qt7, vol. 1, pp. 226-239</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>The great bazaar of Penom-Peuh (Phnom Penh), the view over the Mekong, and the slow overland journey by ox-cart towards Brelum and the Stiêng country.</summary>
+            <msItem class="travel">
+              <textLang mainLang="en" otherLangs="km th lo fr">English translation of a French travel journal, with Khmer, Thai and Lao names and words</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="24"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1864">1864 (journal kept 1858-1860)</origDate>
+              <p>Henri Mouhot's journals and letters, written 1858-1860 and published after his death in Laos in 1861.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Mouhot, Henri. <title>Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860</title>.
+          Vol. 1. London: John Murray, 1864. Chapter IX, pp. 226-239.
+          <ref target="https://wellcomecollection.org/works/jumf4qt7">Scan at the Wellcome Collection</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks, page breaks and footnotes follow the printed page; running heads, printer's signatures,
+          the chapter's summary heading and engraved plates are omitted (see the page images). A hyphen that only
+          splits a word at the end of a line is marked pc force="weak" and dropped in the reading view.
+          Italics are not recorded. The chapter's first word, printed in capitals, is marked as small capitals.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">KH-004</term>
+          <term type="era">Khmer society and Angkor in 19th-century accounts</term>
+          <term type="eraYears">1859-1898</term>
+          <term type="perspective">traveller</term>
+          <term type="community">Khmer and Chinese</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-08" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p226" n="226"><graphic url="facsimiles/mouhot-1864-v1/p226.jpg"/></surface>
+    <surface xml:id="p227" n="227"><graphic url="facsimiles/mouhot-1864-v1/p227.jpg"/></surface>
+    <surface xml:id="p228" n="228"><graphic url="facsimiles/mouhot-1864-v1/p228.jpg"/></surface>
+    <surface xml:id="p231" n="231"><graphic url="facsimiles/mouhot-1864-v1/p231.jpg"/></surface>
+    <surface xml:id="p232" n="232"><graphic url="facsimiles/mouhot-1864-v1/p232.jpg"/></surface>
+    <surface xml:id="p235" n="235"><graphic url="facsimiles/mouhot-1864-v1/p235.jpg"/></surface>
+    <surface xml:id="p236" n="236"><graphic url="facsimiles/mouhot-1864-v1/p236.jpg"/></surface>
+    <surface xml:id="p237" n="237"><graphic url="facsimiles/mouhot-1864-v1/p237.jpg"/></surface>
+    <surface xml:id="p238" n="238"><graphic url="facsimiles/mouhot-1864-v1/p238.jpg"/></surface>
+    <surface xml:id="p239" n="239"><graphic url="facsimiles/mouhot-1864-v1/p239.jpg"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="IX">
+        <head>IX. The Great Bazaar of Cambodia, Penom-Peuh; the Mekon</head>
+        <pb n="226" facs="#p226"/>
+        <p><lb n="1"/><hi rend="smallcaps">We</hi> left Pinhalú at eleven, and by evening had reached<lb n="2"/>the great bazaar of Cambodia, the distance being about<lb n="3"/>eighteen miles. I had little to buy, for M. Miche and<lb n="4"/>M. Arnoux had insisted on filling my boat with rice and<lb n="5"/>dried fish, sufficient to last not only for my voyage but<lb n="6"/>during the whole period I proposed to remain among the<lb n="7"/>Stiêns.</p>
+        <p><lb n="8"/>I stopped a whole day to see the city, and make a<lb n="9"/>few purchases of glass, brass wire, and cotton yarn, articles<lb n="10"/>which would be useful as barter among the savages. The<lb n="11"/>town is situated at the confluence of two great streams,<lb n="12"/>and contains about 10,000 inhabitants, almost all Chinese;<lb n="13"/>but it has a floating population of more than double that<lb n="14"/>number, composed of Cambodians and Cochin-Chinese,<lb n="15"/>living in their boats. It was the time when most of the<lb n="16"/>fishermen, returning from the great lake, stop at Penom<pc force="weak">-</pc><lb n="17" break="no"/>Peuh to sell part of their fish, and when a crowd of small<lb n="18"/>merchants flock there to buy cotton, which is gathered in<pb n="227" facs="#p227"/><lb n="1"/>before the rains. Having traversed the city, which was<lb n="2"/>long and dirty, I arrived at an eminence on which was<lb n="3"/>built a pagoda, possessing neither beauty nor interest,<lb n="4"/>but from whence there is an extensive view over a large<lb n="5"/>tract of country.</p>
+        <p><lb n="6"/>On one side extend, like two long and wide ribands,<lb n="7"/>across an immense wooded plain, the Mekon and its<lb n="8"/>tributary; on the other, another plain and thick forest,<lb n="9"/>bounded on the north-west and south by small chains of<lb n="10"/>mountains.</p>
+        <p><lb n="11"/>Although the missionaries often pass through Penom<pc force="weak">-</pc><lb n="12" break="no"/>Peuh, my presence excited much curiosity among the<lb n="13"/>people. The war in Cochin-China was the subject of all<lb n="14"/>conversations, and in every one’s thoughts. The reports<lb n="15"/>of the Chinese and Annamites who had seen the taking<lb n="16"/>of the town of Saigou were not flattering to the pride of<lb n="17"/>a Frenchman. I had not seen the glorious bulletins of<lb n="18"/>our Admiral, but had the pain of hearing our enemies<lb n="19"/>stigmatise us as barbarians, and, describing the burning<lb n="20"/>of the market, and the conduct of the soldiery towards<lb n="21"/>defenceless women, speak of it as “the behaviour of<lb n="22"/>savages.” Thus the evil deeds of a less civilized ally<lb n="23"/>were visited upon us, and our whole nation judged of<lb n="24"/>by isolated acts, all but inevitable in time of war,<lb n="25"/>especially in a country where the soldier suffers from<lb n="26"/>the climate and privations of all kinds.</p>
+        <p><lb n="27"/>The people, perhaps the most corrupted in all the East,<lb n="28"/>expected to find in us men superior, morally, as well<lb n="29"/>as intellectually and physically; and I dare to flatter<pb n="228" facs="#p228"/><lb n="1"/>myself that before long they will learn to distinguish<lb n="2"/>between the characters of the true French soldiers and<lb n="3"/>their allies, and that in every respect we shall recover<lb n="4"/>our ancient prestige.</p>
+        <p><lb n="5"/>The next day, descending the river toward the southern<lb n="6"/>extremity of the city, we passed a floating town, composed<lb n="7"/>of more than 500 boats, most of them of large size.<lb n="8"/>They serve as an entrepôt for some merchants, and resi<pc force="weak">-</pc><lb n="9" break="no"/>dences for others. All their money and the greater part<lb n="10"/>of their merchandize is here kept, that, in case of alarm,<lb n="11"/>they may be ready to take flight at a moment’s<lb n="12"/>warning.</p>
+        <p><lb n="13"/>Shortly afterwards we entered the Mekon, which was<lb n="14"/>only now beginning to rise, as, throughout the country the<lb n="15"/>drought had been excessive, lasting much longer than<lb n="16"/>usual. This great river, the name of which signifies<lb n="17"/>“Mother of Rivers,” recalled to my mind the Menam,<lb n="18"/>north of Bangkok, but its aspect is less gay; yet there<lb n="19"/>is something very imposing in this expanse of water<lb n="20"/>running with all the rapidity of a torrent. A few boats,<lb n="21"/>scarcely distinguishable, toiled along: the banks, generally<lb n="22"/>about 18 or 20 feet high, seemed almost deserted; and<lb n="23"/>the forests were indistinctly discernible more than a mile<lb n="24"/>beyond. In Siam the elegant foliage of the bamboos<lb n="25"/>and palm-trees shows out strikingly against the blue sky,<lb n="26"/>while the songs of the birds charm the ear: here, shoals<lb n="27"/>of porpoises sail along with their noses to the wind, fre<pc force="weak">-</pc><lb n="28" break="no"/>quently bounding out of the water; pelicans sport on the<lb n="29"/>margins of the stream, and herons and storks fly silently<pb n="231" facs="#p231"/><lb n="1"/>from among the reeds at our approach. These are the<lb n="2"/>sole objects of interest.</p>
+        <p><lb n="3"/>We passed the great island of Ko-Sutin, which is distant<lb n="4"/>about 40 miles from Penom-Peuh, after five days’ dif<pc force="weak">-</pc><lb n="5" break="no"/>ficult and laborious travelling. The current was so strong<lb n="6"/>that at every turn in the stream we were obliged, in<lb n="7"/>addition to redoubling our efforts at the oars, to hold on<lb n="8"/>by the reeds to prevent our being carried away.</p>
+        <p><lb n="9"/>The farther north we went the more rapidly the stream<lb n="10"/>ran; so that when the waters are high two miles a day<lb n="11"/>are the usual rate of progress; and it is a common occur<pc force="weak">-</pc><lb n="12" break="no"/>rence for the boatmen to seek fuel for their evening fire<lb n="13"/>in the same spot where they had cooked their rice in the<lb n="14"/>morning.</p>
+        <p><lb n="15"/>About 25 or 30 leagues north of Ko-Sutin, on the con<pc force="weak">-</pc><lb n="16" break="no"/>fines of Laos, commence the rapids and cataracts: it is<lb n="17"/>then necessary to leave the boats and take to pirogues,<lb n="18"/>which, as well as the luggage, have often to be carried<lb n="19"/>on men’s backs. I made a halt of only a few hours, in<lb n="20"/>order to see another voluntary exile, M. Cordier, a priest<lb n="21"/>of great worth, from the Cambodian mission, who resides<lb n="22"/>here.</p>
+        <p><lb n="23"/>I felt great compassion for this good man, on entering<lb n="24"/>the chapel which he had built, and seeing the poverty<lb n="25"/>and nakedness around. He came to meet me, and invited<lb n="26"/>me to share his repast. For the last three years the poor<lb n="27"/>missionary has been suffering from a dysentery, which has<lb n="28"/>become chronic. However, he complains neither of his<lb n="29"/>bad health nor of his poverty: the only thing that grieved<pb n="232" facs="#p232"/><lb n="1"/>him was the small number of converts he was called on to<lb n="2"/>baptize, so deeply are the Cambodians attached to their<lb n="3"/>idols.</p>
+        <p><lb n="4"/>“But you,” said he to me; “do you know whither you<lb n="5"/>are going? I am astonished that they allowed you to<lb n="6"/>leave Pinhalú. Ask the Cambodians what they think of<lb n="7"/>the forests of the Stiêns, and propose to some of them to<lb n="8"/>accompany you: you would not find one. The rains have<lb n="9"/>begun, and you are going to almost certain death, or will<lb n="10"/>at least catch a fever, which will be followed by years of<lb n="11"/>languor and suffering. I have had the jungle fever, and it<lb n="12"/>is something terrible: even to the tips of my nails I felt<lb n="13"/>a heat which I can only call infernal: sometimes an icy<lb n="14"/>coldness would take its place: generally people sink under<lb n="15"/>it: witness M. Lafitte, a young missionary, who a short<lb n="16"/>time ago took the same journey; M. Comte, who died of<lb n="17"/>exhaustion; and many others.”</p>
+        <p><lb n="18"/>This account was not reassuring, nevertheless I had<lb n="19"/>determined on my route: I knew that I should find<lb n="20"/>there land and fresh-water shells which I could find no<pc force="weak">-</pc><lb n="21" break="no"/>where else,* and that this tribe of almost unknown<note place="foot">Thence come the beautiful Bulimus Cambogiensis, Ptelin Cambogiensis, and Ptelin Mouhoti.</note><lb n="22"/>savages would afford me a curious and interesting study;<lb n="23"/>and these considerations were sufficient to determine me<lb n="24"/>to proceed. I trusted in God, and went on my way,<lb n="25"/>M. Cordier’s last words being, “May God be with the<lb n="26"/>poor traveller!”<pb n="235" facs="#p235"/></p>
+        <p><lb n="1"/>Twelve miles higher up I left the river, and set off on<lb n="2"/>my land journey at two o’clock in the afternoon, hoping<lb n="3"/>to arrive the same day at Pemptiélan, a large village,<lb n="4"/>where lived the mandarin to whom the king’s letter was<lb n="5"/>addressed. We did not, however, get there till eleven<lb n="6"/>the next morning, having to pass the night at the foot of<lb n="7"/>a tree, where we lighted a fire. I waited at once upon<lb n="8"/>the mandarin, who is governor of the district, and he<lb n="9"/>received me very well, in spite of the small value of the<lb n="10"/>presents I made him, and immediately gave orders for<lb n="11"/>waggons to be made ready for me. He then presented<lb n="12"/>me with a quantity of tobacco and betel. His manners<lb n="13"/>were, for a Cambodian, gentle and polished; and he<lb n="14"/>questioned me much as to the war in Cochin-China, as<lb n="15"/>well as about Europe, how long it took to get there, &amp;c.</p>
+        <p><lb n="16"/>From the time we left Pemptiélan we had, except at<lb n="17"/>rare intervals, to pass through dense forests, and at first<lb n="18"/>the ground was so marshy that our miserable waggons<lb n="19"/>occasionally sank deeply; and it required the united<lb n="20"/>strength of the oxen and all our men to extricate them.<lb n="21"/>We got over the latter part of our route more agreeably;<lb n="22"/>for, as we reached a higher elevation, the ground became<lb n="23"/>dry, and the aspect of the country more varied.</p>
+        <p><lb n="24"/>We had only been able to accomplish 60 miles in five<lb n="25"/>days, and were still 30 miles from Brelum. I grew tired<lb n="26"/>of the incivility of the inhabitants from whom I hired the<lb n="27"/>oxen, and of the slowness of these animals: when we had<lb n="28"/>no shelter for the night, we suffered much from rain and<lb n="29"/>damp; our clothes were almost always soaked through;<pb n="236" facs="#p236"/><lb n="1"/>and, to crown our misfortunes, my two servants were<lb n="2"/>attacked with intermittent fever; the Annamite particu<pc force="weak">-</pc><lb n="3" break="no"/>larly, who had a tertian fever, lasting for ten days.</p>
+        <p><lb n="4"/>The mode of life of the Cambodians is similar to that<lb n="5"/>of the Siamese: rice, as with the latter, is the chief part<lb n="6"/>of their food: they eat it with vegetables, such as pump<pc force="weak">-</pc><lb n="7" break="no"/>kins or gourds, and wild potatoes. Those in better cir<pc force="weak">-</pc><lb n="8" break="no"/>cumstances add to it fish, but rarely meat; and yet the<lb n="9"/>country is as fertile as Lower Cochin-China, the soil of<lb n="10"/>which yields so abundant a return for all that is put in<lb n="11"/>the ground.</p>
+        <p><lb n="12"/>The poverty of the inhabitants of these miserable<lb n="13"/>villages engenders a repulsive dirtiness: a strip of mat<pc force="weak">-</pc><lb n="14" break="no"/>ting or an old filthy cushion thrown on the ground, and<lb n="15"/>full of vermin, some basins of coarse Chinese porcelain,<lb n="16"/>a sort of hatchet, and a piece of cotton, intended either<lb n="17"/>for counterpane, scarf, or cloak, according to the season<lb n="18"/>and time of day, are the usual contents of a Cambodian<lb n="19"/>hut.*<note place="foot">Cambodian is pronounced “Khmer,” in the language of the country.</note></p>
+        <p><lb n="20"/>We arrived at Pump-Ka-Daye, on the confines of Cam<pc force="weak">-</pc><lb n="21" break="no"/>bodia, and inhabited by about twenty Stiêns, who have<lb n="22"/>approached the boundary in order to escape slavery in<lb n="23"/>their own tribe. Our waggons halted before a small cara<pc force="weak">-</pc><lb n="24" break="no"/>vanserai, open to every wind; and after having carried in<lb n="25"/>our luggage, our guides disappeared much faster than<lb n="26"/>they had come. The chief soon presented himself, fol<pc force="weak">-</pc><lb n="27" break="no"/>lowed by some men: he had all the characteristics of a<pb n="237" facs="#p237"/><lb n="1"/>savage in his face, and of a Cambodian in his nature. I<lb n="2"/>handed him my letter, but he returned it, saying that he<lb n="3"/>could not read. “These, then,” said I, “are the contents.<lb n="4"/>It is the king’s order to all chiefs of villages where I<lb n="5"/>shall stop to furnish me with waggons to continue my<lb n="6"/>journey to Brelum.” “We have no waggons,” was the<lb n="7"/>answer.</p>
+        <p><lb n="8"/>We made ourselves as comfortable as we could till the<lb n="9"/>next day, when a second interview with the chief proved<lb n="10"/>to me that I should get no aid from him. I therefore<lb n="11"/>sent Niou with two Cambodians to carry a letter to<lb n="12"/>M. Guilloux, and bring me an answer. This arrived on<lb n="13"/>the evening of the fourth day; and in it M. Guilloux<lb n="14"/>assured me of a cordial welcome, adding that he was<lb n="15"/>interested in my undertaking, and had already a great<lb n="16"/>regard for me, without seeing me, for my courage in<lb n="17"/>coming so far.* The good father sent me three waggons<note place="foot">See M. Guilloux’s letter in the Appendix.</note><lb n="18"/>from the mission settlement, and some of his Annamites,<lb n="19"/>as well as two Stiêns, to help me on my way. This letter<lb n="20"/>completely removed all fear of being a troublesome and<lb n="21"/>unwelcome guest to the poor hermit, and I set out<lb n="22"/>with pleasure and confidence. It took us two long days’<lb n="23"/>journey to reach Brelum: we encamped one night near<lb n="24"/>a torrent, lying on our mats beside a good fire, which we<lb n="25"/>lighted to keep off the ferocious denizens of these forests.<lb n="26"/>The second night we passed in a deserted cabin some<lb n="27"/>miles from Brelum; and on the 16th August, at nine in<pb n="238" facs="#p238"/><lb n="1"/>the morning, we came to a clearing of from 250 to 300<lb n="2"/>metres square. We were betwixt two hills, at the foot of<lb n="3"/>which was marshy ground. On the slope of one I saw<figure><head>CAMBODIAN HOUSE.</head><figDesc>Drawn by M. Sabatier, from a Sketch by M. Mouhot.</figDesc></figure><lb n="4"/>two long bamboo houses, covered with thatch, and with<lb n="5"/>the mission-garden attached: higher up was the cross<pb n="239" facs="#p239"/><lb n="1"/>planted two years before amidst these frightful solitudes<lb n="2"/>by the noble and courageous French missionaries.</p>
+        <p><lb n="3"/>Scarcely had we appeared when we were saluted by a<lb n="4"/>discharge of musketry. We replied as well as we could;<lb n="5"/>and while these sounds were reverberating among the<lb n="6"/>echoes of the forests, poor Father Guilloux, his legs<lb n="7"/>covered with bad wounds, which had confined him for<lb n="8"/>above six months to his mattrass, and which he had<lb n="9"/>received on the journeys undertaken through the prompt<pc force="weak">-</pc><lb n="10" break="no"/>ings of his pious zeal, advanced with frail steps to meet<lb n="11"/>me along the tree-trunks thrown as a bridge across the<lb n="12"/>swamp. All honour to thee, noble son of our dear and<lb n="13"/>beautiful country!—thou who bravest poverty, privations,<lb n="14"/>fatigue, suffering, and even death, to bring to these<lb n="15"/>savages the blessings of religion and civilization! May<lb n="16"/>God recompense thee for thy painful and self-denying<lb n="17"/>labours, for men would be powerless to do so; thy reward<lb n="18"/>is not of this world. Besides, in these troublous and<lb n="19"/>warlike times, the virtues of the soldier are more appre<pc force="weak">-</pc><lb n="20" break="no"/>ciated than thine. But continue thy divine work; intel<pc force="weak">-</pc><lb n="21" break="no"/>ligent eyes and hearts watch from afar; and if, in our<lb n="22"/>day, the military career is more honoured and better<lb n="23"/>recompensed than any other, there are still, be sure,<lb n="24"/>Christian hearts which feel it a duty to make known to<lb n="25"/>the world thy virtue and thy sufferings, thy privations,<lb n="26"/>and the benefits thou conferrest on these unfortunates.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

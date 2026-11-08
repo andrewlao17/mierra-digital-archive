@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PG-030" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter XII: East Cape in 1878 and in 1882</title>
+        <author xml:id="chalmers">James Chalmers (1841-1901)</author>
+        <respStmt xml:id="gill">
+          <resp>Co-author of the 1885 edition; author of the framing passages about Chalmers</resp>
+          <name>William Wyatt Gill</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (Tesseract OCR of a fresh 300 dpi render, the Internet Archive's own OCR, and the proofread Project Gutenberg text of the 1886 reissue, ebook 17694, compared word by word; where the two OCRs agree their reading is kept even when the 1886 text differs; the rest was checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The source text (1885; this printing about 1902) is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="PG">Papua New Guinea</country>
+            <settlement>South coast of New Guinea</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>workadventureinn00jamerich, pp. 236-240</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>The mission at East Cape (Milne Bay) between 1878 and 1882: the people's earlier wars and cannibalism, how the mission work was carried on, and a Sunday in 1882 when twenty-one converts were baptised.</summary>
+            <msItem class="missionary narrative">
+              <textLang mainLang="en" otherLangs="meu">English, with words and phrases in Motu and other Papuan languages</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: Religious Tract Society, new and popular edition (about 1902), reissuing the text first published in 1885.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="28"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1885">1885 (journals and letters of 1877-1882)</origDate>
+              <p>Chalmers' journals and letters from the London Missionary Society's New Guinea mission, edited with
+                W. Wyatt Gill as Work and Adventure in New Guinea, 1877 to 1885 (1885), and reissued by the Religious
+                Tract Society with an editor's preface after Chalmers was killed at Goaribari in 1901.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chalmers, James, and W. Wyatt Gill. <title>Work and Adventure in New Guinea</title>. London: Religious Tract
+          Society, 1885; new and popular edition [c. 1902]. Chapter XII, pp. 236-240.
+          <ref target="https://archive.org/details/workadventureinn00jamerich">Scan at the Internet Archive</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks and page breaks follow the printed page; running heads, printer's signatures, the chapter
+          heading and plates are omitted (see the page images). The chapter's summary of contents is encoded as
+          argument. A hyphen that only splits a word at a line end is marked pc force="weak". Italics are not recorded.
+          The book mixes Chalmers' first-person journals with passages about him by W. Wyatt Gill; only the
+          editor's opening paragraph of Chapter I is marked separately (div type="commentary").</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">PG-030</term>
+          <term type="era">Missionary contact and conflict</term>
+          <term type="eraYears">1871-1900</term>
+          <term type="perspective">missionary</term>
+          <term type="community">Papuans (south coast)</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-08" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p236" n="236"><graphic url="facsimiles/chalmers-work-adventure/p236.png"/></surface>
+    <surface xml:id="p237" n="237"><graphic url="facsimiles/chalmers-work-adventure/p237.png"/></surface>
+    <surface xml:id="p238" n="238"><graphic url="facsimiles/chalmers-work-adventure/p238.png"/></surface>
+    <surface xml:id="p239" n="239"><graphic url="facsimiles/chalmers-work-adventure/p239.png"/></surface>
+    <surface xml:id="p240" n="240"><graphic url="facsimiles/chalmers-work-adventure/p240.png"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="XII">
+        <head>Chapter XII. East Cape in 1878 and in 1882</head>
+        <pb n="236" facs="#p236"/>
+        <argument><p><lb n="1"/>Original state of the natives—War and cannibalism—How the<lb n="2"/>mission work has been carried on—A Sunday at East Cape in<lb n="3"/>1882—Twenty-one converts baptised—A bright prospect.</p></argument>
+        <p><lb n="4"/><hi rend="smallcaps">In</hi> 1878 missionary work was begun at East Cape,<lb n="5"/>and four years after the establishment of that mission,<lb n="6"/>on a review of the past, what evidences of progress<lb n="7"/>were to be seen! There were signs of light breaking<lb n="8"/>in upon the long dark night of heathenism, Looking<lb n="9"/>at the condition of this people when the missionaries<lb n="10"/>and teachers first landed, what did they find? A<lb n="11"/>people sunk in crime that to them has become a custom<lb n="12"/>and a religion—a people in whom murder is the finest<lb n="13"/>art, and who from their earliest years study it.<lb n="14"/>Disease, sickness, and death have all to be accounted<lb n="15"/>for, They know nothing of malaria, filth, or contagion.<lb n="16"/>Hence they hold that an enemy causes these things,<lb n="17"/>and friends have to see that due punishment is made.<lb n="18"/>The large night firefly helps to point in the direction<lb n="19"/>of that enemy, or the spirits of departed ones are<lb n="20"/>called in through spiritists’ influence to come and<lb n="21"/>assist, and the medium pronouncing a neighbouring<lb n="22"/>tribe guilty, the time is near when that tribe will be<pb n="237" facs="#p237"/><lb n="1"/>visited and cruel deeds done. They know nothing of<lb n="2"/>a God of Love—only gods and spirits who are ever<lb n="3"/>revengeful, and must be appeased; who fly about in<lb n="4"/>the night and disturb the peace of homes. It is gross<lb n="5"/>darkness and cruelty, brother's hand raised against<lb n="6"/>brother's. Great is the chief who claims many skulls;<lb n="7"/>and the youth who may wear a jawbone as an armlet<lb n="8"/>is to be admired.</p>
+        <p><lb n="9"/>When we first landed here, the natives lived only<lb n="10"/>to fight, and the victory was celebrated by a cannibal<lb n="11"/>feast. It is painfully significant to find that the only<lb n="12"/>field in which New Guinea natives have shown much<lb n="13"/>skill and ingenuity is in the manufacture of weapons.<lb n="14"/>One of the most deadly of these is known as the<lb n="15"/>Man-catcher, and was invented by the natives of<lb n="16"/>Hood Bay, but all over the vast island this loop of<lb n="17"/>rattan cane is the constant companion of head-hunters.<lb n="18"/>The peculiarity of the weapon is the deadly spike<lb n="19"/>inserted in the handle.</p>
+        <p><lb n="20"/>The modus operandi is as follows:—The loop is<lb n="21"/>thrown over the unhappy wretch who is in retreat,<lb n="22"/>and a vigorous pull from the brawny arm of the<lb n="23"/>vengeful captor jerks the victim upon the spike, which<lb n="24"/>(if the weapon be deftly handled) penetrates the body<lb n="25"/>at the base of the brain, or, if lower down, in the spine,<lb n="26"/>in either case inflicting a death-wound.</p>
+        <p><lb n="27"/>All these things are changed, or in process of<lb n="28"/>change. For several years there have been no cannibal<lb n="29"/>ovens, no desire for skulls. Tribes that could not<lb n="30"/>formerly meet but to fight, now meet as friends, and<lb n="31"/>sit side by side in the same house worshipping the<lb n="32"/>true God. Men and women who, on the arrival of<pb n="238" facs="#p238"/><lb n="1"/>the mission, sought the missionaries’ lives, are only<lb n="2"/>anxious now to do what they can to assist them,<lb n="3"/>even to the washing of their feet. How the change<lb n="4"/>came about is simply by the use of the same means<lb n="5"/>as those acted upon in many islands of the Pacific.<lb n="6"/>The first missionaries landed not only to preach<lb n="7"/>the Gospel of Divine love, but also to live it, and to<lb n="8"/>show to the savage a more excellent way than theirs.<lb n="9"/>Learning the language, mixing freely with them,<lb n="10"/>showing kindnesses, receiving the same, travelling<lb n="11"/>with them, differing from them, making friends, assist<pc force="weak">-</pc><lb n="12" break="no"/>ing them in their trading, and in every way making<lb n="13"/>them feel that their good only was sought. They<lb n="14"/>thought at first that we were compelled to leave our<lb n="15"/>own land because of hunger!</p>
+        <p><lb n="16"/>Teachers were placed amongst the people; many<lb n="17"/>sickened and died. There was a time of great trial,<lb n="18"/>but how changed is everything now! Four years<lb n="19"/>pass on, and in 1882 we visit them. We left Port<lb n="20"/>Moresby, and arrived at East Cape on a Sunday.<lb n="21"/>Morning service was finished, and, from the vessel, we —<lb n="22" break="no"/>saw a number of natives well dressed, standing near<lb n="23"/>the mission house, waiting to receive us. The teachers<lb n="24"/>came off, and with them several lads, neatly dressed.<lb n="25"/>After hearing from them of the work, and of how<lb n="26"/>the people were observing the Sabbath, we landed,<lb n="27"/>and were met by a quiet, orderly company of men,<lb n="28"/>women, and boys, who welcomed us as real friends.<lb n="29"/>The first to shake hands with us was a chief from<lb n="30"/>the opposite side of the bay, who in early days<lb n="31"/>gave us much trouble, and had to be well watched.<lb n="32"/>Now he was dressed, and his appearance much altered.<pb n="239" facs="#p239"/><lb n="1"/>It was now possible to meet him and feel he was<lb n="2"/>a friend. We found Pi Vaine very ill, and not likely<lb n="3"/>to live long; yet she lived long enough to rejoice in the<lb n="4"/>glorious success of the Gospel of Christ, and to see<lb n="5"/>many of those for whom she laboured profess Christian<pc force="weak">-</pc><lb n="6" break="no"/>ity. We were astonished, when we met in the after<pc force="weak">-</pc><lb n="7" break="no"/>noon, at the orderly service—the nice, well-tuned<lb n="8"/>singing of hymns, translated by the teacher, and the<lb n="9"/>attention, when he read a chapter in Mark's Gospel—<lb n="10" break="no"/>translated by him from the Rarotongan into the<lb n="11"/>dialect of the place. When he preached to them all<lb n="12"/>listened attentively, and seemed to be anxious not<lb n="13"/>to forget a single word. Two natives prayed with<lb n="14"/>great earnestness and solemnity. After service all<lb n="15"/>remained, and were catechised on the sermon, and<lb n="16"/>then several present stood up and exhorted their<lb n="17"/>friends to receive the Gospel. Many strangers were<lb n="18"/>present, and they were exhorted to come as often<lb n="19"/>as possible and hear the good news. Then, again,<lb n="20"/>others offered prayers. We found that numbers<lb n="21"/>came in on the Saturday with food and cooking pots,<lb n="22"/>and remained until Monday morning. They lived<lb n="23"/>with the teachers, and attended all the services,<lb n="24"/>beginning with a prayer-meeting on Saturday night.</p>
+        <p><lb n="25"/>During our stay of a few days they all remained at<lb n="26"/>the station, and we saw much of them. The teachers<lb n="27"/>said there were twenty-one who professed faith in<lb n="28"/>Christ and had given up heathenism and desired<lb n="29"/>baptism. We visited further on to the east, and we<lb n="30"/>were a week away on our return to East Cape, and<lb n="31"/>after close examination of each candidate we decided<lb n="32"/>to baptise them on the following Tuesday. The service<pb n="240" facs="#p240"/><lb n="1"/>was most interesting, and well attended by persons<lb n="2"/>from various places. At night we examined the<lb n="3"/>children and grown-up people who attend school, and<lb n="4"/>were much pleased with them. A few can read in the<lb n="5"/>Motu dialect; others know how to put letters together<lb n="6"/>and form words. We hope soon to have one or two<lb n="7"/>books in their own dialect. Of those baptised several<lb n="8"/>are anxious to be instructed, that they may be better<lb n="9"/>fitted to do work for Christ amongst their own country<pc force="weak">-</pc><lb n="10" break="no"/>men. Already they hold services, and exhort in other<lb n="11"/>villages, and when travelling they do all the good they<lb n="12"/>can to others.</p>
+        <p><lb n="13"/>We are in hopes soon to receive a number of young<lb n="14"/>men and women at Port Moresby, and begin our<lb n="15"/>Institution, to be called The New Guinea Institution<lb n="16"/>for Training Evangelists. At present we shall pro<pc force="weak">-</pc><lb n="17" break="no"/>ceed quickly, building native houses for students,<lb n="18"/>and a class-room to be bought in the colonies, towards<lb n="19"/>which our true friends in North Adelaide contribute<lb n="20"/>largely.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

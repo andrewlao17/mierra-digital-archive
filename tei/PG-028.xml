@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="PG-028" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chapter VII: Peace-Making</title>
+        <author xml:id="chalmers">James Chalmers (1841-1901)</author>
+        <respStmt xml:id="gill">
+          <resp>Co-author of the 1885 edition; author of the framing passages about Chalmers</resp>
+          <name>William Wyatt Gill</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Transcription (Tesseract OCR of a fresh 300 dpi render, the Internet Archive's own OCR, and the proofread Project Gutenberg text of the 1886 reissue, ebook 17694, compared word by word; where the two OCRs agree their reading is kept even when the 1886 text differs; the rest was checked against the page image) and TEI encoding. Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>The source text (1885; this printing about 1902) is in the public domain. This transcription is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="PG">Papua New Guinea</country>
+            <settlement>South coast of New Guinea</settlement>
+            <repository>Internet Archive (scan of a printed copy)</repository>
+            <idno>workadventureinn00jamerich, pp. 178-191</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>In January 1881 Chalmers goes west to Motumotu and Lese in Elema to stop a threatened raid on Kabadi and the coast villages, and peace is agreed.</summary>
+            <msItem class="missionary narrative">
+              <textLang mainLang="en" otherLangs="meu">English, with words and phrases in Motu and other Papuan languages</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book, London: Religious Tract Society, new and popular edition (about 1902), reissuing the text first published in 1885.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="30"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1885">1885 (journals and letters of 1877-1882)</origDate>
+              <p>Chalmers' journals and letters from the London Missionary Society's New Guinea mission, edited with
+                W. Wyatt Gill as Work and Adventure in New Guinea, 1877 to 1885 (1885), and reissued by the Religious
+                Tract Society with an editor's preface after Chalmers was killed at Goaribari in 1901.</p>
+            </origin>
+          </history>
+        </msDesc>
+        <bibl>
+          Chalmers, James, and W. Wyatt Gill. <title>Work and Adventure in New Guinea</title>. London: Religious Tract
+          Society, 1885; new and popular edition [c. 1902]. Chapter VII, pp. 178-191.
+          <ref target="https://archive.org/details/workadventureinn00jamerich">Scan at the Internet Archive</ref>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Line breaks and page breaks follow the printed page; running heads, printer's signatures, the chapter
+          heading and plates are omitted (see the page images). The chapter's summary of contents is encoded as
+          argument. A hyphen that only splits a word at a line end is marked pc force="weak". Italics are not recorded.
+          The book mixes Chalmers' first-person journals with passages about him by W. Wyatt Gill; only the
+          editor's opening paragraph of Chapter I is marked separately (div type="commentary").</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">PG-028</term>
+          <term type="era">Missionary contact and conflict</term>
+          <term type="eraYears">1871-1900</term>
+          <term type="perspective">missionary</term>
+          <term type="community">Papuans (south coast)</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-08" who="#mierra">First transcription and encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p178" n="178"><graphic url="facsimiles/chalmers-work-adventure/p178.png"/></surface>
+    <surface xml:id="p179" n="179"><graphic url="facsimiles/chalmers-work-adventure/p179.png"/></surface>
+    <surface xml:id="p180" n="180"><graphic url="facsimiles/chalmers-work-adventure/p180.png"/></surface>
+    <surface xml:id="p181" n="181"><graphic url="facsimiles/chalmers-work-adventure/p181.png"/></surface>
+    <surface xml:id="p182" n="182"><graphic url="facsimiles/chalmers-work-adventure/p182.png"/></surface>
+    <surface xml:id="p183" n="183"><graphic url="facsimiles/chalmers-work-adventure/p183.png"/></surface>
+    <surface xml:id="p184" n="184"><graphic url="facsimiles/chalmers-work-adventure/p184.png"/></surface>
+    <surface xml:id="p185" n="185"><graphic url="facsimiles/chalmers-work-adventure/p185.png"/></surface>
+    <surface xml:id="p186" n="186"><graphic url="facsimiles/chalmers-work-adventure/p186.png"/></surface>
+    <surface xml:id="p187" n="187"><graphic url="facsimiles/chalmers-work-adventure/p187.png"/></surface>
+    <surface xml:id="p188" n="188"><graphic url="facsimiles/chalmers-work-adventure/p188.png"/></surface>
+    <surface xml:id="p189" n="189"><graphic url="facsimiles/chalmers-work-adventure/p189.png"/></surface>
+    <surface xml:id="p190" n="190"><graphic url="facsimiles/chalmers-work-adventure/p190.png"/></surface>
+    <surface xml:id="p191" n="191"><graphic url="facsimiles/chalmers-work-adventure/p191.png"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter" n="VII">
+        <head>Chapter VII. Peace-Making</head>
+        <pb n="178" facs="#p178"/>
+        <argument><p><lb n="1"/>Mr. Chalmers asked by the natives to go to Elema—Native fears<lb n="2" break="no"/>—Difficulties at the start—Namoa—Delena—A Motumotu<lb n="3"/>trading canoe—Interview with Semese, chief of Lese—Chris<pc force="weak">-</pc><lb n="4" break="no"/>tian natives—Friendly meeting with a war canoe—Arrival at<lb n="5"/>Motumotu—Friendly reception—Viewing Mr. Chalmers’ feet-—<lb n="6" break="no"/>Natives in full dress—Sunday open-air service—Sago as an<lb n="7"/>article of commerce—Peace agreed upon—Return to Boera.</p></argument>
+        <p><lb n="8"/><hi rend="smallcaps">When</hi> at Kabadi in 1880, the natives begged of me to<lb n="9"/>endeavour to prevent the Elema natives paying them<lb n="10"/>another visit, as they were now living in the bush<lb n="11"/>near the hills. All along the coast the people were<lb n="12"/>much afraid, expecting a raid, and at last news came in<lb n="13"/>from Maiva that Motumotu and Lese were making<lb n="14"/>great preparations that they would visit Motu, kill<lb n="15"/>Tamate and Ruatoka, then attack right and left. Last<lb n="16"/>year when leaving they said they would return and<lb n="17"/>pay off accounts, kill the foreigners first, then all the<lb n="18"/>natives they could get hold of.</p>
+        <p><lb n="19"/>Under these circumstances, I resolve to visit Motu<pc force="weak">-</pc><lb n="20" break="no"/>motu, and beard the lion in his den. I did not believe<lb n="21"/>they would touch me, but I feared they meant mischief<lb n="22"/>to Kabadi and the coast villages. No time could be lost,<pb n="179" facs="#p179"/><lb n="1"/>as we were in a bad month for rain and storms, and the<lb n="2"/>coast line is long and bad. The natives said it was<lb n="3"/>too late, yet I resolved to try it.</p>
+        <p><lb n="4"/>On the 5th January, 1881, we opened the new<lb n="5"/>church at Port Moresby, and baptised the first three<lb n="6"/>New Guinea converts. The church was crowded, and<lb n="7"/>all seemed interested. I arranged for Piri and his wife<lb n="8"/>to accompany me to the Gulf, they taking the whale<pc force="weak">-</pc><lb n="9" break="no"/>boat. We cannot call at Kabadi on our way down, as<lb n="10"/>we must hurry on, but our natives here were going to<lb n="11"/>Kabadi, and gladly took the news.</p>
+        <p><lb n="12"/>On January 10, the flag flying on the boat told all<lb n="13"/>that we were to start. Our leader ran off to Kaili last<lb n="14"/>night, but Huakonio, one of the three baptised on the<lb n="15"/>5th, was willing to go. Our boat's crew were considered<lb n="16"/>fools, rushing into the arms of death. Wives, children,<lb n="17"/>and friends were gathered round weeping. The men<lb n="18"/>said, ‘Cannot you see that if Tamate lives we shall<lb n="19"/>live? and if he is murdered we shall be murdered; it<lb n="20"/>is all right; we are going with him, and you will see<lb n="21"/>us back all right with sago and betel-nuts.’ Huakonio<lb n="22"/>told me in the boat that every means imaginable but<lb n="23"/>physical force were used to prevent their accompanying<lb n="24"/>me; and he added, ‘We know it is all right; the Spirit<lb n="25"/>that has watched over you in the past’ (naming the<lb n="26"/>various journeys) ‘will do so now; and if we return safe,<lb n="27"/>won't the people be ashamed?’</p>
+        <p><lb n="28"/>We left Port Moresby about nine A.M. with a light<lb n="29"/>head wind; outside found the current very strong setting<lb n="30"/>easterly. We arrived at Boera at four P.M., and found<lb n="31"/>Piri and his wife ready to start at once. Piri has a<lb n="32"/>Boera crew, and we increased ours here by two. Here<pb n="180" facs="#p180"/><lb n="1"/>the natives did not seem at all afraid, and many wished<lb n="2"/>to accompany us.</p>
+        <p><lb n="3"/>On leaving Boera, it was a beautiful clear moonlight<lb n="4"/>night, and there was a light land breeze. Pulling brought<lb n="5"/>us to Varivara Islands, in Redscar Bay, about two A.M.,<lb n="6"/>where we anchored until six, when we tried to make<lb n="7"/>Cape Suckling. As it was blowing hard from the north<pc force="weak">-</pc><lb n="8" break="no"/>west, we had to put into Manumanu. The Motu traders<lb n="9"/>did all they could to persuade us to give up Motumotu,<lb n="10"/>and to visit Kabadi. Both crews would gladly have<lb n="11"/>given up; their friends told them to leave us, and<lb n="12"/>return in the trading canoes. They came to me to say<lb n="13"/>‘the bad weather has set in, the winds and rains are<lb n="14"/>here, we cannot go on.’</p>
+        <p><lb n="15"/>I replied, ‘Think, my children, of the disgrace. We<lb n="16"/>started to go to Motumotu, and at the first breath of<lb n="17"/>contrary wind we put back. It must not be. Let us<lb n="18"/>try it a little longer, and if the wind increases we can<lb n="19"/>put back, and not feel so ashamed.’</p>
+        <p><lb n="20"/>‘You are right, they rejoined; ‘we will go on with you.’</p>
+        <p><lb n="21"/>At sunset we all got into our boats and were ready<lb n="22"/>for a start. A fellow who has just returned from Kabadi<lb n="23"/>thought to get over me by saying, ‘Tamate, Kabadi are<lb n="24"/>looking daily for you, and they have a large present<lb n="25"/>ready; feathers in abundance and sago; your two boats<lb n="26"/>cannot take half’</p>
+        <p><lb n="27"/>"I am going to Motumotu, and not all the feathers<lb n="28"/>in Kabadi, nor all the sago they can prepare, will turn<lb n="29"/>me now, until I have made a fair trial, and then, if driven<lb n="30"/>back, I will visit Kabadi.’</p>
+        <p><lb n="31"/>I believe our crew had had a talk with that man<lb n="32"/>before he came to me.<pb n="181" facs="#p181"/></p>
+        <p><lb n="1"/>It was five o'clock on January 12 before we got to<lb n="2"/>Namoa, near Cape Suckling. Maiva canoes passed with<lb n="3"/>wallaby from Namoa. When ashore, cooking breakfast,<lb n="4"/>Koloka and her husband, with uncles and aunts, and<lb n="5"/>men and women from the village, came down. The<lb n="6"/>two former were going to Maiva, and the crowd followed<lb n="7"/>to see them embark in one of the large Maiva canoes.<lb n="8"/>After the bamboo pipe had been passed all round the<lb n="9"/>embarkation took place, men and women weeping as if<lb n="10"/>taking a final farewell.</p>
+        <p><lb n="11"/>When they had gone we told the people we wished<lb n="12"/>to sleep, and they left us undisturbed. In the afternoon<lb n="13"/>we came on to Delena, where we had right hearty<lb n="14"/>welcome. They are truly glad we are going to Motu<pc force="weak">-</pc><lb n="15" break="no"/>motu, as they fear an attack, and hope our visit will<lb n="16"/>benefit them. They feel sure Motumotu will receive<lb n="17"/>us well, and seeing that I specially visit them, they say<lb n="18"/>it will be all right. The crews feel encouraged, and<lb n="19"/>are at present ashore, feasting on dugong, sago and<lb n="20"/>betel-nuts. Some have been off for tobacco, and are<lb n="21"/>now laughing at the folly of their friends. The sorcerer<lb n="22"/>is not in Delena; but even he would do nothing to<lb n="23"/>prevent our going on. We are all ready to start with<lb n="24"/>a land breeze. The crews have sent us word, ‘When<lb n="25"/>you wish to start, call out; you will see us gladly<lb n="26"/>spring into the water.</p>
+        <p><lb n="27"/>On leaving Delena with a light breeze and pulling,<lb n="28"/>we reached the Kivori beach, near Cape Possession,<lb n="29"/>about eight A.M. When near Maiva, we met a<lb n="30"/>Motumotu canoe. At first they were afraid to come<lb n="31"/>alongside of us, but after a little talk we got near<lb n="32"/>them, exchanged presents, and were soon friends.<pb n="182" facs="#p182"/><lb n="1"/>They seem glad we are going to their home; they say<lb n="2"/>peace will be arranged. The Motumotu have said<lb n="3"/>that if we only were to visit them, they would gladly<lb n="4"/>make peace.</p>
+        <p><lb n="5"/>It seems that they are very badly off for uros<lb n="6"/>(earthenware pots), and the native tribes along the<lb n="7"/>coast to the west of them are crying out and blaming<lb n="8"/>them for the scarcity. They are certainly blaming the<lb n="9"/>right party; but for Motumotu, the Pari, Vapukori,<lb n="10"/>Port Moresby, Boliapata, and Boera trading canoes<lb n="11"/>would all have been down the coast last season. The<lb n="12"/>principal man in the canoe, knowing that all, except<lb n="13"/>our boatman, Bob Samoa, had friends at Motumotu,<lb n="14"/>made friends with him, rubbing noses and handing his<lb n="15"/>lime gourd, which is to be shown on arrival, and his<lb n="16"/>father and friends will receive Bob as his friends. They<lb n="17"/>go on to Lolo in quest of uros.</p>
+        <p><lb n="18"/>We landed to cook food. On awaking from a sleep,<lb n="19"/>I was astonished to find a crowd of natives close by, and<lb n="20"/>my friend the Kivori chief, Arana, sitting near me.<lb n="21"/>Two boys who were on the beach fishing, seeing us<lb n="22"/>land, ran inland and reported, and he, with two of his<lb n="23"/>wives carrying food, followed by men and women from<lb n="24"/>the villages, came down. His two wives are now busy<lb n="25"/>cooking, and he is trying to persuade me to call on our<lb n="26"/>return and get his present of sago and food. I could<lb n="27"/>not promise, and he seemed disappointed.</p>
+        <p><lb n="28"/>We left the Kivori beach and pulled round Cape<lb n="29"/>Possession, passing close in by Oiapu. A heavy sea<lb n="30"/>was rolling in, and a canoe putting off to us was<lb n="31"/>swamped. People running along the beach called on<lb n="32"/>Piri and me by name to land and feast, but our crews<pb n="183" facs="#p183"/><lb n="1"/>were too frightened, and we went on. When off Jokea,<lb n="2"/>men, women, and children all came on to the beach and<lb n="3"/>also by name begged of us to land. We would have<lb n="4"/>done so here, but the sea was too high, breaking with<lb n="5"/>great force on the fringing reef. Several canoes put off,<lb n="6"/>but only one succeeded in reaching us. They begged of<lb n="7"/>us to call on our return, and let them know the result<lb n="8"/>of our visit, and said we had better also visit Lese.<lb n="9"/>They think our visit will put all straight. Motumotu,<lb n="10"/>they say, is very undecided as to what to do, but having<lb n="11"/>heard that I was to visit them, put off the decision for<lb n="12"/>some time, saying, ‘If he comes, it will be all right, and<lb n="13"/>we shall have peace, but—’ well, they did not know.<lb n="14"/>They rub noses all round, and make for the shore, we<lb n="15"/>for the harbour at the mouth of Coombes River, but a<lb n="16"/>very heavy sea running in, we prefer anchoring outside<lb n="17"/>at midnight.</p>
+        <p><lb n="18"/>By five A.M. up anchor and away to Lese. Two<lb n="19"/>Naima canoes returning from Lolo, where they had been<lb n="20"/>trying to get uros, passed close to us. They also are<lb n="21"/>glad of the likelihood of peace and uros. At seven we<lb n="22"/>got to Lese, and were met by an excited crowd, the<lb n="23"/>majority armed. We anchored a little out, and would<lb n="24"/>allow no canoes alongside. I called out for Eeka, and a<lb n="25"/>very old man walked into the sea, when I went ashore<lb n="26"/>and took him by the hand. Piri and his wife followed<lb n="27"/>with part of the crew and the Boera and Port Moresby<lb n="28"/>chiefs. We were led to the village, the crowd increasing<lb n="29"/>as we went along. Piri noticing an enclosed place,<lb n="30"/>went in to see what it was, and called me to have a look.<lb n="31"/>I went in, but no women or youths followed. Inside<lb n="32"/>were two large houses with rows of masks and hats, the<pb n="184" facs="#p184"/><lb n="1"/>latter like small canoes about ten feet long, made with<lb n="2"/>very light wood and native cloth. On coming out I<lb n="3"/>was seized by the hand by an elderly man, who, in a<lb n="4"/>towering passion, drew me on. All I could make out<lb n="5"/>was that somebody was a thief and a liar. The Boera<lb n="6"/>chief ran up, and I asked him what was wrong. ‘Oh,<lb n="7"/>this is your friend, Semese, the chief you gave the<lb n="8"/>present to when you were last here, and he is angry<lb n="9"/>with Eeka for taking you away.’</p>
+        <p><lb n="10"/>‘Tell Piri to come up quickly.’</p>
+        <p><lb n="11"/>‘Piri, go with Eeka as your friend; give him a<lb n="12"/>present as such; it is all right. I go with Semese.’</p>
+        <p><lb n="13"/>Soon squatting on the platform, wrath fled, and I had<lb n="14"/>to wait to be fed.</p>
+        <p><lb n="15"/>‘But, Semese, I want to press on to Motumotu and<lb n="16"/>see them. I am afraid of the weather coming in bad.’</p>
+        <p><lb n="17"/>‘Motumotu to-morrow, Lese to-day; you must have<lb n="18"/>a pig.’</p>
+        <p><lb n="19"/>‘Leave the pig for another visit.’</p>
+        <p><lb n="20"/>All was of no avail. A fine large pig was speared,<lb n="21"/>brought and laid at my feet. Semese and the people<lb n="22"/>were in the very best humour. Eeka was delighted<lb n="23"/>with Piri, and the latter had a pig presented to him.<lb n="24"/>We gave our presents, and, feeling tired, I suggested to<lb n="25"/>our friends that we had better take the pigs to the other<lb n="26"/>side of the entrance, to Macey Lagoon. Semese is<lb n="27"/>quite agreeable, now the peace is made, and it was<lb n="28"/>arranged that he and his party should visit me with<lb n="29"/>sago at Port Moresby. Both pigs, ready for cooking,<lb n="30"/>were carried into the boat, and the excited crowd, this<lb n="31"/>time all unarmed, were on the shore to see us off.<lb n="32"/>They promised not to molest Kabadi again, and that<pb n="185" facs="#p185"/><lb n="1"/>they considered our visit as peace with all the coast<lb n="2"/>villages.</p>
+        <p><lb n="3"/>Macey Lagoon would make a splendid harbour for<lb n="4"/>small vessels, very large vessels not being able to cross<lb n="5"/>the bar. On the eastern side a bank runs out for<lb n="6"/>nearly a mile, on which the sea breaks; close in by the<lb n="7"/>western shore is a good passage. The great work of the<lb n="8"/>day was feasting and sleeping. There were two Lese<lb n="9"/>men with us, and they said that the Motumotu have<lb n="10"/>been talking of war, not of peace; but now it may<lb n="11"/>be different. To get into Motumotu in the morning, we<lb n="12"/>had come to within two miles of the village, and we<lb n="13"/>anchored off. Notwithstanding some anxiety, soon<lb n="14"/>all were asleep, The natives were astonished at the<lb n="15"/>beautiful weather, and said they felt as if all would be<lb n="16"/>right—the great and good Spirit who had led us so far<lb n="17"/>and safely would not leave us now or on the morrow.<lb n="18"/>At every meal on board or ashore they asked a blessing,<lb n="19"/>and our old friend Hula prayed with real earnest<lb n="20"/>feeling. He was certainly in earnest to-night when he<lb n="21"/>prayed for the Motumotuans, and that our visit might<lb n="22"/>be blessed to them. I was charmed with his simplicity,<lb n="23"/>fervour and expectancy.</p>
+        <p><lb n="24"/>This old man, a few weeks before, at the close of a<lb n="25"/>meeting at Port Moresby, said, addressing us :—</p>
+        <p><lb n="26"/>‘Listen, you think we Motumotuans are not attend<pc force="weak">-</pc><lb n="27" break="no"/>ing to your words; but you are mistaken. Before you<lb n="28"/>came here, we were always fighting and were a terror<lb n="29"/>to all, east and west, but now it is different. We are<lb n="30"/>at peace all round; we go about unarmed, and sleep<lb n="31"/>well at night. Soon our fathers’ ancient customs will<lb n="32"/>be all given up, and you will see us, old and young,<pb n="186" facs="#p186"/><lb n="1"/>coming to be taught the word of the great and good<lb n="2"/>Spirit.’</p>
+        <p><lb n="3"/>I was aroused about two A.M. by shouting, and,<lb n="4"/>looking over the gunwale, saw a large double fighting<lb n="5"/>canoe alongside of Piri's boat, in which all were sound<lb n="6"/>asleep. On awaking, they were startled by the appear<pc force="weak">-</pc><lb n="7" break="no"/>ance. They were asked by those on the bridge—</p>
+        <p><lb n="8"/>‘Who are you?’</p>
+        <p><lb n="9"/>‘Tamate and Piri going to Motumotu.’</p>
+        <p><lb n="10"/>Soon all were friends, chewing betel-nut and smok<pc force="weak">-</pc><lb n="11" break="no"/>ing tobacco. On each canoe with paddles were over<lb n="12"/>thirty men, and on the bridge adjoining the canoes<lb n="13"/>were armed men and a large supply of sago and betel-<lb n="14" break="no"/>nuts. They were going to Lese to purchase uros.<lb n="15"/>They came alongside of our boat, received and gave<lb n="16"/>presents, and then an order was given by one from the<lb n="17"/>bridge, and away they went at full speed. It was a<lb n="18"/>pretty sight in the moonlight to see the canoe move<lb n="19"/>swiftly on, when nearly eighty paddles as one touched<lb n="20"/>the water. We rolled ourselves up again for another<lb n="21"/>hour or two's sleep.</p>
+        <p><lb n="22"/>At six A.M. we weighed anchor, and were off to<lb n="23"/>Motumotu. There was a great crowd on the beach;<lb n="24"/>but it was all right, as boys and girls were to be seen<lb n="25"/>there, as noisy as the grown-up folks. A chief rushed<lb n="26"/>into the water and called on us to come. ‘Come, with<lb n="27"/>peace from afar; come, friends, and you will meet us as<lb n="28"/>friends.’ We went round and entered the river in deep<lb n="29"/>water, close to eastern bank near to the village. Until<lb n="30"/>we had a talk, I would allow none but Piri's friend and<lb n="31"/>my friends, Semese and Rahe, near the boats. They<lb n="32"/>had been told that we were going to fight if they visited<pb n="187" facs="#p187"/><lb n="1"/>us, and that all women and children were to be sent<lb n="2"/>back to the Keiari, and the Keiari fighting men were<lb n="3"/>to be in league with all the foreigners about. Then<lb n="4"/>they heard that I had been murdered, and were terribly<lb n="5"/>sorry; but now they saw I was alive, and had come a<lb n="6"/>long way in a ‘moon’ in which neither they nor their<lb n="7"/>forefathers had ever travelled. So now they must make<lb n="8"/>peace.</p>
+        <p><lb n="9"/>I said, ‘You must not again go near Kabadi, and all<lb n="10"/>along the coast we must have peace.’</p>
+        <p><lb n="11"/>‘It is right, we shall not again visit Kabadi. Lealea<lb n="12"/>feasted us with pigs, and pressed us to attack Kabadi,<lb n="13"/>to pay off an old attack on them. It suited us, because<lb n="14"/>Kabadi thought themselves strong; but now it is<lb n="15"/>peace.’</p>
+        <p><lb n="16"/>I landed with them and went up through the<lb n="17"/>villages, then returning to the boats we were told to<lb n="18"/>remain there. Shortly three pigs were brought, and<lb n="19"/>our return presents of uros, &amp;c., were carried off. Bob's<lb n="20"/>calabash has brought him a host of friends. Piri is<lb n="21"/>with his friends at one end of the village, and in the<lb n="22"/>opposite I am to reside in my friend Rahe's dubu.<lb n="23"/>Semese is his father, and a very old man. The number<lb n="24"/>of old men and old women and children is astonishing.</p>
+        <p><lb n="25"/>No enemy dare come near their villages, and their<lb n="26"/>houses have never been burnt down. The Boera chief<lb n="27" break="no"/>—a capital fellow to have—speaks this dialect very<lb n="28"/>fluently. Our people at first were very much afraid,<lb n="29"/>but soon settled down, and are now roving about.</p>
+        <p><lb n="30"/>Suddenly the war horn was heard blowing—not the<lb n="31"/>pig horn, so often heard on the coast. I wondered what<lb n="32"/>was up, but it turned: out to be only the youths train<pc force="weak">-</pc><pb n="188" facs="#p188"/><lb n="1" break="no"/>ing. Two new double canoes came down the river<lb n="2"/>with large complements of paddles, all young lads<lb n="3"/>gaily dressed. A number of young men painted and<lb n="4"/>extravagantly dressed have been here; they lately<lb n="5"/>killed some Moveavans, and are hence greatly admired<lb n="6"/>by old and young.</p>
+        <p><lb n="7"/>I had to take off my boots and socks, and allow my<lb n="8"/>feet to be admired, also to show off my chest. All<lb n="9"/>shout with delight, and every new arrival must have a<lb n="10"/>look. The sun was frightfully hot. Some men were<lb n="11"/>fishing on the breakers; they had a long post with a<lb n="12"/>cross-bar, on which they stand, fixed in the sand,<lb n="13"/>head covered with native cloth, and bow and arrow<lb n="14"/>ready.</p>
+        <p><lb n="15"/>A number of people came in from Vailala. They<lb n="16"/>wish I would go down with them, but it is too late to<lb n="17"/>go so far in an open boat. I have had another meeting<lb n="18"/>with the leading men, and I think all is now peace.<lb n="19"/>My friend Rahe seems a great personage with relatives<lb n="20"/>innumerable. He wants to know if I would like to be<lb n="21"/>alone in the dubu,; only say it, and all the men will<lb n="22"/>leave. I prefer them remaining, and I will make<lb n="23"/>myself comfortable on the front platform.</p>
+        <p><lb n="24"/>In the evening men and women—I suppose they<lb n="25"/>would say ‘elegantly dressed ’—bodies besmeared with<lb n="26"/>red pigment, croton and dracaena leaves, and feathers<lb n="27"/>of various birds fixed on head, arms and legs, paraded<lb n="28"/>the villages. At present all move about armed, and<lb n="29"/>in this establishment bows, bent and unbent, and<lb n="30"/>bundles of arrows are on all sides.</p>
+        <p><lb n="31"/>Rahe has just been to me to ask for boat medicine.</p>
+        <p><lb n="32"/>‘What do you mean, Rahe?’<pb n="189" facs="#p189"/></p>
+        <p><lb n="1"/>‘I want you to give me some of that medicine you<lb n="2"/>use to make your boat sail.’</p>
+        <p><lb n="3"/>‘I use no medicine, only Motu strong arms.’</p>
+        <p><lb n="4"/>‘You could never have come along now without<lb n="5"/>medicine.’</p>
+        <p><lb n="6"/>‘We use no medicine, and have come along well.’</p>
+        <p><lb n="7"/>I had a splendid night's rest. My mosquito net and<lb n="8"/>blanket caused great amusement. My attendants are<lb n="9"/>innumerable and attentive, and will allow no noise near.<lb n="10"/>Our service in the morning was very noisy—everybody<lb n="11"/>anxious for quiet must needs tell his neighbour to be<lb n="12"/>quiet. Our old Port Moresby chief prayed in the<lb n="13"/>Motumotu dialect. The Boera chief translated for Piri<lb n="14"/>and me. They are very anxious to know of the resur<pc force="weak">-</pc><lb n="15" break="no"/>rection and where Beritane spirits go after death.</p>
+        <p><lb n="16"/>In the afternoon we held service in the main street.<lb n="17"/>The singing attracted a very large and noisy crowd, but<lb n="18"/>when our old friend began to pray it was as if a bomb<pc force="weak">-</pc><lb n="19" break="no"/>shell had exploded, men, women and children running<lb n="20"/>as for dear life to their home. Another hymn brought<lb n="21"/>them back armed and unarmed. We had a long talk<lb n="22"/>on peace, and they wished I would go with them to<lb n="23"/>Moveave, and make peace. One division of these<lb n="24"/>villages they have simply wiped out. I asked them to<lb n="25"/>leave Moveave alone, and when a fit season comes I<lb n="26"/>will ascend the river with them, and make peace.</p>
+        <p><lb n="27"/>I have visited the party who last week killed several<lb n="28"/>of the Moveavans, and they promised not to attack<lb n="29"/>them again. The Kaback jewellery is about in<lb n="30"/>abundance.</p>
+        <p><lb n="31"/>Semese spoke nearly all the night through, exhorting<lb n="32"/>all to peace, and that now we had visited them they<pb n="190" facs="#p190"/><lb n="1"/>ought no more to go about exalting themselves, fighting<lb n="2"/>with their neighbours, and speaking evil of their friends,<lb n="3"/>the Motuans. Rahe has brought his son, whom he has<lb n="4"/>named Tamate. I have no doubt he will be an expensive<lb n="5"/>honour.</p>
+        <p><lb n="6"/>We went up the William River to-day. At mouth,<lb n="7"/>on the west side, are two islands, viz. Iriho and<lb n="8"/>Biaveveka. Between the latter and the mainland is an<lb n="9"/>entrance into Alice Meade Harbour. The river is broad<lb n="10"/>and deep. Both banks are lined with sago palms.</p>
+        <p><lb n="11"/>When a young man marries a young woman, the<lb n="12"/>custom here is to pay nothing for her; but for a widow<lb n="13"/>something very great. The people live chiefly on sago.<lb n="14"/>Sago is cooked with shell-fish, boiled with bananas,<lb n="15"/>roasted on stones, baked in the ashes, tied up in leaves,<lb n="16"/>and many other ways. We have received large presents<lb n="17"/>of sago, both boats bearing as much as is safe to carry.<lb n="18"/>We leave in the morning. At present a man is going<lb n="19"/>through the streets in great wrath, having been to his<lb n="20"/>plantation and missed a bunch of bananas. As he<lb n="21"/>moves along he shouts out his loss, and challenges the<lb n="22"/>thief.</p>
+        <p><lb n="23"/>We had a gathering of old men until late into the<lb n="24"/>night, and they closed with a wail, chanted, with drums<lb n="25"/>keeping time. Hours before daylight Semese was up,<lb n="26"/>waiting for me to turn out.</p>
+        <p><lb n="27"/>We had a fine run back to Yule, where, at sunset,<lb n="28"/>we were met by a terrific gale of wind and a thunder<pc force="weak">-</pc><lb n="29" break="no"/>storm. We had to put in close to the land, and for<lb n="30"/>four hours sit it out in a deluge of rain. It was soon<lb n="31"/>inky dark, the lightning very vivid, and the thunder<lb n="32"/>deafening. Piri's boat anchored close alongside. On<pb n="191" facs="#p191"/><lb n="1"/>the weather clearing up a little we crossed Hall Sound<lb n="2"/>to Delena, where we were soon met by natives carry<pc force="weak">-</pc><lb n="3" break="no"/>ing torches, and were led to their houses. A change of<lb n="4"/>clothing, and we were all as comfortable as possible.</p>
+        <p><lb n="5"/>We spent the hour of midnight with Kone and<lb n="6"/>Levas, chiefs of Delena, telling them of our visit to the<lb n="7"/>west, and its success in establishing peace. They were<lb n="8"/>greatly delighted, and will do me the honour of visiting<lb n="9"/>me at Port Moresby, that is, will relieve me of some<lb n="10"/>tomahawks. With a light wind and a smooth sea, we<lb n="11"/>had a pleasant run to Boera, where we arrived at sunset.<lb n="12"/>There was great joy in the village at our arrival.</p>
+        <p><lb n="13"/>We reached Port Moresby on Feb. 20, and on<lb n="14"/>March 6 we baptised Kohu and Rahela, the first two<lb n="15"/>women of New Guinea converted to Christianity. May<lb n="16"/>they be kept as true ministering women for Christ!</p>
+      </div>
+    </body>
+  </text>
+</TEI>

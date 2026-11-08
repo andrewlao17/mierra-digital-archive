@@ -2158,6 +2158,2790 @@ window.ARCHIVE_DOCUMENTS = [
   }
  },
  {
+  "id": "KH-001",
+  "file": "KH-001.xml",
+  "title": "Chapter VI: Return to Chantaboun; Excursion to Battambong; Visit to the King of Cambodia",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "jumf4qt7, vol. 1, pp. 172-191",
+  "type": "travel",
+  "summary": "Mouhot sails from Chantaboun to Komput (Kampot), Cambodia's only port; he describes its Chinese traders, the pirate Mun Suy and the decline of the country, and is received by the King of Cambodia.",
+  "catalogId": "KH-001",
+  "era": "Siamese-Vietnamese wars and the Vietnamese occupation",
+  "eraYears": "1833-1847",
+  "perspective": "traveller",
+  "community": "Khmer",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 26
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/jumf4qt7",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 1. London: John Murray, 1864. Chapter VI, pp. 172-191. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 14,
+   "lines": 365,
+   "words": 3381,
+   "columnBreaks": 0,
+   "surfaces": 14,
+   "zones": 0,
+   "images": 14
+  },
+  "langWords": {
+   "en": 3381
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 1,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "king",
+     21
+    ],
+    [
+     "komput",
+     14
+    ],
+    [
+     "abbé",
+     13
+    ],
+    [
+     "us",
+     12
+    ],
+    [
+     "little",
+     9
+    ],
+    [
+     "chinese",
+     9
+    ],
+    [
+     "time",
+     8
+    ],
+    [
+     "cambodia",
+     7
+    ],
+    [
+     "two",
+     7
+    ],
+    [
+     "having",
+     7
+    ],
+    [
+     "first",
+     7
+    ],
+    [
+     "majesty",
+     7
+    ],
+    [
+     "hestrest",
+     7
+    ],
+    [
+     "sire",
+     7
+    ],
+    [
+     "boat",
+     6
+    ],
+    [
+     "china",
+     6
+    ],
+    [
+     "river",
+     6
+    ],
+    [
+     "chantaboun",
+     5
+    ],
+    [
+     "town",
+     5
+    ],
+    [
+     "siamese",
+     5
+    ],
+    [
+     "days",
+     5
+    ],
+    [
+     "wind",
+     5
+    ],
+    [
+     "seemed",
+     5
+    ],
+    [
+     "place",
+     5
+    ],
+    [
+     "day",
+     5
+    ]
+   ]
+  }
+ },
+ {
+  "id": "KH-002",
+  "file": "KH-002.xml",
+  "title": "Chapter VII: Details respecting Cambodia; Udong, its present capital; Interviews with the Second King",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "jumf4qt7, vol. 1, pp. 192-210",
+  "type": "travel",
+  "summary": "The overland journey from Komput to Udong, the Cambodian capital, and Mouhot's audiences with the Second King, with scenes in the court of justice and the palace.",
+  "catalogId": "KH-002",
+  "era": "French protectorate in Cambodia",
+  "eraYears": "1863-1900",
+  "perspective": "traveller",
+  "community": "Khmer",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 23
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/jumf4qt7",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 1. London: John Murray, 1864. Chapter VII, pp. 192-210. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 19,
+   "lines": 438,
+   "words": 4021,
+   "columnBreaks": 0,
+   "surfaces": 19,
+   "zones": 0,
+   "images": 19
+  },
+  "langWords": {
+   "en": 4021
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 2,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 3
+  },
+  "topWords": {
+   "en": [
+    [
+     "king",
+     34
+    ],
+    [
+     "palace",
+     12
+    ],
+    [
+     "majesty",
+     12
+    ],
+    [
+     "first",
+     11
+    ],
+    [
+     "two",
+     11
+    ],
+    [
+     "came",
+     9
+    ],
+    [
+     "day",
+     9
+    ],
+    [
+     "sire",
+     9
+    ],
+    [
+     "morning",
+     8
+    ],
+    [
+     "covered",
+     8
+    ],
+    [
+     "see",
+     8
+    ],
+    [
+     "young",
+     8
+    ],
+    [
+     "king’s",
+     8
+    ],
+    [
+     "udong",
+     7
+    ],
+    [
+     "ground",
+     7
+    ],
+    [
+     "air",
+     7
+    ],
+    [
+     "pages",
+     7
+    ],
+    [
+     "siam",
+     7
+    ],
+    [
+     "capital",
+     6
+    ],
+    [
+     "european",
+     6
+    ],
+    [
+     "komput",
+     6
+    ],
+    [
+     "entered",
+     6
+    ],
+    [
+     "heat",
+     6
+    ],
+    [
+     "large",
+     6
+    ],
+    [
+     "hall",
+     6
+    ]
+   ]
+  }
+ },
+ {
+  "id": "KH-003",
+  "file": "KH-003.xml",
+  "title": "Chapter VIII: Departure from Udong; Train of Elephants; Pinhalu; the Missionaries; the Thiames",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "jumf4qt7, vol. 1, pp. 213-225",
+  "type": "travel",
+  "summary": "From Udong to Pinhalu with a train of elephants; the French missionaries and the Christian village of Pinhalu, and the Thiames (Cham) people settled in Cambodia.",
+  "catalogId": "KH-003",
+  "era": "Khmer society and Angkor in 19th-century accounts",
+  "eraYears": "1859-1898",
+  "perspective": "traveller",
+  "community": "Khmer",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 26
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/jumf4qt7",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 1. London: John Murray, 1864. Chapter VIII, pp. 213-225. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 11,
+   "lines": 282,
+   "words": 2662,
+   "columnBreaks": 0,
+   "surfaces": 11,
+   "zones": 0,
+   "images": 11
+  },
+  "langWords": {
+   "en": 2662
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 2,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 1
+  },
+  "topWords": {
+   "en": [
+    [
+     "cambodia",
+     12
+    ],
+    [
+     "cochin",
+     9
+    ],
+    [
+     "people",
+     8
+    ],
+    [
+     "great",
+     8
+    ],
+    [
+     "china",
+     7
+    ],
+    [
+     "much",
+     7
+    ],
+    [
+     "king",
+     6
+    ],
+    [
+     "east",
+     6
+    ],
+    [
+     "missionary",
+     6
+    ],
+    [
+     "having",
+     5
+    ],
+    [
+     "mekon",
+     5
+    ],
+    [
+     "even",
+     5
+    ],
+    [
+     "two",
+     5
+    ],
+    [
+     "annamites",
+     5
+    ],
+    [
+     "find",
+     5
+    ],
+    [
+     "man",
+     5
+    ],
+    [
+     "among",
+     5
+    ],
+    [
+     "ancient",
+     5
+    ],
+    [
+     "udong",
+     4
+    ],
+    [
+     "long",
+     4
+    ],
+    [
+     "come",
+     4
+    ],
+    [
+     "far",
+     4
+    ],
+    [
+     "pinhalú",
+     4
+    ],
+    [
+     "good",
+     4
+    ],
+    [
+     "form",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "KH-004",
+  "file": "KH-004.xml",
+  "title": "Chapter IX: The Great Bazaar of Cambodia, Penom-Peuh; the Mekon",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "jumf4qt7, vol. 1, pp. 226-239",
+  "type": "travel",
+  "summary": "The great bazaar of Penom-Peuh (Phnom Penh), the view over the Mekong, and the slow overland journey by ox-cart towards Brelum and the Stiêng country.",
+  "catalogId": "KH-004",
+  "era": "Khmer society and Angkor in 19th-century accounts",
+  "eraYears": "1859-1898",
+  "perspective": "traveller",
+  "community": "Khmer and Chinese",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 24
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/jumf4qt7",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 1. London: John Murray, 1864. Chapter IX, pp. 226-239. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 10,
+   "lines": 245,
+   "words": 2320,
+   "columnBreaks": 0,
+   "surfaces": 10,
+   "zones": 0,
+   "images": 10
+  },
+  "langWords": {
+   "en": 2320
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 3,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 1
+  },
+  "topWords": {
+   "en": [
+    [
+     "two",
+     11
+    ],
+    [
+     "great",
+     9
+    ],
+    [
+     "day",
+     8
+    ],
+    [
+     "miles",
+     7
+    ],
+    [
+     "long",
+     6
+    ],
+    [
+     "country",
+     6
+    ],
+    [
+     "well",
+     6
+    ],
+    [
+     "waggons",
+     6
+    ],
+    [
+     "among",
+     5
+    ],
+    [
+     "almost",
+     5
+    ],
+    [
+     "cambodians",
+     5
+    ],
+    [
+     "time",
+     5
+    ],
+    [
+     "small",
+     5
+    ],
+    [
+     "much",
+     5
+    ],
+    [
+     "forests",
+     5
+    ],
+    [
+     "ground",
+     5
+    ],
+    [
+     "stiêns",
+     4
+    ],
+    [
+     "savages",
+     4
+    ],
+    [
+     "boats",
+     4
+    ],
+    [
+     "part",
+     4
+    ],
+    [
+     "every",
+     4
+    ],
+    [
+     "us",
+     4
+    ],
+    [
+     "find",
+     4
+    ],
+    [
+     "men",
+     4
+    ],
+    [
+     "days",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "KH-005",
+  "file": "KH-005.xml",
+  "title": "Chapter X: Sojourn of Three Months among the Savage Stiêns",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "jumf4qt7, vol. 1, pp. 240-264",
+  "type": "travel",
+  "summary": "Three months among the Stiêns (Stieng), an upland people east of the Mekong: their villages, farming, customs and beliefs, and their dealings with Cambodians and Laotians.",
+  "catalogId": "KH-005",
+  "era": "Khmer society and Angkor in 19th-century accounts",
+  "eraYears": "1859-1898",
+  "perspective": "traveller",
+  "community": "Stieng",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 26
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/jumf4qt7",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 1. London: John Murray, 1864. Chapter X, pp. 240-264. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 19,
+   "lines": 495,
+   "words": 4764,
+   "columnBreaks": 0,
+   "surfaces": 19,
+   "zones": 0,
+   "images": 19
+  },
+  "langWords": {
+   "en": 4764
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 1,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 2
+  },
+  "topWords": {
+   "en": [
+    [
+     "often",
+     14
+    ],
+    [
+     "without",
+     13
+    ],
+    [
+     "among",
+     12
+    ],
+    [
+     "every",
+     12
+    ],
+    [
+     "few",
+     12
+    ],
+    [
+     "stiêns",
+     10
+    ],
+    [
+     "long",
+     10
+    ],
+    [
+     "little",
+     10
+    ],
+    [
+     "ground",
+     9
+    ],
+    [
+     "people",
+     9
+    ],
+    [
+     "great",
+     9
+    ],
+    [
+     "make",
+     9
+    ],
+    [
+     "village",
+     9
+    ],
+    [
+     "two",
+     8
+    ],
+    [
+     "even",
+     8
+    ],
+    [
+     "made",
+     8
+    ],
+    [
+     "rice",
+     8
+    ],
+    [
+     "whole",
+     8
+    ],
+    [
+     "men",
+     8
+    ],
+    [
+     "savage",
+     7
+    ],
+    [
+     "however",
+     7
+    ],
+    [
+     "tiger",
+     7
+    ],
+    [
+     "bamboos",
+     7
+    ],
+    [
+     "many",
+     7
+    ],
+    [
+     "country",
+     7
+    ]
+   ]
+  }
+ },
+ {
+  "id": "KH-006",
+  "file": "KH-006.xml",
+  "title": "Chapter XI: Return to Pinhalu and Udong; the Great Lake Touli-Sap",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "jumf4qt7, vol. 1, pp. 265-277",
+  "type": "travel",
+  "summary": "Mouhot returns to Pinhalu and Udong and describes the great lake Touli-Sap (Tonlé Sap) and Cambodia's population, slaves and taxes.",
+  "catalogId": "KH-006",
+  "era": "Khmer society and Angkor in 19th-century accounts",
+  "eraYears": "1859-1898",
+  "perspective": "traveller",
+  "community": "Khmer",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 26
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/jumf4qt7",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 1. London: John Murray, 1864. Chapter XI, pp. 265-277. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 9,
+   "lines": 233,
+   "words": 2240,
+   "columnBreaks": 0,
+   "surfaces": 9,
+   "zones": 0,
+   "images": 9
+  },
+  "langWords": {
+   "en": 2240
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 1,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "country",
+     9
+    ],
+    [
+     "great",
+     8
+    ],
+    [
+     "us",
+     8
+    ],
+    [
+     "lake",
+     6
+    ],
+    [
+     "china",
+     6
+    ],
+    [
+     "state",
+     6
+    ],
+    [
+     "two",
+     6
+    ],
+    [
+     "may",
+     5
+    ],
+    [
+     "cochin",
+     5
+    ],
+    [
+     "three",
+     5
+    ],
+    [
+     "last",
+     5
+    ],
+    [
+     "might",
+     5
+    ],
+    [
+     "cambodia",
+     5
+    ],
+    [
+     "touli-sap",
+     4
+    ],
+    [
+     "set",
+     4
+    ],
+    [
+     "pinhalú",
+     4
+    ],
+    [
+     "far",
+     4
+    ],
+    [
+     "first",
+     4
+    ],
+    [
+     "came",
+     4
+    ],
+    [
+     "elephants",
+     4
+    ],
+    [
+     "whole",
+     4
+    ],
+    [
+     "trees",
+     4
+    ],
+    [
+     "large",
+     4
+    ],
+    [
+     "many",
+     4
+    ],
+    [
+     "people",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "KH-007",
+  "file": "KH-007.xml",
+  "title": "Chapter XII: Description of the Temple of Ongcor; Observations on these Ruins, and on others in the Provinces of Ongcor and Battambong",
+  "nation": "Cambodia",
+  "nationCode": "KH",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "jumf4qt7, vol. 1, pp. 278-303",
+  "type": "travel",
+  "summary": "Mouhot's description of the temple of Ongcor (Angkor Wat) and the other ruins in the provinces of Ongcor and Battambong.",
+  "catalogId": "KH-007",
+  "era": "Khmer society and Angkor in 19th-century accounts",
+  "eraYears": "1859-1898",
+  "perspective": "traveller",
+  "community": "Khmer",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 24
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/jumf4qt7",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 1. London: John Murray, 1864. Chapter XII, pp. 278-303. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 20,
+   "lines": 490,
+   "words": 4452,
+   "columnBreaks": 0,
+   "surfaces": 20,
+   "zones": 0,
+   "images": 20
+  },
+  "langWords": {
+   "en": 4452
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 2,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 2
+  },
+  "topWords": {
+   "en": [
+    [
+     "metres",
+     37
+    ],
+    [
+     "each",
+     37
+    ],
+    [
+     "two",
+     24
+    ],
+    [
+     "centimetres",
+     22
+    ],
+    [
+     "stone",
+     20
+    ],
+    [
+     "side",
+     19
+    ],
+    [
+     "great",
+     17
+    ],
+    [
+     "king",
+     15
+    ],
+    [
+     "columns",
+     15
+    ],
+    [
+     "four",
+     13
+    ],
+    [
+     "ongcor",
+     12
+    ],
+    [
+     "building",
+     12
+    ],
+    [
+     "others",
+     11
+    ],
+    [
+     "long",
+     11
+    ],
+    [
+     "covered",
+     11
+    ],
+    [
+     "high",
+     11
+    ],
+    [
+     "temple",
+     10
+    ],
+    [
+     "length",
+     10
+    ],
+    [
+     "terrace",
+     10
+    ],
+    [
+     "many",
+     9
+    ],
+    [
+     "gallery",
+     9
+    ],
+    [
+     "like",
+     9
+    ],
+    [
+     "galleries",
+     9
+    ],
+    [
+     "having",
+     8
+    ],
+    [
+     "raised",
+     8
+    ]
+   ]
+  }
+ },
+ {
+  "id": "LA-001",
+  "file": "LA-001.xml",
+  "title": "Chapter II: Geography and History of the Kingdom of Siam",
+  "nation": "Laos",
+  "nationCode": "LA",
+  "place": "",
+  "repository": "Wellcome Collection (digitised printed copy)",
+  "shelfmark": "jumf4qt7, vol. 1, pp. 54-105",
+  "type": "travel",
+  "summary": "Mouhot's survey of Siam: its peoples (Siamese, Laotians, Malays, Chinese, Cambodians and Peguans), the list of kings, a historical sketch by the king of Siam on Ayuthia, the Burmese wars and the captives settled in the capital, and Siam's treaties with Europe and the United States.",
+  "catalogId": "LA-001",
+  "era": "Fall of Vientiane and Lao deportations to Siam",
+  "eraYears": "1827-1860",
+  "perspective": "traveller",
+  "community": "Lao",
+  "languages": {
+   "main": "en",
+   "other": [
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ],
+   "all": [
+    "en",
+    "km",
+    "th",
+    "lo",
+    "fr"
+   ]
+  },
+  "date": {
+   "label": "1864 (journal kept 1858-1860)",
+   "year": 1864,
+   "yearEnd": 1864
+  },
+  "century": 19,
+  "decade": 1860,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: John Murray, 1864, vol. 1. Engraved plates and woodcuts."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 27
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://wellcomecollection.org/works/jumf4qt7",
+  "citation": "Mouhot, Henri. Travels in the Central Parts of Indo-China (Siam), Cambodia, and Laos, during the years 1858, 1859, and 1860. Vol. 1. London: John Murray, 1864. Chapter II, pp. 54-105. Scan at the Wellcome Collection.",
+  "contributors": [
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of the page images, aligned word by word with the proofread Project Gutenberg text, ebook 46559; words the two did not share were checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 36,
+   "lines": 931,
+   "words": 8406,
+   "columnBreaks": 0,
+   "surfaces": 36,
+   "zones": 0,
+   "images": 36
+  },
+  "langWords": {
+   "en": 8406
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 6,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 1
+  },
+  "topWords": {
+   "en": [
+    [
+     "siam",
+     56
+    ],
+    [
+     "king",
+     51
+    ],
+    [
+     "country",
+     33
+    ],
+    [
+     "great",
+     33
+    ],
+    [
+     "siamese",
+     29
+    ],
+    [
+     "ayuthia",
+     25
+    ],
+    [
+     "between",
+     21
+    ],
+    [
+     "years",
+     20
+    ],
+    [
+     "two",
+     20
+    ],
+    [
+     "bangkok",
+     18
+    ],
+    [
+     "phra",
+     18
+    ],
+    [
+     "called",
+     17
+    ],
+    [
+     "city",
+     17
+    ],
+    [
+     "year",
+     16
+    ],
+    [
+     "made",
+     16
+    ],
+    [
+     "time",
+     15
+    ],
+    [
+     "royal",
+     15
+    ],
+    [
+     "son",
+     15
+    ],
+    [
+     "much",
+     14
+    ],
+    [
+     "government",
+     14
+    ],
+    [
+     "place",
+     13
+    ],
+    [
+     "capital",
+     13
+    ],
+    [
+     "three",
+     13
+    ],
+    [
+     "throne",
+     13
+    ],
+    [
+     "north",
+     12
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PG-025",
+  "file": "PG-025.xml",
+  "title": "Chapter I: Early Experiences",
+  "nation": "Papua New Guinea",
+  "nationCode": "PG",
+  "place": "South coast of New Guinea",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "workadventureinn00jamerich, pp. 17-54",
+  "type": "missionary narrative",
+  "summary": "Chalmers and Macfarlane's voyage of 1877 along the south coast of New Guinea: Murray and Darnley Islands, Port Moresby, native funeral customs, the landing of South Sea Island teachers, and the Chalmerses' first, tense months at South Cape.",
+  "catalogId": "PG-025",
+  "era": "Missionary contact and conflict",
+  "eraYears": "1871-1900",
+  "perspective": "missionary",
+  "community": "Papuans (south coast)",
+  "languages": {
+   "main": "en",
+   "other": [
+    "meu"
+   ],
+   "all": [
+    "en",
+    "meu"
+   ]
+  },
+  "date": {
+   "label": "1885 (journals and letters of 1877-1882)",
+   "year": 1885,
+   "yearEnd": 1885
+  },
+  "century": 19,
+  "decade": 1880,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Religious Tract Society, new and popular edition (about 1902), reissuing the text first published in 1885."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 32
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/workadventureinn00jamerich",
+  "citation": "Chalmers, James, and W. Wyatt Gill. Work and Adventure in New Guinea. London: Religious Tract Society, 1885; new and popular edition [c. 1902]. Chapter I, pp. 17-54. Scan at the Internet Archive.",
+  "contributors": [
+   "William Wyatt Gill (Co-author of the 1885 edition; author of the framing passages about Chalmers)",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of a fresh 300 dpi render, the Internet Archive's own OCR, and the proofread Project Gutenberg text of the 1886 reissue, ebook 17694, compared word by word; where the two OCRs agree their reading is kept even when the 1886 text differs; the rest was checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 38,
+   "lines": 1207,
+   "words": 11297,
+   "columnBreaks": 0,
+   "surfaces": 38,
+   "zones": 0,
+   "images": 38
+  },
+  "langWords": {
+   "en": 11297
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "us",
+     68
+    ],
+    [
+     "house",
+     62
+    ],
+    [
+     "natives",
+     52
+    ],
+    [
+     "teachers",
+     50
+    ],
+    [
+     "island",
+     45
+    ],
+    [
+     "came",
+     43
+    ],
+    [
+     "went",
+     40
+    ],
+    [
+     "people",
+     39
+    ],
+    [
+     "ashore",
+     33
+    ],
+    [
+     "large",
+     33
+    ],
+    [
+     "morning",
+     31
+    ],
+    [
+     "two",
+     30
+    ],
+    [
+     "village",
+     30
+    ],
+    [
+     "board",
+     28
+    ],
+    [
+     "moresby",
+     27
+    ],
+    [
+     "present",
+     27
+    ],
+    [
+     "men",
+     26
+    ],
+    [
+     "many",
+     25
+    ],
+    [
+     "great",
+     25
+    ],
+    [
+     "place",
+     24
+    ],
+    [
+     "soon",
+     23
+    ],
+    [
+     "get",
+     23
+    ],
+    [
+     "round",
+     22
+    ],
+    [
+     "man",
+     22
+    ],
+    [
+     "day",
+     21
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PG-026",
+  "file": "PG-026.xml",
+  "title": "Chapter II: A Few Trip Incidents",
+  "nation": "Papua New Guinea",
+  "nationCode": "PG",
+  "place": "South coast of New Guinea",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "workadventureinn00jamerich, pp. 55-78",
+  "type": "missionary narrative",
+  "summary": "The 1878 cruise of the Ellengowan from east to west along the south coast: trading and first meetings with villages, the 'Amazons' rumour, and an attack on Chalmers by Aroma men that he blames on the conduct of white traders.",
+  "catalogId": "PG-026",
+  "era": "Missionary contact and conflict",
+  "eraYears": "1871-1900",
+  "perspective": "missionary",
+  "community": "Papuans (south coast)",
+  "languages": {
+   "main": "en",
+   "other": [
+    "meu"
+   ],
+   "all": [
+    "en",
+    "meu"
+   ]
+  },
+  "date": {
+   "label": "1885 (journals and letters of 1877-1882)",
+   "year": 1885,
+   "yearEnd": 1885
+  },
+  "century": 19,
+  "decade": 1880,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Religious Tract Society, new and popular edition (about 1902), reissuing the text first published in 1885."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 32
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/workadventureinn00jamerich",
+  "citation": "Chalmers, James, and W. Wyatt Gill. Work and Adventure in New Guinea. London: Religious Tract Society, 1885; new and popular edition [c. 1902]. Chapter II, pp. 55-78. Scan at the Internet Archive.",
+  "contributors": [
+   "William Wyatt Gill (Co-author of the 1885 edition; author of the framing passages about Chalmers)",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of a fresh 300 dpi render, the Internet Archive's own OCR, and the proofread Project Gutenberg text of the 1886 reissue, ebook 17694, compared word by word; where the two OCRs agree their reading is kept even when the 1886 text differs; the rest was checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 24,
+   "lines": 760,
+   "words": 7176,
+   "columnBreaks": 0,
+   "surfaces": 24,
+   "zones": 0,
+   "images": 24
+  },
+  "langWords": {
+   "en": 7176
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "us",
+     42
+    ],
+    [
+     "chief",
+     31
+    ],
+    [
+     "boat",
+     29
+    ],
+    [
+     "bay",
+     28
+    ],
+    [
+     "away",
+     27
+    ],
+    [
+     "round",
+     23
+    ],
+    [
+     "came",
+     21
+    ],
+    [
+     "village",
+     21
+    ],
+    [
+     "natives",
+     20
+    ],
+    [
+     "go",
+     20
+    ],
+    [
+     "women",
+     20
+    ],
+    [
+     "crowd",
+     20
+    ],
+    [
+     "old",
+     20
+    ],
+    [
+     "must",
+     20
+    ],
+    [
+     "man",
+     19
+    ],
+    [
+     "men",
+     19
+    ],
+    [
+     "get",
+     18
+    ],
+    [
+     "went",
+     18
+    ],
+    [
+     "canoes",
+     18
+    ],
+    [
+     "see",
+     18
+    ],
+    [
+     "land",
+     17
+    ],
+    [
+     "beach",
+     17
+    ],
+    [
+     "few",
+     16
+    ],
+    [
+     "come",
+     16
+    ],
+    [
+     "two",
+     14
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PG-027",
+  "file": "PG-027.xml",
+  "title": "Chapter III: Sketches of Papuan Life",
+  "nation": "Papua New Guinea",
+  "nationCode": "PG",
+  "place": "South coast of New Guinea",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "workadventureinn00jamerich, pp. 79-123",
+  "type": "missionary narrative",
+  "summary": "A journal of Chalmers' 1879 journey inland from Port Moresby among the mountain villages between the Goldie and Laroki rivers: tree-houses, meals and talk with the hill people, and the village spirit-mediums.",
+  "catalogId": "PG-027",
+  "era": "Missionary contact and conflict",
+  "eraYears": "1871-1900",
+  "perspective": "missionary",
+  "community": "Papuans (south coast)",
+  "languages": {
+   "main": "en",
+   "other": [
+    "meu"
+   ],
+   "all": [
+    "en",
+    "meu"
+   ]
+  },
+  "date": {
+   "label": "1885 (journals and letters of 1877-1882)",
+   "year": 1885,
+   "yearEnd": 1885
+  },
+  "century": 19,
+  "decade": 1880,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Religious Tract Society, new and popular edition (about 1902), reissuing the text first published in 1885."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 32
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/workadventureinn00jamerich",
+  "citation": "Chalmers, James, and W. Wyatt Gill. Work and Adventure in New Guinea. London: Religious Tract Society, 1885; new and popular edition [c. 1902]. Chapter III, pp. 79-123. Scan at the Internet Archive.",
+  "contributors": [
+   "William Wyatt Gill (Co-author of the 1885 edition; author of the framing passages about Chalmers)",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of a fresh 300 dpi render, the Internet Archive's own OCR, and the proofread Project Gutenberg text of the 1886 reissue, ebook 17694, compared word by word; where the two OCRs agree their reading is kept even when the 1886 text differs; the rest was checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 45,
+   "lines": 1424,
+   "words": 13613,
+   "columnBreaks": 0,
+   "surfaces": 45,
+   "zones": 0,
+   "images": 45
+  },
+  "langWords": {
+   "en": 13613
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "us",
+     128
+    ],
+    [
+     "village",
+     67
+    ],
+    [
+     "natives",
+     63
+    ],
+    [
+     "great",
+     44
+    ],
+    [
+     "house",
+     41
+    ],
+    [
+     "get",
+     39
+    ],
+    [
+     "people",
+     35
+    ],
+    [
+     "came",
+     34
+    ],
+    [
+     "old",
+     33
+    ],
+    [
+     "men",
+     32
+    ],
+    [
+     "feet",
+     32
+    ],
+    [
+     "good",
+     30
+    ],
+    [
+     "told",
+     30
+    ],
+    [
+     "taro",
+     29
+    ],
+    [
+     "salt",
+     29
+    ],
+    [
+     "go",
+     28
+    ],
+    [
+     "man",
+     28
+    ],
+    [
+     "two",
+     28
+    ],
+    [
+     "went",
+     27
+    ],
+    [
+     "large",
+     27
+    ],
+    [
+     "chief",
+     26
+    ],
+    [
+     "morning",
+     26
+    ],
+    [
+     "return",
+     25
+    ],
+    [
+     "round",
+     25
+    ],
+    [
+     "villages",
+     24
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PG-028",
+  "file": "PG-028.xml",
+  "title": "Chapter VII: Peace-Making",
+  "nation": "Papua New Guinea",
+  "nationCode": "PG",
+  "place": "South coast of New Guinea",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "workadventureinn00jamerich, pp. 178-191",
+  "type": "missionary narrative",
+  "summary": "In January 1881 Chalmers goes west to Motumotu and Lese in Elema to stop a threatened raid on Kabadi and the coast villages, and peace is agreed.",
+  "catalogId": "PG-028",
+  "era": "Missionary contact and conflict",
+  "eraYears": "1871-1900",
+  "perspective": "missionary",
+  "community": "Papuans (south coast)",
+  "languages": {
+   "main": "en",
+   "other": [
+    "meu"
+   ],
+   "all": [
+    "en",
+    "meu"
+   ]
+  },
+  "date": {
+   "label": "1885 (journals and letters of 1877-1882)",
+   "year": 1885,
+   "yearEnd": 1885
+  },
+  "century": 19,
+  "decade": 1880,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Religious Tract Society, new and popular edition (about 1902), reissuing the text first published in 1885."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 30
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/workadventureinn00jamerich",
+  "citation": "Chalmers, James, and W. Wyatt Gill. Work and Adventure in New Guinea. London: Religious Tract Society, 1885; new and popular edition [c. 1902]. Chapter VII, pp. 178-191. Scan at the Internet Archive.",
+  "contributors": [
+   "William Wyatt Gill (Co-author of the 1885 edition; author of the framing passages about Chalmers)",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of a fresh 300 dpi render, the Internet Archive's own OCR, and the proofread Project Gutenberg text of the 1886 reissue, ebook 17694, compared word by word; where the two OCRs agree their reading is kept even when the 1886 text differs; the rest was checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 14,
+   "lines": 422,
+   "words": 3966,
+   "columnBreaks": 0,
+   "surfaces": 14,
+   "zones": 0,
+   "images": 14
+  },
+  "langWords": {
+   "en": 3966
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "us",
+     29
+    ],
+    [
+     "motumotu",
+     19
+    ],
+    [
+     "peace",
+     19
+    ],
+    [
+     "visit",
+     18
+    ],
+    [
+     "men",
+     17
+    ],
+    [
+     "friends",
+     16
+    ],
+    [
+     "go",
+     15
+    ],
+    [
+     "two",
+     15
+    ],
+    [
+     "kabadi",
+     14
+    ],
+    [
+     "right",
+     13
+    ],
+    [
+     "natives",
+     12
+    ],
+    [
+     "sago",
+     12
+    ],
+    [
+     "piri",
+     12
+    ],
+    [
+     "old",
+     12
+    ],
+    [
+     "near",
+     11
+    ],
+    [
+     "came",
+     11
+    ],
+    [
+     "great",
+     11
+    ],
+    [
+     "going",
+     11
+    ],
+    [
+     "women",
+     11
+    ],
+    [
+     "semese",
+     10
+    ],
+    [
+     "boera",
+     10
+    ],
+    [
+     "boat",
+     10
+    ],
+    [
+     "make",
+     10
+    ],
+    [
+     "canoes",
+     10
+    ],
+    [
+     "large",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PG-029",
+  "file": "PG-029.xml",
+  "title": "Chapter VIII: The Kalo Massacre",
+  "nation": "Papua New Guinea",
+  "nationCode": "PG",
+  "place": "South coast of New Guinea",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "workadventureinn00jamerich, pp. 192-208",
+  "type": "missionary narrative",
+  "summary": "The killing of twelve people, South Sea Island teachers with their wives and children, at Kalo in March 1881; the fear for the teachers at Aroma; Chalmers' views on the affair; and his voyage west, where he makes peace after a threatened attack by Lolo men and visits the chief of Motu Lavao.",
+  "catalogId": "PG-029",
+  "era": "Missionary contact and conflict",
+  "eraYears": "1871-1900",
+  "perspective": "missionary",
+  "community": "Papuans (south coast)",
+  "languages": {
+   "main": "en",
+   "other": [
+    "meu"
+   ],
+   "all": [
+    "en",
+    "meu"
+   ]
+  },
+  "date": {
+   "label": "1885 (journals and letters of 1877-1882)",
+   "year": 1885,
+   "yearEnd": 1885
+  },
+  "century": 19,
+  "decade": 1880,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Religious Tract Society, new and popular edition (about 1902), reissuing the text first published in 1885."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 31
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/workadventureinn00jamerich",
+  "citation": "Chalmers, James, and W. Wyatt Gill. Work and Adventure in New Guinea. London: Religious Tract Society, 1885; new and popular edition [c. 1902]. Chapter VIII, pp. 192-208. Scan at the Internet Archive.",
+  "contributors": [
+   "William Wyatt Gill (Co-author of the 1885 edition; author of the framing passages about Chalmers)",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of a fresh 300 dpi render, the Internet Archive's own OCR, and the proofread Project Gutenberg text of the 1886 reissue, ebook 17694, compared word by word; where the two OCRs agree their reading is kept even when the 1886 text differs; the rest was checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 17,
+   "lines": 530,
+   "words": 5034,
+   "columnBreaks": 0,
+   "surfaces": 17,
+   "zones": 0,
+   "images": 17
+  },
+  "langWords": {
+   "en": 5034
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "village",
+     28
+    ],
+    [
+     "natives",
+     24
+    ],
+    [
+     "kalo",
+     19
+    ],
+    [
+     "chief",
+     17
+    ],
+    [
+     "teacher",
+     17
+    ],
+    [
+     "two",
+     17
+    ],
+    [
+     "hula",
+     17
+    ],
+    [
+     "us",
+     17
+    ],
+    [
+     "come",
+     16
+    ],
+    [
+     "people",
+     14
+    ],
+    [
+     "must",
+     14
+    ],
+    [
+     "motu",
+     12
+    ],
+    [
+     "lolo",
+     11
+    ],
+    [
+     "went",
+     11
+    ],
+    [
+     "friend",
+     11
+    ],
+    [
+     "kone",
+     11
+    ],
+    [
+     "old",
+     11
+    ],
+    [
+     "teachers",
+     10
+    ],
+    [
+     "lavao",
+     10
+    ],
+    [
+     "left",
+     10
+    ],
+    [
+     "coming",
+     10
+    ],
+    [
+     "house",
+     10
+    ],
+    [
+     "say",
+     10
+    ],
+    [
+     "present",
+     10
+    ],
+    [
+     "much",
+     10
+    ]
+   ]
+  }
+ },
+ {
+  "id": "PG-030",
+  "file": "PG-030.xml",
+  "title": "Chapter XII: East Cape in 1878 and in 1882",
+  "nation": "Papua New Guinea",
+  "nationCode": "PG",
+  "place": "South coast of New Guinea",
+  "repository": "Internet Archive (scan of a printed copy)",
+  "shelfmark": "workadventureinn00jamerich, pp. 236-240",
+  "type": "missionary narrative",
+  "summary": "The mission at East Cape (Milne Bay) between 1878 and 1882: the people's earlier wars and cannibalism, how the mission work was carried on, and a Sunday in 1882 when twenty-one converts were baptised.",
+  "catalogId": "PG-030",
+  "era": "Missionary contact and conflict",
+  "eraYears": "1871-1900",
+  "perspective": "missionary",
+  "community": "Papuans (south coast)",
+  "languages": {
+   "main": "en",
+   "other": [
+    "meu"
+   ],
+   "all": [
+    "en",
+    "meu"
+   ]
+  },
+  "date": {
+   "label": "1885 (journals and letters of 1877-1882)",
+   "year": 1885,
+   "yearEnd": 1885
+  },
+  "century": 19,
+  "decade": 1880,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book, London: Religious Tract Society, new and popular edition (about 1902), reissuing the text first published in 1885."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 28
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://archive.org/details/workadventureinn00jamerich",
+  "citation": "Chalmers, James, and W. Wyatt Gill. Work and Adventure in New Guinea. London: Religious Tract Society, 1885; new and popular edition [c. 1902]. Chapter XII, pp. 236-240. Scan at the Internet Archive.",
+  "contributors": [
+   "William Wyatt Gill (Co-author of the 1885 edition; author of the framing passages about Chalmers)",
+   "Claude (AI assistant) for the Mierra Digital Archive (Transcription (Tesseract OCR of a fresh 300 dpi render, the Internet Archive's own OCR, and the proofread Project Gutenberg text of the 1886 reissue, ebook 17694, compared word by word; where the two OCRs agree their reading is kept even when the 1886 text differs; the rest was checked against the page image) and TEI encoding. Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 5,
+   "lines": 138,
+   "words": 1250,
+   "columnBreaks": 0,
+   "surfaces": 5,
+   "zones": 0,
+   "images": 5
+  },
+  "langWords": {
+   "en": 1250
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 0,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "en": [
+    [
+     "east",
+     6
+    ],
+    [
+     "natives",
+     6
+    ],
+    [
+     "people",
+     6
+    ],
+    [
+     "friends",
+     6
+    ],
+    [
+     "cape",
+     5
+    ],
+    [
+     "night",
+     5
+    ],
+    [
+     "teachers",
+     5
+    ],
+    [
+     "first",
+     5
+    ],
+    [
+     "many",
+     5
+    ],
+    [
+     "much",
+     5
+    ],
+    [
+     "mission",
+     4
+    ],
+    [
+     "work",
+     4
+    ],
+    [
+     "years",
+     4
+    ],
+    [
+     "landed",
+     4
+    ],
+    [
+     "several",
+     4
+    ],
+    [
+     "men",
+     4
+    ],
+    [
+     "gospel",
+     4
+    ],
+    [
+     "service",
+     4
+    ],
+    [
+     "us",
+     4
+    ],
+    [
+     "long",
+     3
+    ],
+    [
+     "missionaries",
+     3
+    ],
+    [
+     "know",
+     3
+    ],
+    [
+     "assist",
+     3
+    ],
+    [
+     "great",
+     3
+    ],
+    [
+     "lived",
+     3
+    ]
+   ]
+  }
+ },
+ {
   "id": "JP-001",
   "file": "JP-001.xml",
   "title": "Tale i: The Rat and the Owl",
