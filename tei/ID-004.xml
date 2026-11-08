@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ID-004" xml:lang="nl">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter to Mevrouw M.C.E. Ovink-Soer, November 1899</title>
+        <author xml:id="kartini">Raden Adjeng Kartini (1879-1904)</author>
+        <respStmt xml:id="abendanon">
+          <resp>Editor of the Dutch letters, Door duisternis tot licht (1911)</resp>
+          <name>J.H. Abendanon</name>
+        </respStmt>
+        <respStmt xml:id="symmers">
+          <resp>English translator (1920-1921)</resp>
+          <name>Agnes Louise Symmers</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Encoding. Dutch text: the Project Gutenberg edition (ebook 35220) of the 1911 book, not yet checked
+            against a scan; its page numbers are kept as milestones. English text: transcribed from page images of the
+            1921 London edition (Tesseract OCR and the Internet Archive's OCR compared word by word with the
+            proofread Project Gutenberg text of the translation, ebook 34647; disagreements checked against the
+            image). Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>Kartini's letters (1899-1904), the 1911 Dutch edition and the 1921 translation are in the public domain. This encoding is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="ID">Indonesia</country>
+            <settlement>Japara (Jepara), Java</settlement>
+            <repository>Internet Archive (scan of the 1921 English edition)</repository>
+            <idno>lettersofjavanes00kart, pp. 24-28</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>A lively letter to Mevrouw Ovink-Soer describing a Sunday at home in Japara: the sisters' dress, their outings, and family life in the Regent's house.</summary>
+            <msItem class="letter">
+              <textLang mainLang="nl" otherLangs="en jv">Dutch (Kartini's own words), with the 1921 English translation; Javanese terms</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book: Letters of a Javanese Princess, translated by Agnes Louise Symmers, London: Duckworth, 1921. The original letters are lost or held privately; this is the printed text.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="22"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1899-11">November 1899</origDate>
+              <p>Written in Dutch by Kartini at Japara to Mevrouw M.C.E. Ovink-Soer; published by J.H. Abendanon in
+                Door duisternis tot licht (The Hague, 1911), and in English as Letters of a Javanese Princess (1920-1921).</p>
+            </origin>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl xml:lang="nl">Kartini. <title>Door duisternis tot licht: gedachten over en voor het Javaansche volk</title>,
+            ed. J.H. Abendanon. 's-Gravenhage: Luctor et Emergo, 1911, pp. 21-24.
+            <ref target="https://www.gutenberg.org/ebooks/35220">Project Gutenberg 35220</ref>.</bibl>
+          <bibl>Kartini. <title>Letters of a Javanese Princess</title>, trans. Agnes Louise Symmers. London: Duckworth, 1921,
+            pp. 24-28. <ref target="https://archive.org/details/lettersofjavanes00kart">Scan at the Internet Archive</ref>.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Two texts of the same letter. First, Kartini's Dutch as printed in 1911 (from Project Gutenberg; 1911 page
+          numbers as milestones; italics kept). Second, the 1921 English translation, with line and page breaks as
+          printed and linked to the page images; running heads and page numbers are omitted, line-end hyphens are
+          marked pc force="weak", and the drop capital that opens the letter is joined to its word. The translation
+          abridges some passages. Footnotes are the editors' and translator's; their wording follows the proofread
+          Gutenberg text of the same translation.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent"><persName>Kartini</persName><placeName>Japara</placeName><date when="1899-11"/></correspAction>
+        <correspAction type="received"><persName>Mevrouw M.C.E. Ovink-Soer</persName></correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">ID-004</term>
+          <term type="era">Cultivation System and colonial Java</term>
+          <term type="eraYears">1830-1900</term>
+          <term type="perspective">community</term>
+          <term type="community">Javanese (priyayi women)</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-08" who="#mierra">First encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p024" n="24"><graphic url="facsimiles/kartini-letters-1921/p024.png"/></surface>
+    <surface xml:id="p025" n="25"><graphic url="facsimiles/kartini-letters-1921/p025.png"/></surface>
+    <surface xml:id="p026" n="26"><graphic url="facsimiles/kartini-letters-1921/p026.png"/></surface>
+    <surface xml:id="p027" n="27"><graphic url="facsimiles/kartini-letters-1921/p027.png"/></surface>
+    <surface xml:id="p028" n="28"><graphic url="facsimiles/kartini-letters-1921/p028.png"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter" n="IV">
+        <div type="original" xml:lang="nl" resp="#kartini" n="Kartini’s own Dutch (1911 edition, pp. 21-24; Project Gutenberg text, not yet checked against a scan)">
+          <opener><dateline>November 1899</dateline></opener>
+          <p>O, liefste, liefste Mevrouwtje, wat een allerleuksten Zondagmorgen hadden we eergisteren.</p>
+          <p>Pa was met broertje een toertje gaan maken en kwam na een poosje thuis. Broertje met opgewondenheid vertellen: "O, zus, er is een oorlogschip op de reê. Op de passer wemelt 't van matrozen en er zijn er twee met ons meêgegaan. Gauw ga hen zien, ze zijn voor bij Pa."</p>
+          <p>Wij sprongen bij dat woord oorlogschip op, als werden wij door een bij gestoken en vóór broertje was uitgesproken, vlogen we reeds onze kamer uit naar voor. We zagen twee in 't wit gekleede heeren aarzelend ons erf opkomen; na een poos zagen wij hen met Pa in de middengalerij zitten. Een poosje later kwam een jongen ons zeggen, dat wij bij Pa moesten komen, wat wij maar al te graag wilden. Een, twee, drie schoone kabaais aangetrokken, en een oogenblik later zaten wij al te wippen op de schommelstoelen en in druk gesprek met—een paar officieren van de "Edie". Ik weet niet hoe 't kwam, maar we raakten toch zoo dadelijk op ons gemak en spraken met de heeren alsof wij ze al jarenlang kenden. Maar hoe kwamen de menschen in de Kaboepaten verzeild? Dat zal ik u vertellen. Pa ging, zooals ik boven reeds vertelde een toertje maken; onderweg kwam Pa een stuk of vijf heeren tegen. Drie sloegen een anderen weg in en twee volgden Pa's rijtuig in de Kaboepaten. Ze dachten (de heeren zijn nooit op Java geweest), dat de weg, dien de wagen nam, een straatweg was en ons huis een magazijn of zoo iets.</p>
+          <p>Pa zond iemand op de heeren af om hen te verzoeken binnen te komen. Ze schrokken natuurlijk, toen ze hunne vergissing bemerkten en iemand naar zijn eigen huis gevolgd hadden. Wat te doen nu? Ze vonden 't niets pleizierig, vooral niet, omdat ze onze taal niet kenden, en slechts gebrekkig Maleisch spraken. Papa maakte aan deze weifeling een einde, door hun tegemoet te gaan en in hun taal aan te spreken. Verbazing, verrassing aan den kant der heeren. Nu wilden ze graag in de Kaboepaten komen. 't Bleek, dat een der heeren een familielid was van iemand dien Pa heel goed kende. Ik herinner mij niet me ooit zoo op mijn gemak gevoeld te hebben met een wildvreemde. Ik dacht er heelemaal niet aan, dat ik die menschen nooit van mijn leven had gezien en niet wist dat zij bestonden vijf minuutjes tevoren<milestone unit="page" ed="1911" n="22"/> nog. Vreemd, maar een feit is 't, dat wij ons met zeelui altijd direct thuis gevoelen. Wij hebben onze harten nu eenmaal aan de zee verloren; alles wat daarmeê in verband staat, interesseert ons. U weet wel hoe één verrukking we zijn, als er van een roeitochtje sprake is. Wij gloeien voor de zee, dat weet U zelf; toen ik daar halfdood in de opiumprauw lag, vond ik 't prettig, dat ik op de baren was. Van vroeger af aan dweepten we met de goddelijke zee. Als ik een jongen was, bedacht ik me geen twee tellen, doch werd direct matroos. Verbeeld U wat Pa aan de heeren vertelde: "mijne dochters houden zooveel van varen en gaan erg graag aan boord". Die lieve, lieve Pa van ons. Pa weet alles wat er in onze harten omgaat. Pa zegt 't wel niet, doch ik ben er zeker van. Zoo nu en dan vertelt Pa het een en ander van ons aan anderen, precies zooals wij 't gedacht hebben, doch dat wij voor ons zelf gehouden hebben. Wij zijn dan één verbazing, hoe Pa toch dat alles kan weten, wat we bij ons zelven dachten en niet aan anderen openbaarden. 't Komt zeker, omdat Pa zooveel van ons houdt, en wij van Pa. Nu en dan verrast Pa ons door een gedachte bloot te leggen, die op den bodem van mijn hart lag en waarvan ik dacht, dat niemand behalve ik zelf haar bestaan wist. Zou dat nu zieleverwantschap zijn?</p>
+          <p>Als ik wat meer bijgeloovig was, zou ik heusch denken, dat Pa gedachten kon lezen.</p>
+          <p>Maar ik zou U van den leuken Zondagmorgen vertellen en niet van het geheime telefoonkabeltje, dat van onze harten loopt naar dat van mijn liefsten Vader.</p>
+          <p>De officieren vonden 't vreeselijk jammer, dat de "Edie" niet langer op onze reê bleef; ze zouden 't anders zoo leuk gevonden hebben, ons aan boord te zien. De "Edie" moest riffen zoeken op Karimoen Djawa, en moest hier eigenlijk niet zijn, doch de commandant vond 't aardig ook eens Japara te zien. Beide heeren zullen alle moeite doen om den commandant over te halen, vóórdat de "Edie" a.s. Maandag naar Soerabaja vertrekt, eerst den Zaterdag en den Zondag te Japara door te brengen. Lukt hun dit en komt dus Zaterdag de "Edie" hier, dan zullen zij 't ons doen weten, door een der vuurmondjes te laten losbranden. Ik maak mij heelemaal geen illusies, dat zij slagen zullen, maar 't zou toch alleraardigst zijn, als de boot weêr kwam. Ik heb den heeren gezegd, dat, mochten ze Japara weêr passeeren,<milestone unit="page" ed="1911" n="23"/> zij voor onze kust een schroefas of zoo iets moesten breken, waardoor 't schip dan verplicht was in onze haven stil te liggen.</p>
+          <p>Toen de officieren weer weg waren, en wij in onze kamer terug, dachten we aan een droom. En werkelijk, 't was alsof we gedroomd hadden. Zoo plotseling, zoo onverwacht verschenen ze ons om weer even gauw te verdwijnen. Maar een alleraardigste verrassing, vindt U niet? Ik moet er nog steeds om lachen, als ik aan dat grappige avontuurtje denk.</p>
+          <p>O! Moedertje, Mevrouwtjemijn, ik wou, dat U weêr terug was. Uwe dochtertjes missen U zoo. Wij verlangen de gezellige daagjes met U doorgebracht, terug; de heerlijke uurtjes in uwe lieve zitkamer, waar U ons zoo dikwijls liet genieten van mooie lectuur, waar wij zooveel bespraken, dat immer tusschen ons blijven zal. Ik mis de vertrouwelijke gesprekken met U, waarin ik aan mijn lief Moedertje al de gedachten, die in dit oproerig hoofd woelden, en de gevoelens van mijn rusteloos hart bloot legde. Wanneer ik in een gedrukte stemming was, ik hoefde slechts Uw lief, opgewekt gelaat te zien, en ik was weer 't vroolijke, zorgelooze kind, dat in dollen overmoed zingen kon: "Al valt de hemel naar omlaag, ik zet er kloek mijn schouders onder". Mevrouwtje, U had ons tè veel bedorven, tè veel verwend! Nu doen we niet anders dan den heerlijken tijd van ons samenzijn terug te verlangen. En toch, ofschoon wij zoo hard naar U verlangen, hopen wij zeer, dat de reis naar Djombang zoolang mogelijk uitgesteld zal worden. Waarom? Wij weten, wij <hi rend="italic">voelen</hi> het, dat op Djombang wij elkaar voor 't laatst zullen zien. 't Weêrzien zal ook een <hi rend="italic">afscheid</hi> voor <hi rend="italic">goed</hi> zijn. Op Japara komt U nooit weêr, en zoo maar naar U toe gaan, kunnen wij niet. Daarom laat die reis zoolang mogelijk uitgesteld blijven. Heerlijk om iets prettigs in 't vooruitzicht te hebben; wij willen hiervan zoo lang mogelijk genieten; dan het goddelijke weerzien en—uit is al de pret. Neen toch, ons blijft de herinnering.</p>
+          <p>Wij zijn goed, noch lief, zooals U zich ons denkt. Weet U wel, lief Moedertje, dat 't niets dan egoïsme is, dat ons eens een enkelen keer tot goed en lief doen drijft? Want o! niets heerlijker vind ik, dan een blijden glimlach te kunnen te voorschijn roepen op eens anders gelaat, vooral dat van hen, die wij liefhebben. Niets goddelijker, dan wanneer een paar beminde oogen je zoo lief en blijde aankijken, en jij je schuldig voelt aan die vreugde.</p>
+          <p>Hoe aardig, dat kokkie ook aan ons denkt!</p>
+          <milestone unit="page" ed="1911" n="24"/>
+        </div>
+        <div type="translation" xml:lang="en" resp="#symmers" n="English translation by Agnes Louise Symmers (1921), transcribed from the page images">
+          <pb n="24" facs="#p024"/>
+          <head type="number"><lb n="1"/>IV<note place="foot" n="1">To Mevrouw M.C.E. Ovink-Soer.</note></head><opener><dateline><lb n="2"/>November 1899.</dateline></opener>
+          <p><lb n="3"/><hi rend="smallcaps">O dearest,</hi> dearest Mevrouwtje, what a delightful Sunday we<lb n="4"/>had yesterday!</p>
+          <p><lb n="5"/>Father went out with my little brother, and after awhile<lb n="6"/>they came back home. Brother, with great excitement, ran to me and<lb n="7"/>said, “‘O sister, there is a man-of-war in the harbour; all the streets are<lb n="8"/>filled with sailors, and two of them have come home with us, they are<lb n="9"/>with Father now.”</p>
+          <p><lb n="10"/>At the word “warship,” we sprang up as though we had been shot,<lb n="11"/>and before brother had finished speaking, we flew to our room to make<lb n="12"/>ready. We saw two gentlemen dressed in white, come hesitating—<lb n="13" break="no"/>through the grounds. After a little while, we saw them sitting with<lb n="14"/>Pa in the middle gallery. Later, a boy came to us, saying that we must<lb n="15"/>go to Father, which we did with the greatest willingness. One, two,<lb n="16"/>three, and we had slipped on our best kabaais,”<note place="foot" n="2">A Javanese woman's dress consists of a sarong which is draped to form a skirt, and a kabaja, or jacket shaped garment. The kabaja is of Dutch origin and its use is a concession to European ideas of modesty, as formerly the upper part of the body was left bare.</note> and a second later we<lb n="17"/>were sitting in rocking-chairs talking to two officers from the Edie.<lb n="18"/>I do not know how it came about, but we were immediately at our ease<lb n="19"/>and spoke to the gentlemen as though we had known them for years.<lb n="20"/>But how did these people happen to come to kaboepatin? I will ex<pc force="weak">-</pc><lb n="21" break="no"/>plain that to you. Papa went, as I have said, for a little drive; he met<pb n="25" facs="#p025"/><lb n="1"/>five gentlemen walking, three of them turned another way, but these two<lb n="2"/>had followed Papa's carriage in to the kaboepatin. They thought<lb n="3"/>(the gentlemen were new to Java) that the way the carriage took was a<lb n="4"/>public road, and our house a fortress or something of the kind.</p>
+          <p><lb n="5"/>Papa sent a servant to ask the gentlemen if they wished to see him.<lb n="6"/>They were embarrassed, naturally, because they had made such a mis<pc force="weak">-</pc><lb n="7" break="no"/>take and followed some one to his own house. What would they do<lb n="8"/>now? They did not find it pleasant by any means, because they did<lb n="9"/>not understand our language, and spoke only very bad, broken Malay<pc force="weak">-</pc><lb n="10" break="no"/>ish. Papa put an end to this awkward situation by going to meet them<lb n="11"/>himself, and addressing them in Dutch. Embarrassment was at an<lb n="12"/>end. They would come with pleasure into the house.</p>
+          <p><lb n="13"/>It turned out that one of them was a relative of some one whom Papa<lb n="14"/>knew well. I do not remember to have ever felt so much at my ease<lb n="15"/>with an utter stranger. I did not think once of the fact that I had never<lb n="16"/>seen these people before, and had not known of their existence five<lb n="17"/>minutes ago. It is strange how with sailors one feels at home right<lb n="18"/>away.</p>
+          <p><lb n="19"/>Our hearts have always been set upon the sea; everything that con<pc force="weak">-</pc><lb n="20" break="no"/>cerns it interests us. You know well what a delight it is to us to be<lb n="21"/>taken out even in a little row boat. We love the sea; you remember<lb n="22"/>the time when I lay half-dead in the bow of the opium skiff, even then<lb n="23"/>I found it pleasant to be upon such a bed? If I were a boy, I should<lb n="24"/>not think twice, but would become a sailor at once.</p>
+          <p><lb n="25"/>Imagine to yourself Father saying to the gentlemen, “My daughters<lb n="26"/>would be so pleased if they could be permitted to go on board.”</p>
+          <p><lb n="27"/>Father knows everything that goes on in our hearts. Father does not<lb n="28"/>tell us so, yet I am certain of it. Now and then Papa tells one or the<lb n="29"/>other of us precisely what we have been thinking; something that we had<pb n="26" facs="#p026"/><lb n="1"/>kept to ourselves and never told to any one. It is without doubt, be<pc force="weak">-</pc><lb n="2" break="no"/>cause Father loves us so much, and we so love him. Every now and<lb n="3"/>then he discovers something, and lays it bare, that had been in the bot<pc force="weak">-</pc><lb n="4" break="no"/>tom of my heart, and of which I had thought no one except myself had<lb n="5"/>the slightest idea. Does not that show true kinship of soul?</p>
+          <p><lb n="6"/>If I were more superstitious, I should certainly think that Papa could<lb n="7"/>read thoughts.</p>
+          <p><lb n="8"/>But I am telling you now of the pleasant Sunday morning, and not of<lb n="9"/>the secret telephone-cable that runs from our hearts to that of our<lb n="10"/>dearest Father.</p>
+          <p><lb n="11"/>The officers regretted so much that the Edie would not remain longer<lb n="12"/>in our harbour. It would have been such a pleasure to them to have<lb n="13"/>had us on board. The Edie must go to look for reefs on Karimoen<lb n="14"/>Djawa, though the commander thought Japara interesting. Both<lb n="15"/>gentlemen were going to do everything in their power to persuade<lb n="16"/>the Commandant to come back; for if the Edie set out from Soerabaja<lb n="17"/>on Monday, either Saturday or Sunday she could be back at Japara.<lb n="18"/>If fortune should bring the Edie here on Saturday, then they will let us<lb n="19"/>know of their presence by letting loose their fire-mouths (cannon). I<lb n="20"/>have no idea that they will, but still it would be above all things pleas<pc force="weak">-</pc><lb n="21" break="no"/>ant if the boat should come again.</p>
+          <p><lb n="22"/>I told the gentlemen that if they passed Japara again, they must<lb n="23"/>break a screw or something, near our coast, so that the ship would be<lb n="24"/>obliged to lay up in our harbour for repairs.</p>
+          <p><lb n="25"/>When the officers had gone, and we were back in our room, we thought<lb n="26"/>it had been a dream. And truly it was as though we had dreamed.<lb n="27"/>So suddenly, so unexpectedly, had they appeared to us, and again as<lb n="28"/>suddenly had they vanished. A very pleasant happening—do you not<pb n="27" facs="#p027"/><lb n="1"/>think so too? I still have to laugh whenever I think of that funny ad<pc force="weak">-</pc><lb n="2" break="no"/>venture.</p>
+          <p><lb n="3"/>O little Mother, dearest Mevrouwtje, I wish that you were back with<lb n="4"/>us. Your daughters miss you so much. We long for the pleasant<lb n="5"/>days that we spent with you to come again: the splendid times that we<lb n="6"/>used to have in your dear little sitting-room, where you would read to<lb n="7"/>us from great books, and where we spoke of so much, the memory of<lb n="8"/>which shall always remain with us. I miss the intimate talks with<lb n="9"/>you, when I used to tell my dear little mother all the rebellious thoughts<lb n="10"/>that came into my head, and laid bare the feelings of my restless heart.<lb n="11"/>When I was in a rebellious mood, I had but to see the love light in your<lb n="12"/>face, and I was again the happy, careless child, that, in overflowing<lb n="13"/>good spirits, could sing: ““Whatever Heaven to me shall send, I'll set<lb n="14"/>my shoulders bravely under.”</p>
+          <p><lb n="15"/>Mevrouwtje, you gave us too much care; spoiled us too much. Now<lb n="16"/>we do nothing but wish for those happy days to come back. And al<pc force="weak">-</pc><lb n="17" break="no"/>though we long for you, yet we hope that the journey to Djombang<lb n="18"/>will be put off as long as possible. Why? We know—we feel, that<lb n="19"/>at Djombang, we shall see each other for the last time. Seeing you<lb n="20"/>again will mean farewell for good. You will not come to Japara again,<lb n="21"/>and we shall never be able to go to you. For that reason, let the<lb n="22"/>journey be put off as long as possible. It is splendid to have a pleasure<lb n="23"/>to look forward to; so we should like to prolong the feeling of an<pc force="weak">-</pc><lb n="24" break="no"/>ticipation. Once more the joy of meeting again, and then—all the<lb n="25"/>prettiness will be over. No it will not be over even then, the memory<lb n="26"/>will be with us.</p>
+          <p><lb n="27"/>We shall still be happy as long as you think of us and love us. You<lb n="28"/>know very well, dear little Mother, that love is nothing but egoism. I<pb n="28" facs="#p028"/><lb n="1"/>think there is nothing finer than to be able to call a happy smile to a<lb n="2"/>loved mouth—to see the sunshine break over another's face. Nothing<lb n="3"/>is more splendid than to have a pair of dear eyes look at one full of<lb n="4"/>love and happiness; then it is that one feels guilty for very joy.</p>
+          <p><lb n="5"/>How pleasant that Kokki also remembers us.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -296,9 +296,15 @@
       font-style: italic;
     }
 
+    .tei-div-original,
     .tei-div-translation,
     .tei-div-commentary {
       margin: 1.25rem 0;
+    }
+
+    .tei-div-original + .tei-div-translation {
+      padding-top: 1.25rem;
+      border-top: 1px solid #d5dce3;
     }
 
     .tei-div-commentary {
@@ -865,10 +871,15 @@
           const section = el("section", "tei-div" + (type ? " tei-div-" + type : ""));
           if (lang) section.lang = lang;
           const labels = {
+            original: "The author’s own words",
             translation: "The author’s text",
             commentary: "Editor’s or translator’s comment",
           };
-          if (labels[type]) {
+          const own = node.getAttribute("n") || "";
+          if (labels[type] && own.length > 12) {
+            // a section that names itself (e.g. "English translation by …, transcribed from the page images")
+            section.appendChild(el("p", "voice-label", own));
+          } else if (labels[type]) {
             const who = (node.getAttribute("resp") || "").replace(/^#/, "");
             const person = who && currentTei && [...currentTei.getElementsByTagNameNS(TEI_NS, "*")]
               .find((e) => e.getAttributeNS("http://www.w3.org/XML/1998/namespace", "id") === who);

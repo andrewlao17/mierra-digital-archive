@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ID-002" xml:lang="nl">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter to Stella Zeehandelaar, 18 August 1899</title>
+        <author xml:id="kartini">Raden Adjeng Kartini (1879-1904)</author>
+        <respStmt xml:id="abendanon">
+          <resp>Editor of the Dutch letters, Door duisternis tot licht (1911)</resp>
+          <name>J.H. Abendanon</name>
+        </respStmt>
+        <respStmt xml:id="symmers">
+          <resp>English translator (1920-1921)</resp>
+          <name>Agnes Louise Symmers</name>
+        </respStmt>
+        <respStmt xml:id="mierra">
+          <resp>Encoding. Dutch text: the Project Gutenberg edition (ebook 35220) of the 1911 book, not yet checked
+            against a scan; its page numbers are kept as milestones. English text: transcribed from page images of the
+            1921 London edition (Tesseract OCR and the Internet Archive's OCR compared word by word with the
+            proofread Project Gutenberg text of the translation, ebook 34647; disagreements checked against the
+            image). Draft, awaiting a second reader.</resp>
+          <name>Claude (AI assistant) for the Mierra Digital Archive</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Mierra Digital Archive</publisher>
+        <availability>
+          <p>Kartini's letters (1899-1904), the 1911 Dutch edition and the 1921 translation are in the public domain. This encoding is released under the licence below.</p>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country key="ID">Indonesia</country>
+            <settlement>Japara (Jepara), Java</settlement>
+            <repository>Internet Archive (scan of the 1921 English edition)</repository>
+            <idno>lettersofjavanes00kart, pp. 11-15</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>On Javanese etiquette and the strict deference owed to rank inside a noble household, the languages of Java, Kartini's reading, and her wish to be of use to her people.</summary>
+            <msItem class="letter">
+              <textLang mainLang="nl" otherLangs="en jv">Dutch (Kartini's own words), with the 1921 English translation; Javanese terms</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="paper">
+                <support>Printed book: Letters of a Javanese Princess, translated by Agnes Louise Symmers, London: Duckworth, 1921. The original letters are lost or held privately; this is the printed text.</support>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1" writtenLines="24"/>
+              </layoutDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1899-08-18">18 August 1899</origDate>
+              <p>Written in Dutch by Kartini at Japara to Stella Zeehandelaar; published by J.H. Abendanon in
+                Door duisternis tot licht (The Hague, 1911), and in English as Letters of a Javanese Princess (1920-1921).</p>
+            </origin>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl xml:lang="nl">Kartini. <title>Door duisternis tot licht: gedachten over en voor het Javaansche volk</title>,
+            ed. J.H. Abendanon. 's-Gravenhage: Luctor et Emergo, 1911, pp. 9-13.
+            <ref target="https://www.gutenberg.org/ebooks/35220">Project Gutenberg 35220</ref>.</bibl>
+          <bibl>Kartini. <title>Letters of a Javanese Princess</title>, trans. Agnes Louise Symmers. London: Duckworth, 1921,
+            pp. 11-15. <ref target="https://archive.org/details/lettersofjavanes00kart">Scan at the Internet Archive</ref>.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Two texts of the same letter. First, Kartini's Dutch as printed in 1911 (from Project Gutenberg; 1911 page
+          numbers as milestones; italics kept). Second, the 1921 English translation, with line and page breaks as
+          printed and linked to the page images; running heads and page numbers are omitted, line-end hyphens are
+          marked pc force="weak", and the drop capital that opens the letter is joined to its word. The translation
+          abridges some passages. Footnotes are the editors' and translator's; their wording follows the proofread
+          Gutenberg text of the same translation.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent"><persName>Kartini</persName><placeName>Japara</placeName><date when="1899-08-18"/></correspAction>
+        <correspAction type="received"><persName>Stella Zeehandelaar</persName></correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="#mierra">
+          <term type="catalog">ID-002</term>
+          <term type="era">Cultivation System and colonial Java</term>
+          <term type="eraYears">1830-1900</term>
+          <term type="perspective">community</term>
+          <term type="community">Javanese (priyayi women)</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc status="draft">
+      <change when="2026-11-08" who="#mierra">First encoding.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="p011" n="11"><graphic url="facsimiles/kartini-letters-1921/p011.png"/></surface>
+    <surface xml:id="p012" n="12"><graphic url="facsimiles/kartini-letters-1921/p012.png"/></surface>
+    <surface xml:id="p013" n="13"><graphic url="facsimiles/kartini-letters-1921/p013.png"/></surface>
+    <surface xml:id="p014" n="14"><graphic url="facsimiles/kartini-letters-1921/p014.png"/></surface>
+    <surface xml:id="p015" n="15"><graphic url="facsimiles/kartini-letters-1921/p015.png"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="letter" n="II">
+        <div type="original" xml:lang="nl" resp="#kartini" n="Kartini’s own Dutch (1911 edition, pp. 9-13; Project Gutenberg text, not yet checked against a scan)">
+          <opener><dateline>18 Augustus 1899.</dateline></opener>
+          <p>Dank, innig dank voor je heerlijk langen brief, voor je lieve, hartelijke woorden, die mij het hart verwarmen en verkwikken!</p>
+          <p>Zal ik bij nadere kennismaking je niet tegenvallen? Ik heb je al gezegd, ik weet zoo bitter weinig, en ken niets, niets! Naast jou voel ik mij geheel in 't niet verzinken. Je bent wel goed ingelicht over de Javaansche titels.</p>
+          <p>Vóór jij mij er over schreeft, heb ik nooit over 't feit nagedacht, dat ik, zooals je zegt, van "hooge geboorte" ben. Of ik een prinses ben? Evenmin als jij. De laatste vorst in ons huis, waarvan wij in de mannelijke linie lijnrecht afstammen, is geloof ik al eventjes 25 geslachten ver. Mama, die is nog nauw verwant aan het vorstenhuis van Madoera. Haar overgrootvader was een regeerend vorst en hare grootmoe eene erfvorstin.</p>
+          <p>Maar om dit alles geven we geen zier. Voor mij bestaan er slechts twee soorten aristocratie: de aristocraat van den geest en de gemoedsadel. Ik vind niets zotter, niets dwazer dan wanneer ik menschen zie, die zich zoozeer op hunne zoogenaamde "hooge geboorte" laten voorstaan. Wat voor een verdienste steekt er toch in een graaf of baron te zijn? Ik kan er met mijn klein verstand niet bij.</p>
+          <p>Adel en edel, tweelingswoorden van nagenoeg denzelfden klank en geheel denzelfden zin! Arme tweelingen! hoe wreed is 't leven voor u, dat u haast altijd meedoogenloos van elkaar gescheiden houdt!</p>
+          <p>Als adel eens altijd was, wat 't beteekent, ja, dan zou ik 't een eer vinden een hooggeborene te zijn. Maar nu?</p>
+          <p>Ik weet nog, hoe nijdig we waren, toen verleden jaar de Haagsche dames op de Vrouwenarbeidtentoonstelling ons noemden "de prinsessen van Japara".</p>
+          <p>In Holland schijnt men te denken, dat al wat uit Indië komt, en geen "baboe" of "spada" is, een prinses of prins moet zijn.</p>
+          <p>Europeanen hier in Indië, slechts weinigen noemen ons "Raden Adjeng", spreken ons meestal aan met "freule". Ik kan er vaak wanhopig onder worden. Ik weet niet, hoeveel keeren ik hun niet gezegd heb, dat wij geen freules en nog minder prinsessen zijn, maar men luistert gewoon niet naar me en blijft ons halsstarrig "freule" noemen.</p>
+          <p>Zoo onlangs kwam hier een Europeaan, hij scheen wat van<milestone unit="page" ed="1911" n="10"/> ons gehoord te hebben, althans hij vroeg onzen ouders aan de "prinsessen" voorgesteld te mogen worden. Dit werd hem toegestaan en o, we hadden dolle pret!</p>
+          <p>"Regent", sprak hij zacht tot Pa, maar toch duidelijk verstaanbaar voor ons—er lag zulk een teleurstelling in zijne stem—"prinsessen, ik dacht aan schitterende kleeding, fantastische Oostersche pracht, en Uwe dochters zijn zoo eenvoudig." Met moeite konden wij een glimlach onderdrukken, toen wij dit hoorden. Lieve hemel, in zijn heilige onschuld had hij ons het grootste compliment gemaakt, dat iemand ooit bij ons afsteken kon. O, je weet niet, welk een plezier hij ons deed met onze kleeding simpel te vinden, wij zijn zoo dikwijls bang nuffen en ijdeltuitjes te zijn.</p>
+          <p>Lieve Stella, ik ben hartelijk blij, dat je mij gelijk je Hollandsche vriendinnen beschouwt en daarnaar behandelt, en dan dat ik voor je een geestverwante ben. Ik wil niet anders, dan dat je mij steeds bij mijn naam noemt, en jij en je tegen me blijft zeggen. Zie maar hoe mooi ik je voorbeeld gevolgd ben.</p>
+          <p>Mocht je ergens in mijn brieven een enkelen keer eens een "gij" of een "u" aantreffen, beschouw dit dan niet als een stijfheid, maar als een vergissing.</p>
+          <p>Ook ik ben eene vijandin van stijfheid.</p>
+          <p>Wat geef ik om de vormen? Ik ben blij, dat ik die lastige Javaansche étiquette eens van mij afschudden kan—nu ik met je een praatje maak op 't papier. Die vormen, die wetjes, door menschen ingesteld, zijn me een gruwel! Je kunt je geen denkbeeld vormen, hoe lastig moeder étiquette in de Javaansche aristocratenwereld huishoudt. Je kunt geen vin verroeren, of die nare dame staart je grimmig aan! Bij ons nemen wij 't zoo nauw niet op met al die vormelijkheden. Wij huldigen de gulden spreuk: "Vrijheid, blijheid!"</p>
+          <p>Onder ons, van mij af beginnend, laten wij alle vormen waaien, ons eigen gevoel moet 't ons maar zelf zeggen, tot hoever onze liberale neigingen gaan mogen.</p>
+          <p>Verschrikkelijk zijn eenvoudig de vormen bij ons Javanen.</p>
+          <p>Europeanen, jaren en jaren in Indië zijnde en veel met Inlandsche grooten in aanraking komende, kunnen maar geen steek vatten van de Javaansche étiquette, als ze hiervan niet een bijzondere studie maken. Dikwijls heb ik mijne vrienden dat alles moeten uitleggen, maar als ik na een uur of wat mijn<milestone unit="page" ed="1911" n="11"/> keel schor heb gepraat, dan weten ze van onze vormen evenveel als een pas geboren kind.</p>
+          <p>Om je maar een klein ideetje te geven, hoe lastig onze étiquette is, zal ik je een paar staaltjes vertellen. Een jonger zusje of broertje van me mag mij niet voorbijgaan, of moet dit over den grond kruipende doen. Zit een zusje op een stoel, en ik passeer haar, dan moet zij zich onmiddellijk op den grond laten neerglijden en daar met gebogen hoofd blijven zitten, tot ik ver uit haar gezicht ben. Tegen mij mogen mijne jongere broers en zusters geen jij en je zeggen, en alleen in 't hoogjavaansch mogen ze mij aanspreken; en na elken volzin die hun van de lippen komt, moeten ze voor mij een "sembah" maken, dit is beide handen tegen elkaar slaan en even onder den neus brengen.</p>
+          <p>Spreken mijne zusjes en broertjes met andere menschen over mij, dan moeten zij alles in 't hoogjavaansch zeggen, wat mij toebehoort, zooals bijv. mijne kleeren, mijne zitplaats, mijne handen, voeten, oogen en alles wat van mij is.</p>
+          <p>Mijn eerwaardig hoofd is hun streng verboden aan te raken, en niet dan met mijne hooge permissie en na eenige malen een "sembah" gemaakt te hebben, mogen zij 't doen.</p>
+          <p>Staat er wat lekkers op tafel, de kleintjes mogen er niet aankomen, voordat 't mij behaagt daarvan wat te nemen.</p>
+          <p>O, je rilt bepaald, als je in zoo'n voornamen Inlandschen familiekring terecht komt. Praten tegen je meerderen doe je zoo zacht, dat alleen zij die ernaast staan 't hooren. Als eene jonge dame lacht, o hé, mag ze haar mond niet opendoen. (Lieve help, hoor ik je daar zeggen.) Ja, Stella, je zult meer vreemde dingen hooren, als je alles van ons Javanen weten wilt.</p>
+          <p>Loopt een meisje, dan moet zij dit bedaard doen, met kleine, nette stappen, o zoo langzaam als een slak; loop je een beetje vlug, dan schelden ze je uit voor een hollend paard.</p>
+          <p>Maar nu genoeg, vindt je dit alles niet eenig interessant? Tegen mijn oudere broers en zusters neem ik alle vormen trouw in acht, ik wil niemand iets tekort doen in zijn goed recht; maar van mij af beginnend breken wij geheel met alle vormen. Vrijheid, gelijkheid en broederschap! De zusjes en broertjes gaan met mij en onder elkaar als vrije, gelijke kameraadjes om. Onder ons geen stijfheid, 't is enkel vriendschap en hartelijkheid wat je ziet in onze verhouding onderling. De zusjes zeggen jij en jou tegen mij en spreken dezelfde taal als ik. Eerst laakte men<milestone unit="page" ed="1911" n="12"/> vreeselijk den vrijen, gelijken omgang tusschen ons broertjes en zusjes onderling; wij heetten "kinderen zonder eenige opvoeding," en ik was een "koeda koree," wild paard, omdat ik zelden liep, maar steeds sprong of huppelde; en waarvoor scholden ze mij ook weer uit, omdat ik zoo vaak schaterlachte en onbehoorlijk!!! veel van mijn tanden liet zien. Maar nu men ziet, hoe innig en prettig onze verhouding tot elkaar is, nu moeder étiquette voor onzen vrijheidszin op de vlucht is gegaan, benijdt men ons de harmonische eendracht, die vooral zoo sterk tusschen ons drieën heerscht.</p>
+          <p>O, Stella, je moest eens zien, hoe in andere kaboepatens de zusters en broers naast elkander leven! Ze zijn broers en zusters, omdat ze kinderen van dezelfde ouders zijn; geen andere band houdt hen samen, dan de band des bloeds. Zusters zie je naast elkaar leven, aan wie je behalve door een familietrek op beider gezichten somtijds niet zien kunt, dat ze wat voor elkander zijn.</p>
+          <p>Dank, lieve Stella, voor je mooi pluimpje, waarmee ik kinderlijk opgetogen ben. Ik heb je taal zoo oneindig lief en vanaf mijn schooljaren is 't mijn vurigste wensch altijd geweest, haar goed, werkelijk goed te kennen. Ik sta nog zoo ver van de vervulling van mijn hartewensch af,... maar dat ik een stapje naderbij gekomen ben, zegt mij uw zeer vleiend compliment. Aan mij is toch niets meer te bederven, thuis en door mijne vrienden en kennissen word ik dood verwend.</p>
+          <p>O, Stella, ik dank je zoozeer voor de vriendelijke gedachten, die je hebt voor ons Javanen. Van jou verwacht ik trouwens niets anders, dan dat voor jou alle menschen, blank en bruin, gelijk zijn. Van werkelijk beschaafde, ontwikkelde menschen hebben wij nooit wat ondervonden dan alleen goeds. Al zijn de Javanen nog zoo dom, onwetend, onbeschaafd, de garde, waartoe je behoort, zal in hen steeds medemenschen zien, die God schiep even goed als de beschaafden, en die ook, als zij een hart in hun lijf hebben en gevoelig zijn voor zieleaandoeningen, al blijft hun gelaat ook onbewegelijk en verraadt een blik noch gebaar hun innerlijk voelen.</p>
+          <p>Heeft je uittreksel van Hilda van Suylenburg jou mijne sympathie doen winnen, en je eerste brief de goede gevoelens, die ik je toedraag doen toenemen, je laatste schrijven verovert je een vaste, blijvende plaats in mijn hart.</p>
+          <p>Wij spreken thuis met elkaar Javaansch; Hollandsch alleen<milestone unit="page" ed="1911" n="13"/> met Hollanders. Zoo nu en dan zeggen wij wel eens een Hollandsch zinnetje tegen elkaar, als er bijv. een aardigheid is, die niet vertaald kan worden, zonder veel van het humoristische te verliezen.</p>
+        </div>
+        <div type="translation" xml:lang="en" resp="#symmers" n="English translation by Agnes Louise Symmers (1921), transcribed from the page images">
+          <pb n="11" facs="#p011"/>
+          <head type="number"><lb n="1"/>II<note place="foot" n="1">To Mejuffrouw Zeehandelaar.</note></head><opener><dateline><lb n="2"/>18 of August, 1899.</dateline></opener>
+          <p><lb n="3"/><hi rend="smallcaps">Sincere</hi> thanks for your long letter, your cordial words warmed<lb n="4"/>my heart. Shall I not disappoint you upon a closer acquaint<pc force="weak">-</pc><lb n="5" break="no"/>ance? I have already told you that I am very ignorant, that<lb n="6"/>I know nothing. Compared to you I feel myself sink into nothingness.</p>
+          <p><lb n="7"/>You are well informed about the Javanese titles. Before you men<pc force="weak">-</pc><lb n="8" break="no"/>tioned it, I had never given the matter a thought, that I am, as you say,<lb n="9"/>“highly born.” Am I a princess? No more than you yourself are<lb n="10"/>one. The last prince of our house, from whom I am directly descended<lb n="11"/>in the male line, was, I believe, twenty-five generations back; but<lb n="12"/>Mamma is closely related to the princely house of Medeira; her great<pc force="weak">-</pc><lb n="13" break="no"/>grandfather was a reigning prince, and her grandmother a princess.<lb n="14"/>But we do not give a two-pence for all that. To my mind there are only<lb n="15"/>two kinds of aristocracy, the aristocracy of the mind, and the aristocracy<lb n="16"/>of the soul—of those who are noble in spirit. I think there is nothing<lb n="17"/>more commonplace than those people who allow themselves to depend<lb n="18"/>upon their so called “high birth.” What worth is there in simply being<lb n="19"/>a count or baron? I cannot see it with my little understanding.</p>
+          <p><lb n="20"/>Adel and Edel,<note place="foot" n="2">As a noble deed.</note> twin words with almost the same sound and which<lb n="21"/>should have the same meaning. Poor twins! How cruel life has been<lb n="22"/>to you—it has ruthlessly torn you asunder and holds you now so far<lb n="23"/>apart. Once noble, meant what the word signifies. Yes, then indeed<lb n="24"/>it would have been an honour to be “highly born.” But now?—<pb n="12" facs="#p012"/></p>
+          <p><lb n="1"/>I remember how embarrassed we were last year, when the ladies of<lb n="2"/>the Exposition for Woman's Work called us the “Princesses of Java.”</p>
+          <p><lb n="3"/>In Holland they seem to think that everything which comes out of<lb n="4"/>India which is not a “baboe” or a “‘spada”’ must be a prince or a prin<pc force="weak">-</pc><lb n="5" break="no"/>cess. Europeans here in India seldom call us “Raden Adjeng,” they<lb n="6"/>address us usually as “Freule.”<note place="foot" n="3">In Holland honourary title given to the daughter of a nobleman.</note> I despair of its ever being different.<lb n="7"/>I do not know how many times I have said that we were not “‘Freules”<lb n="8"/>and still less princesses, but they have grown accustomed to the glamour<lb n="9"/>and still obstinately call us “Freule.”</p>
+          <p><lb n="10"/>Not long ago a European who had heard much of us, came here and<lb n="11"/>asked our parents to be allowed the privilege of making the acquaintance<lb n="12"/>of the “princesses”; we were brought out and shown to him as though<lb n="13"/>we had been dolls; how stupid we felt!</p>
+          <p><lb n="14"/>“Regent,” said he to our father, but quite distinctly before us—<lb n="15" break="no"/>there was much disappointment in his voice—"at the word—princess,<lb n="16"/>I thought of glittering garments, fantastic Oriental splendour, and your<lb n="17"/>daughters look so simple.”</p>
+          <p><lb n="18"/>We could hardly suppress a smile when we heard him. Good<lb n="19"/>Heavens! In his innocence he had paid us the greatest possible com<pc force="weak">-</pc><lb n="20" break="no"/>pliment; you do not know what a pleasure it was to us to find that our<lb n="21"/>clothes were simple; we had so often taken pains to put on nothing that<lb n="22"/>would look conspicuous or bizarre.</p>
+          <p><lb n="23"/>Dear Stella, I am heartily glad that I seem to you like your Dutch<lb n="24"/>friends, and that you find me congenial.</p>
+          <p><lb n="25"/>I have always been an enemy of formality. I am happy only when<lb n="26"/>I can throw the burden of Javanese etiquette from my shoulders. The<lb n="27"/>ceremonies, the little rules, that are instilled into our people are an<lb n="28"/>abomination to me. You could hardly imagine how heavily the burden<pb n="13" facs="#p013"/><lb n="1"/>of etiquette presses upon a Javanese aristocratic household. But in<lb n="2"/>our household, we do not take all the formalities so literally.</p>
+          <p><lb n="3"/>We often dispense with ceremony and speak our own sentiments<lb n="4"/>freely. Javanese etiquette is both silly and terrible. Europeans who<lb n="5"/>live years in India, and who come in close contact with our native digni<pc force="weak">-</pc><lb n="6" break="no"/>taries, cannot at all understand it unless they have made a special study<lb n="7"/>of it.</p>
+          <p><lb n="8"/>In order to give you a faint idea of the oppressiveness of our etiquette,<lb n="9"/>I shall mention a few examples. A younger brother or sister of mine<lb n="10"/>may not pass me without bowing down to the ground and creeping upon<lb n="11"/>hands and knees. If a little sister is sitting on a chair, she must in<pc force="weak">-</pc><lb n="12" break="no"/>stantly slip to the ground and remain with head bowed until I have<lb n="13"/>passed from her sight. If a younger brother or sister wishes to speak<lb n="14"/>to me, it must only be in high Javanese;’<note place="foot" n="4">Javanese is not one language but several, there is one language for the aristocracy and another for the vulgar. A nobleman addresses an inferior in the language of the common people Ngoko (2nd o: with ring above, M.D.), but he is answered in high Javanese known as Krama. Between the two there is a middle speech, Madja, used in familiar intercourse between friends and equals besides Krama-inggil or court speech. There is also the classical language Kawi nearly allied to Sanskrit, in which the ancient literature of Java is written.</note> and after each sentence that<lb n="15"/>comes from their lips, they must make a sembah; that is, to put both<lb n="16"/>hands together, and bring the thumbs under the nose.</p>
+          <p><lb n="17"/>If my brothers and sisters speak to other people about me, they must<lb n="18"/>always use high Javanese in every sentence concerning me, my clothes,<lb n="19"/>my seat at the table, my hands and my feet, and everything that is mine.<lb n="20"/>They are forbidden to touch my honourable head without my high per<pc force="weak">-</pc><lb n="21" break="no"/>mission, and they may not do it even then without first making a<lb n="22"/>sembah.</p>
+          <p><lb n="23"/>If food stands on the table, they must not touch the tiniest morsel till<lb n="24"/>it has pleased me to partake of that which I would (as much as I de<pc force="weak">-</pc><pb n="14" facs="#p014"/><lb n="1" break="no"/>sire). Should you speak against your superiors, do it softly, so that<lb n="2"/>only those who are near may hear. Oh, yes; one even trembles by<lb n="3"/>rule in a noble Javanese household. When a young lady laughs, she<lb n="4"/>must not open her mouth. (For Heaven's sake! I hear you exclaim).<lb n="5"/>Yes, dear Stella, you shall hear stranger things than these, if you wish<lb n="6"/>to know everything about us Javanese.</p>
+          <p><lb n="7"/>If a girl runs, she must do it decorously, with little mincing steps<lb n="8"/>and oh, so slowly, like a snail. To run just a little fast is to be a<lb n="9"/>hoyden.</p>
+          <p><lb n="10"/>Toward my older brothers and sisters I show every respect, and ob<pc force="weak">-</pc><lb n="11" break="no"/>serve all forms scrupulously. I do not wish to deny the good right of<lb n="12"/>any one, but the younger ones, beginning with me, are doing away with<lb n="13"/>all ceremony. Freedom, equality, and fraternity! For my little<lb n="14"/>brothers and sisters, toward me, and toward each other, are like free,<lb n="15"/>equal comrades. Between us, there is no stiffness—there is only<lb n="16"/>friendship and hearty affection. The sisters say “thee” and “thou”<lb n="17"/>to me, and we speak the same language. At first people smiled in<lb n="18"/>amazement at the free, untrammeled relationship between us brothers<lb n="19"/>and sisters of unequal ages. We were called children without any<lb n="20"/>bringing up, and I was a “koeda koree”<note place="foot" n="5">Wild colt.</note> because I seldom walked<lb n="21"/>sedately but went skipping along. And they were further horrified<lb n="22"/>because I often laughed aloud! and allowed my teeth to show. But<lb n="23"/>now that they see how affectionate and sweet the relationship is between<lb n="24"/>us, and that only the burdensome etiquette has taken flight before our<lb n="25"/>freedom, they admire the harmonious union which binds us so closely<lb n="26"/>together.</p>
+          <p><lb n="27"/>Thank you, dear Stella, for your charming compliment: I am as<lb n="28"/>pleased as a child. There is no danger of spoiling me by praise, or I<pb n="15" facs="#p015"/><lb n="1"/>should long ago have been spoiled to death, both at home and by my<lb n="2"/>friends and acquaintances.</p>
+          <p><lb n="3"/>I thank you so much for the friendly thoughts which you have for<lb n="4"/>us Javanese. From you I did not expect anything else, but knew that<lb n="5"/>you would have the same feeling for all people, white or brown. From<lb n="6"/>those who are truly civilized and enlightened we have never experi<pc force="weak">-</pc><lb n="7" break="no"/>enced anything but kindness. If a Javanese is ever so stupid, unlet<pc force="weak">-</pc><lb n="8" break="no"/>tered, uncivilized, the power which governs him should see in him a<lb n="9"/>fellow man, whom God has created too; one who has a heart in his body,<lb n="10"/>and a soul full of sensitive feeling, although his countenance may re<pc force="weak">-</pc><lb n="11" break="no"/>main immovable, and not a glance betray his inward emotion.</p>
+          <p><lb n="12"/>At home, we speak Javanese with one another; Dutch only with<lb n="13"/>Hollanders, although now and then we use a little Dutch expression<lb n="14"/>which has a shade of meaning that cannot be translated, often it is to<lb n="15"/>express some little humorous point.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

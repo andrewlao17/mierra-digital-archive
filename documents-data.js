@@ -8505,5 +8505,1515 @@ window.ARCHIVE_DOCUMENTS = [
     ]
    ]
   }
+ },
+ {
+  "id": "ID-001",
+  "file": "ID-001.xml",
+  "title": "Letter to Stella Zeehandelaar, 25 May 1899",
+  "nation": "Indonesia",
+  "nationCode": "ID",
+  "place": "Japara (Jepara), Java",
+  "repository": "Internet Archive (scan of the 1921 English edition)",
+  "shelfmark": "lettersofjavanes00kart, pp. 3-10",
+  "type": "letter",
+  "summary": "Kartini's first letter to the Dutch feminist Stella Zeehandelaar: her longing for the 'new woman' of Europe, her seclusion (pingitan) from the age of twelve, Javanese custom, marriage and polygamy, and an introduction to herself and her sisters.",
+  "catalogId": "ID-001",
+  "era": "Cultivation System and colonial Java",
+  "eraYears": "1830-1900",
+  "perspective": "community",
+  "community": "Javanese (priyayi women)",
+  "languages": {
+   "main": "nl",
+   "other": [
+    "en",
+    "jv"
+   ],
+   "all": [
+    "nl",
+    "en",
+    "jv"
+   ]
+  },
+  "date": {
+   "label": "25 May 1899",
+   "year": 1899,
+   "yearEnd": 1899
+  },
+  "century": 19,
+  "decade": 1890,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book: Letters of a Javanese Princess, translated by Agnes Louise Symmers, London: Duckworth, 1921. The original letters are lost or held privately; this is the printed text."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 26
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://www.gutenberg.org/ebooks/35220",
+  "citation": "",
+  "contributors": [
+   "J.H. Abendanon (Editor of the Dutch letters, Door duisternis tot licht (1911))",
+   "Agnes Louise Symmers (English translator (1920-1921))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Encoding. Dutch text: the Project Gutenberg edition (ebook 35220) of the 1911 book, not yet checked against a scan; its page numbers are kept as milestones. English text: transcribed from page images of the 1921 London edition (Tesseract OCR and the Internet Archive's OCR compared word by word with the proofread Project Gutenberg text of the translation, ebook 34647; disagreements checked against the image). Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 8,
+   "lines": 206,
+   "words": 5431,
+   "columnBreaks": 0,
+   "surfaces": 8,
+   "zones": 0,
+   "images": 8
+  },
+  "langWords": {
+   "nl": 2958,
+   "en": 2473
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 1,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 1,
+   "regularizations": 0,
+   "notes": 3,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "nl": [
+    [
+     "zoo",
+     13
+    ],
+    [
+     "mijne",
+     10
+    ],
+    [
+     "land",
+     10
+    ],
+    [
+     "heel",
+     10
+    ],
+    [
+     "ben",
+     10
+    ],
+    [
+     "opium",
+     10
+    ],
+    [
+     "kwaad",
+     9
+    ],
+    [
+     "tijd",
+     8
+    ],
+    [
+     "doen",
+     8
+    ],
+    [
+     "kunnen",
+     8
+    ],
+    [
+     "àlles",
+     8
+    ],
+    [
+     "hadden",
+     8
+    ],
+    [
+     "werken",
+     7
+    ],
+    [
+     "meisjes",
+     7
+    ],
+    [
+     "willen",
+     6
+    ],
+    [
+     "hart",
+     6
+    ],
+    [
+     "gewoonten",
+     6
+    ],
+    [
+     "grooter",
+     6
+    ],
+    [
+     "ten",
+     5
+    ],
+    [
+     "leven",
+     5
+    ],
+    [
+     "zusters",
+     5
+    ],
+    [
+     "weet",
+     5
+    ],
+    [
+     "eerst",
+     5
+    ],
+    [
+     "onze",
+     5
+    ],
+    [
+     "liefde",
+     5
+    ]
+   ],
+   "en": [
+    [
+     "us",
+     16
+    ],
+    [
+     "never",
+     15
+    ],
+    [
+     "know",
+     13
+    ],
+    [
+     "opium",
+     11
+    ],
+    [
+     "love",
+     10
+    ],
+    [
+     "time",
+     9
+    ],
+    [
+     "go",
+     9
+    ],
+    [
+     "far",
+     9
+    ],
+    [
+     "world",
+     8
+    ],
+    [
+     "long",
+     8
+    ],
+    [
+     "must",
+     8
+    ],
+    [
+     "life",
+     7
+    ],
+    [
+     "three",
+     7
+    ],
+    [
+     "people",
+     7
+    ],
+    [
+     "indian",
+     6
+    ],
+    [
+     "nothing",
+     6
+    ],
+    [
+     "young",
+     6
+    ],
+    [
+     "country",
+     6
+    ],
+    [
+     "great",
+     6
+    ],
+    [
+     "girls",
+     6
+    ],
+    [
+     "little",
+     6
+    ],
+    [
+     "among",
+     6
+    ],
+    [
+     "evil",
+     6
+    ],
+    [
+     "allowed",
+     5
+    ],
+    [
+     "man",
+     5
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ID-002",
+  "file": "ID-002.xml",
+  "title": "Letter to Stella Zeehandelaar, 18 August 1899",
+  "nation": "Indonesia",
+  "nationCode": "ID",
+  "place": "Japara (Jepara), Java",
+  "repository": "Internet Archive (scan of the 1921 English edition)",
+  "shelfmark": "lettersofjavanes00kart, pp. 11-15",
+  "type": "letter",
+  "summary": "On Javanese etiquette and the strict deference owed to rank inside a noble household, the languages of Java, Kartini's reading, and her wish to be of use to her people.",
+  "catalogId": "ID-002",
+  "era": "Cultivation System and colonial Java",
+  "eraYears": "1830-1900",
+  "perspective": "community",
+  "community": "Javanese (priyayi women)",
+  "languages": {
+   "main": "nl",
+   "other": [
+    "en",
+    "jv"
+   ],
+   "all": [
+    "nl",
+    "en",
+    "jv"
+   ]
+  },
+  "date": {
+   "label": "18 August 1899",
+   "year": 1899,
+   "yearEnd": 1899
+  },
+  "century": 19,
+  "decade": 1890,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book: Letters of a Javanese Princess, translated by Agnes Louise Symmers, London: Duckworth, 1921. The original letters are lost or held privately; this is the printed text."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 24
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://www.gutenberg.org/ebooks/35220",
+  "citation": "",
+  "contributors": [
+   "J.H. Abendanon (Editor of the Dutch letters, Door duisternis tot licht (1911))",
+   "Agnes Louise Symmers (English translator (1920-1921))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Encoding. Dutch text: the Project Gutenberg edition (ebook 35220) of the 1911 book, not yet checked against a scan; its page numbers are kept as milestones. English text: transcribed from page images of the 1921 London edition (Tesseract OCR and the Internet Archive's OCR compared word by word with the proofread Project Gutenberg text of the translation, ebook 34647; disagreements checked against the image). Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 5,
+   "lines": 119,
+   "words": 2945,
+   "columnBreaks": 0,
+   "surfaces": 5,
+   "zones": 0,
+   "images": 5
+  },
+  "langWords": {
+   "nl": 1595,
+   "en": 1350
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 5,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "nl": [
+    [
+     "zoo",
+     13
+    ],
+    [
+     "ben",
+     10
+    ],
+    [
+     "mijne",
+     9
+    ],
+    [
+     "vormen",
+     8
+    ],
+    [
+     "elkaar",
+     7
+    ],
+    [
+     "zeggen",
+     7
+    ],
+    [
+     "alles",
+     6
+    ],
+    [
+     "mogen",
+     6
+    ],
+    [
+     "onze",
+     6
+    ],
+    [
+     "doen",
+     6
+    ],
+    [
+     "lieve",
+     5
+    ],
+    [
+     "jou",
+     5
+    ],
+    [
+     "goed",
+     5
+    ],
+    [
+     "jij",
+     5
+    ],
+    [
+     "menschen",
+     5
+    ],
+    [
+     "moet",
+     5
+    ],
+    [
+     "onder",
+     5
+    ],
+    [
+     "stella",
+     5
+    ],
+    [
+     "étiquette",
+     5
+    ],
+    [
+     "zusters",
+     5
+    ],
+    [
+     "dank",
+     4
+    ],
+    [
+     "weet",
+     4
+    ],
+    [
+     "javaansche",
+     4
+    ],
+    [
+     "prinsessen",
+     4
+    ],
+    [
+     "spreken",
+     4
+    ]
+   ],
+   "en": [
+    [
+     "us",
+     14
+    ],
+    [
+     "javanese",
+     11
+    ],
+    [
+     "little",
+     8
+    ],
+    [
+     "must",
+     8
+    ],
+    [
+     "speak",
+     6
+    ],
+    [
+     "people",
+     5
+    ],
+    [
+     "etiquette",
+     5
+    ],
+    [
+     "sisters",
+     5
+    ],
+    [
+     "know",
+     4
+    ],
+    [
+     "high",
+     4
+    ],
+    [
+     "much",
+     4
+    ],
+    [
+     "often",
+     4
+    ],
+    [
+     "may",
+     4
+    ],
+    [
+     "without",
+     4
+    ],
+    [
+     "brothers",
+     4
+    ],
+    [
+     "long",
+     3
+    ],
+    [
+     "nothing",
+     3
+    ],
+    [
+     "princess",
+     3
+    ],
+    [
+     "prince",
+     3
+    ],
+    [
+     "aristocracy",
+     3
+    ],
+    [
+     "noble",
+     3
+    ],
+    [
+     "called",
+     3
+    ],
+    [
+     "cannot",
+     3
+    ],
+    [
+     "see",
+     3
+    ],
+    [
+     "yes",
+     3
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ID-003",
+  "file": "ID-003.xml",
+  "title": "Letter to Stella Zeehandelaar, 6 November 1899",
+  "nation": "Indonesia",
+  "nationCode": "ID",
+  "place": "Japara (Jepara), Java",
+  "repository": "Internet Archive (scan of the 1921 English edition)",
+  "shelfmark": "lettersofjavanes00kart, pp. 16-23",
+  "type": "letter",
+  "summary": "Kartini thanks her parents for a freer upbringing than most Javanese girls, and writes on religion, on Multatuli's Max Havelaar and Dutch rule, on Islam and marriage, and on the narrow lives of Javanese women.",
+  "catalogId": "ID-003",
+  "era": "Cultivation System and colonial Java",
+  "eraYears": "1830-1900",
+  "perspective": "community",
+  "community": "Javanese (priyayi women)",
+  "languages": {
+   "main": "nl",
+   "other": [
+    "en",
+    "jv"
+   ],
+   "all": [
+    "nl",
+    "en",
+    "jv"
+   ]
+  },
+  "date": {
+   "label": "6 November 1899",
+   "year": 1899,
+   "yearEnd": 1899
+  },
+  "century": 19,
+  "decade": 1890,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book: Letters of a Javanese Princess, translated by Agnes Louise Symmers, London: Duckworth, 1921. The original letters are lost or held privately; this is the printed text."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 25
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://www.gutenberg.org/ebooks/35220",
+  "citation": "",
+  "contributors": [
+   "J.H. Abendanon (Editor of the Dutch letters, Door duisternis tot licht (1911))",
+   "Agnes Louise Symmers (English translator (1920-1921))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Encoding. Dutch text: the Project Gutenberg edition (ebook 35220) of the 1911 book, not yet checked against a scan; its page numbers are kept as milestones. English text: transcribed from page images of the 1921 London edition (Tesseract OCR and the Internet Archive's OCR compared word by word with the proofread Project Gutenberg text of the translation, ebook 34647; disagreements checked against the image). Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 8,
+   "lines": 202,
+   "words": 5265,
+   "columnBreaks": 0,
+   "surfaces": 8,
+   "zones": 0,
+   "images": 8
+  },
+  "langWords": {
+   "nl": 2833,
+   "en": 2432
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 1,
+   "regularizations": 0,
+   "notes": 8,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "nl": [
+    [
+     "zoo",
+     15
+    ],
+    [
+     "moet",
+     12
+    ],
+    [
+     "elkaar",
+     12
+    ],
+    [
+     "vader",
+     11
+    ],
+    [
+     "onze",
+     11
+    ],
+    [
+     "mijne",
+     10
+    ],
+    [
+     "nooit",
+     9
+    ],
+    [
+     "doen",
+     9
+    ],
+    [
+     "weet",
+     8
+    ],
+    [
+     "wereld",
+     8
+    ],
+    [
+     "wanneer",
+     8
+    ],
+    [
+     "stella",
+     7
+    ],
+    [
+     "inlandsche",
+     7
+    ],
+    [
+     "goed",
+     7
+    ],
+    [
+     "leer",
+     7
+    ],
+    [
+     "taal",
+     7
+    ],
+    [
+     "ouders",
+     6
+    ],
+    [
+     "terug",
+     6
+    ],
+    [
+     "gaan",
+     6
+    ],
+    [
+     "zelf",
+     6
+    ],
+    [
+     "neen",
+     6
+    ],
+    [
+     "mevrouw",
+     6
+    ],
+    [
+     "ovink",
+     6
+    ],
+    [
+     "kunnen",
+     6
+    ],
+    [
+     "javaansche",
+     6
+    ]
+   ],
+   "en": [
+    [
+     "us",
+     19
+    ],
+    [
+     "know",
+     16
+    ],
+    [
+     "never",
+     11
+    ],
+    [
+     "another",
+     11
+    ],
+    [
+     "much",
+     11
+    ],
+    [
+     "love",
+     10
+    ],
+    [
+     "nothing",
+     9
+    ],
+    [
+     "stella",
+     8
+    ],
+    [
+     "cannot",
+     8
+    ],
+    [
+     "many",
+     8
+    ],
+    [
+     "go",
+     8
+    ],
+    [
+     "kiss",
+     8
+    ],
+    [
+     "without",
+     7
+    ],
+    [
+     "father",
+     7
+    ],
+    [
+     "speak",
+     7
+    ],
+    [
+     "read",
+     7
+    ],
+    [
+     "friends",
+     6
+    ],
+    [
+     "people",
+     6
+    ],
+    [
+     "little",
+     6
+    ],
+    [
+     "dutch",
+     6
+    ],
+    [
+     "come",
+     6
+    ],
+    [
+     "must",
+     6
+    ],
+    [
+     "though",
+     6
+    ],
+    [
+     "yet",
+     5
+    ],
+    [
+     "world",
+     5
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ID-004",
+  "file": "ID-004.xml",
+  "title": "Letter to Mevrouw M.C.E. Ovink-Soer, November 1899",
+  "nation": "Indonesia",
+  "nationCode": "ID",
+  "place": "Japara (Jepara), Java",
+  "repository": "Internet Archive (scan of the 1921 English edition)",
+  "shelfmark": "lettersofjavanes00kart, pp. 24-28",
+  "type": "letter",
+  "summary": "A lively letter to Mevrouw Ovink-Soer describing a Sunday at home in Japara: the sisters' dress, their outings, and family life in the Regent's house.",
+  "catalogId": "ID-004",
+  "era": "Cultivation System and colonial Java",
+  "eraYears": "1830-1900",
+  "perspective": "community",
+  "community": "Javanese (priyayi women)",
+  "languages": {
+   "main": "nl",
+   "other": [
+    "en",
+    "jv"
+   ],
+   "all": [
+    "nl",
+    "en",
+    "jv"
+   ]
+  },
+  "date": {
+   "label": "November 1899",
+   "year": 1899,
+   "yearEnd": 1899
+  },
+  "century": 19,
+  "decade": 1890,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book: Letters of a Javanese Princess, translated by Agnes Louise Symmers, London: Duckworth, 1921. The original letters are lost or held privately; this is the printed text."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 22
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://www.gutenberg.org/ebooks/35220",
+  "citation": "",
+  "contributors": [
+   "J.H. Abendanon (Editor of the Dutch letters, Door duisternis tot licht (1911))",
+   "Agnes Louise Symmers (English translator (1920-1921))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Encoding. Dutch text: the Project Gutenberg edition (ebook 35220) of the 1911 book, not yet checked against a scan; its page numbers are kept as milestones. English text: transcribed from page images of the 1921 London edition (Tesseract OCR and the Internet Archive's OCR compared word by word with the proofread Project Gutenberg text of the translation, ebook 34647; disagreements checked against the image). Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 5,
+   "lines": 111,
+   "words": 2586,
+   "columnBreaks": 0,
+   "surfaces": 5,
+   "zones": 0,
+   "images": 5
+  },
+  "langWords": {
+   "nl": 1261,
+   "en": 1325
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 0,
+   "regularizations": 0,
+   "notes": 2,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "nl": [
+    [
+     "pa",
+     18
+    ],
+    [
+     "zoo",
+     14
+    ],
+    [
+     "heeren",
+     10
+    ],
+    [
+     "onze",
+     9
+    ],
+    [
+     "lief",
+     6
+    ],
+    [
+     "kwam",
+     5
+    ],
+    [
+     "twee",
+     5
+    ],
+    [
+     "zien",
+     5
+    ],
+    [
+     "edie",
+     5
+    ],
+    [
+     "weet",
+     5
+    ],
+    [
+     "doen",
+     5
+    ],
+    [
+     "gaan",
+     4
+    ],
+    [
+     "hen",
+     4
+    ],
+    [
+     "goed",
+     4
+    ],
+    [
+     "japara",
+     4
+    ],
+    [
+     "zullen",
+     4
+    ],
+    [
+     "weêr",
+     4
+    ],
+    [
+     "terug",
+     4
+    ],
+    [
+     "hadden",
+     3
+    ],
+    [
+     "broertje",
+     3
+    ],
+    [
+     "vertellen",
+     3
+    ],
+    [
+     "komen",
+     3
+    ],
+    [
+     "graag",
+     3
+    ],
+    [
+     "officieren",
+     3
+    ],
+    [
+     "kaboepaten",
+     3
+    ]
+   ],
+   "en": [
+    [
+     "us",
+     19
+    ],
+    [
+     "come",
+     9
+    ],
+    [
+     "father",
+     8
+    ],
+    [
+     "little",
+     8
+    ],
+    [
+     "gentlemen",
+     8
+    ],
+    [
+     "much",
+     7
+    ],
+    [
+     "think",
+     7
+    ],
+    [
+     "back",
+     6
+    ],
+    [
+     "papa",
+     6
+    ],
+    [
+     "pleasant",
+     6
+    ],
+    [
+     "love",
+     6
+    ],
+    [
+     "two",
+     5
+    ],
+    [
+     "though",
+     5
+    ],
+    [
+     "edie",
+     5
+    ],
+    [
+     "know",
+     5
+    ],
+    [
+     "long",
+     5
+    ],
+    [
+     "dearest",
+     4
+    ],
+    [
+     "came",
+     4
+    ],
+    [
+     "go",
+     4
+    ],
+    [
+     "thought",
+     4
+    ],
+    [
+     "something",
+     4
+    ],
+    [
+     "see",
+     4
+    ],
+    [
+     "japara",
+     4
+    ],
+    [
+     "dear",
+     4
+    ],
+    [
+     "happy",
+     4
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ID-005",
+  "file": "ID-005.xml",
+  "title": "Letter to Stella Zeehandelaar, 12 January 1900",
+  "nation": "Indonesia",
+  "nationCode": "ID",
+  "place": "Japara (Jepara), Java",
+  "repository": "Internet Archive (scan of the 1921 English edition)",
+  "shelfmark": "lettersofjavanes00kart, pp. 29-47",
+  "type": "letter",
+  "summary": "Kartini's longing to study in Europe and her plans to become a teacher or doctor, set against her father's position, the Dutch administration, the Javanese aristocracy's privileges and the condition of the common people ('the little man').",
+  "catalogId": "ID-005",
+  "era": "Cultivation System and colonial Java",
+  "eraYears": "1830-1900",
+  "perspective": "community",
+  "community": "Javanese (priyayi women)",
+  "languages": {
+   "main": "nl",
+   "other": [
+    "en",
+    "jv"
+   ],
+   "all": [
+    "nl",
+    "en",
+    "jv"
+   ]
+  },
+  "date": {
+   "label": "12 January 1900",
+   "year": 1900,
+   "yearEnd": 1900
+  },
+  "century": 19,
+  "decade": 1900,
+  "support": {
+   "form": "book",
+   "material": "paper",
+   "description": "Printed book: Letters of a Javanese Princess, translated by Agnes Louise Symmers, London: Duckworth, 1921. The original letters are lost or held privately; this is the printed text."
+  },
+  "layout": {
+   "columns": 1,
+   "writtenLines": 27
+  },
+  "hands": {
+   "count": 0,
+   "scripts": []
+  },
+  "license": {
+   "name": "CC BY-SA 4.0",
+   "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "sourceUrl": "https://www.gutenberg.org/ebooks/35220",
+  "citation": "",
+  "contributors": [
+   "J.H. Abendanon (Editor of the Dutch letters, Door duisternis tot licht (1911))",
+   "Agnes Louise Symmers (English translator (1920-1921))",
+   "Claude (AI assistant) for the Mierra Digital Archive (Encoding. Dutch text: the Project Gutenberg edition (ebook 35220) of the 1911 book, not yet checked against a scan; its page numbers are kept as milestones. English text: transcribed from page images of the 1921 London edition (Tesseract OCR and the Internet Archive's OCR compared word by word with the proofread Project Gutenberg text of the translation, ebook 34647; disagreements checked against the image). Draft, awaiting a second reader.)"
+  ],
+  "stats": {
+   "pages": 19,
+   "lines": 507,
+   "words": 12013,
+   "columnBreaks": 0,
+   "surfaces": 19,
+   "zones": 0,
+   "images": 19
+  },
+  "langWords": {
+   "nl": 6025,
+   "en": 5988
+  },
+  "features": {
+   "handShifts": 0,
+   "additions": 0,
+   "deletions": 0,
+   "substitutions": 0,
+   "unclear": 0,
+   "damage": 0,
+   "gaps": 0,
+   "supplied": 0,
+   "abbreviations": 0,
+   "corrections": 6,
+   "regularizations": 0,
+   "notes": 19,
+   "marginalNotes": 0,
+   "persNames": 0,
+   "placeNames": 0,
+   "orgNames": 0,
+   "dates": 0,
+   "terms": 0,
+   "foreign": 0,
+   "stamps": 0,
+   "figures": 0
+  },
+  "topWords": {
+   "nl": [
+    [
+     "zoo",
+     26
+    ],
+    [
+     "daar",
+     23
+    ],
+    [
+     "regeering",
+     21
+    ],
+    [
+     "stella",
+     18
+    ],
+    [
+     "worden",
+     18
+    ],
+    [
+     "zijne",
+     17
+    ],
+    [
+     "alleen",
+     16
+    ],
+    [
+     "neen",
+     13
+    ],
+    [
+     "hoofden",
+     13
+    ],
+    [
+     "doen",
+     13
+    ],
+    [
+     "moet",
+     13
+    ],
+    [
+     "ambtenaren",
+     13
+    ],
+    [
+     "hen",
+     13
+    ],
+    [
+     "taal",
+     13
+    ],
+    [
+     "zeer",
+     12
+    ],
+    [
+     "hollandsch",
+     12
+    ],
+    [
+     "javaan",
+     12
+    ],
+    [
+     "weet",
+     11
+    ],
+    [
+     "water",
+     11
+    ],
+    [
+     "goed",
+     11
+    ],
+    [
+     "gij",
+     11
+    ],
+    [
+     "spreken",
+     10
+    ],
+    [
+     "wil",
+     10
+    ],
+    [
+     "onze",
+     10
+    ],
+    [
+     "volk",
+     10
+    ]
+   ],
+   "en": [
+    [
+     "javanese",
+     25
+    ],
+    [
+     "government",
+     24
+    ],
+    [
+     "must",
+     21
+    ],
+    [
+     "dutch",
+     21
+    ],
+    [
+     "many",
+     18
+    ],
+    [
+     "people",
+     18
+    ],
+    [
+     "us",
+     16
+    ],
+    [
+     "native",
+     16
+    ],
+    [
+     "know",
+     16
+    ],
+    [
+     "time",
+     15
+    ],
+    [
+     "speak",
+     14
+    ],
+    [
+     "little",
+     14
+    ],
+    [
+     "stella",
+     13
+    ],
+    [
+     "back",
+     13
+    ],
+    [
+     "father",
+     13
+    ],
+    [
+     "assistant",
+     13
+    ],
+    [
+     "language",
+     13
+    ],
+    [
+     "man",
+     12
+    ],
+    [
+     "much",
+     12
+    ],
+    [
+     "see",
+     11
+    ],
+    [
+     "european",
+     11
+    ],
+    [
+     "never",
+     10
+    ],
+    [
+     "children",
+     10
+    ],
+    [
+     "schools",
+     10
+    ],
+    [
+     "go",
+     9
+    ]
+   ]
+  }
  }
 ];
